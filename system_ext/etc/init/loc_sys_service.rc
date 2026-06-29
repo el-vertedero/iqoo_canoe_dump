@@ -1,0 +1,12 @@
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# All rights reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+service loc_sys_service /system_ext/bin/loc_sys_service
+    class main
+    user system
+    group system
+    oneshot
+
+on early-boot
+    start loc_sys_service

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
+    SPDX-License-Identifier: BSD-3-Clause-Clear
+-->
+ <config>
+<!-- Make sure only restricted implicit intents should be added into the xml
+For Example:
+-->
+<!--
+     <qti-allow-implicit-broadcast action="android.intent.action.PACKAGE_ADDED">
+         <package-name packagename ="p1"/>
+         <package-name packagename ="p2"/>
+     </qti-allow-implicit-broadcast>
+     <qti-allow-implicit-broadcast action="android.intent.action.PACKAGE_REMOVED">
+         <package-name packagename ="p3"/>
+         <package-name packagename ="p4"/>
+     </qti-allow-implicit-broadcast>
+-->
+     <qti-allow-implicit-broadcast action="android.intent.action.PACKAGE_ADDED">
+         <package-name packagename="com.qualcomm.qti.workloadclassifier"/>
+     </qti-allow-implicit-broadcast>
+     <qti-allow-implicit-broadcast action="android.intent.action.PACKAGE_REMOVED">
+         <package-name packagename="com.qualcomm.qti.workloadclassifier"/>
+     </qti-allow-implicit-broadcast>
+         <qti-allow-implicit-broadcast action="android.intent.action.PACKAGE_REPLACED">
+         <package-name packagename="com.qualcomm.qti.workloadclassifier"/>
+     </qti-allow-implicit-broadcast>
+     <qti-allow-implicit-broadcast action="com.qualcomm.qti.workloadclassifier.RESCAN_ALL">
+         <package-name packagename="com.qualcomm.qti.workloadclassifier"/>
+     </qti-allow-implicit-broadcast>
+     <allow-in-power-save package="com.qualcomm.qti.workloadclassifier" />
+ </config>

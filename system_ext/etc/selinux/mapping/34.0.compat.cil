@@ -1,0 +1,9 @@
+;; This file can't be empty
+;; This file can't be empty
+;; This file can't be empty
+(type vendor_qvr_hidraw_device)
+(typeattributeset dev_type (vendor_qvr_hidraw_device))
+
+(allow system_server vendor_qvr_hidraw_device (dir (open getattr read search ioctl lock watch watch_reads)))
+(allow system_server vendor_qvr_hidraw_device (chr_file (getattr open read ioctl lock map watch watch_reads append write)))
+

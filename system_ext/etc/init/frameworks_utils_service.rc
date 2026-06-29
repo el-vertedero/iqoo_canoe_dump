@@ -1,0 +1,12 @@
+#==============================================================================
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# All rights reserved.
+# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#===============================================================================
+
+service frameworks-utils-service /system_ext/bin/frameworks_utils_service.sh
+    interface aidl vendor.qti.qesdsys.IQesdSys/default
+    user system
+    group system
+    disabled
+    oneshot

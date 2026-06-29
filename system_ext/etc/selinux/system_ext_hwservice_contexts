@@ -1,0 +1,6 @@
+vendor.qti.hardware.sigma_miracast::Isigma_miracast             u:object_r:vendor_sigmahal_hwservice:s0
+vendor.qti.hardware.qccsyshal::IQccsyshal                       u:object_r:vendor_qccsyshal_hwservice:s0
+vendor.qti.hardware.systemhelper::ISystemResource               u:object_r:vendor_hal_systemhelper_hwservice:s0
+vendor.qti.hardware.systemhelper::ISystemEvent                  u:object_r:vendor_hal_systemhelper_hwservice:s0
+vendor.vivo.hardware.frameworkmessager::IFrameworkMessager u:object_r:vivo_frameworkmessager_hwservice:s0
+vendor.factory.hardware.vivoatcmd::IVivoAtcmd                   u:object_r:hal_vivoatcmd_hwservice:s0
