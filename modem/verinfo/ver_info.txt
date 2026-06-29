@@ -1,0 +1,33 @@
+{
+    "Image_Build_IDs": {
+        "acp": "ACPOLICY.XF.1.0-00352-KAANAPALI-1",
+        "adsp": "LPAIDSP.HT.1.2-00854-KAANAPALI-1",
+        "aop": "AOP.HO.7.0-00285-KAANAPALI_E-1",
+        "apps_LE": "LE.VM.2.1.r1-09400-genericarmv8-64.0-1",
+        "apps_qssi": "LA.QSSI.16.0.r1-10000-qssi.0-1",
+        "apps_vendor": "LA.VENDOR.16.2.0.r1-10200-kaanapali.0-2",
+        "boot": "BOOT.MXF.2.5.3-00199-KAANAPALI-1",
+        "btfm_brh": "BTFW.BRAHMA.2.0.1-00244-PATCHZ-1",
+        "btfm_gng": "BTFW.GANGES.2.0.1-00255-PATCHZ-1",
+        "cdsp": "CDSP.HT.3.2-00735.2-KAANAPALI-1",
+        "common": "Kaanapali.LA.1.0.r1-00975-STD.PROD-1",
+        "cpucp": "CPUCP.FW.1.0-00055-KAANAPALI.EXT-1",
+        "dcp": "DCP.FW.1.1-00157-KAANAPALI_DCP_PACK-1",
+        "glue": "GLUE.KAANAPALI_LA.1.0-00383-NOOP_TEST_KAANAPALI-1",
+        "modem": "MPSS.DE.9.0-02004.5-KAANAPALI_GEN_PACK-1",
+        "pdp": "PDP.FW.1.0-00607-KAANAPALI-1",
+        "soccp": "SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1",
+        "spss": "SPSS.A1.1.11-00050-KAANAPALI-1",
+        "tme": "TME.FW.4.0-00243-KAANAPALI-1",
+        "tmel": "TMEL.GANGES.2.0-00065-PT_GEN_PACK-2",
+        "tz": "TZ.XF.5.33-00124-KAANAPALI-1",
+        "tz_apps": "TZ.APPS.1.33-00113-KAANAPALI-1",
+        "wlan_gng": "WLAN.GNG.2.0-01372.3-QCAGNGSWPL_V2_TO_SILICONZ-1"
+    },
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Kaanapali.LA.1.0.r1-00975-STD.PROD-1",
+        "Product_Flavor": "asic_taurim",
+        "Time_Stamp": "2026-05-21 08:13:27"
+    },
+    "Version": "1.0"
+}

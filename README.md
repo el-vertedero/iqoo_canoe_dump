@@ -1,0 +1,14 @@
+# qssi_64-user 17 CP2A.260330.023 260521075149 release-keys
+- manufacturer: vivo
+- platform: canoe
+- codename: canoe
+- flavor: qssi_64-user
+- release: 17
+- id: BP2A.250605.031.A3
+- incremental: 260521075149
+- tags: release-keys
+- fingerprint: iQOO/I2501i/I2501:16/BP2A.250605.031.A3/260521075149:user/release-keys
+- is_ab: true
+- brand: iQOO
+- branch: qssi_64-user-17-CP2A.260330.023-260521075149-release-keys
+- repo: iqoo_canoe_dump
