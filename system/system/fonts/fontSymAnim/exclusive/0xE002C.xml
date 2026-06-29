@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE002C"/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="4">
+            <originStatus />
+            <parallelGroup interpolator="linear">
+                <!-- 勾透明度 -->
+                <serialGroup interpolator="linear">
+                    <animationItem layersIndex="1" animationType="delay" duration="100"/>
+                    <animationItem layersIndex="1" animationType="alpha" duration="17" to="1" />
+                </serialGroup>
+                <serialGroup interpolator="linear">
+                    <animationItem interpolator="custom(0.17, 0.00, 0.83, 1.00)" animationType="glyphAnimProgress" duration="100" to="150" />
+                    <animationItem interpolator="custom(0.17, 0.00, 0.83, 1.00)" animationType="glyphAnimProgress" duration="33" to="200" />
+                    <animationItem interpolator="custom(0.17, 0.00, 0.83, 1.00)" animationType="glyphAnimProgress" duration="116" to="249" />
+                </serialGroup>
+                <serialGroup interpolator="linear">
+                    <animationItem interpolator="custom(0.10, 0.00, 0.71, 1.00)" animationType="scale" duration="100" to="0.9" />
+                    <animationItem interpolator="custom(0.25, 0.00, 0.23, 1.00)" animationType="scale" duration="150" to="1" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+</fontSymbolAnimation>

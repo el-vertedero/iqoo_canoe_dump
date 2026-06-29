@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0054" />
+    <animationList>
+        <symbolAnimation layerCnt="1" rotPivotLayerIndex="1">
+            <originStatus alpha="1" />
+            <parallelGroup>
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0.0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="17" />
+                    <animationItem animationType="scale" duration="250" to="1.1" interpolator="custom(0.14, 0.19, 0.31, 0.99)" />
+                    <animationItem animationType="scale" duration="250" to="1.0" interpolator="custom(0.10, 0.00, 0.31, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xF87070" interpolator="custom(0.17, 0.00, 0.83, 0.66)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

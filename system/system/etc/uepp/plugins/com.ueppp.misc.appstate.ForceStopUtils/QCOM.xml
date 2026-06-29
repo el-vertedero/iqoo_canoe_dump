@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.appstate.ForceStopUtils"
+    __ver__="1">
+    <set __name__="high_temp_force_stop_app_white_list">
+        android.process.media;
+        cn.com.vivo.soft.lm;
+        com.android.BBKClock;
+        com.android.deskclock;
+        com.android.dialer;
+        com.android.frameworks.servicestests;
+        com.android.incallui;
+        com.android.launcher3;
+        com.android.mms;
+        com.android.notes;
+        com.google.android.dialer;
+        com.android.contacts;
+        com.android.providers.contacts;
+        com.android.calllogbackup;
+        com.android.providers.blockednumber;
+        com.android.providers.userdictionary;
+        com.android.permissioncontroller;
+        com.android.providers.media;
+        com.android.providers.media.module;
+        com.android.settings;
+        com.android.systemui;
+        com.bbk.iqoo.logsystem;
+        com.bbk.launcher2;
+        com.google.android.apps.messaging;
+        com.google.android.gms;
+        com.google.android.keep;
+        com.google.android.permissioncontroller;
+        com.google.android.providers.media.module;
+        com.google.android.webview;
+        com.iqoo.engineermode;
+        com.iqoo.secure;
+        com.jmshzl.gridman;
+        com.longrise.mhjy;
+        com.vanyun.onetalk.app;
+        com.vivo.bsptest;
+        com.vivo.floatingball;
+        com.vivo.livewallpaper.behavior;
+        com.vivo.livewallpaper.coffeetime;
+        com.vivo.livewallpaper.coralsea;
+        com.vivo.livewallpaper.galaxy;
+        com.vivo.livewallpaper.geometry;
+        com.vivo.livewallpaper.silk;
+        com.vivo.livewallpaper.box;
+        com.vivo.lts;
+        com.vivo.notes;
+        com.vivo.systemblur.server;
+        com.vivo.vivo3rdalgoservice;
+        com.vivo.aiservice;
+        com.google.android.tts;
+        com.vanyun.onetalk.app.ydyj;
+    </set>
+
+    <set __name__="pack_mode_force_stop_app_list">
+        com.tencent.mm;
+        com.tencent.mobileqq;
+        com.vanyun.onetalk.app;
+        com.longrise.mhjy;
+        com.jmshzl.gridman;
+        com.google.android.gms;
+        com.android.providers.media.module;
+        com.google.android.providers.media.module;
+        com.android.systemui;
+        com.bbk.launcher2;
+        com.android.launcher3;
+        android.process.media;
+        com.android.providers.media;
+        android.appsecurity.cts.keyrotationtest;
+        com.vanyun.onetalk.app.ydyj;
+    </set>
+
+    <set __name__="sleep_mode_force_stop_component_list">
+        com.garmin.android.apps.connectmobile/com.garmin.android.lib.connectdevicesync.DeviceSyncService;
+        com.huawei.health/com.huawei.hwsmartinteractmgr.service.SmartInteractService;
+        com.mi.health/com.xiaomi.fitness.wearos.WearOSService;
+        com.heytap.health/com.heytap.sports.service.BgConnect;
+        com.huami.watch.hmwatchmanager/com.xiaomi.hm.health.device.service.HMCoreService;
+    </set>
+
+    <set __name__="high_temp_force_stop_app_white_list"
+        __not_replace__="+">
+        com.antutu;
+        com.antutu.benchmark.full;
+        com.antutu.ABenchMark;
+        com.futuremark.dmandroid.application;
+        com.glbenchmark.glbenchmark25;
+        com.glbenchmark.glbenchmark27;
+    </set>
+</group>

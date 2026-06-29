@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0148" />
+
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+                <!-- 圆 -->
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="150" layersIndex="0" interpolator="custom(0.33, 0.00, 0.33, 1.00)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="200" layersIndex="0" interpolator="custom(0.35, 0.00, 0.69, 0.36)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="250" layersIndex="0" interpolator="custom(0.47, 0.19, 0.74, 1.00)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="300" layersIndex="0" interpolator="custom(0.32, 0.00, 0.65, 0.40)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="160" to="350" layersIndex="0" interpolator="custom(0.25, 0.34, 0.54, 1.00)"/>
+                </serialGroup>
+
+                <!-- 点 -->
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="150" layersIndex="1" interpolator="custom(0.33, 0.00, 0.33, 1.00)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="200" layersIndex="1" interpolator="custom(0.35, 0.00, 0.69, 0.36)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="250" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 0.75)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="300" layersIndex="1" interpolator="custom(0.33, 0.61, 0.67, 1.00)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="160" to="350" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 0.68)"/>
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="400" layersIndex="1" interpolator="custom(0.33, 0.60, 0.67, 1.00)"/>
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="160" to="0.0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="delay" duration="80" />
+                    <animationItem animationType="alpha" duration="160" to="1.0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

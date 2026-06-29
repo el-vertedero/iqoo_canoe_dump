@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.temperature.Temperature"
+    __ver__="1">
+    <elem __name__="accuracy"
+        ntc="1000"
+        battery="1000"
+        ps_battery="10"/>
+
+    <elem __name__="tick"
+        ntc="10"
+        battery="10"
+        ps_battery="10"/>
+
+    <elem __name__="simple_temp_config"
+        temp_open_front_flash_light="48"
+        temp_toast_front_flash_light="51"
+        temp_forbid_front_flash_light="52"
+        temp_broadcast_front_flash_close="51"
+        temp_broadcast_front_flash_restore="48"
+        temp_broadcast_rear_flash_close="51"
+        temp_broadcast_rear_flash_restore="48"
+        temp_reduce_fps="47"
+        temp_recover_fps="45"
+        temp_broadcast_camera_hull="40"
+        temp_scale_size="43"
+        temp_recover_size="41"
+        temp_switch_to_4g="50"
+        temp_switch_to_5g="47"
+        temp_broadcast_camera_trigger_start="38"
+        temp_broadcast_camera_trigger_end="66"
+        temp_to_packmode_force_stop="50"
+        temp_to_packmode_freeze="46"
+        temp_to_packmode_unfreeze="42"
+        temp_to_packmode_enter="40"
+        temp_car_mode_start="48"
+        temp_check_ccc_enter="46"
+        temp_check_ccc_exit="44"
+        temp_check_ccc_battery="30"
+        temp_htp_nav_battery="45"
+        temp_htp_enter_battery="48"
+        temp_htp_quit="50"
+        temp_app_store_download_limit_min="28"
+        temp_app_store_download_limit_max="30"
+        temp_cpulimit_trigger_start="0"
+        temp_cpulimit_trigger_end="50"
+        temp_ntc_night_heat_enter_no_amb="52"
+        temp_ntc_night_heat_enter_with_amb="50"
+        temp_shell_night_heat_enter_with_amb="40"
+        temp_shell_uclamp_start="0"
+        temp_shell_uclamp_end="50"
+        temp_easy_share_low_send="41"
+        temp_easy_share_high_send="44"
+        temp_easy_share_low_recv="41"
+        temp_easy_share_high_recv="44"
+        temp_easy_share_restore="44"/>
+
+    <group __id__="virtual_temp_define">
+        <elem __name__="virtual_shell_ntc"
+            select_first_enable="virtual_shell;ntc"/>
+
+        <elem __name__="virtual_battery"
+            select_first_enable="battery;ps_battery"/>
+    </group>
+
+    <group __id__="virtual_temp_config">
+        <elem __name__="temp_hbm_enter"
+            virtual_temp="virtual_shell_ntc"
+            virtual_shell="40"
+            ntc="41"/>
+
+        <elem __name__="temp_hbm_quit"
+            virtual_temp="virtual_shell_ntc"
+            virtual_shell="37"
+            ntc="38"/>
+
+        <elem __name__="temp_htp_nav_shell_ntc"
+            virtual_temp="virtual_shell_ntc"
+            virtual_shell="50"
+            ntc="55"/>
+
+        <elem __name__="temp_htp_enter_shell_ntc"
+            virtual_temp="virtual_shell_ntc"
+            virtual_shell="53"
+            ntc="58"/>
+
+        <elem __name__="temp_check_opt_dex"
+            virtual_temp="virtual_shell_ntc"
+            virtual_shell="37"
+            ntc="38"/>
+    </group>
+
+    <group __id__="thermal_status_config">
+        <elem __name__="temp_check_opt_dex"
+            thermal_type="1012"
+            thermal_observe="40;50"
+            thermal_status="50"/>
+    </group>
+
+    <group __id__="country_region__V__IN">
+        <group __id__="virtual_temp_config">
+            <elem __name__="temp_htp_enter_shell_ntc"
+                virtual_temp="virtual_shell_ntc"
+                virtual_shell="53"
+                ntc="65"/>
+        </group>
+    </group>
+
+    <group __id__="country_region__V__EU">
+        <group __id__="virtual_temp_config">
+            <elem __name__="temp_htp_enter_shell_ntc"
+                virtual_temp="virtual_shell_ntc"
+                virtual_shell="53"
+                ntc="55"/>
+        </group>
+    </group>
+
+    <group __id__="cts_mode__V__yes">
+        <group __id__="virtual_temp_config">
+            <elem __name__="temp_htp_enter_shell_ntc"
+                virtual_temp="virtual_shell_ntc"
+                virtual_shell="53"
+                ntc="65"/>
+        </group>
+    </group>
+</group>

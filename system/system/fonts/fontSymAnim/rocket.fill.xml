@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig
+        playbackMode="overall"
+    />
+    <unicodeInfo animUnicode="0x100516" />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus glyphAnimProgress = "100" color = "0xc5c5c5"/>
+            <parallelGroup  interpolator="liner" >
+                <serialGroup>
+                    <animationItem animationType="color" duration="100" to="0xffc225" />
+                </serialGroup>
+                <animationItem animationType="glyphAnimProgress" duration="2000" to="600" />
+
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+
+
+</fontSymbolAnimation>

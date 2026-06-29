@@ -1,0 +1,124 @@
+{
+  "version": "202512050",
+  "array": [
+    {
+      "switchCode": 500001,
+      "switchName": "AI消除-智能圈选",
+      "version": 202512050,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInProject": "PD2548F_EX, PD2555F_EX, PD2553F_EX, PD2547F_EX, PD2545F_EX, PD2539F_EX, PD2534F_EX, PD2528F_EX, PD2536F_EX, PD2532F_EX, PD2533F_EX, PD2529F_EX, PD2527F_EX, PD2509F_EX, PD2505F_EX, PD2502F_EX, PD2456F_EX, PD2453F_EX, PD2324F_EX, PD2309F_EX, PD2307F_EX, PD2337F_EX, PD2242F_EX, PD2241F_EX, PD2243F_EX, PD2338F_EX, PD2406F_EX, PD2363F_EX, PD2362F_EX, PD2332F_EX, PD2323F_EX, PD2343F_EX, PD2284F_EX, PD2283F_EX, PD2325F_EX, PD2313F_EX, PD2404F_EX, PD2422F_EX, PD2418F_EX, PD2423F_EX, PD2415F_EX, PD2405F_EX, PD2408F_EX, PD2421F_EX, PD2437F_EX, PD2438F_EX, PD2445F_EX, PD2436F_EX, PD2433F_EX, PD2437F_EX, PD2438F_EX, PD2447F_EX, PD2448F_EX, PD2421F_EX, PD2451F_EX, PD2441F_EX, PD2444F_EX, PD2446F_EX, PD2443F_EX, PD2442F_EX, PD2445F_EX, PD2427F_EX, PD2416F_EX, PD2352F_EX, PD2445DF_EX, PD2430F_EX, PD2471F_EX, PD2420F_EX, PD2469F_EX, PD2470F_EX, PD2465F_EX, PD2504F_EX, PD2503F_EX, PD2512F_EX, PD2513F_EX, PD2510F_EX, PD2361F_EX, PD2346F_EX, PD2353F_EX, PD2358F_EX, PD2341F_EX, PD2354F_EX, PD2511F_EX, PD2357F_EX, PD2365F_EX, PD2327F_EX, PD2450F_EX, PD2458F_EX",
+            "switchInCountryCode": "TR, JO, LB, SA, AE, KW, OM, QA, BH, YE, IQ, IN, ID, PG, TZ, ZA, EG, KE, NG, MA, TN, DZ, PK, BD, NP, LK, BT, AZ, KZ, UZ, AU, TH, LA, MY, BN, VN, PH, KH, MM, HK, TW, SG, CL, PE, CO, MX, PA, CR, GT, BR, DE, UK, IE, SK, RO, BG, NL, FR, ES, IT, PL, PT, CZ, AT, HU, GR, HR, SI, CY, AL, MK, BA, ME, RS, BR, GH",
+            "switchInCountryRegion": "EEA, ENA"
+          }
+        }
+      ]
+    },
+    {
+      "switchCode": 500002,
+      "switchName": "炫光减弱",
+      "version": 202509080,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInProject": "PD2405F_EX, PD2415F_EX, PD2419F_EX",
+            "switchInCountryCode": "TR, JO, LB, SA, AE, KW, OM, QA, BH, YE, IQ, IN, ID, PG, TZ, ZA, EG, KE, NG, MA, TN, DZ, PK, BD, NP, LK, BT, AZ, KZ, UZ, AU, TH, LA, MY, BN, VN, PH, KH, MM, HK, TW, SG, CL, PE, CO, MX, PA, CR, GT, BR, DE, UK, IE, SK, RO, BG, NL, FR, ES, IT, PL, PT, CZ, AT, HU, GR, HR, SI, CY, AL, MK, BA, ME, RS, BR, GH"
+          }
+        }
+      ]
+    },
+    {
+      "switchCode": 500003,
+      "switchName": "AI扩图",
+      "version": 202512020,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInProject": "PD2458F_EX, PD2548F_EX, PD2547F_EX, PD2545F_EX, PD2527F_EX, PD2437F_EX, PD2437F_EX_SC, PD2438F_EX, PD2436F_EX, PD2465F_EX, PD2453F_EX, PD2503F_EX, PD2504F_EX, PD2405F_EX, PD2415F_EX, PD2408F_EX, PD2324F_EX, PD2309F_EX, PD2307F_EX, PD2337F_EX, PD2430F_EX, PD2362F_EX, PD2363F_EX, PD2242F_EX, PD2241F_EX, PD2243F_EX, PD2332F_EX, PD2323F_EX, PD2509F_EX, PD2502F_EX, PD2528F_EX, PD2529F_EX, PD2543F_EX, PD2505F_EX",
+            "switchInCountryCode": "HK, TW, ID, IN, TH, MY, PH, MM, SG, PK, BD, NP, BT, LK, KE, TZ, NG, MA, TN, DZ, ZA, KZ, UZ, AE, SA, TR, EG, MX, CO, CL, PE, PA, BR, ES, AT, HU, CZ, IT, AZ, PT, BH, QA, KW, OM, VN, KH, GH"
+          }
+        }
+      ]
+    },
+    {
+      "switchCode": 500004,
+      "switchName": "图片蔡司水印",
+      "version": 202507010,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInCameraMarketName": "vivo X60, vivo X60 Pro, vivo X60 Pro+, vivo X70, vivo X70 Pro, vivo X70 Pro+, vivo X80, vivo X80 Pro, vivo X90, vivo X90 Pro, V30 Pro, vivo V30 Pro, vivo V2319, vivo X100, vivo X100 Pro, vivo V40 Pro, vivo V40, vivo X Fold3 Pro, vivo X200 Pro, vivo X200, vivo V50, vivo X200 FE, vivo X Fold5, vivo V60"
+          },
+          "blackList": {
+            "switchNotInCountryCode": "BR, RU"
+          }
+        },
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInProject": "PD2046F_EX, PD2059F_EX, PD2056F_EX, PD2133F_EX, PD2135F_EX, PD2145F_EX, PD2183F_EX, PD2185F_EX, PD2241F_EX, PD2242F_EX, PD2332F_EX, PD2309F_EX, PD2309F_EX_SC, PD2324F_EX_SC, PD2324F_EX, PD2362F_EX, PD2363F_EX, PD2337F_EX, PD2405F_EX, PD2415F_EX, PD2437F_EX, PD2465F_EX, PD2436F_EX, PD2503F_EX"
+          },
+          "blackList": {
+            "switchNotInMarketNeme": "T3 Ultra, T4 Pro",
+            "switchNotInCountryCode": "BR, RU"
+          }
+        }
+      ]
+    },
+    {
+      "switchCode": 500005,
+      "switchName": "超清图像3.0",
+      "version": 202511270,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInProject": "PD2548F_EX, PD2547F_EX, PD2545F_EX, PD2527F_EX, PD2436F_EX, PD2465F_EX, PD2503F_EX, PD2504F_EX, PD2405F_EX, PD2415F_EX, PD2408F_EX, PD2324F_EX, PD2309F_EX, PD2307F_EX, PD2337F_EX, PD2453F_EX, PD2352F_EX, PD2437F_EX, PD2438F_EX, PD2430F_EX, PD2338F_EX, PD2448F_EX, PD2513F_EX, PD2512F_EX, PD2447F_EX, PD2456F_EX, PD2243F_EX, PD2241F_EX, PD2242F_EX, PD2363F_EX, PD2362F_EX, PD2406F_EX, PD2332F_EX, PD2323F_EX, PD2343F_EX, PD2341F_EX, PD2509F_EX, PD2502F_EX, PD2528F_EX, PD2529F_EX, PD2543F_EX, PD2505F_EX, PD2451F_EX, PD2469F_EX, PD2470F_EX"
+          },
+          "blackList": {
+            "switchNotInCountryCode": "RU"
+          }
+        }
+      ]
+    },
+    {
+      "switchCode": 500006,
+      "switchName": "反光消除",
+      "version": 202511270,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "whiteList": {
+            "switchInProject": "PD2548F_EX, PD2547F_EX, PD2545F_EX, PD2527F_EX, PD2436F_EX, PD2465F_EX, PD2503F_EX, PD2504F_EX, PD2405F_EX, PD2415F_EX, PD2408F_EX, PD2324F_EX, PD2309F_EX, PD2307F_EX, PD2337F_EX, PD2453F_EX, PD2352F_EX, PD2437F_EX, PD2438F_EX, PD2430F_EX, PD2338F_EX, PD2362F_EX, PD2363F_EX, PD2242F_EX, PD2241F_EX, PD2243F_EX, PD2456F_EX, PD2447F_EX, PD2512F_EX, PD2448F_EX, PD2513F_EX, PD2406F_EX, PD2332F_EX, PD2323F_EX, PD2469F_EX, PD2451F_EX, PD2445F_EX, PD2470F_EX, PD2343F_EX, PD2404F_EX, PD2361F_EX, PD2346F_EX, PD2353F_EX, PD2418F_EX, PD2422F_EX, PD2358F_EX, PD2423F_EX, PD2341F_EX, PD2444F_EX, PD2354F_EX, PD2511F_EX, PD2509F_EX, PD2502F_EX, PD2528F_EX, PD2529F_EX, PD2543F_EX, PD2505F_EX, PD2458F_EX",
+            "switchInCountryCode": "TR, JO, LB, SA, AE, KW, OM, QA, BH, YE, IQ, IN, ID, PG, TZ, ZA, EG, KE, NG, MA, TN, DZ, PK, BD, NP, LK, BT, AZ, KZ, UZ, AU, TH, LA, MY, BN, VN, PH, KH, MM, HK, TW, SG, CL, PE, CO, MX, PA, CR, GT, BR, DE, UK, IE, SK, RO, BG, NL, FR, ES, IT, PL, PT, CZ, AT, HU, GR, HR, SI, CY, AL, MK, BA, ME, RS, BR, GH"
+          }
+        }
+      ]
+    },
+    {
+      "switchCode": 500007,
+      "switchName": "魔法移动",
+      "version": 202505160,
+      "isSwitchAllOpen": false,
+      "switchConditionArray": [
+        {
+          "switchFlavors": "overseas",
+          "blackList": {
+            "switchNotInCountryCode": "RU, BY, IL"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- 王者荣耀 -->
+    <!-- <pkg name="com.tencent.tmgp.sgame">
+        <switch xpq_gles="1" model="PD2505"/>
+        <switch xpq_vulkan="1" model="PD2505"/>
+    </pkg> -->
+
+    <!-- 原神 -->
+    <pkg name="com.miHoYo.Yuanshen-com.miHoYo.ys.bilibili-com.miHoYo.yuanshencb-com.miHoYo.GenshinImpact">
+        <switch xpq_vulkan="1" conflict="1" model="PD2505-PD2505F_EX-PD2546-PD2564-PD2606"/>
+    </pkg>
+
+    <!-- 无畏契约 -->
+    <pkg name="com.tencent.tmgp.codev-com.tencent.projectc-com.vgamecrty.projv">
+        <switch xpq_vulkan="1" conflict="1" model="PD2505-PD2546-PD2564-PD2606"/>
+    </pkg>
+
+    <!-- 无限暖暖 -->
+    <pkg name="com.papegames.infinitynikki-com.papegames.infinitynikki.bilibili">
+        <switch xpq_vulkan="1" model="PD2505-PD2546-PD2564-PD2606"/>
+    </pkg>
+
+    <!-- 绝区零 -->
+    <pkg name="com.miHoYo.Nap-com.miHoYo.NapPreBeta-com.miHoYo.Nap.bilibili">
+        <switch xpq_vulkan="1" conflict="1" model="PD2505-PD2546-PD2564-PD2606"/>
+    </pkg>
+
+    <!-- 星穹铁道 -->
+    <!--<pkg name="com.miHoYo.hkrpg-com.miHoYo.cloudgames.hkrpg-com.miHoYo.hkrpg.bilibili-com.miHoYo.hkrpgcb">
+        <switch xpq_gles="1" xpq_vulkan="1" conflict="1" model="PD2564"/>
+    </pkg>-->
+
+    <!-- 终末地 -->
+    <!--<pkg name="com.hypergryph.endfield">
+        <switch xpq_vulkan="1" conflict="1" model="PD2564"/>
+    </pkg>-->
+
+    <!-- 不支持pkg-list -->
+</gameconfig>

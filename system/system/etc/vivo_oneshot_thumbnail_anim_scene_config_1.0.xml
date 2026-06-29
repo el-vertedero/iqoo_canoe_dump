@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OneShotSceneConfig key="oneshot_scene_config_list" version="25121001">
+    <!-- 添加配置格式参考 -->
+    <!--
+        attributeName 描述：
+            model name: 适配的项目集合，使用 '-' 进行分隔
+            processName：应用进程包名
+            activityFrom：当前 Activity 组件名，不支持直接配通配符'*'
+            viewFrom：当前点击触发动效的 View 类名
+            activityTo：要启动的目标 Activity 组件名
+            flags：场景匹配时的特征属性，使用 '|' 进行分隔，如 FLAG_IGNORE_MAX_SIZE 表示忽略 View 的尺寸上限
+
+        例如：
+        <application processName="com.ss.android.article.video">
+            <model name="PD2405-PD2405F-PD2502" />
+            <scene
+                activityFrom="com.ss.android.article.video.activity.SplashActivity"
+                viewFrom="com.ixigua.commonui.view.pullrefresh.FeedPullRefreshRecyclerView"
+                activityTo="*"
+                flags="FLAG_DEFAULT|FLAG_IGNORE_MAX_SIZE" />
+        </application>
+    -->
+
+    <!-- flag具体设置 -->
+    <!--
+        public static final int FLAG_MATCH_BACK_KEY           = 1 << 0; // 退出重载动画需要应用点击back键，手势之类的退出不重载动画
+        public static final int FLAG_CAPTURE_ON_CLICKED       = 1 << 1; // 部分应用比如腾讯视频，是在子线程启动activity，需要在点击的时候截取View信息
+        public static final int FLAG_IGNORE_MIN_SIZE          = 1 << 2; // 点击的View太小不重载动画
+        public static final int FLAG_IGNORE_MAX_SIZE          = 1 << 3; // 点击的View太大不重载动画
+        public static final int FLAG_DISABLE_BLUR             = 1 << 4; // 动画关闭背景模糊
+        public static final int FLAG_IGNORE_ASPECT            = 1 << 5; // 点击的View要是一个图块，而不是一个长条
+        public static final int FLAG_DISABLE_SPLIT_BLUR       = 1 << 6; // 单独关闭分分屏下动画的背景模糊
+        public static final int FLAG_DEFAULT                 = FLAG_MATCH_BACK_KEY;
+    -->
+
+    <!-- 小红书 -->
+    <app name="com.xingin.xhs">
+        <!-- 发现Tab笔记-推荐 -->
+        <!-- 发现Tab笔记-短剧 我Tab-笔记/赞过/收藏 -->
+        <!-- 地点Tab-发现-视频/美食/旅行/影视/汽车/...Tab 笔记 -->
+        <!-- 关注Tab笔记 -->
+        <scene
+            actFrom="com.xingin.xhs.index.v2.IndexActivityV2"
+            viewFrom="com.xingin.xhs.note.noteitem.child.NewNoteItemChildView
+            |androidx.cardview.widget.CardView
+            |com.xingin.redview.card.NoteCardView
+            |com.xingin.xhs.homepage.followfeed.page.feed.item.card.itembinder.child.v2.BiserialNoteItemChildViewV2"
+            flags="1" />
+        <!-- 他人Tab-笔记/赞过/收藏（首页图片笔记进入他人主页） -->
+        <scene
+            actFrom="com.xingin.matrix.notedetail.NoteDetailActivity"
+            viewFrom="androidx.cardview.widget.CardView"
+            flags="1" />
+        <!-- 他人Tab-笔记/赞过/收藏（首页视频笔记进入他人主页） -->
+        <scene
+            actFrom="com.xingin.matrix.detail.activity.DetailFeedActivity"
+            viewFrom="androidx.cardview.widget.CardView"
+            flags="1" />
+        <!-- 他人Tab-笔记/赞过/收藏（除首页笔记进入他人主页） -->
+        <scene
+            actFrom="com.xingin.matrix.v2.profile.newpage.NewOtherUserActivity"
+            viewFrom="androidx.cardview.widget.CardView"
+            flags="1" />
+    </app>
+
+    <!-- 微博 -->
+    <app name="com.sina.weibo" skipOverride="false">
+        <!-- 首页-关注/推荐/关注评论区+发现-登录 --><!-- search的博客及他人————进入主页的博客 --><!-- 超话 --><!-- 我的关注和收藏 -->
+        <!-- 图片 -->
+        <!-- 关注评论多图 -->
+        <!-- Mlog-图片 -->
+        <!-- 视频-->
+        <!-- 首页-关注Tab 博客评论区 -->
+        <!-- 视频-精选TAB -->
+        <!-- 为你推荐 -->
+        <!-- 推荐-精选TAB -->
+        <!-- 推荐-印象TAB -->
+        <scene
+            actFrom="com.sina.weibo.MainTabActivity|com.sina.weibo.VisitorMainTabActivity|com.sina.weibo.supergroup.SGPageActivity
+            |com.sina.weibo.search.searchv3.SearchActivityV2|com.sina.weibo.page.ProfileInfoActivity|com.sina.weibo.flowbusiness.commonpage.FlowCommonPageActivity"
+            viewFrom="com.sina.weibo.feed.view.MblogItemPicView
+            |com.sina.weibo.feed.view.FeedPicWithVideoPlayLayout
+            |com.sina.weibo.video.feed.view.FeedVideoPlayerView
+            |com.sina.weibo.card.view.video.VideoStaggerCardViewNew
+            |com.sina.weibo.feedv2.stream.grid.blog.FeedGridBlogView
+            |com.sina.weibo.card.view.PhotoStaggerdCardView
+            |com.sina.weibo.feed.view.MblogItemMixView
+            |com.sina.weibo.feed.view.FeedItemPicView
+            |com.sina.weibo.extcard.view.SmallPageLivePlayerView
+            |com.sina.weibo.feed.view.bigpic.FeedBigPicImageItemView"
+            flags="101101" />
+        <!-- 精选视频评论区 -->
+        <!-- |com.sina.weibo.feed.view.FeedItemPicView
+             |com.sina.weibo.feed.view.CommentPicView-->
+        <scene
+            actFrom="com.sina.weibo.feed.halfcontainer.HalfContainerPageActivity"
+            viewFrom="com.sina.weibo.video.feed.view.FeedVideoPlayerView
+            |com.sina.weibo.feed.view.MblogItemPicView
+            |com.sina.weibo.extcard.view.SmallPageLivePlayerView"
+            flags="101101" />
+        <!-- 首页-推荐Tab 博客评论区 -->
+        <!-- |com.sina.weibo.feed.view.FeedItemPicView
+            |com.sina.weibo.feed.view.CommentPicView -->
+        <scene
+            actFrom="com.sina.weibo.feed.DetailWeiboActivity|com.sina.weibo.feed.detailrefactor.DetailPageActivity"
+            viewFrom="com.sina.weibo.video.feed.view.FeedVideoPlayerView
+            |com.sina.weibo.feed.view.MblogItemPicView
+            |com.sina.weibo.extcard.view.SmallPageLivePlayerView"
+            flags="101101" />
+        <!-- 打开博客后-一镜到底 -->
+        <!-- 单图 -->
+        <!-- 多图 -->
+        <!-- 视频 -->
+        <scene
+            actFrom="com.sina.weibo.feed.DetailWeiboActivity|com.sina.weibo.feed.detailrefactor.DetailPageActivity"
+            viewFrom="com.sina.weibo.feed.view.BigImageView
+            |com.sina.weibo.feed.view.image.WBImageItemView
+            |com.sina.weibo.video.feed.mix.FeedMixMediaVideoView"
+            flags="1101" />
+    </app>
+
+    <!-- 淘宝 -->
+    <app name="com.taobao.idlefish" skipOverride="false">
+        <!-- 首页-推荐/新发 -->
+        <!-- 首页-广场/动漫潮玩/数码/玩车/手机/户外/穿搭/母婴/宠物/技能服务/... -->
+        <scene
+            actFrom="com.taobao.idlefish.maincontainer.activity.MainActivity"
+            viewFrom="com.taobao.idlefish.xcontainer.view.NestedRecyclerView
+            |com.taobao.idlefish.home.power.home.circle.nested.CircleChildRecyclerView"
+            flags="1" />
+        <!-- 本地Tab -->
+        <scene
+            actFrom="com.taobao.idlefish.maincontainer.activity.MainActivity"
+            viewFrom="com.taobao.idlefish.powercontainer.ui.PowerNestedChildRecyclerView"
+            flags="1" />
+    </app>
+
+    <!-- 拼多多 -->
+    <app name="com.xunmeng.pinduoduo" skipOverride="false">
+        <!-- 深色模式-首页 -->
+        <!-- 聊天+个人中心 -->
+        <scene
+            actFrom="com.xunmeng.pinduoduo.ui.activity.MainFrameActivity"
+            viewFrom="com.xunmeng.android_ui.component.ShadowRoundRectLayout
+            |com.xunmeng.pinduoduo.index.ui.IndexScrollSpeedOptProductListView
+            |com.xunmeng.android_ui.widget.ScrollSpeedOptProductListView
+            |com.xunmeng.pinduoduo.widget.nested.OverFlingRecyclerView
+            |com.xunmeng.pinduoduo.app_base_ui.widget.nest_recycler.ChildRecyclerView"
+            flags="1" />
+        <!-- 浅色模式-首页 -->
+        <!-- 聊天+个人中心 -->
+        <scene
+            actFrom="com.xunmeng.pinduoduo.ui.activity.HomeActivity"
+            viewFrom="com.xunmeng.android_ui.component.ShadowRoundRectLayout
+            |com.xunmeng.pinduoduo.index.ui.IndexScrollSpeedOptProductListView
+            |com.xunmeng.android_ui.widget.ScrollSpeedOptProductListView
+            |com.xunmeng.pinduoduo.widget.nested.OverFlingRecyclerView
+            |com.xunmeng.pinduoduo.app_base_ui.widget.nest_recycler.ChildRecyclerView"
+            flags="1" />
+    </app>
+
+    <!-- 爱奇艺 -->
+    <app name="com.qiyi.video" skipOverride="false">
+        <!-- 首页-首页、热点、电视剧、微剧、电影、综艺、少儿、动漫、知识、电视剧-敬请期待 纪录片 --><!-- 首页-云影院 --><!-- 首页-少儿-敬请期待 -->
+        <scene
+            actFrom="org.qiyi.android.video.MainActivity"
+            viewFrom="org.qiyi.basecard.common.widget.row.RelativeRowLayout
+            |org.qiyi.basecore.widget.QiyiDraweeView
+            |org.qiyi.basecard.common.widget.row.RecyclerViewRow"
+            flags="1" />
+
+        <!-- 首页-少儿-底部的大视频卡片 -->
+        <!-- 首页-体育 -->
+        <!-- 首页-商场 -->
+        <!-- 找片 -->
+        <scene
+            actFrom="org.qiyi.android.video.MainActivity"
+            viewFrom="org.qiyi.basecard.common.widget.row.FrameLayoutRow
+            |com.facebook.react.views.view.f
+            |com.iqiyi.webcontainer.webview.QYWebviewCore
+            |org.qiyi.basecard.common.widget.row.RelativeRowLayout"
+            flags="1" />
+
+    </app>
+
+    <!-- 腾讯视频 -->
+    <app name="com.tencent.qqlive" skipOverride="false">
+        <!-- 首页-首页 -->
+        <scene
+            actFrom="com.tencent.qqlive.ona.activity.SplashHomeActivity|com.tencent.qqlive.ona.activity.HomeActivity"
+            viewFrom="com.tencent.qqlive.vectorlayoutimpl.un.tdf.view.VLPosterTopPicView2
+            |com.tencent.qqlive.vectorlayoutimpl.un.tdf.view.VLBlockBusterView"
+            excludeTo="com.tencent.ecologyvideo.activity.ECOActivity"
+            flags="10" />
+    </app>
+
+    <!-- Bilibili -->
+    <app name="tv.danmaku.bili" skipOverride="false">
+        <!-- 首页-推荐-视频卡片 -->
+        <!-- 首页-推荐-视频流量推广卡片 -->
+        <!-- 首页-推荐-视频卡片-下方博主网名Text -->
+        <!-- b站首页视频卡片 -->
+        <scene
+            actFrom="tv.danmaku.bili.MainActivityV2"
+            viewFrom="tv.danmaku.bili.widget.ForegroundConstraintLayout
+            |com.bilibili.ad.comm.widget.AdTintConstraintLayout
+            |com.bilibili.magicasakura.widgets.TintTextView
+            |tv.danmaku.bili.widget.ForegroundRelativeLayout"
+            flags="1" />
+    </app>
+
+    <!-- 京东 -->
+    <app name="com.jingdong.app.mall">
+        <!-- 首页-特价 我的-为你推荐 -->
+        <!-- 首页-大促 -->
+        <!-- 首页-美妆/... -->
+        <scene
+            actFrom="com.jingdong.app.mall.MainFrameActivity"
+            viewFrom="androidx.cardview.widget.CardView
+            |com.jingdong.hybrid.ui.JDWebView
+            |com.jingdong.app.mall.home.category.floor.CaFeedsSkuFloor
+            |com.jd.lib.xuanjisdk.ui.view.XJListView2
+            |com.jingdong.common.listui.WrapRecyclerView"
+            excludeTo="com.jd.lib.jingdongpromotion.activity.ConvergeListActivity|com.jingdong.app.mall.WebActivity"
+            flags="1" />
+    </app>
+
+</OneShotSceneConfig>

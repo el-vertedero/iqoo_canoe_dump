@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- 和平精英 -->
+    <pkg name="com.tencent.tmgp.pubgmhd-com.tencent.tmgp.projectg" tips="1">
+        <switch vaa_gles="1" vaa_vulkan="1" model="PD2408-PD2425-PD2426-PD2463-PD2507-PD2520-PD2536-PD2573"/>
+    </pkg>
+
+    <!-- 不支持pkg-list -->
+</gameconfig>

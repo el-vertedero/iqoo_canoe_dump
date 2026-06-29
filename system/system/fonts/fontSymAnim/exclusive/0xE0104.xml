@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0104" />
+    <animationList>
+        <symbolAnimation layerCnt="5" >
+            <originStatus alpha="1" >
+            </originStatus>
+            <parallelGroup>
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="250" to="149" interpolator="custom(0.00, 0.00, 0.20, 1.00)"/>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="glyphAnimProgress" duration="283" to="100" interpolator="custom(0.25, 0.10, 0.25, 1.00)"/>
+                </serialGroup>
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateX" duration="250" to="-6.82" interpolator="custom(0.00, 0.00, 0.20, 1.00)" layersIndex="1,3"/>-->
+<!--                    <animationItem animationType="delay" duration="167" />-->
+<!--                    <animationItem animationType="translateX" duration="283" to="0" interpolator="custom(0.25, 0.10, 0.25, 1.00)" layersIndex="1,3"/>-->
+<!--                </serialGroup>-->
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateY" duration="250" to="6.82" interpolator="custom(0.00, 0.00, 0.20, 1.00)" layersIndex="0,2"/>-->
+<!--                    <animationItem animationType="delay" duration="167" />-->
+<!--                    <animationItem animationType="translateY" duration="283" to="0" interpolator="custom(0.25, 0.10, 0.25, 1.00)" layersIndex="0,2"/>-->
+<!--                </serialGroup>-->
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateX" duration="250" to="6.82" interpolator="custom(0.00, 0.00, 0.20, 1.00)" layersIndex="0,2"/>-->
+<!--                    <animationItem animationType="delay" duration="167" />-->
+<!--                    <animationItem animationType="translateX" duration="283" to="0" interpolator="custom(0.25, 0.10, 0.25, 1.00)" layersIndex="0,2"/>-->
+<!--                </serialGroup>-->
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

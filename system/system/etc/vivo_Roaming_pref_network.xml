@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+1. format
+ 1.1 ehplmn: List the sim card's ehplmn, it might have more than 1
+ 1.2 drop23Gpreferplmn: PLMN+PREFRAT
+ 1.3 PREFRAT: value indicates the single RAT, 0001 reserved,0010 reserved, 0100 LTE, 1000 SA.
+     Note：multiple RATs is not supported to reduce complexity
+2. Priority description considering equal signal quality:
+   drop23Gpreferplmn is listed by priority in descending order, example
+   45412+4,45403+4 indicates 45412 LTE has higher priority than 45403 LTE
+   45412+8,45412+4 indicates 45412 SA has higher priority than 45412 LTE
+   45412+4,45412+8 indicates 45412 LTE has higher priority than 45412 SA
+-->
+<!--
+V1.0.0: Intial release,cmcc configure 4 prefer PLMN+PREFRAT, cu configure 5 PLMN+PREFRAT
+-->
+<roam_drop23Gpreferplmn version="1.0.0">
+
+  <item carrier="CU" ehplmn="46001,46006,46009" >
+	<drop23Gpreferplmn plmn = "45400">
+	  <RAT rat = "LTE"/>
+	</drop23Gpreferplmn>
+        <drop23Gpreferplmn plmn = "45403">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+        <drop23Gpreferplmn plmn = "45406">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+	<drop23Gpreferplmn plmn = "45419">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+	<drop23Gpreferplmn plmn = "45412">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+  </item>
+
+   <item carrier="CMCC" ehplmn="46000,46002,46004,46007,46008" >
+	<drop23Gpreferplmn plmn = "45412">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+    <drop23Gpreferplmn plmn = "45403">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+	<drop23Gpreferplmn plmn = "45400">
+	  <RAT rat = "LTE"/>
+	</drop23Gpreferplmn>
+	<drop23Gpreferplmn plmn = "45406">
+	  <RAT rat = "LTE"/>
+	</drop23Gpreferplmn>
+  </item>
+
+  <item carrier="CU" ehplmn="46001,46006,46009" >
+	<drop23Gpreferplmn plmn = "42402">
+	  <RAT rat = "LTE"/>
+	</drop23Gpreferplmn>
+	<drop23Gpreferplmn plmn = "42403">
+	  <RAT rat = "LTE"/>
+	</drop23Gpreferplmn>
+
+  </item>
+
+   <item carrier="CMCC" ehplmn="46000,46002,46004,46007,46008" >
+	<drop23Gpreferplmn plmn = "42402">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+    <drop23Gpreferplmn plmn = "42403">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+  </item>
+
+
+   <item carrier="CT" ehplmn="46003,46005,46011,46012" >
+    <drop23Gpreferplmn plmn = "51010">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+	<drop23Gpreferplmn plmn = "51001">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+    <drop23Gpreferplmn plmn = "51089">
+	  <RAT rat = "LTE" />
+	</drop23Gpreferplmn>
+  </item>
+</roam_drop23Gpreferplmn>

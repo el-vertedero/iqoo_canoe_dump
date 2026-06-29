@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0095" />
+    <animationList>
+        <symbolAnimation layerCnt="1" rotPivotLayerIndex="2">
+            <originStatus alpha="1" >
+                <layer index="0" rotationZ="0"/>
+            </originStatus>
+            <serialGroup>
+                <animationItem animationType="rotationZ" duration="0" to="0"  />
+                <animationItem animationType="rotationZ" duration="500" to="360" interpolator="custom(0.30, 0.00, 0.40, 1.00)"/>
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

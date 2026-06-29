@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- ********************渲染超分******************** -->
+    <!-- 所有游戏 -->
+    <pkg name="*">
+        <param values="0,0,1,7,2,322,101,518"/>
+    </pkg>
+    <!-- 原神 -->
+    <pkg name="com.miHoYo.Yuanshen-com.miHoYo.ys.bilibili-com.miHoYo.yuanshencb-com.miHoYo.GenshinImpact">
+        <switch vsr_nsmpm="1" model="DPD2345-DPD2345S"/> <!-- 不支持Monster+模式 -->
+        <!-- 原神Vulkan渲染超分配置 -->
+        <switch vsr_vulkan="1" model="PD2304-PD2307-PD2309-PD2324-PD2329-PD2338-PD2339-PD2339F-PD2359-PD2366-PD2403-PD2417"/>
+        <switch vsr_vulkan="1" model="PD2408-PD2425-PD2426-PD2405-PD2415-PD2419-PD2452-PD2453-PD2454-PD2458-PD2463-PD2507-PD2502-PD2509-PD2520-PD2536-PD2547-PD2548-PD2505-PD2546-PD2564-PD2573-PD2606"/>
+        <switch vsr_vulkan="1" model="PD2307F_EX-PD2324F_EX-PD2338F_EX-PD2453F_EX-PD2405F_EX-PD2408F_EX-PD2415F_EX-PD2458F_EX-PD2502F_EX-PD2509F_EX-PD2536F_EX-PD2547F_EX"/>
+        <switch vsr_vulkan="1" model="DPD2329-DPD2345-DPD2345S-DPD2350-DPD2429-DPD2437-DPD2438-DPD2540"/>
+        <param values="0,0,1,7,101,518,201,70,301,7" model="DPD2429-DPD2437-DPD2438-DPD2540"/>
+        <param values="0,0,1,646,2,450,101,646,201,135" model="PD2408-PD2426-PD2463-PD2507-PD2520-PD2536-PD2573"/>
+        <param values="0,0,1,135,2,450,101,646" model="PD2425"/>
+        <param values="0,0,1,646,2,450" model="PD2505-PD2546-PD2564-PD2606"/>
+    </pkg>
+    <!-- 和平精英 -->
+    <pkg name="com.tencent.tmgp.pubgmhd-com.tencent.tmgp.projectg">
+        <switch vsr_gles="1" vsr_vulkan="1" model="PD2505-PD2546-PD2564-PD2606"/>
+        <param values="0,0,1,70,2,7,101,518,102,518" model="DPD2329-DPD2345-DPD2345S-DPD2350-DPD2429-DPD2437-DPD2438"/>
+        <param values="0,0,1,1030,2,7,101,1030,102,1030" model="DPD2540"/>
+        <param fps_values="2,144,42000,40000,70,144,2000,1000,518" model="DPD2540"/>
+        <param values="0,0,1,7,2,70,101,518,102,70" model="PD2425"/>
+        <param values="0,0,1,7,3,1030,101,70,103,70" model="PD2452-PD2453"/>
+        <param values="0,0,1,7,2,70,3,1030,4,70,101,518,102,70,103,518,104,70" model="PD2463-PD2507-PD2520-PD2408-PD2426-PD2505-PD2536-PD2546-PD2564-PD2573-PD2606"/>
+        <param temp_values="4,43000,41000,1030" model="PD2463-PD2507-PD2520-PD2408-PD2426-PD2505-PD2536-PD2546-PD2564-PD2573-PD2606"/>
+    </pkg>
+    <!-- 和平国际服 -->
+    <pkg name="com.pubg.imobile-com.tencent.ig-com.tencent.igce">
+        <switch vsr_gles="1" vsr_vulkan="1" model="PD2505F_EX"/>
+        <param values="0,0,1,7,2,70"/>
+        <param temp_values="2,43000,41000,518" model="PD2408F_EX-PD2505F_EX"/>
+    </pkg>
+    <!-- 高能英雄 -->
+    <pkg name="com.tencent.tmgp.gnyx">
+        <param values="0,0,1,7,2,70"/>
+    </pkg>
+    <!-- 穿越火线 -->
+    <pkg name="com.tencent.tmgp.cf-com.tencent.tmgp.cfalpha">
+        <param values="0,0,1,7,2,70"/>
+    </pkg>
+    <!-- 星穹铁道 -->
+    <pkg name="com.miHoYo.hkrpg-com.miHoYo.cloudgames.hkrpg-com.miHoYo.hkrpg.bilibili-com.miHoYo.hkrpgcb">
+        <switch vsr_gles="1" vsr_vulkan="1" model="PD2463-DPD2429-DPD2438-PD2520-PD2507-PD2536-DPD2540"/>
+    </pkg>
+
+    <!-- 渲染超分名单-第1组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2304">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第2组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2307F_EX-PD2324F_EX-PD2338F_EX-PD2453F_EX">
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第3组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2405F_EX-PD2408F_EX-PD2415F_EX-PD2458F_EX-PD2536F_EX-PD2547F_EX">
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.pubg.imobile"/> <!-- 和平国际服 -->
+        <item name="com.tencent.ig"/> <!-- 和平国际服 -->
+        <item name="com.tencent.igce"/> <!-- 和平国际服测试服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第4组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2307-PD2309-PD2324-PD2329-PD2338-PD2339-PD2339F-PD2359-PD2366-PD2403-PD2417-PD2405-PD2415-PD2419-PD2452-PD2453-PD2454-PD2458-PD2463-PD2507-PD2520-PD2502-PD2509-PD2536-PD2547-PD2548-DPD2540-PD2573">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+        <item name="com.tencent.tmgp.pubgmhd"/> <!-- 和平精英 -->
+        <item name="com.tencent.tmgp.projectg"/> <!-- 和平精英测试服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第5组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="DPD2329-DPD2345-DPD2345S-DPD2350-DPD2429-DPD2437-DPD2438">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+        <item name="com.tencent.tmgp.pubgmhd"/> <!-- 和平精英 -->
+        <item name="com.tencent.tmgp.projectg"/> <!-- 和平精英测试服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第6组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2408-PD2425-PD2426">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+        <item name="com.tencent.tmgp.pubgmhd"/> <!-- 和平精英 -->
+        <item name="com.tencent.tmgp.projectg"/> <!-- 和平精英测试服 -->
+        <item name="com.tencent.tmgp.gnyx"/> <!-- 高能英雄 -->
+        <item name="com.tencent.tmgp.cf"/> <!-- 穿越火线 -->
+        <item name="com.tencent.tmgp.cfalpha"/> <!-- 穿越火线测试服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第7组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2502F_EX-PD2509F_EX">
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+    </pkg-list>
+    <!-- 渲染超分名单-第8组 -->
+    <pkg-list vsr_gles="1" vsr_vulkan="1" model="PD2505-PD2546-PD2564-PD2606">
+        <item name="com.tencent.tmgp.cf"/> <!-- 穿越火线 -->
+        <item name="com.tencent.tmgp.cfalpha"/> <!-- 穿越火线测试服 -->
+    </pkg-list>
+
+    <!-- ********************Q3 VNSS超分******************** -->
+    <!-- hook gles -->
+    <pkg-list vnss_gles="1" model="PD2505-PD2546-PD2564-PD2606">
+        <item name="com.miHoYo.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.cloudgames.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.hkrpg.bilibili"/> <!-- 星穹铁道B服 -->
+        <item name="com.miHoYo.hkrpgcb"/> <!-- 星穹铁道测试服 -->
+        <item name="com.netease.yhtj"/> <!-- 萤火突击 -->
+        <item name="com.netease.yhtj.vivo"/> <!-- 萤火突击 -->
+    </pkg-list>
+    <pkg-list vnss_gles="1" model="PD2505-PD2546-PD2606">
+        <item name="com.kurogame.mingchao"/> <!-- 鸣潮 -->
+        <item name="com.kurogame.mingchao.bilibili"/> <!-- 鸣潮 Bilibili服 -->
+        <item name="com.kurogame.mingchao.beta"/> <!-- 鸣潮 beta 服-->
+        <item name="com.tencent.tmgp.cod"/> <!-- 使命召唤 -->
+        <item name="com.tencent.tmgp.codty"/> <!-- 使命召唤 体验服 -->
+    </pkg-list>
+    <!-- hook vulkan -->
+    <pkg-list vnss_vulkan="1" model="PD2505-PD2546-PD2564-PD2606">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+        <item name="com.miHoYo.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.cloudgames.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.hkrpg.bilibili"/> <!-- 星穹铁道B服 -->
+        <item name="com.miHoYo.hkrpgcb"/> <!-- 星穹铁道测试服 -->
+        <item name="com.miHoYo.Nap"/> <!-- 绝区零 -->
+        <item name="com.miHoYo.Nap.bilibili"/> <!-- 绝区零B服 -->
+        <item name="com.miHoYo.NapPreBeta"/> <!-- 绝区零测试服 -->
+        <item name="com.tencent.tmgp.codev"/> <!-- 无畏契约 -->
+    </pkg-list>
+    <pkg-list vnss_vulkan="1" model="PD2505-PD2546-PD2606">
+        <item name="com.kurogame.mingchao"/> <!-- 鸣潮 -->
+        <item name="com.kurogame.mingchao.bilibili"/> <!-- 鸣潮 Bilibili服 -->
+        <item name="com.kurogame.mingchao.beta"/> <!-- 鸣潮 beta 服-->
+        <item name="com.tencent.tmgp.cod"/> <!-- 使命召唤 -->
+        <item name="com.tencent.tmgp.codty"/> <!-- 使命召唤 体验服 -->
+    </pkg-list>
+    <pkg-list vnss_vulkan="1" model="PD2505F_EX">
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+    </pkg-list>
+    <!-- 生态接入 -->
+    <pkg-list vnss_ecosdk="1" model="PD2505-PD2546-PD2564-PD2606">
+        <item name="com.idreamsky.klbqm"/> <!-- 卡拉彼丘 -->
+        <item name="com.idreamsky.klbqm.vivo"/> <!-- 卡拉彼丘 -->
+        <item name="com.netease.l22"/> <!-- 永劫无间 -->
+        <item name="com.netease.l22.vivo"/> <!-- 永劫无间 -->
+        <item name="com.vivogame.URP_Q3Demo"/> <!-- demo -->
+        <item name="com.vivo.Test425"/> <!-- demo -->
+    </pkg-list>
+    <pkg-list vnss_ecosdk="1" model="PD2564">
+        <item name="com.tencent.tmgp.nz"/> <!-- 逆战正式服 -->
+        <item name="com.tencent.tmgp.nzalpha"/> <!-- 逆战体验服 -->
+        <item name="com.tencent.tmgp.cod"/> <!-- 使命召唤 -->
+        <item name="com.tencent.tmgp.codty"/> <!-- 使命召唤 体验服 -->
+    </pkg-list>
+
+    <!-- ********************后处理超分******************** -->
+    <!-- 无限暖暖 -->
+    <pkg name="com.papegames.infinitynikki">
+        <switch vsr_pp="1" model="PD2415-PD2419-PD2458-PD2502-PD2509-DPD2540"/>
+    </pkg>
+    <!-- 桃源深处有人家 -->
+    <pkg name="com.tencent.fiftyone.yc">
+        <switch vsr_pp="1" model="PD2502-PD2509-DPD2345S-PD2415-PD2419-PD2458-PD2547-PD2548-DPD2540"/>
+    </pkg>
+    <!-- 王者荣耀 -->
+    <pkg name="com.tencent.tmgp.sgame-com.tencent.tmgp.sgamece">
+        <switch vsr_pp="1" model="PD2520-PD2408-PD2463-PD2329-PD2304-PD2573"/>
+    </pkg>
+    <!-- 2K屏幕新增有144帧游戏 -->
+    <pkg name="com.tencent.tmgp.cod-com.netease.yhtj.vivo-com.netease.yhtj">
+        <switch vsr_pp="1" model="PD2520-PD2408-PD2463-PD2573"/>
+    </pkg>
+    <!-- 后处理超分名单-第1组 -->
+    <pkg-list vsr_pp="1" model="PD2307-PD2324-PD2329-PD2338-PD2339-PD2339F-PD2366-PD2403-PD2417-PD2405-PD2408-PD2425-PD2426-PD2452-PD2453-PD2454-PD2507-PD2536">
+        <item name="com.tencent.KiHan"/> <!-- 火影忍者 -->
+        <item name="com.tencent.lolm"/> <!-- 英雄联盟 -->
+    </pkg-list>
+    <!-- 后处理超分名单-第2组 -->
+    <pkg-list vsr_pp="1" model="PD2309-PD2359-PD2415-PD2419-PD2458-PD2502-PD2509-DPD2329-DPD2345-DPD2345S-DPD2350-DPD2429-DPD2438-DPD2437-PD2547-DPD2540-PD2548">
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+        <item name="com.tencent.tmgp.pubgmhd"/> <!-- 和平精英 -->
+        <item name="com.tencent.tmgp.projectg"/> <!-- 和平精英测试服 -->
+        <item name="com.tencent.tmgp.sgame"/> <!-- 王者荣耀 -->
+        <item name="com.tencent.tmgp.cf"/> <!-- 穿越火线 -->
+        <item name="com.tencent.tmgp.cfalpha"/> <!-- 穿越火线测试服 -->
+        <item name="com.tencent.KiHan"/> <!-- 火影忍者 -->
+        <item name="com.hermes.h1game"/> <!-- 航海王 -->
+        <item name="com.hermes.h1game.vivo"/> <!-- 航海王 -->
+        <item name="com.tencent.tmaoe"/> <!-- 重返帝国 -->
+        <item name="com.tencent.wmsj"/> <!-- 完美世界 -->
+        <item name="com.netease.party.vivo"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party.nearme.gamecenter"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party.huawei"/> <!-- 蛋仔派对 -->
+        <item name="com.tencent.tmgp.party"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party_toutiao_cps"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.dwrg"/> <!-- 第五人格 -->
+        <item name="com.netease.dwrg5.vivo"/> <!-- 第五人格 -->
+        <item name="com.tencent.tmgp.gnyx"/> <!-- 高能英雄 -->
+    </pkg-list>
+    <!-- 后处理超分名单-第3组 -->
+    <pkg-list vsr_pp="1" model="PD2227-PD2242-PD2241-PD2243-PD2254-PD2302-PD2352">
+        <item name="com.tencent.tmgp.cf"/> <!-- 穿越火线 -->
+        <item name="com.tencent.tmgp.cfalpha"/> <!-- 穿越火线测试服 -->
+        <item name="com.tencent.KiHan"/> <!-- 火影忍者 -->
+        <item name="com.hermes.h1game"/> <!-- 航海王 -->
+        <item name="com.hermes.h1game.vivo"/> <!-- 航海王 -->
+        <item name="com.tencent.tmaoe"/> <!-- 重返帝国 -->
+        <item name="com.tencent.wmsj"/> <!-- 完美世界 -->
+        <item name="com.netease.party.vivo"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party.nearme.gamecenter"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party.huawei"/> <!-- 蛋仔派对 -->
+        <item name="com.tencent.tmgp.party"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.party_toutiao_cps"/> <!-- 蛋仔派对 -->
+        <item name="com.netease.dwrg"/> <!-- 第五人格 -->
+        <item name="com.netease.dwrg5.vivo"/> <!-- 第五人格 -->
+    </pkg-list>
+    <!-- 后处理超分名单-第4组 -->
+    <pkg-list vsr_pp="1" model="PD2415F_EX">
+        <item name="com.miHoYo.GenshinImpact"/>
+        <item name="com.pubg.imobile"/>
+        <item name="com.tencent.ig"/>
+        <item name="com.tencent.tmgp.sgame"/> 
+        <item name="com.levelinfinite.sgameGlobal"/> 
+        <item name="com.levelinfinite.sgameGlobal.midaspay"/> 
+        <item name="com.levelinfinite.sgameGlobal.vivo"/> 
+        <item name="com.riotgames.league.wildrift"/> 
+        <item name="com.pubg.newstate"/> 
+        <item name="com.activision.callofduty.shooter"/> 
+        <item name="com.garena.game.codm"/> 
+        <item name="com.dts.freefiremax"/> 
+        <item name="com.carxtech.carxdr2"/> 
+        <item name="com.igg.android.lordsmobile"/> 
+        <item name="com.ngame.allstar.eu"/> <!--Garena AoV -->
+        <item name="com.garena.game.kgid"/> <!-- Garena AoV -->
+        <item name="com.garena.game.kgtw"/> <!-- Garena AoV -->
+        <item name="com.garena.game.kgth"/> <!-- Garena AoV -->
+        <item name="com.mobile.legends"/> <!-- Mobile Legends: Bang Bang -->
+        <item name="com.axlebolt.standoff2"/> <!-- standoff2 -->
+    </pkg-list>
+
+    <pkg-list vsr_pp="1" model="PD2502F_EX-PD2509F_EX-PD2458F_EX-PD2547F_EX">
+        <item name="com.miHoYo.GenshinImpact"/>
+        <item name="com.pubg.imobile"/>
+        <item name="com.tencent.ig"/>
+        <item name="com.tencent.tmgp.sgame"/> 
+        <item name="com.levelinfinite.sgameGlobal"/> 
+        <item name="com.levelinfinite.sgameGlobal.midaspay"/> 
+        <item name="com.levelinfinite.sgameGlobal.vivo"/> 
+        <item name="com.riotgames.league.wildrift"/> 
+        <item name="com.pubg.newstate"/> 
+        <item name="com.activision.callofduty.shooter"/> 
+        <item name="com.garena.game.codm"/> 
+        <item name="com.carxtech.carxdr2"/> 
+        <item name="com.igg.android.lordsmobile"/> 
+    </pkg-list>
+    <!-- 后处理超分名单-第5组 -->
+    <pkg-list vsr_pp="1" model="PD2463-PD2520-PD2573">
+        <item name="com.tencent.KiHan"/> <!-- 火影忍者 -->
+        <item name="com.tencent.lolm"/> <!-- 英雄联盟 -->
+        <item name="com.papegames.infinitynikki"/> <!-- 无限暖暖 -->
+        <item name="com.tencent.tmgp.gnyx"/> <!-- 高能英雄 -->
+        <item name="com.tencent.tmgp.cf"/> <!-- 穿越火线 -->
+        <item name="com.tencent.tmgp.dfm"/> <!-- 三角洲行动 -->
+    </pkg-list>
+
+    <!-- 后处理超分名单-第6组 -->
+    <pkg-list vsr_pp="1" model="PD2502-PD2509-PD2415-PD2419-PD2458-DPD2540">
+        <item name="com.netease.dfjs.vivo"/> <!--巅峰急速 -->
+        <item name="com.netease.dfjs"/> <!-- 巅峰急速 -->
+        <item name="com.netease.race"/> <!-- 巅峰急速 -->
+        <item name="com.tencent.tmgp.lv"/> <!-- 光与夜之恋 -->
+        <item name="com.papegames.infinitynikki"/> <!-- 无限暖暖 -->
+    </pkg-list>
+
+    <pkg-list vsr_pp="1" model="PD2502-PD2509-PD2547-PD2548-DPD2540">
+        <item name="com.netease.mc.vivo"/> <!-- 我的世界移动版 -->
+        <item name="com.netease.x19"/> <!-- 我的世界移动版 -->
+        <item name="com.happyelements.AndroidAnimal"/> <!-- 开心消消乐 -->
+        <item name="com.papegames.lysk.cn.vivo"/> <!-- 恋与深空 -->
+        <item name="com.papegames.lysk.cn"/> <!-- 恋与深空 -->
+        <item name="com.hypergryph.arknights"/> <!-- 明日方舟 -->
+        <item name="com.miHoYo.Nap"/> <!-- 绝区零 -->
+    </pkg-list>
+
+    <!-- 后处理超分名单-第7组 -->
+    <pkg-list vsr_pp="1" model="PD2502F_EX-PD2509F_EX-PD2458F_EX-PD2547F_EX">
+        <item name="com.pubg.imobile"/> <!-- 和平国际服 -->
+        <item name="com.tencent.ig"/> <!-- 和平国际服 -->
+        <item name="com.tencent.igce"/> <!-- 和平国际服测试服 -->
+        <item name="com.ngame.allstar.eu"/> <!--Garena AoV -->
+        <item name="com.garena.game.kgid"/> <!-- Garena AoV -->
+        <item name="com.garena.game.kgtw"/> <!-- Garena AoV -->
+        <item name="com.garena.game.kgth"/> <!-- Garena AoV -->
+        <item name="com.levelinfinite.sgameGlobal"/> <!-- Honor of Kings -->
+        <item name="com.levelinfinite.sgameGlobal.midaspay"/> <!-- Honor of Kings -->
+        <item name="com.levelinfinite.sgameGlobal.vivo"/> <!-- Honor of Kings -->
+        <item name="com.mobile.legends"/> <!-- Mobile Legends: Bang Bang -->
+        <item name="com.axlebolt.standoff2"/> <!-- standoff2 -->
+    </pkg-list>
+</gameconfig>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+  <exception
+    package="com.android.incallui">
+    <permission name="android.permission.CAMERA" fixed="false"/>
+    <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+    <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
+    <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+    <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+    <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+    <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+  </exception>
+  <exception
+    package="com.vivo.appstore">
+    <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+  </exception>
+  <exception
+    package="com.vivo.tws.vivotws">
+    <permission name="android.permission.BLUETOOTH_SCAN" fixed="false" />
+    <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false" />
+  </exception>
+  <exception
+    package="com.android.vivo.tws.vivotws">
+    <permission name="android.permission.BLUETOOTH_SCAN" fixed="false" />
+    <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false" />
+  </exception>
+  <exception
+    package="com.facebook.appmanager">
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+  </exception>
+  <exception
+    package="com.vivo.connbase.deviceaccessory">
+    <permission name="android.permission.READ_MEDIA_IMAGES" fixed="false" />
+    <permission name="android.permission.READ_MEDIA_VIDEO" fixed="false" />
+    <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false" />
+  </exception>
+  <exception
+    package="com.google.android.apps.photos">
+    <permission name="android.permission.READ_MEDIA_IMAGES" fixed="false"/>
+    <permission name="android.permission.READ_MEDIA_VIDEO" fixed="false"/>
+  </exception>
+  <exception
+      package="com.vivo.alphacamera">
+    <permission name="android.permission.CAMERA" fixed="false" />
+    <permission name="android.permission.RECORD_AUDIO" fixed="false" />
+  </exception>
+  <exception 
+    package="com.vivo.connbase">
+    <permission name="android.permission.BLUETOOTH_SCAN" fixed="false"/>
+    <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
+  </exception>
+  <exception package="com.vivo.penwrite">
+    <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false" />
+    <permission name="android.permission.BLUETOOTH_SCAN" fixed="false" />
+  </exception>
+
+  <exception
+      package="com.os.callservice">
+    <permission name="android.permission.SYSTEM_ALERT_WINDOW" fixed="false"/>
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    <permission name="android.permission.WRITE_SECURE_SETTINGS" fixed="false"/>
+    <permission name="android.permission.WRITE_SETTINGS" fixed="false"/>
+    <permission name="android.permission.STATUS_BAR" fixed="false"/>
+    <!--vivo yangli add for CallService begin        -->
+    <permission name="android.permission.CONTROL_INCALL_EXPERIENCE" fixed="false"/>
+    <permission name="android.permission.INTERACT_ACROSS_USERS" fixed="false"/>
+    <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+    <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+    <permission name="android.permission.READ_CALL_LOG" fixed="false"/>
+  </exception>
+
+</exceptions>

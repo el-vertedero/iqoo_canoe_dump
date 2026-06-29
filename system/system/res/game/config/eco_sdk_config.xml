@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- 支持pkg-list -->
+    <pkg-list eco_sdk_20_q2="1" model="PD2463-PD2507-PD2520-PD2505-PD2546-PD2564-DPD2540">
+        <item name="com.papegames.infinitynikki"/> <!-- 无限暖暖 -->
+        <item name="com.papegames.infinitynikki.bilibili"/> <!-- 无限暖暖 -->
+    </pkg-list>
+</gameconfig>

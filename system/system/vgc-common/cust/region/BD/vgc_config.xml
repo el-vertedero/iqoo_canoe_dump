@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <string name="setupwizard_default_language">bn_BD</string>
+    <bool name="vtrust_cota_activate_enable">True</bool>
+    <bool name="daemon_vtrust_activate_enable">True</bool>
+    <bool name="vtrust_dynamic_activate_direct_work">True</bool>
+    <bool name="customtool_transform_origin">True</bool>
+    <int name="vtrust_enterprise_support_version">1</int>
+</config>

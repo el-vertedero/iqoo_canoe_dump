@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE001D" extraUnicodes="0xF0039" />
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="2">
+            <originStatus color="0xFFFFFF">
+
+            </originStatus>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="401" layersIndex="1"
+                    to="650" />
+                <serialGroup>
+                    <animationItem interpolator="custom(0.33, 0.00, 0.51, 1.00)" animationType="rotationZ" duration="167" layersIndex="0"
+                        to="30" />
+                    <animationItem interpolator="custom(0.33, 0.00, 0.51, 1.00)" animationType="rotationZ" duration="167" layersIndex="0"
+                        to="-20" />
+                    <animationItem interpolator="custom(0.38, 0.00, 0.67, 0.48)" animationType="rotationZ" duration="67" layersIndex="0"
+                        to="-7.05" />
+
+                </serialGroup>
+                <animationItem interpolator="custom(0.30, 0.00, 0.50, 1.00)" animationType="dynamicColor" duration="300" to="0xF34E58" />
+            </parallelGroup>
+        </symbolAnimation>
+
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="2">
+            <originStatus color="0xF34E58">
+                <layer index="0" rotationZ="-7.05" />
+            </originStatus>
+            <parallelGroup>
+                <animationItem animationType="glyphAnimProgress" duration="150" layersIndex="1"
+                    to="300" />
+                <serialGroup>
+                    <animationItem interpolator="custom(0.26, 0.48, 0.55, 1.00)" animationType="rotationZ" duration="100" layersIndex="0"
+                        to="10" />
+                    <animationItem interpolator="custom(0.33, 0.00, 0.51, 1.00)" animationType="rotationZ" duration="167" layersIndex="0"
+                        to="-5" />
+                    <animationItem interpolator="custom(0.33, 0.00, 0.51, 1.00)" animationType="rotationZ" duration="167" layersIndex="0"
+                        to="0" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+
+    </animationList>
+
+</fontSymbolAnimation>

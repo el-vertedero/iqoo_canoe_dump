@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0011"/>
+
+
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus  color="0xF79619" />
+            <parallelGroup>
+                <animationItem animationType="translateX" duration="500" to="168" layersIndex="0" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

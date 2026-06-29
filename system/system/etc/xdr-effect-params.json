@@ -1,0 +1,36 @@
+{
+    "version":1,
+    "kSlope":0.4,
+    "kIntercept":0.9,
+    "kSigma":0.1,
+    "kGamma":0.4545,
+    "kCenterLight":0.5,
+    "kCoef":0.8,
+    "kGainMax":5.5,
+    "kV1Params":[
+        {
+            "kLuxBegin":0,
+            "kLuxEnd":190,
+            "kFactorA":0.6,
+            "kFactorB":2.5,
+            "kPortraitA":0.9,
+            "kPortraitB":0.2
+        },
+        {
+            "kLuxBegin":240,
+            "kLuxEnd":360,
+            "kFactorA":0.6,
+            "kFactorB":2.5,
+            "kPortraitA":0.9,
+            "kPortraitB":0.2
+        },
+        {
+            "kLuxBegin":380,
+            "kLuxEnd":1000,
+            "kFactorA":0.6,
+            "kFactorB":2.5,
+            "kPortraitA":0.9,
+            "kPortraitB":0.2
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="varColor"
+        layerInterval="50"
+        playbackMode="byLayer"
+        playbackOrder="Serial"
+        repeatMode="$repeatMode"
+        repeatCount="$repeatCount"
+    />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus alpha="$originAlpha"/>
+            <serialGroup delay="0" interpolator="ease">
+                <animationItem animationType="alpha" duration="500" to="1" />
+                <animationItem animationType="alpha" duration="$backToOriginDuration" to="$originAlpha" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+    <dynamicOpts>
+        <opt id="inactiveLayer">
+            <case id="dim">
+                <value id="$originAlpha">0.3</value>
+            </case>
+            <case id="hide">
+                <value id="$originAlpha">0</value>
+            </case>
+        </opt>
+        <opt id="style">
+            <case id="accumulate">
+                <value id="$backToOriginDuration">0</value>
+            </case>
+            <case id="iterate">
+                <value id="$backToOriginDuration">500</value>
+            </case>
+        </opt>
+        <opt id="isReverse">
+            <case id="false">
+                <value id="$repeatMode">Restart</value>
+                <value id="$repeatCount">0</value>
+            </case>
+            <case id="true">
+                <value id="$repeatMode">reverse</value>
+                <value id="$repeatCount">1</value>
+            </case>
+        </opt>
+    </dynamicOpts>
+
+
+</fontSymbolAnimation>

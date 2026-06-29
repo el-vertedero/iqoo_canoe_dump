@@ -1,0 +1,45 @@
+body,
+div,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+div.content {
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+p,
+span {
+    font-family: HYQiHei-EES;
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.titlefont {
+    font-family: HYQiHei-FES;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+}
+
+img {
+    width: 188px;
+    height: 51px;
+}
+
+ol,
+li {
+    list-style-type: none;
+    font-family: HYQiHei-EES;
+    font-size: 14px;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 24px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <list name="vgc_region_limit_list">
+        <item value="CL"/>
+        <item value="PE"/>
+        <item value="CO"/>
+        <item value="CR"/>
+        <item value="PA"/>
+        <item value="NI"/>
+	 <item value="DO"/>
+    </list>
+    <list name="setupwizard_region_recommend_list">
+        <item value="CL"/>
+        <item value="PE"/>
+        <item value="CO"/>
+        <item value="CR"/>
+        <item value="PA"/>
+        <item value="NI"/>
+	 <item value="DO"/>
+    </list>
+</config>

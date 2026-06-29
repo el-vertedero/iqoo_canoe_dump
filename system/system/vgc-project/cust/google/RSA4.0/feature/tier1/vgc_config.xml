@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <string name="setting_message_default">com.android.mms</string>
+    <string name="phone_default_dialer_package">com.android.contacts</string>
+    <string name="role_dialer_default">com.android.contacts</string>
+    <bool name="support_hiya_service">True</bool>
+</config>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+    <!--配置文件版本号PD2505_EX-->
+    <version>6</version>
+    <game pkgName="com.supercell.clashofclans" label="Clash of clans" channel="*" index="100" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.garena.game.codm" label="Call of Duty" channel="*" index="101" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="max" tipString="90帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.activision.callofduty.shooter" label="Call of Duty" channel="*" index="101" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="max" tipString="90帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.miHoYo.GenshinImpact" label="Genshin Impact" channel="*" index="102" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.dts.freefiremax" label="Free Fire MAX" channel="*" index="103" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="high" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.tencent.ig" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.tencent.igce" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.pubg.krmobile" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.vng.pubgmobile" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.rekoo.pubgm" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.tenent.iglite" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>s
+    </game>
+    <game pkgName="com.tenent.iglitece" label="PUBG Mobile" channel="*" index="104" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.mobile.legends" label="MobileLegend" channel="*" index="105" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="super_high" tipString="90帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.pubg.imobile" label="BGMI" channel="*" index="106" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="ji_xian" tipString="90帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.pubg.newstate" label="PUBG New State" channel="*" index="107" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="num_90" tipString="90"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.riotgames.league.wildrift" label="League of Legends: Wild Rift" channel="*" index="108" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="90" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="90" tipStringName="num_90" tipString="90"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.tencent.tmgp.sgame" label="王者荣耀" channel="*" index="10" supportSDK="false">
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="120" tipStringName="highest_frame_rate" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.tencent.tmgp.sgamece" label="王者荣耀" channel="*" index="10" supportSDK="false">
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="120" tipStringName="highest_frame_rate" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.ngame.allstar.eu" label="Garena AoV" channel="*" index="114" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="high" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.garena.game.kgid" label="Garena AoV" channel="*" index="114" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="high" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.garena.game.kgtw" label="Garena AoV" channel="*" index="114" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="high" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.miHoYo.bh3oversea" label="Honkai Impact 3" channel="*" index="116" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.miHoYo.bh3global" label="Honkai Impact 3rd" channel="*" index="116" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.HoYoverse.hkrpgoversea" label="Honkai：StarRail" channel="*" index="118" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.carxtech.carxdr2" label="CarX Drift Racing 2" channel="*" index="119" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.igg.android.lordsmobile" label="Lords Mobile" channel="*" index="120" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.nekki.shadowfight3" label="shadow fight 3" channel="*" index="121" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.lilithgame.roc.gp" label="Rise of kingdoms" channel="*" index="122" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="net.wargaming.wot.blitz" label="World of tanks blitz" channel="*" index="124" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="num_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.levelinfinite.sgameGlobal" label="honor of king" channel="*" index="125" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="120" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="120" tipStringName="highest_frame_rate" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.levelinfinite.sgameGlobal.midaspay" label="honor of king" channel="*" index="125" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="120" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="120" tipStringName="highest_frame_rate" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.levelinfinite.sgameGlobal.vivo" label="honor of king" channel="*" index="125" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="120" depressValue="72" frameInterValue="144"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="120" tipStringName="highest_frame_rate" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.nautilus.RealCricket3DLite" label="Real Cricket 22" channel="*" index="126" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="jp.konami.pesam" label="eFootball 2024" channel="*" index="127" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.dts.freefireth" label="Garena FreeFire" channel="*" index="128" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.garena.game.kgth" label="Garena RoV: Treasure Version!" channel="*" index="129" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.king.candycrushsaga" label="Candy Crush Saga" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.miniclip.carrom" label="CarromPool:DiscGame" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.fun.lastwar.gp" label="Last War:Survival Game" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.miniclip.eightballpool" label="8 Ball Pool" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.netmarble.sololv" label="Solo Leveling:Arise" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.supercell.clashroyale" label="Clash royale" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.garena.game.df" label="Delta Force" channel="*" index="131" supportSDK="false">
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.gof.global" label="without survival" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.wildspike.wormszone" label="Worms Zone" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.vitastudio.mahjong" label="Vita Mahjong" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.blizzard.diablo.immortal" label="Diablo Immortal" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.gameloft.android.ANMP.GloftA9HM" label="Asphalt 9 Legends" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.kabam.marvelbattle" label="Marvel Contest of Champions" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="io.supercent.pizzaidle" label="Pizza Ready" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="60" frameInterValue="120"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.plarium.raidlegends" label="RAID: Shadow Legends" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.supercell.brawlstars" label="Brawl Stars" channel="*" index="130" supportSDK="false">
+        <optiPowerValues>
+            <item gameFps="120" depressValue="60" frameInterValue="120"/>
+        </optiPowerValues>
+        <frameRateTips>
+            <item gameFps="120" tipStringName="zhen_120" tipString="120帧"/>
+        </frameRateTips>
+    </game>
+    <game pkgName="com.axlebolt.standoff2" label="Standoff2" channel="*" index="130" supportSDK="false">
+        <boostFrameValues>
+            <item gameFps="60" depressValue="45" frameInterValue="90"/>
+        </boostFrameValues>
+        <frameRateTips>
+            <item gameFps="60" tipStringName="zhen_60" tipString="60"/>
+        </frameRateTips>
+    </game>
+</games>

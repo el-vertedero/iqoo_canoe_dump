@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<afs_conf>
+
+    <project>
+        <name>PD2505F_EX</name>
+        <feature>
+            <key>RingBackVol</key>
+            <value>89</value>
+        </feature>
+        <feature>
+            <key>VideoVolumeTable</key>
+            <value>100</value>
+        </feature>
+        <feature>
+            <key>GameVolumeTable</key>
+            <value>100</value>
+        </feature>
+        <feature>
+            <key>DailpadVol</key>
+            <value>65</value>
+        </feature>
+        <feature>
+            <key>EarphoneVolume</key>
+            <value>80</value>
+        </feature>
+        <feature>
+            <key>FmMaxVol</key>
+            <value>3200</value>
+        </feature>
+        <feature>
+            <key>FmMinVol</key>
+            <value>10</value>
+        </feature>
+    </project>
+
+</afs_conf>

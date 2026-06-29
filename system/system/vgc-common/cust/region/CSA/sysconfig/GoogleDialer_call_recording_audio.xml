@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<!--独联体CSA：乌克兰UA、白俄罗斯BY、乌兹别克斯坦UZ-->
+	<!--通话录音配置 支持：乌兹别克斯坦UZ 白俄罗斯BY由于变更至T2，舍去-->
+	<!--通话录音配置 不支持：乌克兰UA-->
+	<feature name= "com.google.android.apps.dialer.call_recording_audio" 
+	defaultValue = "true"
+	available = "UZ"
+	unavailable = "UA"
+	/>
+	
+</config>

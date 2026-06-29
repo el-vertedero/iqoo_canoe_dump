@@ -1,0 +1,10 @@
+<!--
+    Input:
+        vendor/vivo/external/VivoCamera/hardware/interfaces/camera/cameralog/service/vendor.vivo.hardware.camera.cameralog-service.xml
+-->
+<manifest version="9.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.vivo.hardware.camera.cameralog</name>
+        <fqname>ICameraLogSystem/"default"</fqname>
+    </hal>
+</manifest>

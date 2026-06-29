@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE001E" />
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="6" >
+            <drawAnimDataList>
+                <drawAnimData layers="1" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="20" acrossBasePoint0="1" contourIndex1="0" pointIndex1="5" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="19"  contourIndex1="0" pointIndex1="6"/>
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="18"  contourIndex1="0" pointIndex1="7" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="14"  contourIndex1="0" pointIndex1="11" />
+                </drawAnimData>
+
+                <drawAnimData layers="2" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="1" pointIndex0="27" acrossBasePoint0="1" contourIndex1="1" pointIndex1="3" />
+                    <guidePointPair type="0" contourIndex0="1" pointIndex0="22"  contourIndex1="1" pointIndex1="7"/>
+                    <guidePointPair type="0" contourIndex0="1" pointIndex0="21"  contourIndex1="1" pointIndex1="8" />
+                    <guidePointPair type="0" contourIndex0="1" pointIndex0="20"  contourIndex1="1" pointIndex1="9" />
+                    <guidePointPair type="0" contourIndex0="1" pointIndex0="16"  contourIndex1="1" pointIndex1="13" />
+                </drawAnimData>
+
+                <drawAnimData layers="3" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="27" acrossBasePoint0="1" contourIndex1="2" pointIndex1="2" />
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="22"  contourIndex1="2" pointIndex1="7"/>
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="21"  contourIndex1="2" pointIndex1="8" />
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="20"  contourIndex1="2" pointIndex1="9" />
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="16"  contourIndex1="2" pointIndex1="13" />
+                </drawAnimData>
+
+                <drawAnimData layers="4" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="3" pointIndex0="27" acrossBasePoint0="1" contourIndex1="3" pointIndex1="2" />
+                    <guidePointPair type="0" contourIndex0="3" pointIndex0="23"  contourIndex1="3" pointIndex1="6"/>
+                    <guidePointPair type="0" contourIndex0="3" pointIndex0="22"  contourIndex1="3" pointIndex1="7" />
+                    <guidePointPair type="0" contourIndex0="3" pointIndex0="21"  contourIndex1="3" pointIndex1="8" />
+                    <guidePointPair type="0" contourIndex0="3" pointIndex0="20"  contourIndex1="3" pointIndex1="9" />
+                    <guidePointPair type="0" contourIndex0="3" pointIndex0="16"  contourIndex1="3" pointIndex1="13" />
+                </drawAnimData>
+
+                <drawAnimData layers="5" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="4" pointIndex0="23" acrossBasePoint0="1" contourIndex1="4" pointIndex1="2" />
+                    <guidePointPair type="0" contourIndex0="4" pointIndex0="19"  contourIndex1="4" pointIndex1="6"/>
+                    <guidePointPair type="0" contourIndex0="4" pointIndex0="18"  contourIndex1="4" pointIndex1="7" />
+                    <guidePointPair type="0" contourIndex0="4" pointIndex0="17"  contourIndex1="4" pointIndex1="8" />
+                    <guidePointPair type="0" contourIndex0="4" pointIndex0="13"  contourIndex1="4" pointIndex1="12" />
+                </drawAnimData>
+            </drawAnimDataList>
+
+
+            <originStatus  drawHead="0" drawTail="0">
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="dynamicColor" layersIndex="0" duration="0" to="0xFFFFFF"/>
+                <animationItem animationType="dynamicColor" layersIndex="1,2,3,4,5" duration="0" to="0xFF0000"/>
+
+                <serialGroup>
+                        <animationItem animationType="alpha" layersIndex="1" duration="0" to="1.0"/>
+                        <animationItem animationType="drawHead" layersIndex="1" duration="116.7" to="1.0"/>
+
+                        <animationItem animationType="alpha" layersIndex="2" duration="0" to="1.0"/>
+                        <animationItem animationType="drawHead" layersIndex="2" duration="50" to="1.0"/>
+
+                        <animationItem animationType="alpha" layersIndex="3" duration="0" to="1.0"/>
+                        <animationItem animationType="drawHead" layersIndex="3" duration="100" to="1.0"/>
+
+                        <animationItem animationType="alpha" layersIndex="4" duration="0" to="1.0"/>
+                        <animationItem animationType="drawHead" layersIndex="4" duration="66.7" to="1.0"/>
+
+                        <animationItem animationType="alpha" layersIndex="5" duration="0" to="1.0"/>
+                        <animationItem animationType="drawHead" layersIndex="5" duration="200" to="1.0"/>
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+</fontSymbolAnimation>

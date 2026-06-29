@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<operators version="1">
+    <operator originalName="China Unicom,China  Unicom,CHN-UNICOM,中国联通,中國聯通" translateName="@string/vivo_custom_operator_cu"/>
+    <operator originalName="China Mobile,China  Mobile,CHINA MOBILE,CMCC,cmcc,中国移动,中國移動" translateName="@string/vivo_custom_operator_cmcc"/>
+    <operator originalName="China Telecom,CHN-CT,中国电信,CTCC,中國電訊,中國電信,CT Macao" translateName="@string/vivo_custom_operator_ctcc"/>
+    <operator originalName="中国广电,China Broadnet,CHINA BROADNET" translateName="@string/vivo_custom_operator_cbn"/>
+    <operator originalName="Far EasTone" translateName="@string/vivo_custom_operator_fet"/>
+    <operator originalName="TW Mobile(TS),台灣大哥大TS" translateName="@string/vivo_custom_operator_tstar"/>
+    <operator originalName="Chunghwa Telecom" translateName="@string/vivo_custom_operator_chunghwa"/>
+    <operator originalName="TW Mobile" translateName="@string/vivo_custom_operator_twm"/>
+</operators>

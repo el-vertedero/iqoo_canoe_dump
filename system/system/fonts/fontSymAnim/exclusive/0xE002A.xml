@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE002A" extraUnicodes="0xF003F"/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="3">
+            <originStatus glyphAnimProgress="100" color="0x0087ff">
+                <layer index="2" alpha="1" color="0xffffff"/>
+            </originStatus>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="172" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+
+        <symbolAnimation layerCnt="3">
+            <originStatus glyphAnimProgress="100" color="0x0087ff">
+                <layer index="2" alpha="1" color="0xffffff"/>
+            </originStatus>
+            <serialGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="78" to="350" />
+            </serialGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+</fontSymbolAnimation>

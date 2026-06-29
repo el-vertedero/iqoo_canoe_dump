@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <list name="vgc_region_limit_list">
+        <item value="MM"/>
+        <item value="NP"/>
+        <item value="LK"/>
+        <item value="BT"/>
+        <item value="KH"/>
+        <item value="SG"/>
+        <item value="PG"/>
+    </list>
+    <list name="setupwizard_region_recommend_list">
+        <item value="MM"/>
+        <item value="NP"/>
+        <item value="KH"/>
+        <item value="HK"/>
+        <item value="LK"/>
+    </list>
+</config>

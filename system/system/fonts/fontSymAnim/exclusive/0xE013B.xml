@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE013B" />
+
+    <animationList>
+        <symbolAnimation layerCnt="3"  scalePivotLayerIndex="6">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <serialGroup >
+                <animationItem animationType="scale" duration="500" to="1.1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                <animationItem animationType="scale" duration="1000" to="0.9" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                <animationItem animationType="scale" duration="1000" to="1.1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                <animationItem animationType="scale" duration="1000" to="0.9" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                <animationItem animationType="scale" duration="800" to="1.0" interpolator="custom(0.33, 0.00, 0.47, 1.00)" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

@@ -1,0 +1,58 @@
+<config version="99">
+    <switch>
+        <filter use_memcg="1"/>
+    </switch>
+    <cgroups>
+        <!-- demo: uid: pkg: process: group -->
+        <filter name=",com.bbk.launcher2,,active_bg"/>
+        <filter name=",com.android.launcher3,,active_bg"/>
+        <filter name=",com.vivo.hiboard,,active_bg"/>
+        <filter name=",com.android.systemui,,active_bg"/>
+        <filter name=",com.vivo.upslide,,active_bg"/>
+        <filter name=",com.android.camera,,camera"/>
+        <filter name=",system_server,,system_server"/>
+    </cgroups>
+    <native_cgroups>
+        <!-- demo: uid: pkg: process: group -->
+        <filter name="surfaceflinger,active_bg"/>
+        <filter name="vendor.vivo.hardware.biometrics.face,active_bg"/>
+        <filter name="vendor.vivo.hardware.biometrics.face_native,active_bg"/>
+        <filter name="android.hardware.biometrics.face-service.aidl,active_bg"/>
+        <filter name="vendor.qti.hardware.display.allocator-service,camera"/>
+        <filter name="android.hardware.graphics.allocator@4.0-service-mediatek,camera"/>
+        <filter name="android.hardware.graphics.allocator-V2-service-mediatek,camera"/>
+        <filter name="vendor.qti.camera.provider,camera"/>
+        <filter name="vendor.qti.camera.provider-service_64,camera"/>
+        <filter name="android.hardware.camera.provider,camera"/>
+        <filter name="vendor.vivo.hardware.camera3rd.provider,camera"/>
+        <filter name="cameraserver,camera"/>
+        <filter name="vivocameraserver,camera"/>
+        <filter name="camerahalserver,camera"/>
+        <filter name="vendor.vivo.hardware.camera3rd.provider@1.0-service,camera"/>
+        <filter name="dmabuf-deferred-free-worker,camera"/>
+        <filter name="sys-heap-charge-worker,camera"/>
+        <filter name="vtsthp,active_bg"/>
+        <filter name="async_comp,active_bg"/>
+        <filter name="gpu_driven_src,active_bg"/>
+    </native_cgroups>
+    <expand_heap>  <!-- 拓展堆的名单 -->
+        <package name="com.ss.android.article.news"/>       <!-- 今日头条 -->
+        <package name="com.ss.android.article.lite"/>       <!-- 头条极速版 -->
+        <package name="com.ss.android.ugc.aweme"/>          <!-- 抖音 -->
+        <package name="com.ss.android.ugc.aweme.lite"/>     <!-- 抖音极速版 -->
+        <package name="com.ss.android.ugc.live"/>           <!-- 抖音火山版 -->
+        <package name="com.ss.android.yumme.video"/>        <!-- 抖音精选 -->
+        <package name="com.tencent.mm"/>                    <!-- 微信 -->
+        <package name="com.xingin.xhs"/>                    <!-- 小红书 -->
+        <package name="com.eg.android.AlipayGphone"/>       <!-- 支付宝 -->
+        <package name="com.kmxs.reader"/>                   <!-- 七猫 -->
+        <package name="ctrip.android.view"/>                <!-- 携程 -->
+        <package name="com.sankuai.meituan"/>               <!-- 美团 -->
+        <package name="com.smile.gifmaker"/>                <!-- 快手 -->
+        <package name="com.kuaishou.nebula"/>               <!-- 快手极速版 -->
+        <package name="com.jingdong.app.mall"/>             <!-- 京东 -->
+        <package name="com.taobao.taobao"/>                 <!-- 淘宝 -->
+        <package name="com.vivo.easyshare"/>                <!-- vivo互传 -->
+        <package name="com.android.camera"/>                <!-- 相机 -->
+    </expand_heap>
+</config>

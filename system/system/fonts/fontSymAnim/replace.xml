@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="replace" layerInterval="50"
+        playbackMode="$playBackMode"
+        playbackOrder="parallel"
+    />
+
+    <animationList>
+
+        <symbolAnimation>
+            <originStatus alpha="1" scale="1" />
+            <parallelGroup delay="0" interpolator="ease" >
+                <animationItem animationType="alpha" duration="1100" to="0" />
+                <animationItem animationType="scale" duration="1000" to="$firstSymbolEndScale" />
+            </parallelGroup>
+        </symbolAnimation>
+
+        <symbolAnimation>
+            <originStatus alpha="0" scale="$secondSymbolOriginScale" />
+            <parallelGroup delay="0" interpolator="ease" >
+                <animationItem animationType="alpha" duration="1100" to="1" />
+                <animationItem animationType="scale" duration="1000" to="1" />
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+    <dynamicOpts>
+        <opt id="direct">
+            <case id="down-up">
+                <value id="$firstSymbolEndScale">0.8</value>
+                <value id="$secondSymbolOriginScale">0.8</value>
+            </case>
+            <case id="up-up">
+                <value id="$firstSymbolEndScale">1.2</value>
+                <value id="$secondSymbolOriginScale">0.8</value>
+            </case>
+            <case id="close-up">
+                <value id="$firstSymbolEndScale">1</value>
+                <value id="$secondSymbolOriginScale">0.8</value>
+            </case>
+        </opt>
+
+        <opt id="playbackMode">
+            <case id="overall">
+                <value id="$playBackMode">overall</value>
+            </case>
+            <case id="byGroup">
+                <value id="$playBackMode">byGroup</value>
+            </case>
+            <case id="byLayer">
+                <value id="$playBackMode">byLayer</value>
+            </case>
+        </opt>
+    </dynamicOpts>
+
+
+</fontSymbolAnimation>

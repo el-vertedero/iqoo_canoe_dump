@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0049"/>
+
+    <animationList>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup interpolator="linear">
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0.0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="17" to="1.0"  />
+                    <animationItem animationType="scale" duration="250" to="1.2" interpolator="custom(0.14, 0.17, 0.31, 0.99)" />
+                    <animationItem animationType="scale" duration="250" to="1.0" interpolator="custom(0.10, 0.00, 0.31, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="184" to="1.0"  />
+                    <animationItem animationType="glyphAnimProgress" duration="75" to="150" interpolator="custom(0.17, 0.00, 0.83, 0.83)" />
+                    <animationItem animationType="glyphAnimProgress" duration="75" to="200" interpolator="custom(0.17, 0.17, 0.83, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="125" to="250" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="125" to="300" interpolator="custom(0.17, 0.00, 0.83, 0.83)" />
+                    <animationItem animationType="glyphAnimProgress" duration="125" to="349" interpolator="custom(0.17, 0.17, 0.67, 1.00)" />
+
+                </serialGroup>
+
+
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="167" to="0.0" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="1.0" interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xF95954"  layersIndex="0" interpolator="custom(0.17, 0.07, 0.83, 0.93)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+</fontSymbolAnimation>

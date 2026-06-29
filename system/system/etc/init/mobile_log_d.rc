@@ -1,0 +1,11 @@
+on post-fs-data
+    mkdir /data/log_temp 0755 system system encryption=Attempt
+    mkdir /data/mblog 0755 system system encryption=Attempt
+    copy /sys/fs/pstore/console-ramoops-0 /data/bbklog/console-ramoops-0
+    chown system system /data/bbklog/console-ramoops-0
+    chmod 0440 /data/bbklog/console-ramoops-0
+
+service mobile_log_d /system/bin/mobile_log_d
+    class main
+    user root
+    writepid /dev/cpuset/system-background/tasks

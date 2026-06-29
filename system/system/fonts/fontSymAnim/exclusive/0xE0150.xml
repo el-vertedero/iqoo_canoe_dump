@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0150" />
+
+    <animationList>
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="4" >
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0x000000" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+
+                <!-- 三角形 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="14" to="0" layersIndex="1" />
+                    <animationItem animationType="delay" duration="454" />
+                    <animationItem animationType="scale" duration="14" to="1" layersIndex="1" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="479" />
+                    <animationItem animationType="rotationZ" duration="160" to="120" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 外框 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0" layersIndex="0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="17" />
+                    <animationItem animationType="scale" duration="250" to="1.2" layersIndex="0" interpolator="custom(0.14, 0.17, 0.31, 0.99)" />
+                    <animationItem animationType="scale" duration="233" to="1" layersIndex="0" interpolator="custom(0.10, 0.00, 0.31, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

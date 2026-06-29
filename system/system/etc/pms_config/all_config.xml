@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <ignoreSharedUserId name="com.android.vivo.tws.vivotws"/>
+    <ignoreSharedUserId name="com.vivo.connbase"/>
+    <ignoreSharedUserId name="com.vivo.smartshot"/>
+
+   <!-- install failed conflicting system app name -->
+   <installBlackApp name="com.vivo.space"/>
+   <installBlackApp name="com.vivo.wallet"/>
+   <installBlackApp name="com.iqoo.secure"/>
+   <installBlackApp name="com.android.VideoPlayer"/>
+   <installBlackApp name="com.android.bbkmusic"/>
+   <installBlackApp name="com.vivo.agent"/>
+   <installBlackApp name="com.vivo.moodcube"/>
+   <installBlackApp name="com.bbk.calendar"/>
+   <installBlackApp name="com.vivo.gallery"/>
+   <installBlackApp name="com.android.BBKClock"/>
+   <installBlackApp name="com.bbk.theme"/>
+   <installBlackApp name="com.vivo.ai.copilot"/>
+   <installBlackApp name="com.vivo.translator"/>
+
+   <!-- install failed conflicting system app provider -->
+   <!--<installBlackAuthority name="vivo.test.example.mozil.authority"/>-->
+   <!--1973-01-01 08:00:00"/>-->
+   <firstInstallTime name="com.jingdong.app.mall" time="94694400000"/>
+   <!--2000-01-01 00:00:00"/>-->
+   <firstInstallTime name="com.ss.android.article.news" time="946656000000"/>
+   <firstInstallTime name="com.phoenix.read" time="946656000000"/>
+   <firstInstallTime name="com.ss.android.ugc.aweme" time="946656000000"/>
+   <firstInstallTime name="com.xs.fm.lite" time="946656000000"/>
+   <firstInstallTime name="com.dragon.read" time="946656000000"/>
+   <firstInstallTime name="com.xs.fm" time="946656000000"/>
+   <firstInstallTime name="com.larus.nova" time="946656000000"/>
+   <!--1970-01-01 08:00:00"/>-->
+   <firstInstallTime name="tv.danmaku.bili" time="0"/>
+   <firstInstallTime name="com.baidu.BaiduMap" time="0"/>
+   <!--2020-01-01 00:00:00 -->
+   <firstInstallTime name="com.achievo.vipshop" time="1577808000000"/>
+   <firstInstallTime name="ctrip.android.view" time="1577808000000"/>
+   <firstInstallTime name="com.tongcheng.android" time="1577808000000"/>
+   <firstInstallTime name="com.quark.browser" time="1577808000000"/>
+   <firstInstallTime name="com.UCMobile" time="1577808000000"/>
+   <firstInstallTime name="com.aliyun.tongyi" time="1577808000000"/>
+   <firstInstallTime name="com.tencent.hunyuan.app.chat" time="1577808000000"/>
+</config>

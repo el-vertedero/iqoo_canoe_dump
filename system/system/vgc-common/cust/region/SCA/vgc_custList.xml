@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <custlist name="setupwizard_language_with_iso_map">
+        <item name="CO" value="es_CO"/>
+        <item name="CL" value="es_CL"/>
+        <item name="PE" value="es_PE"/>
+        <item name="CR" value="es_CR"/>
+        <item name="PA" value="es_PA"/>
+        <item name="NI" value="es_NI"/>
+	 <item name="DO" value="es_DO"/>
+    </custlist>
+    <custlist name="pms_area_region_preinstall_apps">
+        <item name="com.vivo.screenagent-enable" value="CL,PE,CO,PA,CR,GT"/>
+        <item name="com.vivo.screenagent-default" value="false"/>
+        <item name="com.vivo.screenagent-ota" value="true"/>
+    </custlist>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.bluetooth.BluetoothState"
+    __ver__="1">
+    <elem __name__="close_bluetooth_enabled"
+        sleep_mode="false"/>
+
+    <elem __name__="simple_disconnect_duration"
+        sleep_mode="1800"/>
+
+    <elem __name__="ble_wake_count"
+        com.vivo.health="50"/>
+</group>

@@ -1,0 +1,52 @@
+{
+	"version": 3,
+	"style_id": 22,
+	"time_view": {
+        "version": "3",
+	    "style_id": "s1-4x2",
+		"clock_font": {
+			"font_id": "0",
+			"font_path": "/system/fonts/vivoSansClockVF.ttf",
+			"font_weight": 600
+		},
+		"main_color": {
+			"type_id": -3,
+			"progress": 50
+		},
+		"location": {
+			"start_row": 0,
+			"start_col": 0,
+			"row_count": 2,
+			"col_count": 4,
+			"align": 2
+		},
+		"unfold_location": {
+			"start_row": 0,
+			"start_col": 2,
+			"row_count": 2,
+			"col_count": 4,
+			"align": 2
+		},
+		"pad_portrait_location": {
+			"start_row": 0,
+			"start_col": 2,
+			"row_count": 2,
+			"col_count": 4,
+			"align": 2
+		},
+		"pad_landscape_location": {
+			"start_row": 0,
+			"start_col": 4,
+			"row_count": 2,
+			"col_count": 4,
+			"align": 2
+		}
+    },
+	"info_widget": {
+		"info_type": "com.vivo.systemuiplugin/lunar"
+	},
+	"shortcut": {
+		"left_tool": "phone",
+		"right_tool": "camera"
+	}
+}

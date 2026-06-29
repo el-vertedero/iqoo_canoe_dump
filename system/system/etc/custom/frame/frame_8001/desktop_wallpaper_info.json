@@ -1,0 +1,8 @@
+{
+  "type":2,
+  "subType": 8001,
+  "supportApplyType":30,
+  "wallpaperCustomProperty": 31,
+  "packageName":"com.vivo.livewallpaper.box",
+  "serviceName":"com.vivo.livewallpaper.box.wallpaper.TextDepth"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="person.run" layerInterval="50" playbackMode="overall"
+        symbolName="person.run" />
+    <unicodeInfo animUnicode="0x100022" />
+
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus glyphAnimProgress="100" color="0x292929" />
+            <parallelGroup delay="0" interpolator="ease">
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="360" to="150" />
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="200" />
+                    <animationItem animationType="glyphAnimProgress" duration="360" to="350" />
+                    <animationItem animationType="glyphAnimProgress" duration="800" to="450" />
+                </serialGroup>
+
+                <serialGroup interpolator="ease">
+                    <animationItem animationType="delay" duration="800" />
+                    <animationItem animationType="scale" duration="240" to="1.08" />
+                    <animationItem animationType="scale" duration="240" to="1" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="color" duration="400" to="0x1d1d1d" />
+                </serialGroup>
+
+
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

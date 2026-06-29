@@ -1,0 +1,75 @@
+<config version="10">
+    <zygote_all_must>  <!-- 所有项目必须支持的应用 -->
+        <package name="com.antutu.benchmark.full"/>         <!-- 安兔兔 -->
+        <package name="com.antutu"/>                        <!-- 安兔兔 -->
+        <package name="com.primatelabs.geekbench"/>         <!-- geekbench -->
+    </zygote_all_must>
+
+    <zygote_oversea_must>   <!-- 外销必须支持的应用 -->
+    </zygote_oversea_must>
+
+    <zygote_domestic_must>   <!-- 内销必须支持的应用 -->
+        <package name="com.sy.hdqy"/>                               <!-- 混沌起源 -->
+        <package name="com.wmcj.zsyj.vivo"/>                        <!-- 战神遗迹 -->
+        <package name="com.tencent.tmgp.wuxia"/>                    <!-- 天涯明月刀 -->
+        <package name="com.weiqi99.www"/>                           <!-- 99围棋 -->
+        <package name="com.k9.game1060"/>                           <!-- 末日危机 -->
+        <package name="com.shenghe.wzzs.vivo"/>                     <!-- 傲世龙城1 -->
+        <package name="com.sswl.cq3dbhfkfb"/>                       <!-- 傲世龙城2 -->
+        <package name="com.jf.sgzdz.cc"/>                           <!-- 三国志大战 -->
+        <package name="com.blackwings.sgzdz.vivo"/>                 <!-- 三国志大战2 -->
+        <package name="com.juefeng.sgzdz.batu"/>                    <!-- 三国志大战3 -->
+        <package name="com.mrqx"/>                                  <!-- 末日前线 -->
+        <package name="com.ztgame.jielan"/>                         <!-- 街篮 -->
+        <package name="acieec.abjhsy"/>                             <!-- 神域大陆 -->
+        <package name="com.tencent.af"/>                            <!-- 王牌战士 -->
+        <package name="com.yyws.hlfs.vivo"/>                        <!-- 混乱封神 -->
+        <package name="com.xiangsuchuangzaoshijie.vivo"/>           <!-- 像素创造世界 -->
+        <package name="com.netease.tx.vivo"/>                       <!-- 征战天下 -->
+        <package name="com.chengshizhuijisai.vivo"/>                <!-- 城市追击赛 -->
+        <package name="com.shenghe.wzcq.vivo"/>                     <!-- 王者传奇1 -->
+        <package name="com.tencent.tmgp.shenghewzcq"/>              <!-- 王者传奇2 -->
+        <package name="com.shenghe.wzcq"/>                          <!-- 王者传奇3 -->
+        <package name="com.ShengHe.wzcq"/>                          <!-- 王者传奇4 -->
+        <package name="com.nasanx.jiojs.twlyx"/>                    <!-- 王者传奇5 -->
+        <package name="com.myks.cthy"/>                             <!-- 魔域 -->
+        <package name="com.yodo1.SkiSafari.BUBUGAO"/>               <!-- 滑雪大冒险 -->
+        <package name="com.szjx.xjhxldlwzgbflb.chudian.btgo"/>      <!-- 星界幻想 -->
+        <package name="game.qp.kdjh"/>                              <!-- 真人竞技 -->
+        <package name="com.tencent.tmgp.dtszj"/>                    <!-- 永恒纪元 -->
+        <package name="com.ygdbns.zhekoushenqi"/>                   <!-- 一个都不能死 -->
+        <package name="com.gstarmc.android"/>                       <!-- CAD看图王 -->
+        <package name="com.m37.yhjyj."/>                            <!-- 永恒纪元2 -->
+        <package name="com.tencent.yoozoo.got.wintercoming"/>       <!-- 权力的游戏 凛冬将至 -->
+        <package name="com.jsdw.byhzw."/>                           <!-- 冰与火之舞 -->
+        <package name="com.tencent.tmgp.qwyhbl"/>                   <!-- 永恒部落 -->
+        <package name="com.netease.nshhelper"/>                     <!-- 逆水寒 -->
+        <package name="com.dji.robomaster"/>                        <!-- RoboMaster -->
+        <package name="com.yunbu.nightmare."/>                      <!-- 无尽噩梦 -->
+        <package name="com.yygame.motome.bikeheros."/>              <!-- 摩托英雄传奇 -->
+        <package name="com.chaofanqichejiashi00"/>                  <!-- 超凡汽车驾驶 -->
+        <package name="com.chaojixrz00"/>                           <!-- 超级小忍者 -->
+        <package name="com.zjyd.jyppsq"/>                           <!-- 解压泡泡神器 -->
+        <package name="com.hy.hthjmnq.vivo"/>                       <!-- 航天火箭模拟器 -->
+        <package name="com.tianmashikong.qmqj.guopan"/>             <!-- 全民奇迹 -->
+        <package name="com.syyx.noahmobile"/>                       <!-- 诺亚传说 -->
+        <package name="com.tencent.tmgp.sskgame"/>                  <!-- 圣斗士星矢 -->
+        <package name="com.m648sy.smjhsldyzqqdhf.yy3733"/>          <!-- 究极宝贝 -->
+        <package name="com.aaamyzt"/>                               <!-- 魔域征途 -->
+        <package name="com.syyx.noahmobile"/>                       <!-- 诺亚传说 -->
+    </zygote_domestic_must>
+
+    <zygote_domestic_ram_above value="8" >   <!-- 内销条件支持: 内存大于8 -->
+    </zygote_domestic_ram_above>
+
+    <zygote_domestic_ram_equal value="12" >   <!-- 内销条件支持: 内存大于12 -->
+    </zygote_domestic_ram_equal>
+
+    <!-- 特定平台的特定应用取消功能配置 -->
+    <zygote_platform_package platforms="SM8850 SM8845 MTK6993">     <!-- 多个平台名称用空格隔开 -->
+        <package name="com.antutu"/>                                <!-- 安兔兔 -->
+    </zygote_platform_package>
+
+    <zygote_expand_heap>       <!-- 堆扩展 -->
+    </zygote_expand_heap>
+</config>

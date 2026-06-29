@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!--中东非MEA：约旦JO、阿拉伯联合酋长国AE、也门YE、伊拉克IQ、加纳GH、科特迪瓦CI、坦桑尼亚TZ、埃及EG、肯尼亚KE、尼日利亚NG、安哥拉AO、突尼斯TN、阿尔及利亚DZ、
+	分销：约旦JO+黎巴嫩LB、分销：阿拉伯联合酋长国AE+阿曼OM、卡塔尔QA、巴林BH、科威特KW、分销：肯尼亚KE+乌干达UG==沙特阿拉伯临时去掉SA-->
+	<!--通话录音配置  支持：约旦JO、沙特阿拉伯SA、阿拉伯联合酋长国AE、也门YE、伊拉克IQ、加纳GH、科特迪瓦CI、坦桑尼亚TZ、埃及EG、肯尼亚KE、尼日利亚NG、安哥拉AO、突尼斯TN、阿尔及利亚DZ、黎巴嫩LB、阿曼OM、卡塔尔QA、巴林BH、科威特KW、乌干达UG、摩洛哥MA、埃塞俄比亚ET-->
+	<!--通话录音配置  不支持：无-->
+	<feature name= "com.google.android.apps.dialer.call_recording_audio" 
+	defaultValue = "true"
+	available = "JO,AE,YE,IQ,GH,CI,TZ,EG,KE,NG,AO,TN,DZ,LB,OM,QA,BH,KW,UG,MA,ET"
+	unavailable = ""
+	/>
+</config>

@@ -1,0 +1,10 @@
+<!--
+    Input:
+        external/factory/hardware/interfaces/vivoatcmd/aidl/default/vendor.factory.hardware.vivoatcmd.xml
+-->
+<manifest version="9.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.factory.hardware.vivoatcmd</name>
+        <fqname>IVivoAtcmd/default</fqname>
+    </hal>
+</manifest>

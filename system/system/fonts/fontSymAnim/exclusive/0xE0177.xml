@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0177" />
+
+    <animationList>
+        <symbolAnimation layerCnt="6">
+            <originStatus alpha="1.0" glyphAnimProgress="100" >
+                <layer index="4" alpha="0.001" />
+            </originStatus>
+            <parallelGroup >
+                <serialGroup>
+                    <!--  扔掉小挡板  -->
+                    <animationItem animationType="translateX" duration="0" to="-200" layersIndex="5" />
+                    <animationItem animationType="glyphAnimProgress" duration="250" to="500" />
+                </serialGroup>
+
+                <!-- 斜杠 -->
+                <animationItem animationType="dynamicColor" duration="250" to="0x000000" layersIndex="4" interpolator="custom(0.25, 0.09, 0.25, 1.00)"  />
+                <animationItem animationType="alpha" duration="50" to="1" layersIndex="4"  interpolator="custom(0.46, 0.70, 0.25, 1.00)" />
+
+                <!-- 喇叭 -->
+                <animationItem animationType="dynamicColor" duration="250" to="0x000000" layersIndex="2" interpolator="custom(0.25, 0.09, 0.25, 1.00)"  />
+
+                <!-- 声波 -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="250" to="0.001" layersIndex="1"  interpolator="custom(0.25, 0.08, 0.25, 1.00)" />
+                    <animationItem animationType="translateX" duration="0" to="-200" layersIndex="1" />
+                </serialGroup>
+
+
+                <!-- 背景图 + 斜杠挡板 -->
+                <animationItem animationType="dynamicColor" duration="250" to="0xFFFFFF" layersIndex="0,3" interpolator="custom(0.17, 0.00, 0.25, 1.00)"  />
+                <animationItem animationType="dynamicAlpha" duration="250" to="0.65" layersIndex="0,3"  interpolator="custom(0.17, -0.10, 0.83, 1.00)" />
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

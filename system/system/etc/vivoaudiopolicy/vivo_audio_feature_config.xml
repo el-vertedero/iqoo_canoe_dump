@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<customlists>
+	<clist name="persist.vivo.audio.feature.vc.order.voicer.vos">
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vivo_normal.vos.IN" value="IN=1,voicer=-1,2,4,3,5,6" />
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vivo_ai.vos.default" value="default=3,voicer=-1,11,13,14,12,10,16,15,17,2,4,3,5,6" />
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vivo_ai.vos.IN" value="IN=3,voicer=-1,110,130,140,120,10,16,15,17,2,4,3,5,6" />
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vivo_ai.vos.ID" value="ID=3,voicer=-1,110,130,140,120,10,16,15,17,2,4,3,5,6" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.muteplay.closepa">
+		<item name="persist.vivo.audio.feature.muteplay.closepa.type" value="2" />
+		<item name="persist.vivo.audio.feature.muteplay.closepa.time" value="3000" />
+		<item name="persist.vivo.audio.feature.playback_silence.audiosuspend.solution" value="0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.record.parameters.timems">
+		<item name="debug.sys.mic.block.fps.show.num" value="1" />
+		<item name="persist.vivo.audio.feature.record.touchevent.max_delay.timems" value="1000" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.vivo.att.ux.imagdetest">
+		<item name="persist.vivo.audio.feature.vivo.img.jqt" value="100" />
+		<item name="persist.vivo.audio.feature.vivo.img.pzl" value="0" />
+		<item name="persist.vivo.audio.feature.vivo.img.pcache" value="4" />
+		<item name="persist.vivo.audio.feature.vivo.img.pdvs" value="4" />
+		<item name="persist.vivo.audio.feature.vivo.img.pdfcl" value="0" />
+		<item name="persist.vivo.audio.feature.vivo.img.fltflg" value="72" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.vivoaudiopolicy_version">
+		<item name="persist.vivo.audio.feature.vivoaudiopolicy.version" value="3.6.0" />
+		<item name="persist.vivo.audio.feature.directional_playback.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.micinfo_vcode.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.speaker_vcode.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.spkbvm_vcode.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.recordevent_vcode.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.callmute_vcode.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.muteplay_disablepa.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.muteplay_disablepa_version2.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.standby_disablepa.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.standby_disablepa_version2.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.vivomediaresource_monitor.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.bt_recorder.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.restorevolume.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.mistouchprevention_mediasession.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.vivomediaresource_killer.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.vivomediaresource_get_activity.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.vivobitmap_optimize.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.ktvmode.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.usenxp.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.voice_call_sar.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.slientkey_mute_media_blacklist.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.game_vc_vmagic_effect.disable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.individual.media.vol.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.pre_start_bt.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.mediametrics.anchor.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.vivo_spat_multi_channel.disable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.twsringtone.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.media_autoboost.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.ap.offload.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.adsp.visualizer.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.audio.offload.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.3rdapk.offload.available.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.collectepmdata.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.sco.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.sco.reroute_speaker.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.btfakepause.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.change.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.intercept.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.adjust_streamtype.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.adapte_volume.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.intercept_localkeyboard.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.adapte_volume_phonecall.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.recording_adapte_volume.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.playback.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.playback.pause_mute.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.playback.force_pause_mute.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.playback.phonecall_advolume.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.playback.media_mute_detection.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.voip.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.voip.reroute_record.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.voip.force_reroute_record.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.voip.adapte_volume.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.voip.doze_remit.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.speakerphone.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.speakerphone.intercept.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.bind_playback.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.request_intercept.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.abandon_intercept.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.gain_focus.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.interactive.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.device_change.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.duck_player.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.focus.fadeout_player.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.record.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.record.silent_mode.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.record.share_record.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.volume.voip_ring_oneclick_mute.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.cache_state.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.vdec.cpu.unbin.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.ckmutebyuid.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.codec.refine.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.audio_satellite.enable.version" value="1.0.0" />
+		<item name="persist.sys.audio.vapc.voip.force_ring_stop.enable.version" value="1.0.0" />
+		<item name="persist.vivo.audio.feature.media_evaluation.imei.enable.version" value="1.0.0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.speaker_vcode">
+		<item name="persist.vivo.audio.feature.speaker_vcode.report.time.ms" value="86400000" />
+		<item name="persist.vivo.audio.feature.speaker_vcode.report.max.count" value="3600" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.callmute_vcode">
+		<item name="persist.vivo.audio.feature.callmute_threshold" value="95" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.voip_adapte_volume">
+		<item name="com.baidu.BaiduMap" value="60" />
+		<item name="com.autonavi.minimap" value="60" />
+		<item name="com.dragon.read" value="25" />
+		<item name="com.ximalaya.ting.android" value="25" />
+		<item name="com.kugou.android" value="25" />
+		<item name="com.netease.cloudmusic" value="25" />
+		<item name="com.tencent.qqmusic" value="25" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.btcarkit_adapte_volume">
+		<item name="com.baidu.BaiduMap" value="65" />
+		<item name="com.autonavi.minimap" value="65" />
+		<item name="com.tencent.mm" value="65" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.btcarkit_with_phonecall_adapte_volume">
+		<item name="com.baidu.BaiduMap" value="60" />
+		<item name="com.autonavi.minimap" value="60" />
+		<item name="com.tencent.map" value="60" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.recording_adapte_volume">
+		<item name="com.baidu.BaiduMap" value="0" />
+		<item name="com.autonavi.minimap" value="0" />
+		<item name="com.tencent.map" value="0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.volume.parameters.timems">
+		<item name="persist.vivo.audio.feature.volume.touchevent.max_delay.timems" value="150" />
+		<item name="persist.vivo.audio.feature.volume.intercept.volumekey.timems" value="200" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.volume.touchevent.specialTHR.timems">
+		<item name="com.smile.gifmaker" value="220" />
+		<item name="com.kuaishou.nebula" value="220" />
+		<item name="com.qiyi.video" value="250" />
+		<item name="tv.danmaku.bili" value="450" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.btsco.timeout">
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.btsco.firstconnect_time">
+		<item name="com.tencent.tmgp.pubgmhd" value="1000" />
+		<item name="com.tencent.tmgp.sgame" value="1000" />
+		<item name="com.netease.l22.vivo" value="3000" />
+		<item name="com.netease.l22" value="3000" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.btignore.mediakey">
+		<item name="persist.vivo.audio.feature.btignore.mediakey.time.ms" value="1000" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.speakerphone.parameters.timems">
+		<item name="persist.vivo.audio.feature.speakeron.touchevent.max_delay.timems" value="300" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.backlist.phonecall.adapte.volume">
+		<item name="com.ss.android.ugc.aweme" value="0" />
+		<item name="com.smile.gifmaker" value="0" />
+		<item name="com.ss.android.article.video" value="0" />
+		<item name="com.mobile.videonews.li.video" value="0" />
+		<item name="com.tencent.rijvideo" value="0" />
+		<item name="com.baidu.haokan" value="0" />
+		<item name="com.ss.android.article.news" value="0" />
+		<item name="com.baidu.searchbox" value="0" />
+		<item name="com.baidu.searchbox.lite" value="0" />
+		<item name="com.tencent.mtt" value="0" />
+		<item name="com.vivo.browser" value="0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.playback.parameters">
+		<item name="persist.vivo.audio.feature.playback.report.delay.timems" value="1500" />
+		<item name="persist.vivo.audio.feature.playback.phonecall.unmute.timems" value="3500" />
+		<item name="persist.vivo.audio.feature.playback.mute.detection.timems" value="180000" />
+		<item name="persist.vivo.audio.feature.checkframe.delay.timems" value="80" />
+		<item name="persist.vivo.audio.feature.playback.silencelike.interval.times" value="6" />
+		<item name="persist.vivo.audio.feature.voip.ring_forcestop.delay.timems" value="180000" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.speakerphone.interceptors">
+		<item name="com.tencent.tmgp.sgame" value="all" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.systemrecordlatency">
+		<item name="persist.vivo.audio.feature.systemrecordlatency.qcom" value="200" />
+		<item name="persist.vivo.audio.feature.systemrecordlatency.samsung" value="200" />
+		<item name="persist.vivo.audio.feature.systemrecordlatency.mtk" value="200" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.focus.parameters.timems">
+		<item name="persist.vivo.audio.feature.focus.abandonevent.max_delay.timems" value="20" />
+		<item name="persist.vivo.audio.feature.focus.intercept.requestfocus.timems" value="100" />
+		<item name="persist.vivo.audio.feature.focus.longplay.mintimems" value="180000" />
+		<item name="persist.vivo.audio.feature.focus.shortplay.maxtimems" value="180000" />
+		<item name="persist.vivo.audio.feature.focus.playdetection.max_delay.timems" value="3000" />
+		<item name="persist.vivo.audio.feature.focus.togetherplay.timems" value="110" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.pommode">
+		<item name="others" value="30000" />
+		<item name="com.vivo.pom_1" value="5000" />
+		<item name="com.vivo.pom" value="5000" />
+		<item name="com.vivo.mediatune" value="5000" />
+		<item name="com.tencent.mm" value="20000" />
+		<item name="com.tencent.mobileqq:video" value="20000" />
+		<item name="com.tencent.mobileqq" value="20000" />
+		<item name="com.duowan.mobile" value="20000" />
+		<item name="com.duowan.makefriends" value="50000" />
+		<item name="com.c2vl.kgamebox" value="50000" />
+		<item name="im.yixin" value="20000" />
+		<item name="com.p1.mobile.putong" value="20000" />
+		<item name="com.tencent.qqlite" value="20000" />
+		<item name="com.alibaba.mobileim" value="20000" />
+		<item name="com.ifreetalk.ftalk" value="20000" />
+		<item name="com.cootek.smartdialer" value="20000" />
+		<item name="com.immomo.momo" value="20000" />
+		<item name="com.weihua.superphone" value="20000" />
+		<item name="com.sina.weibo" value="20000" />
+		<item name="com.tencent.tmgp.sgame" value="20000" />
+		<item name="com.tencent.wework" value="120000" />
+		<item name="com.imo.android.imoim" value="20000" />
+		<item name="com.facebook.orca" value="20000" />
+		<item name="com.bbm" value="20000" />
+		<item name="com.zing.zalo" value="20000" />
+		<item name="com.viber.voip" value="20000" />
+		<item name="com.whatsapp" value="20000" />
+		<item name="jp.naver.line.android" value="20000" />
+		<item name="com.ss.android.lark" value="600000" />
+		<item name="com.autonavi.minimap" value="6000" />
+		<item name="com.baidu.BaiduMap" value="6000" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.vc.magic_voicer_version">
+		<item name="persist.vivo.audio.feature.vc.magic.voicer.version" value="-1" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.vc.order.voicer">
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vivo" value="-1,10,11,12,13,14,17,15,16" />
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vmagic" value="-1,140,110,130,180,120,190,10,17,15,16" />
+		<item name="persist.vivo.audio.feature.vc.order.voicer.vc_vivo_ai" value="-1,140,110,130,210,180,120,190,10,200,17,15,16" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.ap.audioeffect">
+		<item name="persist.vivo.audio.feature.ap.audioeffect.type" value="0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.deepbuf.extra.latency">
+		<item name="persist.vivo.audio.feature.deepbuf.extra.latency.ms" value="0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.adsp.decoder.list">
+		<item name="persist.vivo.audio.feature.adsp.decoder.list.mtk" value="mpeg,mp4a-latm" />
+		<item name="persist.vivo.audio.feature.adsp.decoder.list.qcom" value="mpeg,vorbis,flac,mp4a-latm,alac,ape,wma,wma-pro" />
+		<item name="persist.vivo.audio.feature.adsp.decoder.list.qcom.qqmusic" value="mpeg,vorbis,flac,mp4a-latm" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.MusicVolumeLimit">
+		<item name="persist.vivo.audio.feature.MusicVolumeLimit.volume" value="0" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.vibrate.id.list">
+		<item name="persist.vivo.audio.feature.vibrate.id.list.forDefaultStreamType" value="95,81,81,82,82,83,83,84,84,85,85,86,86,87,87,94" />
+		<item name="persist.vivo.audio.feature.vibrate.id.list.forVoiceStreamType" value="95,95,81,82,83,84,85,86,87,88,94" />
+		<item name="persist.vivo.audio.feature.vibrate.id.list.forScoStreamType" value="95,95,81,81,82,82,83,83,84,84,85,85,86,86,87,94" />
+		<item name="persist.vivo.audio.feature.vibrate.id.list.forAccessibilityStreamType" value="95,95,81,81,82,82,83,83,84,84,85,85,86,86,87,94" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.abandon_focus_delay">
+		<item name="com.xingin.xhs" value="50" />
+		<item name="com.tencent.mm" value="50" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.game_guide_assistant">
+		<item name="persist.vivo.audio.feature.game_guide_assistant.volume" value="60" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.voip_ring_forcestop">
+		<item name="com.tencent.mm" value="60000" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.mediametrics.anchor">
+		<item name="persist.vivo.audio.feature.mediametrics.service.maxrecords_number" value="2000" />
+		<item name="persist.vivo.audio.feature.mediametrics.vivoanalytics.maxrecords_number" value="2000" />
+		<item name="persist.vivo.audio.feature.mediametrics.reportanchor.maxrecords_number" value="200" />
+		<item name="persist.vivo.audio.feature.mediametrics.limitmemory" value="4294967296" />
+		<item name="persist.vivo.audio.feature.mediametrics.playback.shorttoneTHR.timems" value="1000" />
+		<item name="persist.vivo.audio.feature.mediametrics.frequently.reportTHR.timems" value="180000" />
+		<item name="persist.vivo.audio.feature.lite_anchor_upload.days" value="90" />
+		<item name="persist.vivo.audio.feature.anchor_upload.days" value="365" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.apps.mediametrics.anchor.upload">
+		<item name="1.extype.reason.sub_extype" value="1900+audioserver_died+audioserverDied" />
+		<item name="29010.extype.issuelevel" value="2901+important" />
+		<item name="29011.extype.issuelevel" value="2901+critical" />
+		<item name="29020.extype.issuelevel" value="2902+important" />
+		<item name="29021.extype.issuelevel" value="2902+critical" />
+		<item name="29030.extype.issuelevel" value="2903+important" />
+		<item name="29031.extype.issuelevel" value="2903+critical" />
+		<item name="29040.extype.issuelevel" value="2904+important" />
+		<item name="29041.extype.issuelevel" value="2904+critical" />
+		<item name="29500.extype" value="2950" />
+		<item name="29510.extype.issuelevel" value="2951+important" />
+		<item name="29511.extype.issuelevel" value="2951+critical" />
+		<item name="29520.extype.issuelevel" value="2952+important" />
+		<item name="29521.extype.issuelevel" value="2952+critical" />
+		<item name="29530.extype.issuelevel" value="2953+important" />
+		<item name="29531.extype.issuelevel" value="2953+critical" />
+		<item name="29540.extype" value="2954" />
+		<item name="29550.extype.issuelevel" value="2955+important" />
+		<item name="29551.extype.issuelevel" value="2955+critical" />
+		<item name="29560.extype" value="2956" />
+		<item name="29570.extype.issuelevel" value="2957+important" />
+		<item name="29571.extype.issuelevel" value="2957+critical" />
+		<item name="29580.extype" value="2958" />
+		<item name="29590.extype" value="2959" />
+		<item name="29600.extype.issuelevel" value="2960+important" />
+		<item name="29601.extype.issuelevel" value="2960+critical" />
+		<item name="29610.extype" value="2961" />
+		<item name="29620.extype" value="2962" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.anchor_rule_config">
+		<item name="persist.vivo.audio.feature.anchor_rule_config.interval_time" value="3600000" />
+		<item name="persist.vivo.audio.feature.anchor_rule_config.limit_freq" value="1" />
+		<item name="persist.vivo.audio.feature.anchor_rule_config.day_limit_freq" value="24" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.image_encode_sharpen">
+		<item name="persist.vivo.audio.feature.image_encode_sharpen.min_pixels" value="518400" />
+		<item name="persist.vivo.audio.feature.image_encode_sharpen.max_pixels" value="3686400" />
+		<item name="persist.vivo.audio.feature.image_encode_sharpen.compress_format" value="3" />
+		<item name="persist.vivo.audio.feature.image_encode_sharpen.max_quality" value="90" />
+		<item name="persist.vivo.audio.feature.image_encode_sharpen.amount" value="75" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.bt_appdeque">
+		<item name="persist.vivo.audio.feature.bt_appdeque.size" value="20" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.mmi_test_config">
+		<item name="persist.vivo.audio.feature.mmi_test_config" value="-1" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.vivo.img.png_readbuffer_kb_cnt">
+		<item name="persist.vivo.audio.feature.vivo.img.pngkbcnt" value="128" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.audioclient.anchor_config">
+		<item name="persist.vivo.audio.feature.audioclient.xrun.threshold" value="1" />
+		<item name="persist.vivo.audio.feature.audioclient.xrun.checkcount" value="10" />
+	</clist>
+	<clist name="persist.vivo.audio.feature.audioeffect.anchor_config">
+		<item name="persist.vivo.audio.feature.audioeffect.check.interval" value="5" />
+		<item name="persist.vivo.audio.feature.audioeffect.xrun.threshold" value="1" />
+		<item name="persist.vivo.audio.feature.audioeffect.xrun.checkcount" value="10" />
+	</clist>
+</customlists>

@@ -1,0 +1,26 @@
+on post-fs-data
+    mkdir /data/SecureElement 0777 root root encryption=Attempt
+    mkdir /data/SecureElement/logData 0777 root root encryption=Attempt
+    mkdir /data/SecureElement/logData/log 0777 system system encryption=Attempt
+    mkdir /data/SecureElement/logData/rb 0777 system system encryption=Attempt
+    mkdir /data/SecureElement/logData/uploadFiles 0777 system system encryption=Attempt
+    mkdir /data/vendor/esehal/ 0777 system system encryption=Attempt
+    mkdir /data/vendor/esehal/vcd/ 0777 system system encryption=Attempt
+    write /data/vendor/esehal/vcd/halbplog 0
+    write /data/vendor/esehal/vcd/omatabplog 0
+    write /data/vendor/esehal/vcd/setabplog 0
+    chmod 0666 /data/vendor/esehal/vcd/halbplog
+    chmod 0666 /data/vendor/esehal/vcd/omatabplog
+    chmod 0666 /data/vendor/esehal/vcd/setabplog
+
+on property:persist.vendor.vivo.catselog=start
+   start catselog
+
+on property:persist.vendor.vivo.catselog=stop
+   stop catselog
+
+service catselog /system/bin/catselog.sh
+   class main
+   user root
+   group root
+   oneshot

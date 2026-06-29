@@ -1,0 +1,14 @@
+{
+
+		"themeSubType":5001,
+		"supportDeepType": 1,
+		"default_clock_style":"s2",
+		"isSupportOrigin":true,
+		"supportWallpaperStyle":[],
+		"supportUnlockSelectWallpaper":false,
+		"colorPictureTemplatePath":"",
+		"isDecorateEnable":3,
+		"isAODFollowType":1,
+		"isDeepEnable": 3
+
+}

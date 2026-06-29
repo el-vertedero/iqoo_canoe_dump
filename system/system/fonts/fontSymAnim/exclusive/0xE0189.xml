@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0189" />
+    <animationList>
+        <symbolAnimation layerCnt="3" glyphAnimProgress="100" >
+            <originStatus alpha="1" >
+            </originStatus>
+            <parallelGroup>
+
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="350" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="258" to="400" interpolator="custom(0.39, 0.15, 0.21, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

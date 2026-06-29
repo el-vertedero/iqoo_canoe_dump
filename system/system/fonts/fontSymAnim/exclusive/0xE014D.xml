@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE014D" />
+
+    <animationList>
+        <symbolAnimation layerCnt="7">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="3,4,5" />
+                    <animationItem animationType="glyphAnimProgress" duration="0" to="150" />
+                </serialGroup>
+
+                <!-- 心形 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="200" to="0.75" layersIndex="0,1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="scale" duration="240" to="0.8" layersIndex="0,1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="240" />
+                    <animationItem animationType="alpha" duration="40" to="0" layersIndex="0" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+                <!-- 心形-斜杆 -->
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="160" to="-12.677" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="160" to="0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="translateX" duration="0" to="-100" layersIndex="1" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="translateY" duration="160" to="-12.894" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 圆 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="200" to="0.75" layersIndex="3" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="scale" duration="240" to="1.1" layersIndex="3" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="scale" duration="200" to="1" layersIndex="3" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="200" />
+<!--                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="0" />-->
+                    <animationItem animationType="alpha" duration="40" to="1" layersIndex="3" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+                <!-- 下箭头 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="240" />
+                    <animationItem animationType="translateY" duration="0" to="41.115" layersIndex="5" />
+                    <animationItem animationType="translateY" duration="240" to="-2.284" layersIndex="5" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+<!--                    <animationItem animationType="translateY" duration="200" to="0" layersIndex="5" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />-->
+                    <animationItem animationType="translateY" duration="80" to="-4.07" layersIndex="5" interpolator="custom(0.17, 0.00, 0.57, 0.35)" />
+                    <animationItem animationType="translateY" duration="120" to="0" layersIndex="5" interpolator="custom(0.40, 0.46, 0.84, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="240" />
+                    <animationItem animationType="scale" duration="0" to="0.75" layersIndex="5" />
+                    <animationItem animationType="scale" duration="240" to="1.1" layersIndex="5" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="scale" duration="200" to="1" layersIndex="5" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="240" />
+                    <animationItem animationType="alpha" duration="160" to="1" layersIndex="5" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+
+                <!-- 上箭头 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="200" />
+                    <animationItem animationType="translateY" duration="0" to="41.115" layersIndex="4" />
+                    <animationItem animationType="translateY" duration="240" to="-2.284" layersIndex="4" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+<!--                    <animationItem animationType="translateY" duration="200" to="0" layersIndex="4" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />-->
+                    <animationItem animationType="translateY" duration="80" to="-4.64" layersIndex="4" interpolator="custom(0.17, 0.00, 0.57, 0.35)" />
+                    <animationItem animationType="translateY" duration="120" to="0" layersIndex="4" interpolator="custom(0.40, 0.46, 0.84, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="200" />
+                    <animationItem animationType="scale" duration="0" to="0.75" layersIndex="4" />
+                    <animationItem animationType="scale" duration="240" to="1.1" layersIndex="4" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="scale" duration="200" to="1" layersIndex="4" interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="200" />
+                    <animationItem animationType="alpha" duration="200" to="1" layersIndex="4" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

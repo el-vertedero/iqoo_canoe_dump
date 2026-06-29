@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0110" />
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus >
+            </originStatus>
+
+            <parallelGroup>
+
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="317" to="150" interpolator="custom(0.33, 0.00, 0.59, 0.78)"  />
+                    <animationItem animationType="glyphAnimProgress" duration="350" to="200" interpolator="custom(0.33, 0.00, 0.28, 0.58)"  />
+                    <animationItem animationType="glyphAnimProgress" duration="267" to="250" interpolator="custom(0.33, 0.00, 0.48, 0.98)"  />
+                </serialGroup>
+
+<!--                &lt;!&ndash; 点 &ndash;&gt;-->
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateX" duration="317" to="4.059365942" layersIndex="1" interpolator="custom(0.33, 0.00, 0.59, 0.78)"  />-->
+<!--                    <animationItem animationType="translateX" duration="350" to="-0.286721014" layersIndex="1" interpolator="custom(0.33, 0.00, 0.28, 0.58)"  />-->
+<!--                    <animationItem animationType="translateX" duration="267" to="0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.48, 0.98)"  />-->
+<!--                </serialGroup>-->
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateY" duration="317" to="3.485923913" layersIndex="1" interpolator="custom(0.33, 0.00, 0.59, 0.78)"  />-->
+<!--                    <animationItem animationType="translateY" duration="350" to="-0.286721014" layersIndex="1" interpolator="custom(0.33, 0.00, 0.28, 0.58)"  />-->
+<!--                    <animationItem animationType="translateY" duration="267" to="0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.48, 0.98)"  />-->
+<!--                </serialGroup>-->
+
+<!--                &lt;!&ndash; 圈 &ndash;&gt;-->
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateX" duration="317" to="-3.953731884" layersIndex="0" interpolator="custom(0.40, 0.00, 0.20, 1.00)"  />-->
+<!--                    <animationItem animationType="translateX" duration="350" to="0.301811594" layersIndex="0" interpolator="custom(0.29, 0.19, 0.20, 1.00)"  />-->
+<!--                    <animationItem animationType="translateX" duration="267" to="0" layersIndex="0" interpolator="custom(0.33, 0.00, 0.48, 0.98)"  />-->
+<!--                </serialGroup>-->
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateY" duration="317" to="-4.527173913" layersIndex="0" interpolator="custom(0.40, 0.00, 0.20, 1.00)"  />-->
+<!--                    <animationItem animationType="translateY" duration="350" to="0.301811594" layersIndex="0" interpolator="custom(0.29, 0.19, 0.20, 1.00)"  />-->
+<!--                    <animationItem animationType="translateY" duration="267" to="0" layersIndex="0" interpolator="custom(0.33, 0.00, 0.48, 0.98)"  />-->
+<!--                </serialGroup>-->
+
+            </parallelGroup>
+
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

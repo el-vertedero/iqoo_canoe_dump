@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="pulse" layerInterval="0" playbackMode="$playBackMode"
+        playbackOrder="parallel" />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus alpha="1" />
+            <serialGroup delay="0" interpolator="ease">
+                <animationItem animationType="alpha" duration="1000" to="0" />
+                <animationItem animationType="alpha" duration="1000" to="1" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+    <dynamicOpts>
+        <opt id="playbackMode">
+            <case id="overall">
+                <value id="$playBackMode">overall</value>
+            </case>
+            <case id="byLayer">
+                <value id="$playBackMode">byLayer</value>
+            </case>
+        </opt>
+    </dynamicOpts>
+
+
+</fontSymbolAnimation>

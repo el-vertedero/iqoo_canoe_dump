@@ -1,0 +1,10 @@
+service vsp_service /system/bin/vsp_service
+    user root
+    class main
+    seclabel u:r:installd:s0
+    disabled
+on property:persist.vivo.vspservice=0
+    stop  vsp_service
+
+on property:persist.vivo.vspservice=1
+    start vsp_service

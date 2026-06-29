@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TaskConfig version="1.0">
+    <Task name="AT+BK_FDT_UDF=3,3" version="1.0">
+        <FingerprintViewRequest windowState="1" iconType="0" boundType="3"/>
+        <CommandRequest require="32628" extra="1001" loop="1" timeout="20000"/>
+    </Task>
+    <Task name="Spi" version="1.0">
+        <CommandRequest require="32549" extra="0" loop="1"/>
+    </Task>
+    <Task name="UltrasonicBge" version="1.0">
+        <CommandRequest require="32556" extra="1000" loop="1"/>
+    </Task>
+    <Task name="UltrasonicSnr" version="1.0">
+        <CommandRequest require="32557" extra="1001" loop="1"/>
+    </Task>
+    <Task name="BadPixelDetection" version="1.0">
+        <CommandRequest require="32628" extra="1001" loop="1" timeout="20000"/>
+    </Task>
+    <Task name="AT+BK_FDT_UDF=2" alias="Spi" version="1.0">
+        <CommandRequest require="32632" extra="1" loop="1"/>
+        <CommandRequest require="32549" extra="0" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_UDF=3,1" version="1.0">
+        <CommandRequest require="32632" extra="1" loop="1"/>
+        <CommandRequest require="32556" extra="1000" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_UDF=3,2" version="1.0">
+        <FingerprintViewRequest windowState="1" iconType="0" boundType="4"/>
+        <CommandRequest require="32632" extra="1" loop="1"/>
+        <CommandRequest require="32557" extra="1000" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_SNID=0" version="1.0">
+        <CommandRequest require="32632" extra="1" loop="1"/>
+        <CommandRequest require="32562" extra="0" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_UDF_BACK=2" alias="Spi" version="1.0">
+        <CommandRequest require="32632" extra="2" loop="1"/>
+        <CommandRequest require="32549" extra="0" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_UDF_BACK=3,1" version="1.0">
+        <CommandRequest require="32632" extra="2" loop="1"/>
+        <CommandRequest require="32556" extra="1000" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_UDF_BACK=3,2" version="1.0">
+        <FingerprintViewRequest windowState="1" iconType="0" boundType="4"/>
+        <CommandRequest require="32632" extra="2" loop="1"/>
+        <CommandRequest require="32557" extra="1000" loop="1"/>
+    </Task>
+    <Task name="AT+BK_FDT_SNID_BACK=0" version="1.0">
+        <CommandRequest require="32632" extra="2" loop="1"/>
+        <CommandRequest require="32562" extra="0" loop="1"/>
+    </Task>
+    <Task name="CopyImage" version="1.0">
+        <CommandRequest require="32629" loop="1" timeout="1000" extra="0"/>
+    </Task>
+</TaskConfig>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.spe.ScenePlugin"
+    __ver__="1">
+    <elem __name__="scene_config"
+        scene_enable="false"/>
+
+    <group __id__="app_hint">
+        <group __id__="com.tencent.wemeet.app">
+            <elem __name__="com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity"
+                hint_id="0x00001091"
+                hint="3112"
+                screen="on"
+                fullScreen="1"
+                multiState="3172,3112"
+                statusBit="screen"/>
+        </group>
+
+        <group __id__="com.tencent.qqlive">
+            <elem __name__="com.tencent.qqlive.ona.activity.VideoDetailActivity"
+                hint_id="0x00001091"
+                hint="3113"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.tencent.qqlive.kmm.VideoDetailKmmActivityBk"
+                hint_id="0x00001091"
+                hint="3113"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.smile.gifmaker">
+            <elem __name__="com.yxcorp.gifshow.HomeActivity"
+                hint_id="0x00001091"
+                hint="3171"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.yxcorp.gifshow.detail.PhotoDetailActivity"
+                hint_id="0x00001091"
+                hint="-1"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.kuaishou.live.core.basic.activity.LiveSlideActivity"
+                hint_id="0x00001091"
+                hint="3175"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.tencent.mm">
+            <elem __name__="com.tencent.mm.plugin.voip.ui.VideoActivity"
+                hint_id="0x00001091"
+                hint="3173"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI"
+                hint_id="0x00001091"
+                hint="3220"/>
+
+            <elem __name__="com.tencent.mm.plugin.sns.ui.SnsUserUI"
+                hint_id="0x00001091"
+                hint="3220"/>
+
+            <elem __name__="com.tencent.mm.ui.chatting.ChattingUI"
+                hint_id="0x00001091"
+                hint="3221"/>
+
+            <elem __name__="com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI"
+                hint_id="0x00001091"
+                hint="3222"/>
+
+            <elem __name__="com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI1"
+                hint_id="0x00001091"
+                hint="3222"/>
+
+            <elem __name__="com.tencent.mm.plugin.appbrand.ui.AppBrandUI00"
+                hint_id="0x00001091"
+                hint="3222"/>
+
+            <elem __name__="com.tencent.mm.plugin.appbrand.ui.AppBrandUI2"
+                hint_id="0x00001091"
+                hint="3222"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI"
+                hint="3223"
+                hint_id="0x00001091"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.feed.ui.FinderAllTimelineUI"
+                hint="3223"
+                hint_id="0x00001091"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.feed.ui.FinderSelfHistoryTimeLineUI"
+                hint="3223"
+                hint_id="0x00001091"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.ui.FinderShareFeedRelUI"
+                hint="3223"
+                hint_id="0x00001091"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI"
+                hint="3223"
+                hint_id="0x00001091"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.ui.FinderLikedFeedUI"
+                hint="3223"
+                hint_id="0x00001091"/>
+
+            <elem __name__="视频号"
+                combined_name="com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI,com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI"
+                fixed_combined="0"
+                fullScreen="1"
+                hint="3223"
+                hint_id="0x00001091"
+                multiState="-1,3223"
+                screen="on"
+                statusBit="miniProgram"/>
+
+            <elem __name__="无尽冬日"
+                combined_name="com.tencent.mm.plugin.appbrand.ui.AppBrandUI,com.tencent.mm.plugin.appbrand.ui.AppBrandUI1,com.tencent.mm.plugin.appbrand.ui.AppBrandUI2,com.tencent.mm.plugin.appbrand.ui.AppBrandUI3,com.tencent.mm.plugin.appbrand.ui.AppBrandUI4"
+                fixed_combined="1"
+                fullScreen="1"
+                hint="3183"
+                hint_id="0x00001091"
+                input_event="off"
+                multiState="-1,3301"
+                screen="on"
+                statusBit="miniProgram"/>
+
+            <elem __name__="com.tencent.mm.plugin.finder.feed.ui.FinderLiveVisitorWithoutAffinityUI"
+                hint_id="0x00001091"
+                hint="3224"/>
+        </group>
+
+        <group __id__="com.autonavi.minimap">
+            <elem __name__="com.autonavi.map.activity.SplashActivity"
+                hint_id="0x00001091"
+                hint="-1"
+                screen="on"
+                fullScreen="1"
+                statusBit="nav,carLifeOn,screen,media"
+                specifyState="5:3114,13:3116,3:3183,11:3184"/>
+
+            <elem __name__="com.autonavi.map.activity.NewMapActivity"
+                hint_id="0x00001091"
+                hint="-1"
+                screen="on"
+                fullScreen="1"
+                statusBit="nav,carLifeOn,screen,media"
+                specifyState="5:3114,13:3116,3:3183,11:3184"/>
+        </group>
+
+        <group __id__="com.baidu.BaiduMap">
+            <elem __name__="com.baidu.baidumaps.MapsActivity"
+                hint_id="0x00001091"
+                hint="-1"
+                screen="on"
+                fullScreen="1"
+                statusBit="nav,carLifeOn,screen,media"
+                specifyState="5:3117,13:3115,3:3181,11:3181"/>
+        </group>
+
+        <group __id__="com.youku.phone">
+            <elem __name__="com.youku.ui.activity.DetailActivity"
+                hint_id="0x00001091"
+                hint="3101"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="tv.danmaku.bili">
+            <elem __name__="com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity"
+                hint_id="0x00001091"
+                hint="3102"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.bilibili.video.story.StoryVideoActivity"
+                hint_id="0x00001091"
+                hint="3102"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3"
+                hint_id="0x00001091"
+                hint="3102"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.bilibili.video.story.StoryTransparentActivity"
+                hint_id="0x00001091"
+                hint="3102"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+    </group>
+</group>

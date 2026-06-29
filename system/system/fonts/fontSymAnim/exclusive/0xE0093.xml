@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0093" />
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="3">
+            <originStatus glyphAnimProgress="100" />
+            <serialGroup>
+                <animationItem animationType="delay" duration="310" />
+                <animationItem animationType="glyphAnimProgress" duration="23" to="130" />
+                <animationItem animationType="delay" duration="300" />
+                <animationItem animationType="glyphAnimProgress" duration="34" to="149" />
+                <animationItem animationType="delay" duration="333" />
+            </serialGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+</fontSymbolAnimation>

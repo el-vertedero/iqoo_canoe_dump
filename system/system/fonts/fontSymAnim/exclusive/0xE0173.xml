@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0173" />
+
+    <animationList>
+
+        <symbolAnimation layerCnt="3"  >
+            <drawAnimDataList>
+                <drawAnimData layers="0" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="16" contourIndex1="1" pointIndex1="16" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="8" contourIndex1="1" pointIndex1="24" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="24" acrossBasePoint0="1" contourIndex1="1" pointIndex1="8" acrossBasePoint1="1" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="16"   contourIndex1="1" pointIndex1="16"   />
+                </drawAnimData>
+
+                <drawAnimData layers="1" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="29" contourIndex1="2" pointIndex1="30" />
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="22" contourIndex1="2" pointIndex1="37" />
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="20" contourIndex1="2" pointIndex1="5" acrossBasePoint1="1" />
+                    <guidePointPair type="0" contourIndex0="2" pointIndex0="13" contourIndex1="2" pointIndex1="12" />
+                </drawAnimData>
+            </drawAnimDataList>
+            <originStatus glyphAnimProgress="100" drawHead="0" >
+            </originStatus>
+            <parallelGroup >
+
+                <!-- 第一帧将挡板挪走 -->
+                <animationItem animationType="translateX" duration="0" to="-400" layersIndex="2" />
+
+                <serialGroup>
+                    <animationItem animationType="drawHead" layersIndex="0" duration="0" to="0"/>
+                    <animationItem animationType="drawHead" layersIndex="0" duration="350" to="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="drawHead" layersIndex="1" duration="0" to="0"/>
+                    <animationItem animationType="delay" duration="350" />
+                    <animationItem animationType="drawHead" layersIndex="1" duration="67" to="0.32" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <animationItem animationType="drawHead" layersIndex="1" duration="17" to="0.34" interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                    <animationItem animationType="drawHead" layersIndex="1" duration="350" to="1" interpolator="custom(0.17, 0.17, 0.30, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+</fontSymbolAnimation>

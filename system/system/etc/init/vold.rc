@@ -1,0 +1,26 @@
+service vold /system/bin/vold \
+        --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 \
+        --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+    class core
+    ioprio be 2
+    task_profiles ProcessCapacityHigh
+    shutdown critical
+    group root reserved_disk
+    user root
+    reboot_on_failure reboot,vold-failed
+
+# process cryptfs exception
+on property:sys.user.0.ce_available=true
+    exec - root -- /system/bin/vdc --wait cryptfs exceptionProcess sync check
+    setprop ro.vendor.vivo.fbe_reason ${vold.cryptfs.exception}
+    exec_background - root -- /system/bin/vdc --wait cryptfs exceptionProcess async
+    exec - root media_rw -- /system/bin/vdc --wait oem clearcsr
+
+# vivo bsp security add for ids
+on property:ro.vendor.defend.tee_ids_need_check=yes
+    exec - root -- /system/bin/vdc --wait oem check_rkp_component_ids default 0
+    setprop ro.vendor.defend.tee_ids_check_status ${sys.tee_ids_check_status}
+
+on property:vendor.oemcsr.get_csr=yes
+    exec - root media_rw -- /system/bin/vdc --wait oem getcsr
+    setprop vendor.oemcsr.get_csr_status ${sys.vivo.oem_csr_status}

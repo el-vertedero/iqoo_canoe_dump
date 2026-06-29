@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE018A" />
+    <animationList>
+        <symbolAnimation layerCnt="2" glyphAnimProgress="100" >
+            <originStatus alpha="1" >
+            </originStatus>
+            <parallelGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="117" />
+                    <animationItem animationType="glyphAnimProgress" duration="17" to="150" interpolator="custom(0.17, 0.17, 0.67, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="250" to="200" interpolator="custom(0.15, 0.18, 0.30, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="250" to="250" interpolator="custom(0.10, 0.00, 0.30, 1.00)" />
+                </serialGroup>
+
+                <!-- 外框 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="133" to="0"  layersIndex="0,1" interpolator="custom(0.42, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="scale" duration="250" to="1.18"  layersIndex="0,1" interpolator="custom(0.15, 0.17, 0.30, 1.00)" />
+                    <animationItem animationType="scale" duration="250" to="1"  layersIndex="0,1" interpolator="custom(0.10, 0.00, 0.30, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <!-- 初始状态为 0.45 -->
+                    <animationItem animationType="alpha" duration="133" to="0"  layersIndex="0,1" interpolator="custom(0.33, 0.00, 0.67, 1.34)" />
+                    <animationItem animationType="alpha" duration="150" to="1"  layersIndex="0,1" interpolator="custom(0.33, 0.17, 0.67, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="133" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xFF852E"   layersIndex="0" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

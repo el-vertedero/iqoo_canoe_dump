@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0114" />
+    <animationList>
+        <symbolAnimation layerCnt="5">
+            <originStatus >
+            </originStatus>
+
+            <parallelGroup>
+                <!-- 上圆 -->
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="250" to="-23.17" layersIndex="3,4" interpolator="custom(0.00, 0.00, 0.20, 1.00)"  />
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="translateX" duration="283" to="0" layersIndex="3,4" interpolator="custom(0.25, 0.10, 0.25, 1.00)"  />
+                </serialGroup>
+
+                <!-- 下圆 -->
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="250" to="23.17" layersIndex="1,2" interpolator="custom(0.00, 0.00, 0.20, 1.00)"  />
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="translateX" duration="283" to="0" layersIndex="1,2" interpolator="custom(0.25, 0.10, 0.25, 1.00)"  />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

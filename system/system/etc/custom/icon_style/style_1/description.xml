@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme> 
+  <id>3</id>  
+  <uid>3</uid>  
+  <edition>1</edition>  
+  <titles> 
+    <title locale="zh_CN"><![CDATA[精美]]></title>
+  </titles>  
+  <authors> 
+    <author locale="zh_CN"><![CDATA[vivo]]></author>
+  </authors>  
+  <designers> 
+    <designer locale="zh_CN"><![CDATA[vivo]]></designer>
+  </designers>  
+  <descriptions> 
+    <description locale="zh_CN"><![CDATA[OriginOS官方图标风格。]]></description> 
+  </descriptions>
+  <innertype>0</innertype>  
+<extras> 
+ <extra_iconStyle>2</extra_iconStyle><!-- 图标风格 -->  
+</extras>   
+</theme>
+

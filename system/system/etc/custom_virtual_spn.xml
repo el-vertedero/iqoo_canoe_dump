@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<virtualSpnOverrides version="1">
+    <!-- <virtualSpn mccmnc="46000,46011" condition="imsi:^46000,spn:cmcc,gid1:99" spnName="testSpn"/> -->
+</virtualSpnOverrides>

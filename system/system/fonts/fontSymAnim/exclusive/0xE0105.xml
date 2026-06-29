@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0105" extraUnicodes="0xF006A,0xF006B,0xF006C"/>
+
+
+    <animationList>
+
+        <!-- [0] -->
+        <symbolAnimation layerCnt="1">
+            <originStatus alpha="1" glyphAnimProgress="100" >
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="178.8809524" to="650" />
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="0" to="0xF87070"  />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicAlpha" duration="0" to="1.0"/>
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+        <!-- [1] -->
+        <symbolAnimation layerCnt="1">
+            <originStatus glyphAnimProgress="100">
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="178.8809524" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+
+
+        <!-- [2] -->
+        <symbolAnimation layerCnt="1">
+            <originStatus glyphAnimProgress="100">
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="178.8809524" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+
+
+        <!-- [3] -->
+        <symbolAnimation layerCnt="1">
+            <originStatus glyphAnimProgress="100">
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="146.3571429" to="550" />
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+</fontSymbolAnimation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="wave.book.closed.fill.small"
+    />
+    <unicodeInfo animUnicode="0x100515" />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus  glyphAnimProgress = "100" color = "0xc5c5c5"/>
+            <parallelGroup  interpolator="ease" >
+                <animationItem animationType="glyphAnimProgress" duration="2000" to="400" />
+                <serialGroup  interpolator="linear">
+                    <animationItem animationType="delay" duration="400" to="0" />
+                    <animationItem animationType="color" duration="0" to="0x313131" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+
+
+</fontSymbolAnimation>

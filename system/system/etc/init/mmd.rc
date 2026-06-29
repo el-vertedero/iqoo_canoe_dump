@@ -1,0 +1,41 @@
+service mmd /system/bin/mmd
+    class core
+    user mmd
+    group mmd system
+    critical
+    # For per-process writeback
+    capabilities SYS_NICE
+    disabled
+
+# Zram setup requires permissions to the /dev/loop-control device and
+# other zram sysfs files. Doing the setup as root to avoid granting mmd
+# too many permissions for one time setup.
+service mmd_setup /system/bin/mmd_setup
+    class core
+    user root
+    group mmd system
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    # Copy AConfig flag value to "mmd.enabled_aconfig" system property because
+    # AConfig flag does not support init "on property" trigger.
+    # mmd service starts only if AConfig flag is enabled when boot_completed.
+    # Copying the value on boot_completed once is enough because AConfig is
+    # static during a device lifetime.
+    exec /system/bin/mmd --set-property
+
+on property:mmd.enabled_aconfig=true
+    # Create the directory for the zram writeback backing device file.
+    mkdir /data/per_boot/zram 0770 system mmd
+
+    # Start mmd_setep if the system property copied from AConfig flag by
+    # "/system/bin/mmd --set-property" is enabled.
+    start mmd_setup
+
+on property:mmd.setup_complete=true
+    # Start mmd service after zram is set up.
+    enable mmd
+
+on property:mmd.setup_complete=true && property:mmd.zram.writeback.use_nr_tags_prop=true && property:mmd.zram.writeback.nr_tags=*
+    exec_background - root mmd system -- /system/bin/mmd_setup --configure-queue-depth

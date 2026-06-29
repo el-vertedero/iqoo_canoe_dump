@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE000B"/>
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus  glyphAnimProgress="100" color="0xF79619" />
+            <parallelGroup >
+                <animationItem animationType="alpha" duration="0" to="0" layersIndex="0"/>
+                <animationItem animationType="translateY" duration="250" to="-5" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+                <animationItem animationType="dynamicAlpha" duration="250" layersIndex="1" to="0.9" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                <animationItem animationType="dynamicColor" duration="250" layersIndex="1" to="0xffffff" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

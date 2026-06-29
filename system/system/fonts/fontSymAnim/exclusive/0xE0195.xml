@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0195" />
+
+    <animationList>
+        <symbolAnimation layerCnt="4" rotPivotLayerIndex="5" scalePivotLayerIndex="6">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup>
+
+                <animationItem animationType="glyphAnimProgress" duration="167" to="149" interpolator="custom(0.13, 0.12, 0.34, 0.98)"/>
+
+                <animationItem animationType="dynamicAlpha" duration="167" to="0.9" />
+                <animationItem animationType="dynamicColor" duration="167" to="0xFF9544" interpolator="custom(0.13, 0.12, 0.34, 0.98)"  />
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

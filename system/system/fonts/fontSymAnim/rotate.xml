@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig  />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus color="0xff72d1" />
+            <serialGroup delay="0" interpolator="ease">
+                <parallelGroup>
+                    <animationItem animationType="rotationZ" duration="200" to="90" />
+                    <animationItem animationType="color" duration="200" to="0x7d6ff3" />
+                </parallelGroup>
+                <parallelGroup>
+                    <animationItem animationType="rotationZ" duration="200" to="180" />
+                    <animationItem animationType="color" duration="200" to="0x7d6ff3" />
+                </parallelGroup>
+                <parallelGroup>
+                    <animationItem animationType="rotationZ" duration="200" to="270" />
+                    <animationItem animationType="color" duration="200" to="0x00e0f5" />
+                </parallelGroup>
+                <parallelGroup>
+                    <animationItem animationType="rotationZ" duration="200" to="360" />
+                    <animationItem animationType="color" duration="200" to="0xff72d1" />
+                </parallelGroup>
+
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+
+
+</fontSymbolAnimation>

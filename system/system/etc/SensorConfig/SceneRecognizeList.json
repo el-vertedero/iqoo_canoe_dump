@@ -1,0 +1,95 @@
+{
+    "SCENE_TYPE_UNKNOWN": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_DEMO": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_DEMO2": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_ON_FOOT": [
+        "com.scene.test",
+        "com.vivo.sensor.brightness.curve.SceneRecognizeRegisterCallback",
+        "com.android.server.wifi",
+        "com.vivo.wifi",
+        "com.android.nfc",
+        "com.vivo.health",
+        "com.vivo.exhealth"
+    ],
+    "SCENE_TYPE_POCKET": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_POCKET_FUSION": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_RAISE_HAND": [
+        "com.scene.test",
+        "com.vivo.fingerprintui",
+        "com.vivo.biometrics",
+        "com.vivo.daemonService"
+    ],
+    "SCENE_TYPE_IN_VEHICLE": [
+        "com.scene.test",
+        "com.vivo.globalanimation",
+        "com.android.phone"
+    ],
+    "SCENE_TYPE_STILL": [
+        "com.scene.test",
+        "com.android.server.notification.VivoZenModeHelperImpl",
+        "com.android.server.display.brightness.nightwake.NightWakeMode"
+    ],
+    "SCENE_TYPE_WALKING": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_RUNNING": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_ON_BICYCLE": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_IN_HIGH_SPEED_RAIL": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_IN_ELEVATOR": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_ON_FOOT_FAST": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_AIRPLANE_TRACK": [
+        "com.scene.test",
+        "com.vivo.aiengine"
+    ],
+    "SCENE_TYPE_MAX": [
+        "com.scene.test"
+    ],
+    "SCENE_TYPE_CALL_HOLD_SIDE": [
+        "com.scene.test",
+        "com.vivo.services.sarpower.VivoCallHoldSideController"
+    ],
+    "SCENE_TYPE_ACTIVITY_STATE": [
+        "com.scene.test",
+        "com.android.phone"
+    ],
+    "SCENE_TYPE_IN_TUNNEL": [
+        "com.scene.test",
+        "com.android.phone"
+    ],
+    "SCENE_TYPE_SHAKE_DEVICE": [
+        "com.scene.test",
+        "com.zeyuan.test2",
+        "com.vivo.services.MyForegroundService",
+        "com.zeyuan.map",
+        "com.vivo.sensor",
+        "com.vivo.connbase",
+        "com.test.vivo.readsensordata",
+        "com.tzh.shakedemo",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode"
+    ],
+    "SCENE_TYPE_BACK_TAP": [
+        "com.scene.test"
+    ]
+}

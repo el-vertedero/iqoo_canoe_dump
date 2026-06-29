@@ -1,0 +1,11 @@
+on property:persist.vivo.nrtservice=true
+    start vivo_nrt_service
+    setprop persist.vivo.nrtservice false
+
+service vivo_nrt_service /system/bin/vivonrtservice
+    class core
+    user system
+    group system readproc
+    capabilities SYS_NICE
+    task_profiles HighPerformance ProcessCapacityMax MaxIoPriority TimerSlackNormal
+    disabled

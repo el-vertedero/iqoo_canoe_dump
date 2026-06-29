@@ -1,0 +1,11 @@
+{
+    "Version" :  "1.0",
+
+    "ESS2BlackList" : ["com.bbk.launcher2",
+        "com.android.camera",
+        "com.vivo.gallery",
+        "com.iqoo.engineermode",
+        "com.qiyi.video.lite",
+        "com.qiyi.video"
+    ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0161"/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="2" scalePivotLayerIndex="2" >
+            <originStatus />
+            <parallelGroup>
+
+                <!--   颜色-->
+                <serialGroup>
+                    <animationItem interpolator="custom(0.33, 0.00, 0.67, 1.00)" animationType="alpha" duration="133" to="0" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="0.9" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0.9" />
+                </serialGroup>
+
+                <!--   缩放-->
+                <serialGroup>
+                    <animationItem interpolator="custom(0.42, 0.00, 1.00, 1.00)" animationType="scale" duration="150" to="0" />
+                    <animationItem interpolator="custom(0.15, 0.18, 0.30, 1.00)" animationType="scale" duration="250" to="1.12" />
+                    <animationItem interpolator="custom(0.10, 0.00, 0.30, 1.00)" animationType="scale" duration="250" to="1" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+</fontSymbolAnimation>

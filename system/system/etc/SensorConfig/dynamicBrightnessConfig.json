@@ -1,0 +1,18 @@
+{
+	"dynamicBrightnessUISection": [0,0.2,0.275,0.5,0.6,0.8,1.0],
+	"dynamicBrightnessLowLuxSection": [-1,0,5,10,20,30,2000,9500,10000],
+	"dynamicBirghtnessNitParams":{
+		"dynamicNitParams_-1lux":[1, 8, 30, 90, 150, 400, 1060],
+		"dynamicNitParams_dc_-1lux":[2, 8, 30, 90, 150, 400, 1060],
+		"dynamicNitParams_0lux":[1, 5, 30, 50, 70, 150, 250],
+		"dynamicNitParams_dc_0lux":[2, 5, 30, 50, 70, 150, 250],
+		"dynamicNitParams_5lux":[1, 5, 30, 50, 70, 150, 250],
+		"dynamicNitParams_dc_5lux":[2, 5, 30, 50, 70, 150, 250],
+		"dynamicNitParams_10lux":[2, 8, 30, 50, 70, 150, 250],
+		"dynamicNitParams_20lux":[2, 8, 30, 70, 120, 220, 350],
+		"dynamicNitParams_30lux":[2, 8, 30, 80, 130, 270, 450],
+		"dynamicNitParams_2000lux":[2, 8, 30, 90, 150, 350, 800],
+		"dynamicNitParams_9500lux":[30, 40, 50, 120, 250, 600, 1060],
+		"dynamicNitParams_10000lux":[90, 80, 100, 200, 350, 700, 1060]
+	}
+}

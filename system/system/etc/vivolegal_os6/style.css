@@ -1,0 +1,34 @@
+body,div,p,span {
+    margin: 0;padding: 0;
+}
+
+div.content {
+    margin: 26px 26px;
+}
+
+p,span {
+    font-family: HYQiHei-EES;font-size: 14px;color: #000000;line-height: 22.5px;
+}
+
+.titlefont {
+    font-family: HYQiHei-FES;font-size: 16px;color: #000000;line-height: 24.5px;
+}
+
+.update_time{
+    margin-right:20px; text-align: right;
+}
+
+ol, li{
+    list-style-position:inside;
+    padding-left: 0px;
+    padding-right: 0px; /* 调整右边距 *
+}
+
+li::marker {
+    font-weight: bold; /* 加粗序号 */
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}

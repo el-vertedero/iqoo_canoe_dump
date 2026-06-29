@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.spe.ScenePlugin"
+    __ver__="1">
+    <elem __name__="scene_config"
+        scene_enable="true"/>
+
+    <group __id__="app_hint">
+        <group __id__="com.google.android.youtube">
+            <elem __name__="com.google.android.apps.youtube.app.watchwhile.MainActivity"
+                hint_id="0x00001091"
+                hint="3190"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+                hint_id="0x00001091"
+                hint="3190"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.google.android.apps.maps">
+            <elem __name__="com.google.android.maps.MapsActivity"
+                hint_id="0x00001091"
+                hint="3191"
+                screen="on"
+                notify_event="off"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.ss.android.ugc.trill">
+            <elem __name__="com.ss.android.ugc.aweme.splash.SplashActivity"
+                hint_id="0x00001091"
+                hint="3192"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.ss.android.ugc.aweme.main.MainActivity"
+                hint_id="0x00001091"
+                hint="3192"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.ss.android.ugc.aweme.detail.ui.DetailActivity"
+                hint_id="0x00001091"
+                hint="-1"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="us.zoom.videomeetings">
+            <elem __name__="com.zipow.videobox.conference.ui.ZmConfActivity"
+                hint_id="0x00001091"
+                hint="3193"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.facebook.katana">
+            <elem __name__="com.facebook.katana.activity.FbMainTabActivity"
+                hint_id="0x00001091"
+                hint="3194"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.facebook.katana.immersiveactivity.ImmersiveActivity"
+                hint_id="0x00001091"
+                hint="3194"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.instagram.android">
+            <elem __name__="com.instagram.mainactivity.InstagramMainActivity"
+                hint_id="0x00001091"
+                hint="3195"
+                screen="on"
+                fullScreen="1"/>
+
+            <elem __name__="com.instagram.modal.ModalActivity"
+                hint_id="0x00001091"
+                hint="3195"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.whatsapp">
+            <elem __name__="com.whatsapp.calling.ui.VoipActivityV3"
+                hint_id="0x00001091"
+                hint="3196"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+
+        <group __id__="com.grabtaxi.driver2">
+            <elem __name__="com.grab.geo.kampung.map.wayfindernav.WayFinderActivity"
+                hint_id="0x00001091"
+                hint="3197"
+                screen="on"
+                fullScreen="1"/>
+        </group>
+    </group>
+</group>

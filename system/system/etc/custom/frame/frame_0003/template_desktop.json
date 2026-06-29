@@ -1,0 +1,75 @@
+{
+    "version": "1.0.15",
+    "id": "template_deep",
+	"preview": "thumb_0.jpg",
+    "user_img_num": 1,
+    "isDeepSupport": true,
+    "isImgDeepSupport": true,
+    "isDeepOpened": true,
+    "isWallpaperFollowUnlock": false,
+    "assets": [],
+    "layers": [
+        {
+            "id": "layer_img1_fg",
+            "type": 20,
+            "tg_nodeep_hide": true,
+            "parent": "layer_img1_bg"
+        },
+        {
+            "id": "layer_unlock_clock",
+            "type": 21,
+            "tg_nodeep_up": 1,
+            "tg_nolock_hide": true,
+            "srcDebug": "res/clock720.png",
+            "layout": {
+                "ty": 2,
+                "x": 133,
+                "y": 180,
+                "w": 474,
+                "h": 213
+            }
+        },
+        {
+            "id": "layer_img1_bg",
+            "type": 20,
+			"src": "res/origin_desk",
+			"srcDebug": "res/origin_desk",
+			"mask": "res/wallpaper_mask_desk.png",
+			"maskDebug": "res/wallpaper_mask_desk.png",
+            "facePath": "face.json",
+            "gt": 10,
+            "layout": {
+                "ty": 1,
+                "w": "match_parent",
+                "h": "match_parent"
+            }
+        }
+    ],
+	
+    "dump_lock": [
+		{
+            "nm": "suck_lock.png",
+			"crop_type": 2,
+            "ly": [
+                "layer_img1_bg"
+            ]
+        },
+        {
+            "nm": "layer_deep_lock.png",
+			"crop_type": 1,
+            "ly": [
+                "layer_img1_fg"
+            ]
+        },
+        {
+            "nm": "user_lock.jpg",
+			"crop_type": 0,
+            "ly": [
+                "layer_img1_bg"
+            ]
+        }
+    ],
+    "dump_w": {
+        "nm": "user_desk.jpg"
+    }
+}

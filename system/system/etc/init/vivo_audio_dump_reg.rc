@@ -1,0 +1,19 @@
+service vivo_audio_dump_rx_reg /system/bin/dump-reg 0
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:vivo_audio_dump_reg:s0
+
+service vivo_audio_dump_tx_reg /system/bin/dump-reg 1
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:vivo_audio_dump_reg:s0
+
+on property:persist.sys.log.ctrl=yes && property:vendor.audiohal.output.devices=*
+   start vivo_audio_dump_rx_reg
+
+on property:persist.sys.log.ctrl=yes && property:vendor.audiohal.input.devices=*
+   start vivo_audio_dump_tx_reg

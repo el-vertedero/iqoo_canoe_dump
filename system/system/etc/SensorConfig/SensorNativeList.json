@@ -1,0 +1,153 @@
+{
+    "underProxWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vos.user.vit",
+        "com.vos.as.vit.sensor",
+        "com.vivo.sensor.SDC",
+        "com.vivo.sensor.proximity"
+    ],
+
+    "cctWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vos.user.vit",
+        "com.android.camera",
+        "hidl_client_pid",
+        "com.vivo.sensor.utils.CCTRawDataDisplayService",
+        "com.vivo.sensor.SDC.common",
+        "com.raybin.underdisplaylight.debug.CCTRawDataFloatingWindowService"
+    ],
+
+    "raiseUpDetectWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vos.user.vit",
+        "com.vivo.services.motion.RaiseUpWakeService",
+        "com.vivo.keyguard.presenter.smart.KeyguardRaiseAndPutDownManager",
+        "com.vivo.bsptest",
+        "com.vivo.faceui",
+        "com.vivo.fingerprintui",
+        "com.vivo.services.nightpearl",
+        "com.android.incallui"
+    ],
+
+    "underLightWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "engineermode",
+        "com.vos.user.vit",
+        "com.vivo.sensor.SDC",
+        "com.vivo.bsptest"
+    ],
+
+    "airplaneIdentifyWhiteList":[
+        "com.invensense.logger.fragments",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.vivo.aiengine"
+    ],
+
+    "elevatorDetectWhiteList": [
+        "com.android.server.wifi",
+        "com.vivo.wifi",
+        "com.vivo.aiengine",
+        "com.android.nfc",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.example.elevatorsensortest",
+        "com.android.phone"
+    ],
+
+    "vivomotion": [
+        "com.vivo.fingerprintui",
+        "com.vivo.daemonService",
+        "com.android.server.location",
+        "com.vivo.aiengine",
+        "com.vivo.pem",
+        "com.vivo.connbase",
+        "com.vivo.services.nightpearl",
+        "com.vivo.biometrics",
+        "com.android.server.location.VivoNlpPowerMonitor",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.vivo.bsptest",
+        "com.vivo.services.motion.DirectCallingService",
+        "com.iqoo.engineermode",
+        "com.android.server.notification.VivoZenModeHelperImpl",
+        "com.android.server.display.brightness.nightwake.NightWakeMode"
+    ],
+
+    "vibClassification": [
+        "com.android.server.policy.key.VivoSmartwakeKeyHandler"
+    ],
+
+    "gyroHighSpeedWhiteList": [
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.iqoo.engineermode"
+    ],
+
+    "dropDepthWhiteList": [
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.iqoo.engineermode",
+        "com.vivo.services.touchscreen",
+        "com.vivo.sensor.SDC"
+    ],
+
+    "oisGyroWhiteList": [
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.iqoo.engineermode",
+        "com.cortana.OisGyroCal",
+        "com.vivo.services.proxcali",
+        "com.example.mycamera"
+    ],
+
+    "staticCheckWhiteList": [
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.iqoo.engineermode",
+        "com.cortana.OisGyroCal",
+        "com.vivo.services.proxcali"
+    ],
+
+    "policyLightWhiteList": [
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.vivo.sensor.SDC",
+        "com.android.server.display.brightness.sre.VivoLcmSre",
+        "com.android.server.display.common.utils.LcmSensorManager",
+        "com.android.settings"
+    ],
+
+    "lenFixedWhiteList": [
+        "aidl_client_pid",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest"
+    ],
+
+    "fanSpeedWhiteList": [
+        "com.vivo.pie",
+        "com.vivo.pem",
+        "com.android.bbklog",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest",
+        "com.iqoo.engineermode"
+    ],
+
+    "oisHallWhiteList": [
+        "com.example.mycamera",
+        "com.qualcomm.qti.sensors",
+        "com.qualcomm.sensors.qsensortest"
+    ]
+}
+

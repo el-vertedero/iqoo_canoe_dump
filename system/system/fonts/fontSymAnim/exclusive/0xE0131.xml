@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0131" />
+    <animationList>
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="2">
+            <originStatus >
+            </originStatus>
+            <parallelGroup>
+
+                <!-- 月亮 -->
+                <serialGroup>
+                    <animationItem animationType="rotationZ" duration="250" to="-20" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="167" to="40" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="283" to="0" layersIndex="1" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="250" to="0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="alpha" duration="150" to="1" layersIndex="1" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>
+

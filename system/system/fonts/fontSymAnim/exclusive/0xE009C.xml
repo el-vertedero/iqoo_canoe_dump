@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE009C" extraUnicodes="0xF0065,0xF0066"/>
+
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus  >
+                <layer index="0" alpha="0.65"/>
+                <layer index="1" alpha="0"/>
+            </originStatus>
+            <parallelGroup>
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="250" to="0" layersIndex="0" interpolator="custom(0.25, 0.45, 0.30, 1.00)"/>
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="1"/>
+                    <animationItem animationType="alpha" duration="250" to="1" layersIndex="1" interpolator="custom(0.25, 0.05, 0.25, 1.00)"/>
+                </serialGroup>
+                <animationItem animationType="dynamicColor" duration="0" layersIndex="1" to="0x3F92FF" />
+                <animationItem animationType="glyphAnimProgress" duration="360.25" to="650" layersIndex="0,1"/>
+            </parallelGroup>
+        </symbolAnimation>
+
+        <symbolAnimation layerCnt="2">
+            <originStatus  >
+                <layer index="0" alpha="0"/>
+                <layer index="1" alpha="1"/>
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="alpha" duration="0" to="0" layersIndex="0"/>
+                <animationItem animationType="alpha" duration="0" to="1" layersIndex="1"/>
+                <animationItem animationType="glyphAnimProgress" duration="360.25" to="650" layersIndex="0,1"/>
+            </parallelGroup>
+        </symbolAnimation>
+
+
+        <symbolAnimation layerCnt="2">
+            <originStatus  >
+                <layer index="0" alpha="0"/>
+                <layer index="1" alpha="1"/>
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="196.5" to="400" layersIndex="0,1"/>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+</fontSymbolAnimation>

@@ -1,0 +1,37 @@
+service zygote /system/bin/app_process64 -Xzygote /system/bin --zygote --start-system-server --socket-name=zygote
+    class main
+    priority -20
+    user root
+    group root readproc reserved_disk
+    socket zygote stream 660 root system
+    socket usap_pool_primary stream 660 root system
+    onrestart exec_background - system system -- /system/bin/vdc volume abort_fuse
+    onrestart write /sys/power/state on
+    # NOTE: If the wakelock name here is changed, then also
+    # update it in SystemSuspend.cpp
+    onrestart write /sys/power/wake_lock zygote_kwl
+    onrestart restart audioserver
+    onrestart restart cameraserver
+    onrestart restart media
+    onrestart restart --only-if-running media.tuner
+    onrestart restart netd
+    onrestart restart wificond
+    onrestart setprop vivo.zygote_restart 1
+    task_profiles ProcessCapacityHigh MaxPerformance
+    critical window=${zygote.critical_window.minute:-off} target=zygote-fatal
+
+# vivo wangcong add for zygote_third begin
+service zygote_third /system/bin/app_process64 -Xzygote /system/bin --zygote --socket-name=zygote_third
+    class main
+    priority -20
+    user root
+    group root readproc reserved_disk
+    socket zygote_third stream 660 root system
+    socket usap_pool_third stream 660 root system
+    task_profiles ProcessCapacityHigh MaxPerformance
+    disabled
+
+on property:vivo.zygote_restart=1 && property:persist.vivo.support.zygote_bench=1
+    restart zygote_third
+    setprop vivo.zygote_restart 0
+# vivo wangcong add for zygote_third end

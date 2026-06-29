@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE011C" />
+    <animationList>
+        <symbolAnimation layerCnt="5" scalePivotLayerIndex="6">
+            <originStatus >
+            </originStatus>
+
+            <parallelGroup>
+
+                <!-- A -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="250" to="1.1" layersIndex="2" interpolator="custom(0.25, 0.10, 0.25, 1.00)"  />
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="scale" duration="283" to="1" layersIndex="2" interpolator="custom(0.25, 0.08, 0.25, 1.00)"  />
+                </serialGroup>
+
+                <!-- 框 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="250" to="0.8" layersIndex="0" interpolator="custom(0.00, 0.00, 0.20, 1.00)"  />
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="scale" duration="283" to="1" layersIndex="0" interpolator="custom(0.25, 0.08, 0.25, 1.00)"  />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

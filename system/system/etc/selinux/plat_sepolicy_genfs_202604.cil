@@ -1,0 +1,5 @@
+(genfscon sysfs "/class/udc" (u object_r sysfs_udc ((s0) (s0))))
+(genfscon sysfs "/power/mem_sleep" (u object_r sysfs_mem_sleep ((s0) (s0))))
+(genfscon sysfs "/class/powercap" (u object_r sysfs_powercap ((s0) (s0))))
+(genfscon sysfs "/devices/virtual/powercap" (u object_r sysfs_powercap ((s0) (s0))))
+(genfscon proc "/sys/kernel/firmware_config" (u object_r proc_firmware_config ((s0) (s0))))

@@ -1,0 +1,18 @@
+{
+
+		"themeSubType":8001,
+		"supportDeepType": 1,
+		"support_clock_style": ["s1","s2","s5","s6"],
+		"default_clock_style":"s6",
+		"isSupportOrigin":false,
+		"supportWallpaperStyle":[
+         "picture"
+        ],
+		"supportUnlockSelectWallpaper":true,
+		"colorPictureTemplatePath":"content/",
+		"isDecorateEnable":0,
+		"isAODFollowType":3,
+		"isDeepEnable": 0,
+		"textdepth_gridLayoutDirection": 1,
+		"textdepth_gridLayoutTemplate": 1
+}

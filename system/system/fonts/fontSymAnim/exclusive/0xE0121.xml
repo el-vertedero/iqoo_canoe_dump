@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0121" />
+
+    <animationList>
+        <symbolAnimation layerCnt="3">
+            <originStatus alpha="1.0" glyphAnimProgress="100" >
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="300" to="149" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+                <animationItem animationType="alpha" duration="300" to="1.0" layersIndex="0" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

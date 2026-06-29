@@ -1,0 +1,8 @@
+on post-fs-data
+    setprop ro.vivo.yzfswjmanager.enable 1
+service customcenter /system/bin/customcenter
+    user system
+    group system shell sdcard_rw readproc
+    interface aidl customcenter
+    oneshot
+    disabled

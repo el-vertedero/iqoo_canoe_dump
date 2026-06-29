@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.camera.camera.CameraPlugin"
+    __ver__="1">
+    <group __id__="camera_fps_policy">
+        <set __name__="camera_fps_activities">
+            com.kuaishou.live.anchor.basic.activity.LivePushActivity;
+            com.ss.android.ugc.aweme.live.LiveBroadcastActivity;
+            com.bytedance.android.live.broadcast.LiveBroadcastActivity;
+            com.dy.live.activity.RecorderCameraPortraitActivity;
+            com.duowan.liveroom.LiveRoomActivity;
+            com.dy.liveV2.living.RecorderCameraActivityV2Portrait;
+            com.tencent.mm.plugin.finder.feed.ui.FinderLiveAnchorWithoutAffinityUI;
+            com.tencent.mm.plugin.finder.feed.ui.FinderLiveAnchorAffinityUI;
+            com.instagram.modal.ModalActivity;
+            com.facebook.inspiration.activity.InspirationCameraActivity;
+            com.google.android.apps.youtube.app.extensions.livecreation.MainLiveCreationActivity;
+            com.google.android.libraries.youtube.livecreation.ui.LiveCreationActivity;
+            com.whatsapp.voipcalling.VoipActivityV2;
+            com.whatsapp.calling.ui.VoipActivityV2;
+            com.whatsapp.calling.ui.VoipActivityV3;
+            com.facebook.rooms.call.app.RoomActivity;
+            com.instagram.rtc.activity.RtcCallActivity;
+            com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity;
+        </set>
+
+        <group __id__="default">
+            <elem __name__="front_default"
+                limit_fps="-1"/>
+
+            <elem __name__="front_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="24"/>
+
+            <elem __name__="back_default"
+                size="1080"
+                limit_fps="24"/>
+
+            <elem __name__="back_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="15"/>
+        </group>
+
+        <group __id__="com.ss.android.ugc.aweme.live.LiveBroadcastActivity">
+            <elem __name__="front_default"
+                limit_fps="24"/>
+
+            <elem __name__="back_default"
+                limit_fps="24"/>
+        </group>
+
+        <group __id__="com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity">
+            <elem __name__="front_default"
+                limit_fps="-1"/>
+
+            <elem __name__="front_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="24"/>
+
+            <elem __name__="back_default"
+                limit_fps="-1"/>
+
+            <elem __name__="back_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="24"/>
+        </group>
+
+        <group __id__="com.whatsapp.calling.ui.VoipActivityV3">
+            <elem __name__="front_default"
+                limit_fps="-1"/>
+
+            <elem __name__="front_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="24"/>
+
+            <elem __name__="back_default"
+                size="1080"
+                limit_fps="24"/>
+
+            <elem __name__="back_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="15"/>
+
+            <elem __name__="small_window"
+                limit_fps="18"/>
+        </group>
+
+        <group __id__="com.whatsapp.voipcalling.VoipActivityV2">
+            <elem __name__="front_default"
+                limit_fps="-1"/>
+
+            <elem __name__="front_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="24"/>
+
+            <elem __name__="back_default"
+                size="1080"
+                limit_fps="24"/>
+
+            <elem __name__="back_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="15"/>
+
+            <elem __name__="small_window"
+                limit_fps="18"/>
+        </group>
+
+        <group __id__="com.whatsapp.calling.ui.VoipActivityV2">
+            <elem __name__="front_default"
+                limit_fps="-1"/>
+
+            <elem __name__="front_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="24"/>
+
+            <elem __name__="back_default"
+                size="1080"
+                limit_fps="24"/>
+
+            <elem __name__="back_temp"
+                reduce_temp="47"
+                recover_temp="45"
+                limit_fps="15"/>
+
+            <elem __name__="small_window"
+                limit_fps="18"/>
+        </group>
+    </group>
+
+    <group __id__="camera_size_policy">
+        <set __name__="camera_size_activities"/>
+    </group>
+
+    <elem __name__="state_small_window_config"
+        state_small_window_enable="true"/>
+</group>

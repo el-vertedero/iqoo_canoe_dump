@@ -1,0 +1,41 @@
+{
+	"version": 0,
+	"id": 352,
+	"subId": "3002",
+	"isEditable": false,
+	"extra": {
+		"packageId": "",
+		"resId": "",
+		"innerId": "",
+		"filePath": "",
+		"service": "",
+		"followType": 2,
+		"setFrom": 2,
+		"isInnerRes": false
+	},
+	"settingsBean": {
+		"appliedStyle": 0,
+		"background": 0,
+		"blur": 0,
+		"brightness": 0,
+		"chartlet": 0,
+		"color": 0,
+		"dial": 0,
+		"digital": 0,
+		"fillet": 0,
+		"font": 0,
+		"fontPath": "",
+		"gifDuration": 0,
+		"inputText": "",
+		"layout": 0,
+		"location": 0,
+		"multipleClockList": null,
+		"photoFrame": 0,
+		"photoPath": "",
+		"style": 0,
+		"textSize": 0,
+		"textWidth": 0,
+		"vGearTextSize": 0,
+		"vGearTextWidth": 0
+	}
+}

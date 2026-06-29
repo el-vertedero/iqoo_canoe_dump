@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE009B" />
+    <animationList>
+        <symbolAnimation layerCnt="2" scalePivotLayerIndex="1">
+            <originStatus alpha="1" >
+                <layer index="0" alpha="1" scaleX='1.0' scaleY="1.0" color="0x333333" />
+                <layer index="1" alpha="0" scaleX='0.8' scaleY="0.8" color="0xF95954 "/>
+            </originStatus>
+            <parallelGroup>
+                <animationItem animationType="color" duration="0" to="0x333333" layersIndex="0"/>
+                <animationItem animationType="color" duration="0" to="0xF95954" layersIndex="1"/>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="83" />
+                    <animationItem animationType="alpha" duration="83" to="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" layersIndex="0"/>
+                    <animationItem animationType="delay" duration="717" />
+                    <animationItem animationType="alpha" duration="67" to="1" interpolator="custom(0.33, 0.00, 0.83, 1.00)" layersIndex="0"/>
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="scale" duration="83" to="0.8" interpolator="custom(0.25, 0.30, 0.25, 1.00)" layersIndex="0"/>
+                    <animationItem animationType="scale" duration="183" to="1.3" interpolator="custom(0.25, 0.00, 0.83, 1.00)" layersIndex="0"/>
+                    <animationItem animationType="scale" duration="567" to="1.0" interpolator="custom(0.17, 0.00, 0.83, 1.00)" layersIndex="0"/>
+                    <animationItem animationType="scale" duration="83" to="0.8" interpolator="custom(0.17, 0.00, 0.83, 1.00)" layersIndex="0"/>
+                    <animationItem animationType="scale" duration="167" to="1.05" interpolator="custom(0.17, 0.08, 0.66, 1.00)" layersIndex="0"/>
+                    <animationItem animationType="scale" duration="150" to="1" interpolator="custom(0.45, 0.00, 0.28, 1.00)" layersIndex="0"/>
+                </serialGroup>
+
+
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="83" />
+                    <animationItem animationType="alpha" duration="117" to="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" layersIndex="1"/>
+                    <animationItem animationType="delay" duration="683" />
+                    <animationItem animationType="alpha" duration="67" to="0" interpolator="custom(0.33, 0.00, 0.83, 1.00)" layersIndex="1"/>
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="83" />
+                    <animationItem animationType="scale" duration="183" to="1.3" interpolator="custom(0.17, 0.04, 0.66, 1.00)" layersIndex="1"/>
+                    <animationItem animationType="scale" duration="183" to="1.0" interpolator="custom(0.29, 0.00, 0.28, 1.00)" layersIndex="1"/>
+                    <animationItem animationType="delay" duration="383" />
+                    <animationItem animationType="scale" duration="83" to="0.8" interpolator="custom(0.17, 0.07, 0.81, 0.90)" layersIndex="1"/>
+                    <animationItem animationType="scale" duration="167" to="1.05" interpolator="custom(0.17, 0.08, 0.66, 1.00)" layersIndex="1"/>
+                    <animationItem animationType="scale" duration="150" to="1" interpolator="custom(0.45, 0.00, 0.28, 1.00)" layersIndex="1"/>
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

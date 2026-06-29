@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0014"/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="3" rotPivotLayerIndex="2">
+            <originStatus color="0xFFFFFF">
+                <layer index="2" rotationZ="-181"/>
+            </originStatus>
+            <parallelGroup interpolator="ease" >
+                <animationItem animationType="dynamicColor" layersIndex="1" duration="83" to="0xF34E58" />
+                <animationItem animationType="dynamicColor" layersIndex="2" duration="16" to="0xF34E58" />
+                <animationItem  animationType="rotationZ" layersIndex="2" duration="800" to="0" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+</fontSymbolAnimation>

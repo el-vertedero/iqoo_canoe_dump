@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<favorites xmlns:tools="http://schemas.android.com/tools"
+	xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    launcher:screenCount="2">
+	<!-- 组件库布局 组件库中挂件分类   groupId 分类标志，相同id归为一类;titleResIdName 该类别提供的默认title的资源id名称;componentName 挂件的provider-->	
+	<!-- 老挂件列表 -->	
+	<!-- 时钟 5*1 -->
+	<drawerTabWidgetList
+		launcher:groupId= "1"
+		launcher:titleResIdName = "widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.clockwidget.ClockWidgetProvider"/>
+	<!-- 时钟 模拟时钟  -->	
+	<drawerTabWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider"/>
+	<!-- 时钟 数字时钟 -->
+	<drawerTabWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName = "widget_clock_id"
+		launcher:componentName="com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"/>
+
+	<!-- i 音乐 -->	
+	<drawerTabWidgetList
+		launcher:groupId= "2"
+		launcher:titleResIdName = "widget_music_id"
+		launcher:componentName="com.android.bbkmusic/com.android.bbkmusic.widget.MusicWidgetProvider"/>
+	<!-- i 音乐 轻简约 -->
+	<drawerTabWidgetList
+		launcher:groupId= "2"
+		launcher:titleResIdName = "widget_music_id"
+		launcher:componentName="com.vivo.dream.music/com.vivo.dream.music.VivoDreamMusicApp"/>
+
+	<!-- 便签 快记 -->	
+	<drawerTabWidgetList
+		launcher:groupId= "3"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.android.notes/com.android.notes.appwidget.FastEntranceAppWidgetProvider"/>
+	<!-- 便签 展示 -->
+	<drawerTabWidgetList
+		launcher:groupId= "3"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.android.notes/com.android.notes.appwidget.ExhibitionAppWidgetProvider"/>
+
+	<!-- 搜索 -->	
+	<drawerTabWidgetList
+		launcher:groupId= "4"
+		launcher:titleResIdName = "widget_search_id"
+		launcher:componentName="com.vivo.puresearch/com.vivo.puresearch.AppWidgetProviderPureSearch"/>
+
+	<!-- 天气（轻简约） -->
+	<drawerTabWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_weather_id"
+		launcher:componentName="com.vivo.dream.weather/com.vivo.dream.weather.VivoDreamWeatherApp"/>		
+
+	<!-- 相框 -->
+	<drawerTabWidgetList
+		launcher:groupId= "6"
+		launcher:titleResIdName = "widget_photo_id"
+		launcher:componentName="com.bbk.photoframewidget/com.bbk.photoframewidget.PhotoFrameWidget"/>
+
+	<!-- 浏览器 -->
+	<drawerTabWidgetList
+		launcher:groupId= "7"
+		launcher:titleResIdName = "widget_browser_id"
+		launcher:componentName="com.vivo.browser/com.vivo.browser.pendant.PendantWidgetProvider"/>		
+	<!-- 浏览器 书签 -->
+	<drawerTabWidgetList
+		launcher:groupId= "7"
+		launcher:titleResIdName = "widget_browser_id"
+		launcher:componentName="com.vivo.browser/com.vivo.browser.ui.widget.BookmarkThumbnailWidgetProvider"/>
+    <!-- 浏览器 书签 -->
+    <drawerTabWidgetList
+        launcher:groupId= "7"
+        launcher:titleResIdName = "widget_browser_id"
+        launcher:componentName="com.vivo.browser/com.vivo.browser.pendant.FeedsWidgetProvider"/>
+
+	<!-- 快应用中心 -->
+	<drawerTabWidgetList
+		launcher:groupId= "8"
+		launcher:titleResIdName = "widget_hybrid_id"
+		launcher:componentName="com.vivo.hybrid/com.vivo.hybrid.main.appwidget.QuickappWidgetProvider"/>
+
+	<!-- 新挂件列表 -->
+	<!-- 时钟2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.analogclock.DigitalAnalogWidgetProvider"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="0"
+		launcher:y="0"/>
+	<!-- 时钟天气5*1 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.clockwidget.ClockWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 时钟天气4*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.analogworldclockwidget.AnalogWorldClockWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 指针时钟2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.digitalworldclockwidget.DigitalWorldClockWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 数字时钟3*3 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.timeweatherwidget.TimeWeatherHorizontalWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 时钟 5*1 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.doubletimezoneclock/com.vivo.doubletimezoneclock.DoubleTimezoneClockWidgetProviderClockWeatherForVos"
+		launcher:homePage="false"/>
+	<!-- 三城世界时钟4*2-->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 双城世界时钟4*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 计时器 2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.countdownwidget/com.vivo.countdownwidget.countdownwidget.CountdownWidgetProvider"
+		launcher:homePage="false"/>
+		
+	<!-- 时钟天气4*1 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.timeweatherwidget.TimeWeather4X1Provider"
+		launcher:homePage="false"/>
+
+	<!-- 时钟天气2*4 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.timeweatherwidget.TimeWeatherWidgetProvider"
+		launcher:homePage="false"/>
+
+	<!-- 时钟天气2*3 -->
+	<drawerNewWidgetList
+		launcher:groupId="1"
+		launcher:titleResIdName ="widget_clock_id"
+		launcher:componentName="com.vivo.timerwidget/com.vivo.timerwidget.timewidget.TimeWidgetProvider"
+		launcher:homePage="false"/>	
+
+	<!-- 天气新挂件 -->
+	<drawerNewWidgetList
+		launcher:groupId="2"
+		launcher:titleResIdName ="widget_weather_id"
+		launcher:componentName="com.vivo.widgetweather/com.vivo.widgetweather.WeatherWidget2X2.WeatherWidget2X2Provider"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="4"
+		launcher:row="2"
+		launcher:x="0"
+		launcher:y="6"/>
+	<!-- 天气新挂件3*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="2"
+		launcher:titleResIdName ="widget_weather_id"
+		launcher:componentName="com.vivo.widgetweather/com.vivo.widgetweather.WeatherAppWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 天气新挂件2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="2"
+		launcher:titleResIdName ="widget_weather_id"
+		launcher:componentName="com.vivo.widgetweather/com.vivo.widgetweather.WeatherWidget2X2New.WeatherWidget2X2NewProvider"
+		launcher:homePage="false"/>
+
+	<!-- 天气新挂 紫外线 2*2 -->
+	<drawerNewWidgetList
+		launcher:componentName="com.vivo.widgetweather/com.vivo.widgetweather.uvWidget.UvWidget2x2Provider"
+		launcher:groupId="2"
+		launcher:homePage="false"
+		launcher:titleResIdName="widget_weather_id" />
+
+	<!-- 天气新挂件 PM2.5 2*2 -->
+	<drawerNewWidgetList
+		launcher:componentName="com.vivo.widgetweather/com.vivo.widgetweather.pm25Widget.Pm25Widget2x2Provider"
+		launcher:groupId="2"
+		launcher:homePage="false"
+		launcher:titleResIdName="widget_weather_id" />
+		
+	<!-- 天气新组件 天气4*2 -->
+	<drawerNewWidgetList
+		launcher:componentName="com.vivo.widgetweather/com.vivo.widgetweather.weatherWidget4X2.WeatherWidget4X2Provider"
+		launcher:groupId="2"
+		launcher:homePage="false"
+		launcher:titleResIdName="widget_weather_id" />
+
+
+	<!-- Jovi Home 步数挂件 -->
+	<drawerNewWidgetList
+		launcher:groupId="3"
+		launcher:titleResIdName ="widget_vivo_health"
+		launcher:componentName="com.vivo.assistantfunction/com.vivo.assistantfunction.provider.StepAppWidgetProvider"
+		launcher:appPackage="com.vivo.exhealth"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="2"
+		launcher:y="0"/>
+	<!-- 每日活动 4*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="3"
+		launcher:titleResIdName ="widget_vivo_health"
+		launcher:componentName="com.vivo.healthwidget/com.vivo.healthwidget.dailyActivity.DailyActivityWidget"
+		launcher:appPackage="com.vivo.exhealth"
+		launcher:homePage="false"/>
+	<!-- 喝水新挂件4*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="3"
+		launcher:titleResIdName ="widget_vivo_health"
+		launcher:componentName="com.vivo.assistantfunction/com.vivo.assistantfunction.provider.DrinkWaterWidgetProvider"
+		launcher:appPackage="com.vivo.exhealth"
+		launcher:homePage="false"/>
+	<!-- 情绪健康新挂件2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="3"
+		launcher:titleResIdName ="widget_vivo_health"
+		launcher:componentName="com.vivo.assistantfunction/com.vivo.assistantfunction.provider.WhiteNoiseWidgetProvider"
+		launcher:appPackage="com.vivo.exhealth"
+		launcher:homePage="false"/>
+
+	<!-- 设备电量2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "4"
+		launcher:titleResIdName = "widget_device_admin"
+		launcher:componentName="com.vivo.devicepower/com.vivo.devicepower.widget.WhiteDevicePowerWidget"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="0"
+		launcher:y="2"/>
+	<!-- 清理加速浅色1*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "4"
+		launcher:titleResIdName = "widget_device_admin"
+		launcher:componentName="com.vivo.widget.cleanspeed/com.vivo.cleanwidget.receiver.CleanWidgetLightProvider"
+		launcher:homePage="false"/>
+	<!-- 清理加速深色1*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "4"
+		launcher:titleResIdName = "widget_device_admin"
+		launcher:componentName="com.vivo.widget.cleanspeed/com.vivo.cleanwidget.receiver.CleanWidgetProvider"
+		launcher:homePage="false"/>
+
+	<!-- 便签速记 2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.vivo.notes/com.android.notes.appwidget.Shorthand2x2AppWidgetProvider"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="2"
+		launcher:y="2"/>
+	<!-- 便签待办4*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.vivo.notes/com.android.notes.appwidgets.appwidget.todolistwidget.TodoList4x2WidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 便签待办 4*4 -->
+	<drawerNewWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.vivo.notes/com.android.notes.appwidgets.appwidget.todolistwidget.TodoList4x4WidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 便签速记 2*1 -->
+	<drawerNewWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.vivo.notes/com.android.notes.appwidget.ShorthandAppWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 便签 4*1 -->
+	<drawerNewWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.vivo.notes/com.vivo.notes.appwidget.FastEntranceAppWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 便签 4*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "5"
+		launcher:titleResIdName = "widget_note_id"
+		launcher:componentName="com.vivo.notes/com.vivo.notes.appwidget.ExhibitionAppWidgetProvider"
+		launcher:homePage="false"/>
+
+	<!-- 录音速记2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId= "6"
+		launcher:titleResIdName = "widget_soundrecorder_id"
+		launcher:componentName="com.vivo.soundrecorder/com.vivo.recorderwidget.RecordControlWidget"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="0"
+		launcher:y="4"/>
+
+	<!-- 相册新挂件2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="7"
+		launcher:titleResIdName ="widget_gallery_new_id"
+		launcher:componentName="com.vivo.widget.gallery/com.vivo.widget.gallery.GalleryAppWidget"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="3"
+		launcher:x="2"
+		launcher:y="4"/>
+	<!-- 相册新挂件2*3 -->
+	<drawerNewWidgetList
+		launcher:groupId="7"
+		launcher:titleResIdName ="widget_gallery_new_id"
+		launcher:componentName="com.vivo.widget.gallery/com.vivo.widget.gallery.GalleryAppWidget2x3"
+		launcher:homePage="false"/>
+	<!-- 相册新挂件3*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="7"
+		launcher:titleResIdName ="widget_gallery_new_id"
+		launcher:componentName="com.vivo.widget.gallery/com.vivo.widget.gallery.GalleryAppWidget3x2"
+		launcher:homePage="false"/>
+	<!-- 相册新挂件4x2 -->
+	<drawerNewWidgetList
+		launcher:groupId="7"
+		launcher:titleResIdName ="widget_gallery_new_id"
+		launcher:componentName="com.vivo.widget.gallery/com.vivo.widget.gallery.GalleryAppWidget4x2"
+		launcher:homePage="false"/>
+	<!-- 相册新挂件4x4 -->
+	<drawerNewWidgetList
+		launcher:groupId="7"
+		launcher:titleResIdName ="widget_gallery_new_id"
+		launcher:componentName="com.vivo.widget.gallery/com.vivo.widget.gallery.GalleryAppWidget4x4"
+		launcher:homePage="false"/>
+
+	<!-- 贴纸图文 2*1-->
+	<drawerNewWidgetList
+		launcher:groupId="8"
+		launcher:titleResIdName ="widget_decals_new_id"
+		launcher:componentName="com.vivo.desktopstickers/com.vivo.desktopstickers.widgetprovider.TextPictureWidgetProvider_2X1"
+		launcher:homePage="false"/>
+	<!-- 贴纸图文 2*2 -->
+	<drawerNewWidgetList
+		launcher:groupId="8"
+		launcher:titleResIdName ="widget_decals_new_id"
+		launcher:componentName="com.vivo.desktopstickers/com.vivo.desktopstickers.widgetprovider.TextPictureWidgetProvider_2X2"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="2"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="2"
+		launcher:y="6"/>
+	<!-- 贴纸打卡 2*1 -->
+	<drawerNewWidgetList
+		launcher:groupId="8"
+		launcher:titleResIdName ="widget_decals_new_id"
+		launcher:componentName="com.vivo.desktopstickers/com.vivo.desktopstickers.widgetprovider.ClockInWidgetProvider_2_1"
+		launcher:homePage="false"/>
+	<!-- 贴纸倒计时 2*1-->
+	<drawerNewWidgetList
+		launcher:groupId="8"
+		launcher:titleResIdName ="widget_decals_new_id"
+		launcher:componentName="com.vivo.desktopstickers/com.vivo.desktopstickers.widgetprovider.CountDownWidgetProvider_2X2"
+		launcher:homePage="false"/>
+
+	
+	<!-- 游戏中心组件2*2-游戏空间-->
+	<drawerNewWidgetList
+		launcher:componentName="com.vivo.game/com.vivo.game.game_app_widget.gamespace.SpaceWidgetProvider"
+		launcher:groupId="9"
+		launcher:homePage="true"
+		launcher:titleResIdName="" />
+
+	<!-- 游戏中心组件4*2-秒玩游戏 -->
+	<drawerNewWidgetList
+		launcher:componentName="com.vivo.game/com.vivo.game.game_app_widget.quickgame.QuickGameWidget"
+		launcher:groupId="9"
+		launcher:homePage="false" />
+
+
+	<!-- true id组件-->
+	<drawerNewWidgetList
+		launcher:componentName="com.tdcm.trueidapp/com.truedigital.features.appwidget.ui.vivo.widget2x2.Vivo2x2WidgetReceiver"
+		launcher:groupId="10"
+		launcher:homePage="true"
+		launcher:titleResIdName="widget_true_id" />
+
+	<drawerNewWidgetList
+		launcher:groupId="10"
+		launcher:titleResIdName ="widget_true_id"
+		launcher:componentName="com.tdcm.trueidapp/com.truedigital.features.appwidget.ui.vivo.widget4x2.Vivo4x2WidgetReceiver"
+		launcher:homePage="false"
+		/>
+
+	<!-- 原子随身听2*1浅色 -->
+	<drawerNewWidgetList
+		launcher:groupId="11"
+		launcher:titleResIdName ="widget_music_new_id"
+		launcher:componentName="com.vivo.musicwidgetmix/com.vivo.musicwidgetmix.widget.MusicDoubleWidgetWidgetProvider"
+		launcher:homePage="true"
+		launcher:container="-105"
+		launcher:spanX="2"
+		launcher:spanY="1"
+		launcher:column="2"
+		launcher:row="2"
+		launcher:x="0"
+		launcher:y="8"/>
+	<!-- 原子随身听2*1深色 -->
+	<drawerNewWidgetList
+		launcher:groupId="11"
+		launcher:titleResIdName ="widget_music_new_id"
+		launcher:componentName="com.vivo.musicwidgetmix/com.vivo.musicwidgetmix.widget.DarkMusicDoubleWidgetWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 原子随身听3*1浅色 -->
+	<drawerNewWidgetList
+		launcher:groupId="11"
+		launcher:titleResIdName ="widget_music_new_id"
+		launcher:componentName="com.vivo.musicwidgetmix/com.vivo.musicwidgetmix.widget.MusicTripleWidgetWidgetProvider"
+		launcher:homePage="false"/>
+	<!-- 原子随身听3*1深色 -->
+	<drawerNewWidgetList
+		launcher:groupId="11"
+		launcher:titleResIdName ="widget_music_new_id"
+		launcher:componentName="com.vivo.musicwidgetmix/com.vivo.musicwidgetmix.widget.DarkMusicTripleWidgetWidgetProvider"
+		launcher:homePage="false"/>
+
+</favorites>

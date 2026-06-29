@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+    <!--PD2505_EX名单-->
+    <version>4</version>
+        <item pkgName="com.miHoYo.GenshinImpact" label="Genshin" channel="*" state="2" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter="" overHeatExtremeTemperature="47" coolDownExtremeTemperature="44" index="102"/>
+        <item pkgName="com.tencent.tmgp.sgame" label="王者荣耀" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.levelinfinite.sgameGlobal" label="Honor of Kings" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.levelinfinite.sgameGlobal.midaspay" label="Honor of Kings" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.levelinfinite.sgameGlobal.vivo" label="Honor of Kings" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.pubg.imobile" label="BGMI" channel="*" state="2" frameDepress="72" frameInter="144"  monsterFrameDepress="" monsterFrameInter="" index="106"/>
+        <item pkgName="com.tencent.ig" label="PUBG Mobile" channel="*" state="2" frameDepress="72" frameInter="144"  monsterFrameDepress="" monsterFrameInter="" index="104"/>
+        <item pkgName="com.riotgames.league.wildrift" label="League of Legends: Wild Rift" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.pubg.newstate" label="PUBG New State" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.activision.callofduty.shooter" label="CODM" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.dts.freefiremax" label="FreeFire MAX" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.carxtech.carxdr2" label="CarX Drift Racing 2" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.ngame.allstar.eu" label="Garena AoV" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.igg.android.lordsmobile" label="Lords Mobile" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.nekki.shadowfight3" label="shadow fight 3" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.lilithgame.roc.gp" label="Rise of kingdoms" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.gameloft.android.ANMP.GloftA9HM" label="Asphalt 9 Legends" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.blizzard.diablo.immortal" label="Diablo Immortal" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.miHoYo.bh3global" label="Honkai Impact 3rd" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.supercell.clashofclans" label="Clash of clans" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.kabam.marvelbattle" label="Marvel Contest of Champions" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.plarium.raidlegends" label="RAID: Shadow Legends" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.supercell.brawlstars" label="Brawl Stars" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.mobile.legends" label="Mobile Legends: Bang Bang" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="jp.konami.pesam" label="eFootball 2024" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.nautilus.realcricket" label="Real Cricket 22" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.miraclegames.farlight84" label="Farlight 84" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.garena.game.codm" label="CODM" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.garena.game.kgid" label="Garena AoV" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.garena.game.kgtw" label="Garena AoV" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="net.wargaming.wot.blitz" label="World of Tanks Blitz" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.axlebolt.standoff2" label="Standoff2 " channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.nautilus.RealCricket3DLite" label="Real Cricket 22" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.dts.freefireth" label="Garena FreeFire" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.garena.game.kgth" label="Garena RoV: Treasure Version!" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.king.candycrushsaga" label="Candy Crush Saga" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.kiloo.subwaysurf" label="Subway Surfers" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.miniclip.carrom" label="CarromPool:DiscGame" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.block.juggle" label="Block Blast!" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.fun.lastwar.gp" label="Last War:Survival Game" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.miniclip.eightballpool" label="8 Ball Pool" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.netmarble.sololv" label="Solo Leveling:Arise" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.riot.FFGSSea" label="Golden Spatula" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.supercell.clashroyale" label="Clash royale" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.garena.game.df" label="Delta Force" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.HoYoverse.hkrpgoversea" label="Honkai：StarRail" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+        <item pkgName="com.proximabeta.mf.uamov" label="Arena Breakout" channel="*" state="1" frameDepress="" frameInter=""  monsterFrameDepress="" monsterFrameInter=""/>
+</games>

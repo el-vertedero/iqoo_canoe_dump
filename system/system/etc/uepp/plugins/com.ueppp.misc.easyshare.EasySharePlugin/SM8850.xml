@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.easyshare.EasySharePlugin"
+    __ver__="1">
+    <elem __name__="easy_share_config"
+        state_easy_share_enable="true"/>
+
+    <elem __name__="easy_share_state"
+        state_connect_recv_restore="11"
+        state_connect_recv_trans="1"
+        state_connect_send_trans="2"
+        state_connect_no_trans="3"/>
+</group>

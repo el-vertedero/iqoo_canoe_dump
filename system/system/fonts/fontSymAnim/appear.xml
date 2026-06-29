@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="appear" layerInterval="50" playbackMode="$playBackMode"
+        playbackOrder="parallel" />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus alpha="0" scale="$originScale" />
+            <parallelGroup delay="0" interpolator="ease">
+                <animationItem animationType="alpha" duration="800" to="1" />
+                <animationItem animationType="scale" duration="1000" to="1" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+    <dynamicOpts>
+        <opt id="director">
+            <case id="up">
+                <value id="$originScale">0.8</value>
+            </case>
+            <case id="down">
+                <value id="$originScale">1.2</value>
+            </case>
+        </opt>
+        <opt id="playbackMode">
+            <case id="overall">
+                <value id="$playBackMode">overall</value>
+            </case>
+            <case id="byGroup">
+                <value id="$playBackMode">byGroup</value>
+            </case>
+            <case id="byLayer">
+                <value id="$playBackMode">byLayer</value>
+            </case>
+        </opt>
+    </dynamicOpts>
+
+
+</fontSymbolAnimation>

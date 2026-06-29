@@ -1,0 +1,22 @@
+body,div,p,span {
+  margin: 0;
+  padding: 0;
+}
+
+div.content {
+  margin: 24px 20px;
+}
+
+p,span {
+  font-family: HYQiHei-EES;
+  font-size: 14px;
+  color: #000000;
+  line-height: 22.5px;
+}
+
+.titlefont {
+  font-family: HYQiHei-FES;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24.5px;
+}

@@ -1,0 +1,10 @@
+{
+    "config_list": [
+        {
+            "page_db": "already_enter_display_color_page",
+            "page_identify": "framework.screen.notification.display.color",
+            "page_title_res": "vivo_screencolors_title",
+            "page_content_res": "vivo_screencolors_tips_content"
+        }
+    ]
+}

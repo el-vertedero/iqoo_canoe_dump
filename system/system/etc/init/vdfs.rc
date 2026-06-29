@@ -1,0 +1,18 @@
+on post-fs-data
+    mkdir /mnt/vdfs
+    mkdir /data/vdfs 0750 root root encryption=None
+    mkdir /data/vdfs/.fscache 0770 root root encryption=None
+    setprop sys.vdfs_version 5
+
+service vdfs /system/bin/vdfs
+    class main
+    user root
+    group root system shell sdcard_rw readproc media_rw
+    seclabel u:r:vdfs:s0
+    disabled
+
+service vdfsfile /system/bin/vdfs file
+    user shell
+    group root system shell sdcard_rw readproc media_rw 3003
+    seclabel u:r:vdfs:s0
+    disabled

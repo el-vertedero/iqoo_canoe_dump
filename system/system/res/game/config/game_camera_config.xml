@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- 无限暖暖 -->
+    <pkg name="com.papegames.infinitynikki-com.papegames.infinitynikki.bilibili">
+        <switch game_camera_vulkan="1" model="PD2548-PD2547-PD2505-PD2546-PD2520-PD2564-PD2573"/>
+        <switch game_camera_vulkan="1" model="DPD2540"/>
+    </pkg>
+
+    <!-- 不支持pkg-list -->
+</gameconfig>

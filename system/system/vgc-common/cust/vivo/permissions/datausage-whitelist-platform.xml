@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <allow-in-power-save package="com.trustonic.telecoms.standard.dlc"/>
+    <allow-in-data-usage-save package="com.trustonic.telecoms.standard.dlc"/>
+
+    <allow-in-power-save package="com.payjoy.status" />
+    <allow-in-data-usage-save package="com.payjoy.status" />
+
+    <allow-in-power-save package="com.payjoy.access" />
+    <allow-in-data-usage-save package="com.payjoy.access" />
+
+    <allow-in-power-save package="com.safaricom.android.simupoa_android" />
+    <allow-in-data-usage-save package="com.safaricom.android.simupoa_android" />
+</permissions>

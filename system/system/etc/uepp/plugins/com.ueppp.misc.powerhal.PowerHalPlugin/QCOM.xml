@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.powerhal.PowerHalPlugin"
+    __ver__="1">
+    <group __id__="scene_hint">
+        <group __id__="110">
+            <elem __name__="com.autonavi.minimap"
+                hint="3111"
+                disable="0"/>
+
+            <elem __name__="com.baidu.BaiduMap"
+                hint="3111"
+                disable="0"/>
+        </group>
+
+        <group __id__="120">
+            <elem __name__="com.autonavi.minimap"
+                hint="3182"
+                disable="0"/>
+
+            <elem __name__="com.baidu.BaiduMap"
+                hint="3181"
+                disable="0"/>
+        </group>
+    </group>
+
+    <group __id__="combination_hint"/>
+</group>

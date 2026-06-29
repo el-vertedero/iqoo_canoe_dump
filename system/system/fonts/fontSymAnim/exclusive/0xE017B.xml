@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE017B" />
+
+    <animationList>
+        <symbolAnimation layerCnt="4" rotPivotLayerIndex="5" scalePivotLayerIndex="6">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup>
+                <animationItem animationType="glyphAnimProgress" duration="167" interpolator="custom(0.25, 0.10, 0.25, 1.00)"
+                    layersIndex="0,1" to="150" />
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="200" interpolator="custom(0.19, 0.03, 0.13, 1.00)"
+                        layersIndex="2" to="150" />
+                    <animationItem animationType="glyphAnimProgress" duration="200" interpolator="custom(0.16, 0.00, 0.57, 1.00)"
+                        layersIndex="2" to="200" />
+                </serialGroup>
+                <animationItem animationType="dynamicColor" duration="167" interpolator="custom(0.19, 0.03, 0.13, 1.00)" to="150" />
+                <animationItem animationType="dynamicAlpha" duration="167" interpolator="custom(0.19, 0.03, 0.13, 1.00)" to="150" />
+
+<!--                &lt;!&ndash; 外圈&ndash;&gt;-->
+<!--                <serialGroup>-->
+<!--                    <animationItem interpolator="custom(0.25, 0.10, 0.25, 1.00)" animationType="scale" layersIndex="0" duration="167" to="1.3" />-->
+<!--                </serialGroup>-->
+<!--                &lt;!&ndash; 外圈 end &ndash;&gt;-->
+<!--                &lt;!&ndash; 内圈&ndash;&gt;-->
+<!--                <serialGroup>-->
+<!--                    <animationItem interpolator="custom(0.25, 0.10, 0.25, 1.00)" animationType="scale" layersIndex="1" duration="167" to="1.3" />-->
+<!--                </serialGroup>-->
+<!--                &lt;!&ndash; 内圈 end &ndash;&gt;-->
+<!--                &lt;!&ndash; 垃圾桶&ndash;&gt;-->
+<!--                <parallelGroup>-->
+
+<!--                    <animationItem interpolator="custom(0.25, 0.14, 0.25, 1.00)" animationType="translateX" layersIndex="2" duration="200" to="1.5" />-->
+<!--                    <animationItem interpolator="custom(0.25, 0.14, 0.25, 1.00)" animationType="translateY" layersIndex="2" duration="200" to="-0.5" />-->
+
+<!--                    <serialGroup>-->
+<!--                        <animationItem interpolator="custom(0.19, 0.03, 0.13, 1.00)" animationType="rotationZ" layersIndex="2" duration="200" to="28.6" />-->
+<!--                        <animationItem interpolator="custom(0.16, 0.00, 0.57, 1.00)" animationType="rotationZ" layersIndex="2" duration="200" to="25" />-->
+<!--                    </serialGroup>-->
+<!--                </parallelGroup>-->
+<!--                &lt;!&ndash; 垃圾桶 end &ndash;&gt;-->
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

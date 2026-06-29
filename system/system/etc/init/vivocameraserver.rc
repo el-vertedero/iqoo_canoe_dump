@@ -1,0 +1,12 @@
+service vivocameraserver /system/bin/vivocameraserver
+    class main
+    user cameraserver
+    group audio camera input drmrpc
+    ioprio rt 4
+    writepid /dev/cpuset/camera-daemon/tasks /dev/stune/foreground/tasks
+    task_profiles CameraServicePerformance
+    rlimit rtprio 10 10
+    onrestart class_restart cameraWatchdog
+    interface aidl android.frameworks.vivocameraservice.service.IVivoCameraService/default
+on property:sys.boot_completed=1
+    setprop vendor.cam.memzram.enable 1

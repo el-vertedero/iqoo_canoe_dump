@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0197" />
+
+    <animationList>
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="2" scalePivotLayerIndex="2">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup>
+
+                <animationItem animationType="scale" duration="500" to="0.78" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="250" />
+                    <animationItem animationType="rotationZ" duration="1250" to="1080" layersIndex="1" interpolator="custom(0.25, 0.12, 0.25, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

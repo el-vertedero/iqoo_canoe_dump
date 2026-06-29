@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<sec_grab_engine_configs version="4">
+    <config_list config_name="APP_CONFIG" enable="true">
+        <!--
+        <app_config pkg="xxx" app_overall_acc="false" app_comm_netacc="false" hot_start_tip="false">
+            <app_act_tip act_name="xxx" re="true" />
+            <app_act_tip act_name="xxx" re="false" />
+            <app_act_acc act_name="xxx" re="true" />
+            <app_act_acc act_name="xxx" re="false" />
+            <app_dns host_name="xxx" />
+            <app_dns host_name="xxx" />
+        </app_config>
+        -->
+        <app_config pkg="com.bt.bms" app_overall_acc="false" app_comm_netacc="false" hot_start_tip="false">
+            <app_act_tip act_name="com.movie.bms.ui.screens.main.MainActivity"/>
+            <app_dns host_name="in.bookmyshow.com" />
+            <app_dns host_name="in.bmscdn.com" />
+            <app_dns host_name="adtech-events.bookmyshow.com" />
+            <app_dns host_name="assets-in.bmscdn.com" />
+            <app_dns host_name="web-assets-in.bmscdn.com" />
+            <app_dns host_name="sentry.bookmyshow.com" />
+            <app_dns host_name="in-cdn.bmscdn.com" />
+            <app_dns host_name="services-in.bookmyshow.com" />
+            <app_dns host_name="featureassets.org" />
+            <app_dns host_name="prodregistryv2.org" />
+            <app_dns host_name="assets.juspay.in" />
+            <app_dns host_name="assets-in-gm.bmscdn.com" />
+            <app_dns host_name="cloudflare-dns.com" />
+            <app_dns host_name="cdn.branch.io" />
+            <app_dns host_name="beyondwickedmapping.org" />
+        </app_config>
+        <app_config pkg="com.traveloka.android" app_overall_acc="false" app_comm_netacc="false" hot_start_tip="false">
+            <app_act_tip act_name="com.traveloka.android.user.landing.widget.LandingActivity"/>
+            <app_dns host_name="holiday.loc.traveloka.com" />
+            <app_dns host_name="country.loc.traveloka.com" />
+            <app_dns host_name="api.usr.traveloka.com" />
+            <app_dns host_name="api.mch.traveloka.com" />
+            <app_dns host_name="api.cnt.traveloka.com" />
+            <app_dns host_name="api.gmf.traveloka.com" />
+            <app_dns host_name="api.fsp.traveloka.com" />
+            <app_dns host_name="api.xpe.traveloka.com" />
+            <app_dns host_name="api.pps.traveloka.com" />
+            <app_dns host_name="api.fpr.traveloka.com" />
+            <app_dns host_name="api.msg.traveloka.com" />
+            <app_dns host_name="api.travelokapay.com" />
+            <app_dns host_name="beicbotc.beic.traveloka.com" />
+            <app_dns host_name="beiddpx.bei.traveloka.com" />
+            <app_dns host_name="bookmark-api.ugc.traveloka.com" />
+            <app_dns host_name="experiment-api.acd.traveloka.com" />
+            <app_dns host_name="search-api.acd.traveloka.com" />
+            <app_dns host_name="exp-client.prod.tvlk-data.com" />
+            <app_dns host_name="universal.srs.traveloka.com" />
+            <app_dns host_name="tracking.prod.tvlk-data.com" />
+            <app_dns host_name="discovery-api.fpr.traveloka.com" />
+            <app_dns host_name="msgmqtt-broker.msg.traveloka.com" />
+        </app_config>
+        <app_config pkg="cris.org.in.prs.ima" app_overall_acc="false" app_comm_netacc="false" hot_start_tip="false">
+            <app_act_tip act_name="cris.org.in.ima.activities.HomeActivity"/>
+            <app_dns host_name="contents.irctc.co.in" />
+            <app_dns host_name="www.contents.irctc.co.in" />
+            <app_dns host_name="assets.juspay.in" />
+            <app_dns host_name="api-ns2.juspay.in" />
+            <app_dns host_name="cdn.izooto.com" />
+            <app_dns host_name="cdn.adgebra.net" />
+            <app_dns host_name="www.gstatic.com" />
+            <app_dns host_name="csi.gstatic.com" />
+            <app_dns host_name="fonts.gstatic.com" />
+        </app_config>
+        <app_config pkg="com.ticketmaster.mobile.android.na" app_overall_acc="false" app_comm_netacc="false" hot_start_tip="false">
+            <app_act_tip act_name="com.ticketmaster.mobile.android.library.activity.MainActivity"/>
+            <app_dns host_name="www.ticketmaster.com" />
+            <app_dns host_name="app.ticketmaster.com" />
+            <app_dns host_name="ccp.tmconst.com" />
+            <app_dns host_name="uk.tmconst.com" />
+            <app_dns host_name="analytics.ticketmaster.com" />
+            <app_dns host_name="promoted.ticketmaster.com" />
+            <app_dns host_name="s1.ticketm.net" />
+        </app_config>
+
+
+        <app_config pkg="cn.damai" app_overall_acc="false" app_comm_netacc="true" hot_start_tip="true">
+            <app_act_tip act_name="cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity"/>
+            <app_act_acc act_name="cn.damai.commonbusiness.seatbiz.sku.qilin.ui.NcovSkuActivity"/>
+            <app_act_acc act_name="cn.damai.ultron.view.activity.DmOrderActivity"/>
+            <app_act_acc act_name="cn.damai.pay.AliPayActivity"/>
+            <app_act_acc act_name="cn.damai.wxapi.DamaiWXPayActivity"/>
+            <app_dns host_name="audid-api.taobao.com" />
+            <app_dns host_name="mtop.damai.cn" />
+            <app_dns host_name="ossgw.alicdn.com" />
+            <app_dns host_name="img.alicdn.com" />
+            <app_dns host_name="pss.alicdn.com" />
+            <app_dns host_name="intercms.damai.cn" />
+            <app_dns host_name="mgw.alipay.com" />
+            <app_dns host_name="www.taobao.com" />
+        </app_config>
+        <app_config pkg="com.sankuai.movie" app_overall_acc="false" app_comm_netacc="true" hot_start_tip="false">
+            <app_act_tip act_name="com.sankuai.movie.MovieMainActivity"/>
+            <app_act_acc act_name="com.sankuai.movie.knb2.container.MovieWebActivity"/>
+            <app_act_acc act_name="com.maoyan.android.pay.cashier.CashierActivity"/>
+            <app_dns host_name="www.dpfile.com" />
+            <app_dns host_name="m.dianping.com" />
+            <app_dns host_name="yanchu.maoyan.com" />
+            <app_dns host_name="analytics.meituan.net" />
+            <app_dns host_name="bd0.d.meituan.net" />
+            <app_dns host_name="analytics.95516.com" />
+            <app_dns host_name="logan.sankuai.com" />
+        </app_config>
+        <app_config pkg="com.kgbs.ticket" app_overall_acc="true" app_comm_netacc="true" hot_start_tip="true">
+            <app_act_tip act_name="io.dcloud.PandoraEntryActivity"/>
+            <app_dns host_name="mpush-api.aliyun.com" />
+            <app_dns host_name="amdc.m.taobao.com" />
+            <app_dns host_name="res.dasheng.top" />
+            <app_dns host_name="searchplugin.csdn.net" />
+            <app_dns host_name="mobilegw.alipay.com" />
+            <app_dns host_name="ac1.dcloud.net.cn" />
+            <app_dns host_name="sdk.api.oaid.wocloud.cn" />
+            <app_dns host_name="s1.dcloud.net.cn" />
+            <app_dns host_name="app-api.dasheng.top" />
+            <app_dns host_name="msgacs.cn-zhangjiakou.aliyuncs.com" />
+            <app_dns host_name="ipv4only.arpa" />
+        </app_config>
+        <app_config pkg="cn.kidyn.qdmedical160" app_overall_acc="false" app_comm_netacc="true" hot_start_tip="true">
+            <app_act_tip act_name="com.nykj.doctor.activity.DoctorHomeActivity"/>
+            <app_act_acc act_name="com.nykj.doctor.activity.DoctorHomeActivity"/>
+            <app_act_acc act_name="com.nykj.confirm.activity.AppointmentConfirmActivity"/>
+            <app_act_acc act_name="com.nykj.confirm.activity.SuccessActivity"/>
+            <app_dns host_name="patientgate.91160.com" />
+            <app_dns host_name="imagesbasicinfo.91160.com" />
+            <app_dns host_name="wechatgate.91160.com" />
+            <app_dns host_name="logcollect.91160.com" />
+            <app_dns host_name="usergate.91160.com" />
+            <app_dns host_name="aspect-upush.umeng.com" />
+            <app_dns host_name="stat2.openinstall.io" />
+            <app_dns host_name="gate.91160.com" />
+            <app_dns host_name="images.91160.com" />
+            <app_dns host_name="matrix.91160.com" />
+            <app_dns host_name="msglb.91160.com" />
+            <app_dns host_name="oss2.91160.com" />
+            <app_dns host_name="ossb2c.91160.com" />
+            <app_dns host_name="patientand.91160.com" />
+            <app_dns host_name="scdata.91160.com" />
+            <app_dns host_name="snsapi.91160.com" />
+            <app_dns host_name="soapi.91160.com" />
+            <app_dns host_name="static.91160.com" />
+        </app_config>
+        <app_config pkg="com.unionpay" app_overall_acc="true" app_comm_netacc="true" hot_start_tip="false">
+            <app_dns host_name="foundation.cup.com.cn" />
+            <app_dns host_name="ccm.95516.com" />
+            <app_dns host_name="tysdk.95516.com" />
+            <app_dns host_name="analytics.95516.com" />
+            <app_dns host_name="article.95516.com" />
+            <app_dns host_name="open.95516.com" />
+            <app_dns host_name="openysf.cup.com.cn" />
+            <app_dns host_name="wallet.95516.com" />
+            <app_dns host_name="youhui.95516.com" />
+            <app_dns host_name="ucsp.unionpayintl.com" />
+            <app_dns host_name="benefittest.unionpayintl.com" />
+            <app_dns host_name="marketing.unionpayintl.com" />
+            <app_dns host_name="pay.cup.com.cn" />
+            <app_dns host_name="account.cup.com.cn" />
+            <app_dns host_name="ads.cup.com.cn" />
+            <app_dns host_name="antifraud.cup.com.cn" />
+            <app_dns host_name="base.cup.com.cn" />
+            <app_dns host_name="content.cup.com.cn" />
+            <app_dns host_name="device.cup.com.cn" />
+            <app_dns host_name="hotpatch.cup.com.cn" />
+            <app_dns host_name="switch.cup.com.cn" />
+            <app_dns host_name="tongzhi.cup.com.cn" />
+        </app_config>
+        <app_config pkg="com.jingdong.app.mall" app_overall_acc="false" app_comm_netacc="false">
+            <app_act_acc act_name="com.jd.lib.settlement.fillorder.activity.NewFillOrderActivity"/>
+        </app_config>
+        <app_config pkg="com.tencent.mm" app_overall_acc="false" app_comm_netacc="false">
+            <app_act_acc act_name="com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNewReceiveUI"/>
+            <app_act_acc act_name="com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyBeforeDetailUI"/>
+            <app_act_acc act_name="com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNotHookReceiveUI"/>
+        </app_config>
+    </config_list>
+
+    <config_list config_name="APP_LABEL_CONFIG" enable="true">
+        <!--
+        <app_label_configs pkg="xxx" act_name="xxx">
+            <label_config label_name="xxx" tip="true">
+                <label_dns host_name="xxx" />
+                <label_dns host_name="xxx" />
+            </label_config>
+            <label_config label_name="xxx" tip="true">
+                <label_dns host_name="xxx" />
+                <label_dns host_name="xxx" />
+            </label_config>
+        </app_label_configs>
+        -->
+
+        <app_label_configs pkg="com.tencent.mm" act_name="com.tencent.mm.plugin.appbrand.ui.AppBrandUI.*">
+            <label_config label_name="国家博物馆" tip="true">
+                <label_dns host_name="appapi.chnmuseum.cn" />
+                <label_dns host_name="uu.chnmuseum.cn" />
+                <label_dns host_name="gatherer.m.qq.com" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="sensorsdata.chnmuseum.cn" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="wapticket.chnmuseum.cn" />
+                <label_dns host_name="wxmini.chnmuseum.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+            </label_config>
+            <label_config label_name="国家博物馆官方预约" tip="true">
+                <label_dns host_name="appapi.chnmuseum.cn" />
+                <label_dns host_name="uu.chnmuseum.cn" />
+                <label_dns host_name="gatherer.m.qq.com" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="sensorsdata.chnmuseum.cn" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="wapticket.chnmuseum.cn" />
+                <label_dns host_name="wxmini.chnmuseum.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+            </label_config>
+            <label_config label_name="成都博物馆票务系统" tip="true">
+                <label_dns host_name="usc.leleu.cn" />
+                <label_dns host_name="e-commerce-1305732444.cos.ap-chengdu.myqcloud.com" />
+                <label_dns host_name="mp.weixin.qq.com" />
+                <label_dns host_name="at.alicdn.com" />
+            </label_config>
+            <label_config label_name="中国大运河博物馆参观预约" tip="true">
+                <label_dns host_name="yhmz.canalmuseum.net" />
+                <label_dns host_name="service.canalmuseum.net" />
+                <label_dns host_name="loc.map.baidu.com" />
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+            </label_config>
+            <label_config label_name="中运博" tip="true">
+                <label_dns host_name="service.canalmuseum.net" />
+                <label_dns host_name="yhmz.canalmuseum.net" />
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+            </label_config>
+            <label_config label_name="云上浙博" tip="true">
+                <label_dns host_name="yszb.zhejiangmuseum.com" />
+                <label_dns host_name="zjcheckin.zhejiangmuseum.com" />
+                <label_dns host_name="zjwap.zhejiangmuseum.com" />
+                <label_dns host_name="zjuu.zhejiangmuseum.com" />
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+            </label_config>
+            <label_config label_name="广东省博物馆" tip="true">
+                <label_dns host_name="shengbos39.gdmuseum.com" />
+                <label_dns host_name="gdmuseum.tencentrio.com" />
+                <label_dns host_name="gatherer.m.qq.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="servicewechat.com" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="flysec.m.qq.com" />
+                <label_dns host_name="cdn1.dcloud.net.cn" />
+                <label_dns host_name="mmbizwxadpobcos-release-1258344707.cos.ap-shanghai.myqcloud.com" />
+                <label_dns host_name="wx.qlogo.cn" />
+            </label_config>
+            <label_config label_name="广东省博物馆预约" tip="true">
+                <label_dns host_name="shengbos39.gdmuseum.com" />
+                <label_dns host_name="gdmuseum.tencentrio.com" />
+                <label_dns host_name="gatherer.m.qq.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="servicewechat.com" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="flysec.m.qq.com" />
+                <label_dns host_name="cdn1.dcloud.net.cn" />
+                <label_dns host_name="mmbizwxadpobcos-release-1258344707.cos.ap-shanghai.myqcloud.com" />
+                <label_dns host_name="wx.qlogo.cn" />
+            </label_config>
+            <label_config label_name="苏州博物馆全预约" tip="true">
+                <label_dns host_name="newticket.szmuseum.com" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+            </label_config>
+            <label_config label_name="南京博物院" tip="true">
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="wxapp.wisdommuseum.cn" />
+                <label_dns host_name="www.nmbyh.com" />
+                <label_dns host_name="hsh.ztxywy.net" />
+                <label_dns host_name="industry.map.qq.com" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="cos.nmbyh.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="gatherer.m.qq.com" />
+            </label_config>
+            <label_config label_name="南京博物院预约服务" tip="true">
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="wxapp.wisdommuseum.cn" />
+                <label_dns host_name="www.nmbyh.com" />
+                <label_dns host_name="hsh.ztxywy.net" />
+                <label_dns host_name="industry.map.qq.com" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="cos.nmbyh.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="gatherer.m.qq.com" />
+            </label_config>
+            <label_config label_name="上海博物馆" tip="true">
+                <label_dns host_name="mpweb.shanghaimuseum.net" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="mpapi.shanghaimuseum.net" />
+                <label_dns host_name="event.shanghaimuseum.net" />
+                <label_dns host_name="shmres-zwc.shanghaimuseum.net" />
+                <label_dns host_name="reservation.shanghaimuseum.net" />
+            </label_config>
+            <label_config label_name="上海博物馆参观预约" tip="true">
+                <label_dns host_name="mpweb.shanghaimuseum.net" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="mpapi.shanghaimuseum.net" />
+                <label_dns host_name="event.shanghaimuseum.net" />
+                <label_dns host_name="shmres-zwc.shanghaimuseum.net" />
+                <label_dns host_name="reservation.shanghaimuseum.net" />
+            </label_config>
+            <label_config label_name="故宫博物院" tip="true">
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="gugong-tx-1259446244.cos.ap-beijing.myqcloud.com" />
+                <label_dns host_name="gugongmini.dpm.org.cn" />
+                <label_dns host_name="industry.map.qq.com" />
+                <label_dns host_name="lotswap.dpm.org.cn" />
+                <label_dns host_name="mp-license-api.easyar.com" />
+                <label_dns host_name="report-online.sh.wxgateway.com" />
+                <label_dns host_name="umini.shujupie.com" />
+                <label_dns host_name="at.alicdn.com" />
+                <label_dns host_name="weather-scenic.map.qq.com" />
+                <label_dns host_name="cdn1.dcloud.net.cn" />
+                <label_dns host_name="servicewechat.com" />
+                <label_dns host_name="wx2.sinaimg.cn" />
+                <label_dns host_name="wx3.sinaimg.cn" />
+                <label_dns host_name="ggzl-img.dpm.org.cn" />
+                <label_dns host_name="appcfg.v.qq.com" />
+                <label_dns host_name="browsertdidticket.m.qq.com" />
+                <label_dns host_name="flysec.m.qq.com" />
+                <label_dns host_name="ggpwosspu.dpm.org.cn" />
+            </label_config>
+            <label_config label_name="看个比赛" tip="true">
+                <label_dns host_name="xcx-api.dasheng.top" />
+                <label_dns host_name="res.dasheng.top" />
+                <label_dns host_name="res.servicewechat.com" />
+                <label_dns host_name="launchwxacode.wxqcloud.qq.com.cn" />
+                <label_dns host_name="mmbiz.qpic.cn" />
+                <label_dns host_name="wx.qlogo.cn" />
+                <label_dns host_name="res.wx.qq.com" />
+                <label_dns host_name="wximg.wxs.qq.com" />
+                <label_dns host_name="cdn1.dcloud.net.cn" />
+                <label_dns host_name="cbcxajyurq-default-cn.rum.aliyuncs.com" />
+            </label_config>
+            <label_config label_name="泡泡玛特" tip="true">
+                <label_dns host_name="res.paquapp.com" />
+                <label_dns host_name="prod-boxlite-cdn.paquapp.com" />
+            </label_config>
+            <label_config label_name="你好博物馆 艺术商城" tip="true">
+                <label_dns host_name="staticmuseum.eric-art.cn" />
+            </label_config>
+            <label_config label_name="布达拉宫官方票务预订系统" tip="true">
+                <label_dns host_name="yjtxcx.potalapalace.cn" />
+                <label_dns host_name="yjt.potalapalace.cn" />
+            </label_config>
+            <label_config label_name="莫高窟参观预约网" tip="true">
+                <label_dns host_name="mgkstatics.mgk.org.cn" />
+            </label_config>
+            <label_config label_name="上海科技馆自然博物馆天文馆门票" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="上海迪士尼度假区" tip="true">
+                <label_dns host_name="www.shanghaidisneyresort.com" />
+                <label_dns host_name="static.shanghaidisneyresort.com" />
+                <label_dns host_name="web.tingyun.shanghaidisneyresort.com" />
+                <label_dns host_name="data.sensors.shanghaidisneyresort.com" />
+            </label_config>
+            <label_config label_name="三星堆博物馆" tip="true">
+                <label_dns host_name="smart-tourism-1314167384.cos.ap-nanjing.myqcloud.com" />
+                <label_dns host_name="sxd-tx-1315371622.cos.ap-nanjing.myqcloud.com" />
+            </label_config>
+            <label_config label_name="北京环球度假区官方" tip="true">
+                <label_dns host_name="cdn.app.universalbeijingresort.com" />
+            </label_config>
+            <label_config label_name="成都大熊猫繁育研究基地" tip="true">
+                <label_dns host_name="minprogram-1320142363.cos.ap-chengdu.myqcloud.com" />
+            </label_config>
+            <label_config label_name="深圳科学技术馆" tip="true">
+                <label_dns host_name="newsite.szstm.org.cn" />
+            </label_config>
+            <label_config label_name="深圳市科学馆预约平台" tip="true">
+                <label_dns host_name="file.szstm.org.cn" />
+            </label_config>
+            <label_config label_name="辽博预约" tip="true">
+                <label_dns host_name="wxxcx.lnmuseum.com.cn" />
+            </label_config>
+            <label_config label_name="重庆数字科技馆" tip="true">
+                <label_dns host_name="sz.cqkjg.cn" />
+                <label_dns host_name="6371-cqkjg-0g5vcal7198bb3f0-1321930725.tcb.qcloud.la" />
+            </label_config>
+            <label_config label_name="河南博物院票务预约" tip="true">
+                <label_dns host_name="yy.chnmus.net" />
+            </label_config>
+            <label_config label_name="广东科学中心" tip="true">
+                <label_dns host_name="xcxs.gdsc.cn" />
+                <label_dns host_name="apis.gdsc.cn" />
+            </label_config>
+            <label_config label_name="新疆博物馆" tip="true">
+                <label_dns host_name="xjbwglxdw.xjmuseum.com.cn" />
+            </label_config>
+            <label_config label_name="深圳博物馆" tip="true">
+                <label_dns host_name="szmyy.szanxin.cn" />
+            </label_config>
+            <label_config label_name="黑龙江省博物馆" tip="true">
+                <label_dns host_name="mmbizwxadpobcos-release-1258344707.cos.ap-shanghai.myqcloud.com" />
+            </label_config>
+            <label_config label_name="湖北省博物馆网上预约系统" tip="true">
+                <label_dns host_name="wapticket.hbww.org.cn" />
+            </label_config>
+            <label_config label_name="西藏博物馆公众服务" tip="true">
+                <label_dns host_name="location.tibetmuseum.com.cn" />
+                <label_dns host_name="www.tibetmuseum.com.cn" />
+            </label_config>
+            <label_config label_name="中国航天博物馆" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="中国人民革命军事博物馆票务预约" tip="true">
+                <label_dns host_name="pw.jb.mil.cn" />
+                <label_dns host_name="jb.cncis.com.cn" />
+            </label_config>
+            <label_config label_name="北京古代建筑博物馆" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="宝安科技馆" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="青海省博物馆门票预约" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="宁夏博物馆" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="安徽博物院" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+            <label_config label_name="江博预约" tip="true">
+                <!-- <label_dns host_name="xxxxxxxxxxxxxxxxxx" /> -->
+            </label_config>
+        </app_label_configs>
+    </config_list>
+
+</sec_grab_engine_configs>
+

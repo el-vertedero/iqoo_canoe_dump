@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <custlist name="pms_area_region_preinstall_apps">
+        <item name="com.vivo.appstore-enable" value="CL,PE,CO,PA,CR,GT" />
+        <item name="com.vivo.appstore-default" value="false" />
+    </custlist>
+</config>

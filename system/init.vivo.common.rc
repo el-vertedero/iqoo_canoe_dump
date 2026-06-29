@@ -1,0 +1,184 @@
+#init.rc for vivo
+on post-fs-data
+    # vivo xiejiyuan add for vrt begin
+    mkdir /data/vusbd 0775 root shell encryption=Attempt
+    # vivo xiejiyuan add for vrt end
+
+    #20201023 xiangjizu add for apkslim
+    chmod 0777 /data/vivo-common/gallery_res
+    chmod 0777 /data/vivo-common/gallery_res/README.txt
+    chmod 0777 /data/vivo-common/gallery_res/assets
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/aesthetics
+    chmod 0777 /data/vivo-common/gallery_res/assets/aesthetics/mobilenetv2_nearest_portrait_finetune_weights_reordered.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/aesthetics/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/all_model_asset
+    chmod 0777 /data/vivo-common/gallery_res/assets/all_model_asset/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/clusterrank
+    chmod 0777 /data/vivo-common/gallery_res/assets/clusterrank/mbn_ranker_128.ckpt-15000_tf1.12.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/clusterrank/config.xlx
+
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/ocr
+    chmod 0777 /data/vivo-common/gallery_res/assets/ocr/plate_number.zip
+    chmod 0777 /data/vivo-common/gallery_res/assets/ocr/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/similar
+    chmod 0777 /data/vivo-common/gallery_res/assets/similar/l2net.bin
+    chmod 0777 /data/vivo-common/gallery_res/assets/similar/l2net.param.bin
+    chmod 0777 /data/vivo-common/gallery_res/assets/similar/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/tagcreater
+    chmod 0777 /data/vivo-common/gallery_res/assets/tagcreater/c279-epoch35-v3-circleloss_0901_nc4hw4_fp16.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/tagcreater/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/videoclassify
+    chmod 0777 /data/vivo-common/gallery_res/assets/videoclassify/videoclassify_v6.4_v4.0_0725.pb
+    chmod 0777 /data/vivo-common/gallery_res/assets/videoclassify/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/facegroup
+    chmod 0777 /data/vivo-common/gallery_res/assets/facegroup/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets_in
+
+    chmod 0777 /data/vivo-common/gallery_res/assets_in/facegroup
+    chmod 0777 /data/vivo-common/gallery_res/assets_in/facegroup/face_feature_extrace.vaim
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/aiportrait
+    chmod 0777 /data/vivo-common/gallery_res/assets/aiportrait/Backbone_MobileNetV2_Epoch_10.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/aiportrait/facealign_weights_reordered.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/aiportrait/FaceDetector_lrelu_320.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/aiportrait/config.xlx
+
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto/best_face_score_210311.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto/face_align_model.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto/face_detect_model.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto/face_feature_extrace.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto/mobilenetv2_0.5_17e_200907.vaim
+    chmod 0777 /data/vivo-common/gallery_res/assets/bestphoto/config.xlx
+    #20201023 xiangjizu add for apkslim
+
+# vivo lingengbiao add for aiservice begin
+    chown system system /data/vivo-common/aiservice_res
+    chown system system /data/vivo-common/aiservice_res/README.txt
+    chown system system /data/vivo-common/aiservice_res/config.json
+    chown system system /data/vivo-common/aiservice_res/aiservice_data.zip
+    chmod 0777 /data/vivo-common/aiservice_res
+    chmod 0777 /data/vivo-common/aiservice_res/README.txt
+    chmod 0777 /data/vivo-common/aiservice_res/config.json
+    chmod 0777 /data/vivo-common/aiservice_res/aiservice_data.zip
+# vivo lingengbiao add fro aiservice end
+
+#20211108 lvfei add for browserslim
+    chmod 0777 /data/vivo-common/browser_data
+    chmod 0777 /data/vivo-common/browser_data/libs
+    chmod 0777 /data/vivo-common/browser_data/libs/libwebviewchromium_vivo.so
+    chmod 0777 /data/vivo-common/browser_data/libs/libijkffmpeg.so
+#20211108 lvfei add for browserslim
+
+#vivo xushuo add for secp begin
+    mkdir /data/vendor/Secp 0777 root root encryption=Attempt
+    mkdir /data/vendor/Secp/logData 0777 root root encryption=Attempt
+    mkdir /data/vendor/Secp/logData/log 0777 system system encryption=Attempt
+    mkdir /data/vendor/Secp/logData/uploadFiles 0777 system system encryption=Attempt
+    mkdir /data/logData/modules/5110 0777 system system encryption=Attempt
+#vivo xushuo add for secp end
+
+# add by tinno for add pogokeyboard aidl service begin
+    chmod 0666 /dev/ttyS1
+    chmod 0666 /dev/ttyHS5
+    chmod 0666 /sys/devices/virtual/pogopin/keyboard/muteled
+# add by tinno for add pogokeyboard aidl service end
+
+on boot
+    # add by tinno for add pogokeyboard aidl service begin
+    chmod 0666 /dev/ttyS1
+    chmod 0666 /dev/ttyHS5
+    chmod 0666 /sys/devices/virtual/pogopin/keyboard/muteled
+    # add by tinno for add pogokeyboard aidl service end
+
+# vivo xiejiyuan add for vrt begin
+on property:sys.vendor.adbd=1
+    rm /data/vusbd/sec_certificate
+    rm /data/vusbd/load
+    rm /dev/vusbd/sec_certificate
+    rm /dev/vusbd/load
+    rm /data/mdl/.vrp_test
+
+service vrp_p /system/bin/vrp -p
+    disabled
+    user root
+    group root system
+    capabilities IPC_LOCK SYS_NICE
+    priority -20
+    ioprio rt 0
+    oneshot
+
+service vrp_r /system/bin/vrp -r
+    disabled
+    user root
+    group root system
+    capabilities IPC_LOCK SYS_NICE
+    priority -20
+    ioprio rt 0
+    oneshot
+
+on property:ro.build.type=user && property:service.vrp.wait=p
+    start vrp_p
+
+on property:ro.build.type=user && property:service.vrp.wait=r
+    start vrp_r
+
+on property:service.vrt.failsafe_dir=0 && property:init.svc.vusbd=running
+   exec u:r:init:s0 root shell -- /system/bin/rm -rf /dev/vusbd
+   mkdir /dev/vusbd 0775 root shell
+   restorecon --recursive /dev/vusbd
+   setprop service.vrt.failsafe_dir 1
+# vivo xiejiyuan add for vrt end
+
+# vivo chg add for charger start
+on property:persist.vivo.fixed_temp_with_key_verification=*
+    write /sys/class/cms_class/fixed_temp_with_key_verification ${persist.vivo.fixed_temp_with_key_verification}
+# vivo chg add for charger end
+
+#vivo xushuo add for secp begin
+on property:persist.vendor.vivo.catsecplog=start
+    start catsecplog
+
+on property:persist.vendor.vivo.catsecplog=stop
+    stop catsecplog
+
+service catsecplog /system/bin/catsecplog.sh
+    class main
+    user root
+    group root
+    oneshot
+    seclabel u:r:shell:s0
+#vivo xushuo add for secp begin
+
+# vivo lipeiming add for On-demand startup zygote secondary begin
+on property:sys.boot_completed=1 && property:persist.device_config.vendor_system_native.zygote_secondary=1
+    start zygote_secondary
+
+on property:sys.boot_completed=1 && property:persist.device_config.vendor_system_native.zygote_secondary=0
+    stop zygote_secondary
+
+on property:sys.boot_completed=1 && property:persist.device_config.vendor_system_native.zygote_secondary_dyn=1
+    start zygote_secondary
+# vivo lipeiming add for On-demand startup zygote secondary end
+
+# vivo 11102565 add for aiservice start
+service aiservice_res /system/bin/vivo_aiservice_res.sh
+    disabled
+    user root
+    group root system
+    oneshot
+    seclabel u:r:aiservice:s0
+
+on property:sys.vivo.aiservice.data_res_cp=1
+    start aiservice_res
+    setprop sys.vivo.aiservice.data_res_cp 0
+# vivo 11102565 add for aiservice end

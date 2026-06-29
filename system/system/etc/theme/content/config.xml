@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:moodcube="http://schemas.android.com/apk/res/com.vivo.moodcube"> 
+    <id>231477</id>  
+    <version>1</version>
+    <!-- 变形器配置-->
+    <moodcubeConfig>
+        <defaultConfig>
+            <!-- 当前主题“系统样式”默认值
+            moodcube:colorId：表示系统颜色id，与systemConfig里的moodcube:id对应
+                除config.xml中声明的色值，也可使用变形器预置的色值项，
+                id为：wallpaper_color(壁纸吸色)；colorful_color(彩色)；
+                     preset_color_1(#F34D7E,#FFBBCE)；
+                     preset_color_2(#3C79C3,#B1C9E7)；
+                     preset_color_3(#443E3E,#B0B0B0)；
+                     preset_color_4(#E8B052,#F6DFBA)
+            moodcube:cornerLevel：圆角对用的4个档位值
+            0：矩形
+            1：默认
+            2：平滑
+            3：圆润
+            -->
+            <item moodcube:id ="systemStyle" moodcube:colorId="colorful_color" moodcube:cornerLevel="1" />
+            
+            <!-- 当前主题“极简色盘”默认值
+            moodcube:colorId：表示极简图标颜色id
+                   变形器预置的极简色盘值如下（3种）
+                   （1）id为：wallpaper_color(壁纸吸色)；
+				   （2）colorful_color(彩色)
+                   （3）本地内置id :
+                        local_color1（"#ffffff,#F34D7E,#FFD062"）
+                        local_color2（"#ffffff,#3C79C3,#F4D15D"）
+                        local_color3("#ffffff,#443E3E,#FB475F")
+                        local_color4("#ffffff,#443E3E,#F7D052")
+				   主题新增色盘：id与iconConfig里的moodcube:id对应 
+                        -->
+            <item moodcube:id ="iconColor" moodcube:colorId="colorful_color"/>
+            <!-- 当前主题图标大小默认值
+            0：小
+            1：中
+            2：大
+             -->
+            <item moodcube:id ="iconSize" moodcube:size="1"/>
+            
+            <!-- 当前主题图标风格 ：极简、彩色、精美 三种图标样式
+            0：极简
+            1：彩色
+            2：精美
+            -->
+            <item moodcube:id ="iconStyle" moodcube:style="1"/>
+
+             <!-- 当前主题图标圆角 ： 开放 矩形  圆润
+            0：开放
+            1：矩形
+            2：圆润
+            -->
+            <item moodcube:id ="iconRadius" moodcube:style="2"/>
+        </defaultConfig>
+
+        <!-- 所有“系统颜色”值：预置颜色值+所有主题的系统颜色值
+        moodcube:color="#ffffff,#000000":第一个表示主色，第二个表示辅色-->
+        <systemConfig>
+        </systemConfig>
+
+
+        <!-- 所有“极简色盘”颜色值：主题的极简色盘颜色值
+        moodcube:color="#1b1b1b,#ffffff,#66ff00"：第一个颜色值表示背景色，第二个颜色值表示主色，第三个颜色值表示辅助色
+        moodcube:attr="false,true" 这两个bool值是需要UI确认的，第一个表示背景色是否亮色，第二个表示是否单色模式
+        因为最新的主题颜色值是排在最前面的，请按倒序的方式 color_x值越大，在色盘越靠前。 
+		color文件里的色盘图片的文件名要和这里的id对上不然会找不到图片！！！！  -->
+        <iconConfig>
+        </iconConfig>
+    </moodcubeConfig>
+</config>
+

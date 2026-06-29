@@ -1,0 +1,11 @@
+{
+    "version":1,
+    "default":{
+        "com.vivo.hiboard":1,
+        "com.bbk.launcher2":1,
+        "com.android.systemui":1
+    },
+    "PD2415":{
+        "com.android.settings":1
+    }
+}

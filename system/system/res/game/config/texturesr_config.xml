@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- 原神 -->
+    <pkg name="com.miHoYo.Yuanshen-com.miHoYo.ys.bilibili-com.miHoYo.GenshinImpact-com.miHoYo.yuanshencb">
+        <switch texturesr_vulkan="1" model="PD2505-PD2520-PD2505F_EX-PD2546-PD2536-PD2536F_EX-PD2564"/>
+        <param texturesr_param="2048" model="PD2536-PD2536F_EX"/>
+        <param temp_values="1,43000,41000,2048" model="PD2505-PD2505F_EX-PD2546"/>
+        <param temp_values="1,38000,36000,2048" model="PD2564"/>
+        <param temp_values="1,44000,42000,0" model="PD2520-PD2536-PD2536F_EX"/>
+        <param module_version="1" texture_storage="2048"/>
+        <param disable_res="0,1,2"/>
+    </pkg>
+    <!-- 星铁 -->
+    <pkg name="com.miHoYo.hkrpg-com.miHoYo.cloudgames.hkrpg-com.miHoYo.hkrpg.bilibili-com.miHoYo.hkrpgcb">
+        <switch texturesr_gles="1" texturesr_vulkan="1" model="PD2505-PD2546-PD2564"/>
+        <param temp_values="1,44000,42000,2048" model="PD2505-PD2546"/>
+        <param temp_values="1,39000,37000,2048" model="PD2564"/>
+        <param module_version="1" texture_storage="2048"/>
+        <param disable_res="1,2,3"/>
+    </pkg>
+    <!-- 王者 -->
+    <pkg name="com.tencent.tmgp.sgame-com.tencent.tmgp.sgamece">
+        <switch texturesr_gles="1" texturesr_vulkan="1" model="PD2505-PD2546-PD2564"/>
+        <param temp_values="1,39000,37000,2048" model="PD2505-PD2546-PD2564"/>
+        <param module_version="2" texture_storage="2048"/>
+        <param disable_res="0"/>
+    </pkg>
+    <!-- 无畏契约 -->
+    <pkg name="com.tencent.tmgp.codev-com.tencent.projectc-com.vgamecrty.projv">
+        <switch texturesr_vulkan="1" model="PD2564"/>
+        <param temp_values="1,45000,44000,2048" model="PD2564"/>
+        <param module_version="1" texture_storage="2048"/>
+        <param disable_res="0,1"/>
+    </pkg>
+</gameconfig>

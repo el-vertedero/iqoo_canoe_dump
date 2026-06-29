@@ -1,0 +1,64 @@
+{
+  "isHide": false,
+  "id": "1005",
+  "type": "film_filter",
+  "name": "胶片滤镜",
+  "filterId": 6,
+  "editImage": [
+    {
+      "editLayers": [
+        "layer_bg"
+      ],
+      "editImagePick": "res/image_pick.png"
+    }
+  ],
+  "editImageColor": [
+    {
+      "editLayers": [
+        "layer_bg"
+      ],
+      "select": 0,
+      "editFilmType": 0,
+      "editOptions": {
+        "options": [
+          {
+            "thumb": "res/color_thumb_1.png",
+            "filterPath": "res/blackWhite.png"
+          },
+          {
+            "thumb": "res/color_thumb_2.png",
+            "filterPath": "res/yellowPurple.png"
+          },
+          {
+            "thumb": "res/color_thumb_3.png",
+            "filterPath": "res/deepRedBlue.png"
+          },
+          {
+            "thumb": "res/color_thumb_4.png",
+            "filterPath": "res/cyanBluePurple.png"
+          },
+          {
+            "thumb": "res/color_thumb_5.png",
+            "filterPath": "res/blueYellowGreen.png"
+          },
+          {
+            "thumb": "res/color_thumb_6.png",
+            "filterPath": "res/deepBluePurpleRed.png"
+          },
+          {
+            "thumb": "res/color_thumb_7.png",
+            "filterPath": "res/deepBluePurple.png"
+          },
+          {
+            "thumb": "res/color_thumb_8.png",
+            "filterPath": "res/purpleGreen.png"
+          },
+          {
+            "thumb": "res/color_thumb_9.png",
+            "filterPath": "res/deepRedYellow.png"
+          }
+        ]
+      }
+    }
+  ]
+}

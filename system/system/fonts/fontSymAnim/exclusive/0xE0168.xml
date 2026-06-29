@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0168" />
+
+    <animationList>
+
+        <symbolAnimation layerCnt="2">
+            <originStatus  >
+                <layer index="0" alpha="0"/>
+                <layer index="1" alpha="1"/>
+            </originStatus>
+            <parallelGroup >
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="250" to="0" layersIndex="1" interpolator="custom(0.25, 0.05, 0.25, 1.00)"/>
+                </serialGroup>
+
+                <animationItem animationType="alpha" duration="250" to="1" layersIndex="0" interpolator="custom(0.25, 0.08, 0.25, 1.00)"/>
+                <animationItem animationType="dynamicColor" duration="250" to="0xFFFFFF" layersIndex="0" interpolator="custom(0.25, 0.08, 0.25, 1.00)"/>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

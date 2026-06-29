@@ -1,0 +1,2146 @@
+<window-policy version="1">
+    <defaultImmerseNavColor>false</defaultImmerseNavColor>
+    <defaultAlienScreenPolicy>NOTKEEPFULL</defaultAlienScreenPolicy>
+    <version>1</version>
+    <itemList>
+
+        <!--
+        navColorPolicyV2
+        -->
+        <!-- style:4 -->
+        <!--红果免费短剧 短剧详情页 B240829-86172  VIP报了红果免费短剧界面下面的抬高太高了的问题，这俩是一个界面，需要全屏显示，这个全屏也没问题，故注释掉这个-->
+        <item name="com.phoenix.read/com.dragon.read.component.shortvideo.impl.ShortSeriesActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--抖音火山版 左上角更多 用户头像 B240820-86561-->
+        <item name="com.ss.android.ugc.live/com.ss.android.ugc.aweme.profile.ui.UserProfileActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+
+
+        <!-- 直播 -->
+        <!-- 抖音主界面tab进直播间 功耗增量大于30mA 去掉-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.live.LivePlayActivity*" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- 抖音主界面搜索进直播间 评论滑动场景 功耗增量大于30mA 去掉-->
+        <!--<item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.detail.ui.DetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>-->
+        <!-- 抖音火山版主界面tab进直播间 -->
+        <item name="com.ss.android.ugc.live/com.ss.android.ugc.aweme.live.LivePlayActivity*" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- 支付宝蚂蚁森林、支付宝公益、神奇海洋 支付宝小鸡乐园游戏过程中，底部导航闪烁 且功耗增量大于30mA 去掉-->
+        <!--item name="com.eg.android.AlipayGphone/com.alipay.mobile.nebulax.xriver.activity.XRiverActivity" navColorPolicyV2="IMMERSE_V2,style:4"/-->
+        <!-- 小红书直播间 -->
+        <item name="com.xingin.xhs/com.xingin.alpha.audience.AlphaAudienceActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--今日头条主界面进直播间-->
+        <item name="com.ss.android.article.news/com.bytedance.android.openlive.plugin.LivePlayerActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- bilibili直播间-->
+        <item name="tv.danmaku.bili/com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- YY 直播界面-->
+        <item name="com.duowan.mobile/com.duowan.mobile.basemedia.watchlive.activity.LiveTemplateActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- 携程旅行 首页 直播间-->
+        <item name="ctrip.android.view/ctrip.android.livestream.live.view.activity.LiveRoomActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--快手直播间-->
+        <item name="com.smile.gifmaker/com.yxcorp.gifshow.detail.PhotoDetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--快手极速版直播间-->
+        <item name="com.kuaishou.nebula/com.yxcorp.gifshow.detail.PhotoDetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--天猫 直播间-->
+        <item name="com.tmall.wireless/com.tmall.wireless.livePlay.room.TaoLiveVideoActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--好看视频 直播间-->
+        <item name="com.baidu.haokan/com.baidu.searchbox.live.list.MixLiveTranslucentActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--番茄畅听 直播间-->
+        <item name="com.xs.fm/com.dragon.read.plugin.live.LivePlayerActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--翼支付直播间-->
+        <item name="com.chinatelecom.bestpayclient/com.chinatelecom.bestpayclient.web.WebActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- BOSS直播-->
+        <item name="com.hpbr.bosszhipin/com.hpbr.bosszhipin.zxing.activity.ScanZxingActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--美团直播间  模糊 B240820-84633-->
+        <item name="com.sankuai.meituan/com.dianping.live.live.mrn.MLiveMRNActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--  抖音极速版 直播间 模糊 B240820-85383-->
+        <item name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.detail.ui.DetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--快手 搜索 直播榜 直播间 B240819-82991-->
+        <item name="com.smile.gifmaker/com.kuaishou.live.core.basic.activity.LiveSlideActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--头条搜索极速版 视频 直播界面 B240819-84816 模糊-->
+        <item name="com.ss.android.article.lite/com.ss.android.live.host.livehostimpl.OpenLivePlayerActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--酷狗音乐 直播间 B240820-83792 模糊-->
+        <item name="com.kugou.android/com.kugou.fanxing.allinone.watch.liveroominone.media.FALiveRoomInOneActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--小红书 购物-直播界面 B240829-85061-->
+        <item name="com.xingin.xhs/com.xingin.alpha.audience.v2.AlphaAudienceActivityV2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--快手极速版 直播界面 B240829-82153 模糊-->
+        <item name="com.kuaishou.nebula/com.kuaishou.live.core.basic.activity.LiveSlideActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--京东 逛-直播界面-底部导航栏 B240829-81916 -->
+        <item name="com.jingdong.app.mall/com.jd.lib.mylive.view.activity.VideoLiveRoomActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--点淘 直播间/直播间商品列表 模糊 B240830-85515-->
+        <item name="com.taobao.live/com.taobao.live.TaoLiveVideoActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--支付宝 视频 直播间 B240820-86118-->
+        <item name="com.eg.android.AlipayGphone/com.alipay.android.phone.wallet.mylive.activity.QuickPreviewActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--抖音极速版 直播间 B240829-84777 模糊-->
+        <item name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.live.LivePlayActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--快手极速版 +号分页进入直播 B240908-82697-->
+        <item name="com.kuaishou.nebula/com.yxcorp.gifshow.camera.record.CameraActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--淘宝 直播 B240908-80551 模糊-->
+        <item name="com.taobao.taobao/com.taobao.tao.TBMainActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--腾讯新闻临时加黑名单-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.readerapp.ui.ReaderAppUI" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--折叠屏内屏QQ动态滑动耗电-->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--B241112-80534-->
+        <item name="com.ss.android.article.news/com.ss.android.ugc.detail.activity.TikTokActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--今日头条 B241127-82117-->
+        <item name="com.ss.android.article.news/com.android.bytedance.search.SearchActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- 微信主页右上角的搜索按钮 B241223-86590-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.fts.ui.FTSMainUI" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- 微信主页右上角的搜索按钮进到搜索页后再进到搜索内容的页面 B241223-86590-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.webview.ui.tools.fts.MMFTSSOSHomeWebViewUI" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- B250114-84207 -->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.location.ui.RedirectUI" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!-- B250327-83263-->
+        <item name="com.taobao.taobao/com.taobao.taolive.room.TaoLiveVideoActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--淘宝商品 B250410-85002-->
+        <item name="com.taobao.taobao/com.taobao.android.detail2.core.framework.NewDetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+
+        <!-- 弹窗 -->
+        <!-- 网易云音乐 B240829-86331-->
+        <item name="com.netease.cloudmusic/com.netease.cloudmusic.activity.IconChangeDefaultAlias" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <item name="com.netease.cloudmusic/com.netease.cloudmusic.activity.PlayerActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--今日头条 B240908-80880-->
+        <item name="com.kuaishou.nebula/com.yxcorp.gifshow.HomeActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--酷狗音乐 B240915-81290 v7版本正常去除-->
+        <!--item name="com.kugou.android/com.kugou.android.app.splash.SplashActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/-->
+        <!--滴滴出行 B240928-81467-->
+        <item name="com.sdu.didi.psnger/com.didi.sdk.app.MainActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--高铁管家 B240929-83988-->
+        <item name="com.gtgj.view/com.gtgj.view.comment.TrainCommentDetailActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--B241119-80747-->
+        <item name="ctrip.android.view/ctrip.android.reactnative.preloadv2.CRNTransparentActivityV2" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <item name="ctrip.android.view/ctrip.android.reactnative.CRNTransparentActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--via浏览器 B241108-81230-->
+        <item name="mark.via/mark.via.Shell" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--淘宝商品子页面 B250410-85002-->
+        <item name="com.taobao.taobao/com.taobao.android.detail2.core.framework.NewDetailActivity" type="1000" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--微博首页 -->
+        <item name="com.sina.weibo/com.sina.weibo.VisitorMainTabActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--小红书hdr照片 B250513-80778-->
+        <item name="com.xingin.xhs/com.xingin.matrix.notedetail.NoteDetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--奥维互动地图 B250421-84975-->
+        <item name="com.ovital.ovitalMap/com.ovital.ovitalMap.ovitalMapActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--哔哩哔哩漫画 小说正文 B250421-84342-->
+        <item name="com.bilibili.comic/com.bilibili.comic.home.view.FlutterMainActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--抖音火山版主界面-->
+        <item name="com.ss.android.ugc.live/com.ss.android.ugc.aweme.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--今日头条极速版主界面-->
+        <item name="com.ss.android.article.lite/com.ss.android.article.lite.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--快手 我-菜单 B250702-81769-->
+        <item name="com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--拼多多 商品列表 B250730-83170-->
+        <item name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.activity.NewPageActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--微博个人主页 Bwb250827-80476 B250904-83237-->
+        <item name="com.sina.weibo/com.sina.weibo.page.ProfileInfoActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--番茄免费小说首页 Bwb250905-80028-->
+        <item name="com.dragon.read/com.dragon.read.pages.main.MainFragmentActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--抖音个人作品页面 B250909-86993-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.detail.ultra.ui.UltraDetailActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--腾讯文档首页 B250422-83388 B250925-87667-->
+        <item name="com.tencent.docs/com.tencent.docs.DocsFlutterActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--boss直聘登录页 B251027-84349-->
+        <item name="com.hpbr.bosszhipin/com.hpbr.bosszhipin.login.activity.GetStartedActivity2" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--bilibili 短视频页面 B251029-82694-->
+        <item name="tv.danmaku.bili/com.bilibili.video.story.StoryVideoActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--B251029-86627-->
+        <item name="com.dragon.read/com.dragon.read.ad.openingscreenad.OpeningScreenADActivity" navColorPolicyV2="IMMERSE_V2,style:4"/>
+        <!--B250830-85602-->
+        <item name="com.sina.weibo/com.sina.weibo.preview.MediaPreviewActivity" type="1000" navColorPolicyV2="IMMERSE_V2,style:4"/>
+
+        <!-- style:3 -->
+        <!-- 快手极速版 扫一扫 强制不抬高-->
+        <item name="com.kuaishou.nebula/com.yxcorp.plugin.qrcode.api.QRCodeScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 连信扫一扫 强制不抬高-->
+        <item name="com.zenmen.palmchat/com.zenmen.palmchat.QRCodeScan.ScannerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 菜鸟 扫一扫-->
+        <item name="com.cainiao.wireless/com.cainiao.wireless.ggscancode.capture.alipay.ui.SimpleScannerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 米家 -->
+        <item name="com.xiaomi.smarthome/com.xiaomi.qrcode.ScanBarcodeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 墨迹天气 -->
+        <item name="com.moji.mjweather/com.moji.shorttime.ui.ShortTimeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 醒图 -->
+        <item name="com.xt.retouch/com.xt.retouch.lynx.impl.common.container.LynxCommonActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 虎牙直播 扫一扫-->
+        <item name="com.duowan.kiwi/com.duowan.kiwi.scan.impl.CaptureHwScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 京东金融 扫一扫-->
+        <item name="com.jd.jrapp/jd.jrapp.bm.scan.activity.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 大众点评 扫一扫-->
+        <item name="com.dianping.v1/com.dianping.base.basic.DPCaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 陌陌 扫一扫-->
+        <item name="com.immomo.momo/com.immomo.momo.setting.activity.QRScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- seetOng 扫一扫-->
+        <item name="com.seetong.app.seetong/com.stool.zxing.ui.CaptureTDCodeUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 招商银行 扫一扫-->
+        <item name="cmb.pb/com.pb.capture.ui.PBCaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 智慧生活 扫一扫-->
+        <item name="com.vivo.vhome/com.vivo.vhome.discover.VDiscoverActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 书旗小说-->
+        <item name="com.shuqi.controller/com.shuqi.reader.ShuqiReaderActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 闲鱼 点击商品后的列表界面  扫一扫也是这个界面 全屏后有遮挡，需抬高-->
+        <!--<item name="com.taobao.idlefish/com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>-->
+        <!-- keep设置列表 -->
+        <item name="com.gotokeep.keep/com.gotokeep.keep.rt.business.settings.activity.OutdoorTrainingSettingsActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 小度的扫码：style3强制不抬高 原本是配置了style:0-->
+        <item name="com.baidu.duer.superapp/com.baidu.duer.superapp.qrscan.activity.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 平安金管家的扫码：style3强制不抬高 原本是配置了style:0-->
+        <item name="com.pingan.lifeinsurance/com.pingan.lifeinsurance.basic.qrcode.activity.CommQRActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- MOMO陌陌的扫码：style3强制不抬高 原本是配置了style:0 -->
+        <item name="com.immomo.momo/com.immomo.momo.setting.activity.QRScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 小袁口算的全屏web页面：style3强制不抬高 -->
+        <item name="com.fenbi.android.leo/com.yuanfudao.android.leo.webview.ui.activity.SimpleWebAppFireworkActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 豆包的全屏页面：style3强制不抬高 -->
+        <item name="com.android.documentsui/com.android.documentsui.picker.PickActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 有看头不贴底的按钮：style3强制不抬高 -->
+        <item name="com.yoosee/com.jwkj.user_center.about.AboutActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 滴滴车主 没贴底控件：style3强制不抬高 -->
+        <item name="com.sdu.didi.gsui/com.sdu.didi.gsui.main.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 车来了的列表类：style3强制不抬高 -->
+        <item name="com.ygkj.chelaile.standard/dev.xesam.chelaile.app.module.line.StationGrayDetailActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美颜相机没贴底控件：style3强制不抬高 -->
+        <item name="com.meitu.meiyancamera/com.meitu.myxj.search.activity.BeautySearchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 网上国网的扫码：style3强制不抬高 -->
+        <item name="com.sgcc.wsgw.cn/com.sgcc.wsgw.publiclibrary.zxing.ZxingActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 倒数日二级页面 是全屏页面：style3强制不抬高 -->
+        <item name="com.clover.daysmatter/com.clover.daysmatter.ui.activity.DetailActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 水印相机拍照界面：style3强制不抬高 -->
+        <item name="com.tencent.zebra/com.android.camera.CameraActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷狗铃声 不贴底的按钮：style3强制不抬高 -->
+        <item name="com.kugou.android.ringtone/com.kugou.android.ringtone.video.detail.VideoDetailActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 鱼泡网 我的—用户查询，会有个弹窗出来：style3强制不抬高-->
+        <item name="io.dcloud.H576E6CC7/com.yupao.rn.base.activity.ReactNativeMainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美团外卖 美食 甜点饮品：style3强制不抬高 -->
+        <item name="com.sankuai.meituan.takeoutnew/com.sankuai.waimai.business.page.kingkong.KingKongActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美团外卖 超市便利 蔬菜水果，会有个弹窗出来：style3强制不抬高-->
+        <item name="com.sankuai.meituan.takeoutnew/com.sankuai.waimai.store.poi.list.newp.PoiVerticalityHomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--交管12123 扫一扫-->
+        <item name="com.tmri.app.main/com.tmri.app.ui.activity.scan.HwScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--好看视频 扫一扫-->
+        <item name="com.baidu.haokan/com.google.zxing.client.android.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--拼多多商家版 扫一扫-->
+        <item name="com.xunmeng.merchant/com.xunmeng.merchant.main.ScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--拼多多商家版 直播-->
+        <item name="com.xunmeng.merchant/com.xunmeng.merchant.ui.NewPageActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--百度设置 扫一扫-->
+        <item name="com.baidu.searchbox/com.baidu.searchbox.godeye.CodeScannerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--酷我音乐 扫一扫-->
+        <item name="cn.kuwo.player/cn.kuwo.sing.ui.activity.KsingScannerCodeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--滴滴出行-->
+        <item name="com.sdu.didi.psnger/com.sdk.address.waypointV6.WayPointActivityV6" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--企业微信 权限弹窗-->
+        <item name="com.tencent.wework/com.tencent.wework.permissionutil.PermissionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信 视频号-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <item name="com.tencent.mm/com.tencent.mm.plugin.finder.feed.ui.OccupyFinderUI2" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <item name="com.tencent.mm/com.tencent.mm.plugin.webview.ui.tools.fts.MMFTSSearchTabWebViewUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 中国移动江苏扫一扫-->
+        <item name="com.jsmcc/com.mc10086.cmcc.core.scan.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 百度地图 -->
+        <item name="com.baidu.BaiduMap/com.baidu.baidumaps.share.social.view.SocialShareSelectActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 爱奇艺 扫一扫 -->
+        <item name="com.qiyi.video/com.qiyi.scan.QYScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <item name="com.qiyi.video/com.qiyi.baselib.privacy.permission.PrivacyPermissionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <item name="com.qiyi.video/com.qiyi.scan.ARWrapperActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 抖音火山版 -->
+        <item name="com.ss.android.ugc.live/com.ss.android.ugc.aweme.album.MvChoosePhotoActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 腾讯视频 扫一扫-->
+        <item name="com.tencent.qqlive/com.tencent.qqlive.qrcode.ui.ScanQRCustomActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 番茄免费小说 扫一扫-->
+        <item name="com.dragon.read/com.ss.android.qrscan.barcodescanner.DragonCaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 淘宝 扫一扫-->
+        <item name="com.taobao.taobao/com.etao.feimagesearch.capture.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 翼支付 扫一扫-->
+        <item name="com.chinatelecom.bestpayclient/com.alipay.mobile.scansdk.activity.ToolsCaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- QQ 视频通话-->
+        <item name="com.tencent.mobileqq/com.tencent.av.ui.AVActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <item name="com.tencent.mobileqq/com.tencent.av.ui.VideoInviteActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 顺丰速运 扫一扫-->
+        <item name="com.sf.activity/com.sf.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 千牛 扫一扫-->
+        <item name="com.taobao.qianniu/com.qianniu.lite.commponent.scan.business.QNScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--晋江小说阅读 首次进入应用界面 B240817-82205-->
+        <item name="com.jjwxc.reader/com.example.jinjiangshucheng.AppPrivacyActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--中国农业银行 首次进入应用界面 B240819-81007-->
+        <item name="com.android.bankabc/com.android.bankabc.splashvideo.FullscreenActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--国家医保服务平台 扫一扫 B240820-81748 已改好-->
+        <item name="cn.hsa.app/cn.hsa.app.home.ui.ScanCodeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 货车帮 扫一扫 B240820-82143 已改好 -->
+        <item name="com.wlqq/com.wlqq.phantom.library.proxy.ActivityHostProxy" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷我音乐 进入直播间：背景不沉浸 已改好 B240819-82532 -->
+        <item name="cn.kuwo.player/com.kugou.fanxing.allinone.watch.liveroominone.media.FALiveRoomInOneActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- V消息扫一扫 -->
+        <item name="com.sie.mp/com.sie.mp.zxing.activity.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- V消息工作台 右上角扫一扫 右下角相册图标 左上角图片与视频-->
+        <item name="com.sie.mp/com.sie.mp.vivo.selectvideoimage.ImageGridActivity1" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- KEEP B240821-82690-->
+        <item name="com.gotokeep.keep/com.gotokeep.keep.qrcode.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 斗鱼 B240820-80501-->
+        <item name="air.tv.douyu.android/air.tv.douyu.android.loader.a.ActivityN1STPNTS1" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 起点读书 B240821-82725-->
+        <item name="com.qidian.QDReader/com.qidian.QDReader.ui.activity.SweepActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 安居客 B240821-82798-->
+        <item name="com.anjuke.android.app/com.anjuke.android.zxing.activity.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--今日头条 我的-扫一扫 B240829-82835-->
+        <item name="com.ss.android.article.news/com.ss.android.qrscan.barcodescanner.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--爱奇艺 扫一扫 B240829-83111-->
+        <item name="com.qiyi.video/org.qiyi.pluginlibrary.component.InstrActivityProxy1" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微博 扫一扫 B240829-83133 B240830-81902-->
+        <item name="com.sina.weibo/com.sina.weibo.qrcode.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--饿了么 扫一扫 B240830-83947-->
+        <item name="me.ele/me.ele.scan.ui.ScanMainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--UC浏览器 扫一扫 B240830-83677 -->
+        <item name="com.UCMobile/com.uc.module.barcode.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--知乎 扫一扫 B240830-84191 -->
+        <item name="com.zhihu.android/com.zhihu.android.qrscanner.ui.ScannerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--点淘 扫一扫 B240830-85515-->
+        <item name="com.taobao.live/com.taobao.live.scan.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--优酷视频 扫一扫 B240830-83816-->
+        <item name="com.youku.phone/com.youku.saosao.activity.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--中国工商银行 扫一扫 B240830-85446 -->
+        <item name="com.icbc/com.icbc.bizcomponent.base.qrcode.ui.QRCodeScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--爱奇艺极速版 我的 扫一扫 B240821-82377-->
+        <item name="com.qiyi.video.lite/com.qiyi.xplugin.adapter.container.SingleTaskContainerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 闲鱼 拍摄后搜索界面-->
+        <item name="com.taobao.idlefish/com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- App1-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 抖音商城-->
+        <item name="com.ss.android.ugc.livelite/com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 抖音火山版-->
+        <item name="com.ss.android.ugc.live/com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 抖音极速版-->
+        <item name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 汽水音乐登入页面：背景不沉浸 已改好 B240819-82587 -->
+        <item name="com.luna.music/com.luna.biz.profile.impl.account.AccountLoginActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--美团 扫一扫 B240908-83196-->
+        <item name="com.sankuai.meituan/com.meituan.android.scan.NewArActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--网易云音乐 听歌识曲 B240909-81437-->
+        <item name="com.netease.cloudmusic/com.netease.cloudmusic.music.biz.recognition.ui.activity.IdentifyActivityV2" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信 小程序  B240907-83988-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--携程旅行 我的 扫一扫 B240908-83308-->
+        <item name="ctrip.android.view/ctrip.android.qrcode.QRScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--爱奇艺 综艺 B240908-83251-->
+        <item name="com.qiyi.video/org.iqiyi.video.activity.PlayerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--中国电信 首次进入 弹窗 B240907-83418-->
+        <item name="com.ct.client/com.ct.client.activity.CommMaskActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--中国电信 进入界面 -->
+        <item name="com.ct.client/com.ct.client.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--QQ 个人主页 二维码 扫一扫 B240908-80899-->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.olympic.activity.ScanTorchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--淘宝  商家店铺 客服 位置 B240911-87211 不抬高-->
+        <item name="com.taobao.taobao/com.taobao.message.ui.biz.map.MapActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--京东 首页 拍摄 AR扫界面 B240911-87289 -->
+        <item name="com.jingdong.app.mall/com.jd.lib.matrixar.ArMarketingActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--抖音 短视频右下角进入原声创作界面的导航区 B240908-82427-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.music.ui.MusicDetailActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--芒果tv 扫一扫 B240912-83237-->
+        <item name="com.hunantv.imgo.activity/com.mgtv.ui.login.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--水星安防 扫一扫 B240912-84296-->
+        <item name="com.mercury.ipc/com.tplink.tpdeviceaddimplmodule.ui.querystatus.DeviceAddByQrcodeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--中国联通 扫一扫-->
+        <item name="com.sinovatech.unicom.ui/com.sinovatech.unicom.separatemodule.capture.CapuActivity2" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--中国移动 扫一扫-->
+        <item name="com.greenpoint.android.mc10086.activity/com.mc10086.cmcc.core.scan.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 京东 我的订单 -->
+        <item name="com.jingdong.app.mall/com.jd.lib.ordercenter.mygoodsorderlist.view.activity.MyOrderListActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--【58同城】我的-扫一扫 B240928-80610-->
+        <item name="com.wuba/com.wuba.zxing.scan.activity.CaptureFragmentActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--【哈啰】扫一扫  B240928-81013-->
+        <item name="com.jingyao.easybike/com.hellobike.platform.scan.v2.NewPlatformScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--【微博】我-右上扫一扫-我的二维码页面  B240928-81758-->
+        <item name="com.sina.weibo/com.sina.weibo.page.profilev2.detail.share.MyQrCodeV2Activity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--【学习强国】扫一扫界面  B240928-82540-->
+        <item name="cn.xuexi.android/com.taobao.ma.ui.ScanCombineActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!--【快手】扫一扫  B240928-82459-->
+        <item name="com.smile.gifmaker/com.yxcorp.plugin.qrcode.api.QRCodeScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【uc浏览器】首页搜索框进入扫一扫  B240928-82241-->
+        <item name="com.UCMobile/com.ali.uc.webvision.WebVisionActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>			
+        <!--【学信网】扫一扫  B240928-80797-->
+        <item name="cn.com.chsi.chsiapp/cn.com.chsi.chsiapp.zxing.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【储蓄银行】扫一扫  B240928-81377-->
+        <item name="com.yitong.mbank.psbc/com.yitong.mbank.psbc.module.scan.client.mpaas.CustomScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        
+        <!--【换机助手】新机接收-安卓手机，扫码界面  B240928-82587-->
+        <item name="com.tencent.transfer/com.tencent.transfer.ui.CodeCaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【QQ同步助手】我的界面进入扫一扫  B240928-82919-->
+        <item name="com.tencent.qqpim/com.tencent.qqpim.bll.qrcode.QbarCodeScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>			
+        <!--【掌上生活】惠生活tab点击扫一扫  这个没法配全屏，配了全屏底部变成纯黑了。现在的效果也还可以，和方桃达成一致，不作处理  B240928-81016-->
+        <!--<item name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.tagcode.capture.activity.cmbBV6LFQF" navColorPolicyV2="IMMERSE_V2,style:3"/>	-->		
+        <!--【去哪儿旅行】我的-扫一扫页面  B240928-81158-->
+        <item name="com.Qunar/com.mqunar.pay.inner.activity.qrcode.QrScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【腾讯会议】首次进入应用，引导界面  B240927-83154-->
+        <item name="com.tencent.wemeet.app/com.tencent.wemeet.module.splash.activity.NewUserGuideActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>			
+        <!--【滴滴出行】首页-扫一扫  B240928-81483-->
+        <item name="com.sdu.didi.psnger/com.didi.sdk.scan.act.QrCodeScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【云闪付】首付款扫一扫码  B240928-81208-->
+        <item name="com.unionpay/com.unionpay.activity.payment.UPActivityScan" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【王者营地】我的进入扫一扫  B240928-82017-->
+        <item name="com.tencent.gamehelper.smoba/com.tencent.qrcode.QrScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>			
+        <!--【同程旅行】我的界面扫一扫  B240928-81683-->
+        <item name="com.tongcheng.android/com.tongcheng.android.module.qrcode.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>		
+        <!--【平安好车主】首页进入扫一扫  B240928-81747-->
+        <item name="com.pingan.carowner/com.pingan.qrcode.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!--【钉钉】视频会议界面  B240928-82994-->
+        <item name="com.alibaba.android.rimet/com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!--【小米运动健康】扫一扫  B240928-83298-->
+        <item name="com.mi.health/com.mi.health.qrcode.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!-- 蛋花免费小说 首次进入应用，弹出允许通知弹框（框本身是com.android.permissioncontroller/.permission.ui.GrantPermissionsActivity）下面不沉浸  欢迎页 B240927-84742-->
+        <item name="com.eggflower.read/com.dragon.read.pages.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--【QQ音乐】更多界面就进入扫码界面  B240928-83617-->
+        <item name="com.tencent.qqmusic/com.tencent.qqmusic.camerascan.view.CameraScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!--【美柚】扫一扫  B240928-83523-->
+        <item name="com.lingan.seeyou/com.lingan.seeyou.ui.activity.main.identifynew.family.QrCodeScanActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!--【中国银行】点击搜索框的语音输入按钮  B240928-80853-->
+        <item name="com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.aispeech.AiSpeechActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        <!--【头条搜索极速版】我的进入扫一扫  B240928-83810-->
+        <item name="com.ss.android.article.lite/com.bytedance.smash.journeyapps.barcodescanner.CaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>	
+        
+        
+        <!-- 番茄免费小说 开屏页:    style3强制不抬高 -->
+        <item name="com.dragon.read/com.dragon.read.pages.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷狗音乐 开屏页:    style3强制不抬高 -->
+        <item name="com.kugou.android/com.kugou.android.app.splash.BootSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 腾讯视频-喜人奇妙夜全网独播 开屏页:    和主页名称一样，不能强制不抬高  去掉-->
+        <!--<item name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.SplashHomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/> -->
+        <!-- 抖音火山版 开屏页:    style3强制不抬高 -->
+        <item name="com.ss.android.ugc.live/com.ss.android.ugc.aweme.splash.SplashActivityt79" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- WiFi万能钥匙-安全省流 开屏页:    style3强制不抬高 -->
+        <item name="com.snda.wifilocating/com.wifitutu.ui.launcher.LauncherActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 微博-上微博看明星热点新闻资讯 开屏页:    style3强制不抬高 -->
+        <item name="com.sina.weibo/com.sina.weibo.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 中国农业银行 开屏页:    style3强制不抬高 -->
+        <item name="com.android.bankabc/com.android.bankabc.splashvideo.FullscreenActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 七猫免费小说 开屏页:    style3强制不抬高 -->
+        <!--<item name="com.kmxs.reader/com.kmxs.reader.home.ui.HomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>-->
+        <!-- 喜马拉雅-听书听播客 开屏页:    style3强制不抬高 -->
+        <item name="com.ximalaya.ting.android/com.ximalaya.ting.android.host.activity.SplashAdActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 全民K歌-音乐视频平台 开屏页:    style3强制不抬高 -->
+        <item name="com.tencent.karaoke/com.tencent.karaoke.module.splash.ui.SplashBaseActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 菜鸟 开屏页:    style3强制不抬高 -->
+        <item name="com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.AdsActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 快对-拍照翻译 开屏页:    style3强制不抬高 -->
+        <item name="com.kuaiduizuoye.scan/com.kuaiduizuoye.scan.AliasActivityDefault" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 快影-视频拍摄与编辑软件 开屏页:    style3强制不抬高 -->
+        <item name="com.kwai.videoeditor/com.kwai.videoeditor.commercialization.splash.GeneralAdSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- Seetong 开屏页:    style3强制不抬高 -->
+        <item name="com.seetong.app.seetong/com.seetong.app.seetong.ui.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 学习强国 开屏页:    style3强制不抬高 -->
+        <item name="cn.xuexi.android/com.alibaba.android.rimet.biz.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 唯品会 开屏页:    style3强制不抬高 -->
+        <!-- <item name="com.achievo.vipshop/com.achievo.vipshop.homepage.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/> -->
+        <!-- 小翼管家 开屏页:    style3强制不抬高 -->
+        <item name="com.yueme.itv/com.chinatelecom.smarthome.module.mainpage.ui.CoverActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美团外卖-美食水果超市极速达 开屏页:    style3强制不抬高 -->
+        <item name="com.sankuai.meituan.takeoutnew/com.sankuai.meituan.takeoutnew.ui.page.boot.SplashAdActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 萤石云视频 开屏页:    style3强制不抬高 -->
+        <item name="com.videogo/com.videogo.LauncherActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 邮储银行 开屏页:    style3强制不抬高 -->
+        <item name="com.yitong.mbank.psbc/com.yitong.mbank.psbc.module.app.view.activity.LaunchVideoActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 知乎-有问题就会有答案 开屏页:    style3强制不抬高 -->
+        <item name="com.zhihu.android/com.zhihu.android.app.ui.activity.LauncherActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 百度网盘 开屏页:    style3强制不抬高 -->
+        <item name="com.baidu.netdisk/com.baidu.netdisk.ui.Navigate" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 影视大全 开屏页:    style3强制不抬高 -->
+        <item name="com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- BOSS直聘-招聘求职找工作招聘软件 开屏页:    style3强制不抬高 -->
+        <item name="com.hpbr.bosszhipin/com.hpbr.bosszhipin.module.launcher.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 中国联通 开屏页:    style3强制不抬高 -->
+        <item name="com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 天猫 开屏页:    style3强制不抬高 -->
+        <item name="com.tmall.wireless/com.tmall.wireless.splash.TMSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 搜狐视频-像冠军一样全网独播 开屏页:    style3强制不抬高 -->
+        <item name="com.sohu.sohuvideo/com.sohu.sohuvideo.ui.GuideActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- MOMO陌陌 开屏页:    style3强制不抬高 -->
+        <item name="com.immomo.momo/com.immomo.momo.android.activity.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 今日水印相机 开屏页:    style3强制不抬高 -->
+        <item name="com.xhey.xcamera/com.xhey.xcamera.ui.camera.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 爱奇艺极速版-颜心记全网独播 开屏页:    style3强制不抬高 -->
+        <!--<item name="com.qiyi.video.lite/com.qiyi.video.lite.homepage.HomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>-->
+        <!-- 中国电信-全国统一官方服务平台 开屏页:    style3强制不抬高 -->
+        <item name="com.ct.client/com.ct.client.activity.NewUserGuideActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 醒图-轻松修出高级感 开屏页:    style3强制不抬高 -->
+        <item name="com.xt.retouch/com.xt.retouch.uilauncher.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 讯飞输入法 开屏页:    style3强制不抬高 -->
+        <item name="com.iflytek.inputmethod/com.iflytek.inputmethod.settingsnew.splash.activity.NewSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 王者营地 开屏页:    style3强制不抬高 -->
+        <item name="com.tencent.gamehelper.smoba/com.tencent.gamehelper.biz.launcher.ui.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美柚-经期备孕怀孕育儿 开屏页:    style3强制不抬高 -->
+        <item name="com.lingan.seeyou/com.lingan.seeyou.ui.activity.user.login.LoginActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 网上国网 开屏页:    style3强制不抬高 -->
+        <item name="com.sgcc.wsgw.cn/com.sgcc.wsgw.cn.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 滴滴出行-打车骑车顺风车火车票 开屏页:    style3强制不抬高 -->
+        <item name="com.sdu.didi.psnger/com.didi.sdk.app.launch.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 米游社 开屏页:    style3强制不抬高 -->
+        <item name="com.mihoyo.hyperion/com.mihoyo.hyperion.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 腾讯会议-多人实时视频会议软件 开屏页:    style3强制不抬高 -->
+        <item name="com.tencent.wemeet.app/com.tencent.wemeet.app.StartupActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 同花顺-股票炒股 开屏页:    style3强制不抬高 -->
+        <item name="com.hexin.plat.android/com.hexin.plat.android.LogoEmptyActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 腾讯微视-短视频创作与分享 开屏页:    style3强制不抬高 -->
+        <item name="com.snda.lantern.wifilocating/com.wifitutu.ui.main.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 乔安智联 开屏页:    style3强制不抬高 -->
+        <item name="com.jooan.qiaoanzhilian/com.jooan.biz_am.launcher.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 有看头-Yoosee 开屏页:    style3强制不抬高 -->
+        <item name="com.yoosee/com.jwkj.activity.LogoActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- Keep-跑步健身骑行瑜伽 开屏页:    style3强制不抬高 -->
+        <item name="com.gotokeep.keep/com.gotokeep.keep.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 平安好车主-用车就上好车主 开屏页:    style3强制不抬高 -->
+        <item name="com.pingan.carowner/com.pingan.carowner.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 搜狗输入法-语音手写文字识别 开屏页:    style3强制不抬高 -->
+        <item name="com.sohu.inputmethod.sogou/com.sohu.inputmethod.splashscreen.AppSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 迅雷 开屏页:    style3强制不抬高 -->
+        <item name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.ad.revive.ReviveAdActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 起点读书-看小说漫画阅读听书神器 开屏页:    style3强制不抬高 -->
+        <item name="com.qidian.QDReader/com.qidian.QDReader.ui.activity.SplashImageActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 车来了-精准实时公交 开屏页:    style3强制不抬高 -->
+        <item name="com.ygkj.chelaile.standard/dev.xesam.chelaile.app.module.func.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 迅猛兔加速器-PUBG免费加速器 开屏页:    style3强制不抬高 -->
+        <item name="cn.jthj.turbobunny/cn.jthj.turbobunny.ui.ActivityStart" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 回森 开屏页:    style3强制不抬高 -->
+        <item name="com.kwai.hisense/com.kwai.sun.hisense.ui.launcher.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 小猿搜题-作业辅导检查工具 开屏页:    style3强制不抬高 -->
+        <item name="com.fenbi.android.solar/com.fenbi.android.solar.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 安居客-二手房新房租房 开屏页:    style3强制不抬高 -->
+        <item name="com.anjuke.android.app/com.anjuke.android.app.mainmodule.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美颜相机-拍人像更专业 开屏页:    style3强制不抬高 -->
+        <!--<item name="com.meitu.meiyancamera/com.meitu.myxj.home.activity.NewHomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/> -->
+        <!-- 链工宝 开屏页:    style3强制不抬高 -->
+        <item name="com.hxak.liangongbao/com.hxak.liangongbao.login.ui.AdvertisementActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 平安金管家 开屏页:    style3强制不抬高 -->
+        <item name="com.pingan.lifeinsurance/com.pingan.lifeinsurance.shell.activity.PARSSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 转转-二手官方验 开屏页:    style3强制不抬高 -->
+        <item name="com.wuba.zhuanzhuan/com.wuba.zhuanzhuan.presentation.view.activity.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 铃声多多-免费铃声壁纸大全 开屏页:    style3强制不抬高 -->
+        <item name="com.shoujiduoduo.ringtone/com.shoujiduoduo.ringtone.activity.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷我音乐-音乐小说相声任你畅听 开屏页:    style3强制不抬高 -->
+        <item name="cn.kuwo.player/cn.kuwo.player.activities.EntryActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 大学搜题酱-作业帮大学版 开屏页:    style3强制不抬高 -->
+        <item name="com.zmzx.college.search/com.zmzx.college.search.activity.init.InitActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- TT语音-王者荣耀官方合作伙伴 开屏页:    style3强制不抬高 -->
+        <item name="com.yiyou.ga/com.yiyou.ga.client.BlankActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 东方财富-股票炒股证券开户 开屏页:    style3强制不抬高 -->
+        <item name="com.eastmoney.android.berlin/com.eastmoney.android.berlin.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- KK键盘-超好玩的个性输入法 开屏页:    style3强制不抬高 -->
+        <!--<item name="im.weshine.keyboard/im.weshine.activities.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>-->
+        <!-- 作业帮家长版-家长辅导学习好帮手 开屏页:    style3强制不抬高 -->
+        <item name="com.zuoyebang.knowledge/com.baidu.homework.activity.init.InitActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 乐橙 开屏页:    style3强制不抬高 -->
+        <item name="com.mm.android.lc/com.mm.android.lc.login.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 一甜相机-拍出高甜少女感 开屏页:    style3强制不抬高 -->
+        <item name="com.kwai.m2u/com.kwai.m2u.main.CameraActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 得间免费小说-免费读庆余年小说 开屏页:    style3强制不抬高 -->
+        <item name="com.chaozh.iReader.dj/com.chaozh.iReader.ui.activity.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 国家医保服务平台 开屏页:    style3强制不抬高 -->
+        <item name="cn.hsa.app/cn.hsa.app.login.ui.OpeningPageActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 星芽免费短剧-热门短剧随意看 开屏页:    style3强制不抬高 -->
+        <item name="com.jz.xydj/com.jz.jzdj.ui.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 速读免费小说-庆余年小说免费看 开屏页:    style3强制不抬高 -->
+        <item name="com.dj.speed/com.chaozh.iReader.ui.activity.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 掌上生活-招商银行信用卡官方APP 开屏页:    style3强制不抬高 -->
+        <item name="com.cmbchina.ccd.pluto.cmbActivity/com.cmbchina.ccd.pluto.cmbActivity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 安逸花-贷款借钱分期平台 开屏页:    style3强制不抬高 -->
+        <item name="com.msxf.ayh/com.msxf.ayh.ui.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 安心记加班-考勤工资记工记账 开屏页:    style3强制不抬高 -->
+        <item name="com.julanling.app/com.julanling.app.frontCover.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- i茅台 开屏页:    style3强制不抬高 -->
+        <item name="com.moutai.mall/com.moutai.mall.module.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 咪咕视频-看欧洲杯足球直播 开屏页:    style3强制不抬高 -->
+        <!--<item name="com.cmcc.cmvideo/com.cmcc.cmvideo.main.application.CompatibleMainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>-->
+        <!-- 网易有道词典-开学必备 开屏页:    style3强制不抬高 -->
+        <item name="com.youdao.dict/com.youdao.dict.activity.DictSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 百度文库 开屏页:    style3强制不抬高 -->
+        <item name="com.baidu.wenku/com.baidu.wenku.splash.view.activity.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 智联招聘-招人找工作求职 开屏页:    style3强制不抬高 -->
+        <item name="com.zhaopin.social/com.zhaopin.social.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 阅友免费小说 开屏页:    style3强制不抬高 -->
+        <item name="com.yueyou.adreader/com.yueyou.adreader.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 晋江小说阅读-晋江文学城出品 开屏页:    style3强制不抬高 -->
+        <item name="com.jjwxc.reader/com.example.jinjiangshucheng.AppStart" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- AView 开屏页:    style3强制不抬高 -->
+        <item name="com.jco.aiview/com.jco.jcoplus.account.activity.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 丰收互联 开屏页:    style3强制不抬高 -->
+        <item name="com.yitong.zjrc.mfs.android/com.yitong.mbank.app.android.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 驾校一点通-驾考学车选驾校 开屏页:    style3强制不抬高 -->
+        <item name="com.jxedt/com.jxedt.ui.activitys.GuideActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- QQ阅读-小说阅读器 开屏页:    style3强制不抬高 -->
+        <item name="com.qq.reader/com.qq.reader.activity.DefaultAliasActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 买单吧 开屏页:    style3强制不抬高 -->
+        <item name="com.bankcomm.maidanba/com.bankcomm.maidanba.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 360摄像机 开屏页:    style3强制不抬高 -->
+        <item name="com.qihoo.camera/com.qihoo.jia.ui.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 美团开店宝 开屏页:    style3强制不抬高 -->
+        <item name="com.sankuai.meituan.merchant/com.sankuai.merchant.home.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 大麦 开屏页:    style3强制不抬高 -->
+        <item name="cn.damai/cn.damai.launcher.splash.SplashMainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 儿歌多多-睡前故事动画片大全 开屏页:    style3强制不抬高 -->
+        <item name="com.duoduo.child.story/com.duoduo.child.story.ui.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 一淘-阿里巴巴旗下好物省钱平台 开屏页:    style3强制不抬高 -->
+        <item name="com.taobao.etao/com.taobao.sns.activity.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 水星安防 开屏页:    style3强制不抬高 -->
+        <item name="com.mercury.ipc/com.tplink.superapp.ui.main.AppBootActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 万年历 开屏页:    style3强制不抬高 -->
+        <item name="com.youloft.calendar/com.youloft.calendar.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 肯德基-全新升级改版上线 开屏页:    style3强制不抬高 -->
+        <item name="com.yek.android.kfc.activitys/com.yum.brandkfc.ui.SplashProgressNewDialog" navColorPolicyV2="IMMERSE_V2,style:3"/>
+
+        <!-- 酷狗音乐 B240928-83381 -->
+        <item name="com.kugou.android/com.kugou.android.app.startguide.GuideActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷狗音乐 锁屏页:  B241008-82984  style3强制不抬高 -->
+        <item name="com.kugou.android/com.kugou.android.app.lockscreen.LockScreenActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 番茄畅听 B240929-81435 -->
+        <item name="com.xs.fm/com.dragon.read.pages.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- QQ音乐 锁屏页 style3强制不抬高 -->
+        <item name="com.tencent.qqmusic/com.tencent.qqmusic.business.lockscreennew.LockScreenActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信订阅号-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信服务号-->
+        <item name="com.tencent.mm/com.tencent.mm.ui.brandservice.BrandServiceTimelineUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信聊天中打开发送的视频的界面 B241012-86775-->
+        <item name="com.tencent.mm/com.tencent.mm.ui.chatting.gallery.ImageGalleryUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信看一看-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.topstory.ui.home.TopStoryHomeUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信腾讯新闻-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.readerapp.ui.ReaderAppUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--不背单词 B241011-85864-->
+        <item name="cn.com.langeasy.LangEasyLexis/cn.com.langeasy.LangEasyLexis.activity.NewLearnActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <item name="cn.com.langeasy.LangEasyLexis/cn.com.langeasy.LangEasyLexis.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 七猫免费小说 进入一本小说阅读界面，点击屏幕拉起设置界面，有重叠问题，配全屏-->
+        <item name="com.kmxs.reader/org.geometerplus.android.fbreader.FBReader" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- applemusic 设置页，配全屏-->
+        <item name="com.apple.android.music/com.apple.android.music.settings.activity.SettingsActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- B241017-87093 乐刻登录界面 -->
+        <item name="com.leoao.fitness/com.leoao.login.ui.activity.LoginRegisterActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+
+        <!-- 测试点检开发合入 top650-1000 app-->
+        <!-- 哈弗智家 开屏页:    style3强制不抬高 -->
+        <item name="com.navinfo.gw/com.beans.haval.ui.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 公考雷达-捕捉考编机会 开屏页:    style3强制不抬高 -->
+        <item name="com.maidu.gkld/com.maidu.gkld.ui.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 央视影音-新闻体育人文影视高清 开屏页:    style3强制不抬高 -->
+        <item name="cn.cntv/com.cctv.mcctv.ui.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- E英语宝 开屏页:    style3强制不抬高 -->
+        <item name="com.dinoenglish.yyb/com.dinoenglish.yyb.base.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷狗大字版-字大歌多随时听 开屏页:    style3强制不抬高 -->
+        <item name="com.kugou.android.elder/com.kugou.android.app.splash.GdtSplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 微分身术 开屏页:    style3强制不抬高 -->
+        <item name="com.yunz.fsds/com.yunz.fsds.icg52ewf.fwb49se45zfob" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 淘爱豆-淘爱豆生活 开屏页:    style3强制不抬高 -->
+        <item name="com.yunmai.valueoflife/com.yunmai.valueoflife.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 双开助手微分身版 开屏页:    style3强制不抬高 -->
+        <item name="com.excelliance.dualaid/com.android.app.resource.ui.DefaultLauncher" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 换机助手-微信文件照片手机搬家 开屏页:    style3强制不抬高 -->
+        <item name="com.tencent.transfer/com.tencent.transfer.ui.FirstActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- Neye3C 开屏页:    style3强制不抬高 -->
+        <item name="com.gooclient.anycam.neye3ctwo/com.gooclient.anycam.activity.welcome.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 360智慧生活 开屏页:    style3强制不抬高 -->
+        <item name="com.qihoo.smart/com.qihoo.main.defaultSplash" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 指南针股票-股海茫茫伴您远航 开屏页:    style3强制不抬高 -->
+        <item name="com.ez08.compass/com.ez08.compass.activity.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 中国广电-中国广电全国官方平台 开屏页:    style3强制不抬高 -->
+        <item name="com.ai.obc.cbn.app/com.ai.obc.cbn.app.ui.other.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 子腾园 开屏页:    style3强制不抬高 -->
+        <item name="com.zmsoft.forwatch/com.zmapp.fwatch.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 度小满金融-信用贷款借钱平台 开屏页:    style3强制不抬高 -->
+        <item name="com.duxiaoman.wallet/com.duxiaoman.wallet.home.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 麦当劳 开屏页:    style3强制不抬高 -->
+        <item name="com.mcdonalds.gma.cn/com.mcdonalds.gma.cn.activity.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 画世界 开屏页:    style3强制不抬高 -->
+        <item name="net.huanci.hsj/net.huanci.hsj.activities.FlashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 微脉圈-开课培训工具 开屏页:    style3强制不抬高 -->
+        <item name="com.edujia.weimai/com.edujia.wm.main.ui.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 上汽大众 开屏页:    style3强制不抬高 -->
+        <item name="com.svw.sc.mos/com.svw.sc.mos.views.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 高铁管家-火车票抢票神器 开屏页:    style3强制不抬高 -->
+        <item name="com.gtgj.view/com.gtgj.view.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 知雨天气-实时降雨提醒 开屏页:    style3强制不抬高 -->
+        <item name="com.yaoqi.zhiyuweather/com.yaoqi.tomatoweather.entry.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 帆书-原樊登读书 开屏页:    style3强制不抬高 -->
+        <item name="io.dushu.fandengreader/io.dushu.fandengreader.ad.LoadingAdActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 月鼠小说 开屏页:    style3强制不抬高 -->
+        <item name="com.yueyou.fast/com.yueyou.adreader.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 飞常准-全球航班查询机票预订 开屏页:    style3强制不抬高 -->
+        <item name="vz.com/com.feeyo.vz.DefaultAlias" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 2345清理王-手机清理助手 开屏页:    style3强制不抬高 -->
+        <item name="com.zs.clean/com.zsclean.ui.navigation.NavigationActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 长佩阅读 开屏页:    style3强制不抬高 -->
+        <item name="net.cpwxw.cpfiction/com.cpwx.reader.ui.old.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 华夏银行 开屏页:    style3强制不抬高 -->
+        <item name="com.hxb.mobile.client/com.yt.hxmb50.activity.MarketingActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 华夏银行 启动页:    style3强制不抬高 -->
+        <item name="com.hxb.mobile.client/com.yt.hxmb50.launcher.LauncherActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 志愿汇 开屏页:    style3强制不抬高 -->
+        <item name="com.zzw.october/com.zzw.october.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 汉邦高科彩虹云 开屏页:    style3强制不抬高 -->
+        <item name="com.jco.caihongyun/com.jco.jcoplus.account.activity.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 象棋 开屏页:    style3强制不抬高 -->
+        <item name="com.wedobest.xiangqi.vivo/com.wedobest.xiangqi.vivo.StartAct" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 配音秀 开屏页:    style3强制不抬高 -->
+        <item name="com.happyteam.dubbingshow/com.happyteam.dubbingshow.ui.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 360清理大师极速版 开屏页:    style3强制不抬高 -->
+        <item name="com.qihoo.cleandroid_lite/com.qihoo360.mobilesafe.opti.ui.main.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 安兔兔评测 开屏页:    style3强制不抬高 -->
+        <item name="com.antutu.ABenchMark/com.android.module.app.ui.start.ABenchMarkStart" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 小米商城 开屏页:    style3强制不抬高 -->
+        <item name="com.xiaomi.shop/com.xiaomi.shop.activity.MainTabActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 中泰齐富通 开屏页:    style3强制不抬高 -->
+        <item name="com.qlscupgrade/com.qlscupgrade.activity.ZtsSplashAdActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 中泰齐富通 启动页:    style3强制不抬高 -->
+        <item name="com.qlscupgrade/com.zztzt.android.simple.activity.tztCommHeadPageActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷狗唱唱-全民手机唱歌ktv 开屏页:    style3强制不抬高 -->
+        <item name="com.kugou.android.ktvapp/com.kugou.android.app.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 老来健康 开屏页:    style3强制不抬高 -->
+        <item name="com.laolaiwangtech/com.llw.common.ui.LoadingActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 人人视频 开屏页:    style3强制不抬高 -->
+        <item name="com.example.pptv/com.pptv.rrtvtrunk.main.presentation.EmptyActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 漫播-从万米高空降临全网独播 开屏页:    style3强制不抬高 -->
+        <item name="com.uxin.kilaaudio/com.uxin.kilaaudio.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 新浪财经 开屏页:    style3强制不抬高 -->
+        <item name="cn.com.sina.finance/cn.com.sina.finance.start.ui.LoadingActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 我在AI 开屏页:    style3强制不抬高 -->
+        <item name="com.chat.qsai/com.chat.qsai.business.main.view.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 泰康泰生活-泰康保险集团官方App 开屏页:    style3强制不抬高 -->
+        <item name="com.taikang.tailife/com.taikang.tailife.activity.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- QQ同步助手-微信文件备份手机搬家 开屏页:    style3强制不抬高 -->
+        <item name="com.tencent.qqpim/com.tencent.qqpim.ui.DefaultAliasActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 360手机卫士极速版 开屏页:    style3强制不抬高 -->
+        <item name="com.mobilesecurity.lite/com.mobilesafe.lite.activity.AppEnterActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 小强当家-390Eyes 开屏页:    style3强制不抬高 -->
+        <item name="com.xiaoqiangiot/com.znkit.smart.user.ChangeLanguageActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 酷狗直播-直播交友社交平台 开屏页:    style3强制不抬高 -->
+        <item name="com.kugou.fanxing/com.kugou.fanxing.splash.module.SplashAnimActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 新氧医美-正品轻医美官方补贴 开屏页:    style3强制不抬高 -->
+        <item name="com.youxiang.soyoungapp/com.soyoung.module_main.ui.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 青岛地铁 开屏页:    style3强制不抬高 -->
+        <item name="com.sdjictec.qdmetro/com.sdjictec.qdmetro.module.start.ScreenAdActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- CSDN-程序员技术社区 开屏页:    style3强制不抬高 -->
+        <item name="net.csdn.csdnplus/net.csdn.csdnplus.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 可可修图 开屏页:    style3强制不抬高 -->
+        <item name="com.imendon.cococam/com.imendon.cococam.app.launch.LaunchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 万能WiFi闪电连-免费WiFi 开屏页:    style3强制不抬高 -->
+        <item name="android.goctsxi.wnsdl/xxx.a.activity.SplashActivityNew" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- NGA玩家社区-精英玩家俱乐部 开屏页:    style3强制不抬高 -->
+        <item name="gov.pianzong.androidnga/gov.pianzong.androidnga.Splash_0" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 大转盘小决定 开屏页:    style3强制不抬高 -->
+        <item name="com.leandom.dice/com.leandom.dice.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 民生山西 开屏页:    style3强制不抬高 -->
+        <item name="com.runsdata.socialsecurity.shanxi/com.runsdata.socialsecurity.sunshine.app.view.activity.main.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 联想电话手表 开屏页:    style3强制不抬高 -->
+        <item name="com.tgelec.lianxiangertong/com.tgelec.module_login.activity.WelcomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 小明计算器 开屏页:    style3强制不抬高 -->
+        <item name="com.differ.xiaoming/com.differ.xiaoming.ui.activity.StartActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 长江e号-股票开户炒股理财软件 开屏页:    style3强制不抬高 -->
+        <item name="com.eno.android.cj.page/com.eno.android.cj.page.Activity_login" navColorPolicyV2="IMMERSE_V2,style:3"/>
+
+        <!--腾讯视频播放界面 B250114-82072-->
+        <item name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--滴滴锁屏 B250308-83860-->
+        <item name="com.sdu.didi.psnger/com.didi.quattro.business.inservice.lockscreen.ui.QULockScreenActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--QQ音乐播放页 B250401-84678-->
+        <item name="com.tencent.qqmusic/com.tencent.qqmusic.business.playernew.view.FoldScreenNewPlayerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--大众点评 B250329-82517-->
+        <item name="com.dianping.v1/com.meituan.android.mrn.container.MRNBaseActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--浙商银行 B250330-81756-->
+        <item name="com.czbank.mbank/com.czbank.mdp.h5container.webview.MarsH5Container" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--飞书 B250113-84314-->
+        <item name="com.ss.android.lark/com.ss.android.lark.widget.photo.preview.PhotoPagerActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信 B250423-82439-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--小红书 B250506-80955-->
+        <item name="com.xingin.xhs/com.xingin.alioth.search.GlobalSearchActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--QQ邮箱 扫描文件 B250417-80724-->
+        <item name="com.tencent.androidqqmail/com.tencent.qqmail.ocr.view.OcrScanHomeActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--贝壳找房 扫一扫 B250417-82544-->
+        <item name="com.lianjia.beike/com.lianjia.platform.activity.ScanQRCodeTakePhotoActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--太平洋保险 启动页 B250421-84890-->
+        <item name="com.cpic.sxbxxe/com.cpic.sxbxxe.GuideActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--pp视频 扫一扫-->
+        <item name="com.pplive.androidphone/com.pplive.androidphone.ui.barcode.BarcodeCaptureActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信pdf B250520-81416-->
+        <item name="com.tencent.mm/com.tencent.mm.pluginsdk.ui.tools.MiniQBReaderUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--抖音搜索页 B250430-83048-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.search.activity.SearchResultActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--快手个人主页 B250610-82336-->
+        <item name="com.smile.gifmaker/com.yxcorp.gifshow.profile.activity.UserProfileActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--GPU Bwb250718-037-->
+        <item name="com.sqa7.gpu_testcase" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--搜狐新闻 B250819-83801-->
+        <item name="com.sohu.newsclient/com.sohu.newsclient.quicknews.activity.QuickNewsActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--B站评论区 图片 B250820-83868-->
+        <item name="tv.danmaku.bili/com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--Garmin Connect开屏页 B250819-80990-->
+        <item name="com.garmin.android.apps.connectmobile/com.garmin.android.apps.connectmobile.GCMActivityStartup" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--第一赛道开屏页 B250825-87317-->
+        <item name="com.sport.record/com.sport.record.ui.activity.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信通话视频 B250826-82118-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.voip.ui.VideoActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!-- 微信发送位置 B250114-84207、B250903-87921 -->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.location_soso.SoSoProxyUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信 朋友圈 Bwb250725-718-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--豆包对话页面-->
+        <item name="com.larus.nova/com.larus.voicecall.impl.ui.RealtimeCallActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信 聊天发视频 B250821-88814-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.finder.ui.FinderShareFeedRelUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--微信朋友圈广告页-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsAdNativeLandingPagesUI" navColorPolicyV2="IMMERSE_V2,style:3"/>
+        <!--汽水音乐首页B251028-81515-->
+        <item name="com.luna.music/com.luna.biz.main.main.MainActivity" navColorPolicyV2="IMMERSE_V2,style:3"/>
+
+        <!-- style:2 -->
+        <!-- 企业微信-->
+        <item name="com.tencent.wework/com.tencent.wework.msg.controller.MessageListActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFF2F3F4"/>
+        <!-- 中国移动-->
+        <item name="com.greenpoint.android.mc10086.activity" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFFFFFFF"/>
+        <!-- 中国电信-->
+        <item name="com.ct.client" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFFFFFFF"/>
+        <!--企业微信 B240830-82327-->
+        <item name="com.tencent.wework/com.tencent.wework.msg.controller.SelfMessageListActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFF2F3F4"/>
+        <!-- 小红书 B240820-82855-->
+        <item name="com.xingin.xhs/com.capa.interactive.square.InteractiveSquareActivity" navColorPolicyV2="IMMERSE_V2,style:2,color:#00000000"/>
+        <!-- 搜狐视频-我的-编辑资料-->
+        <item name="com.sohu.sohuvideo/com.sohu.sohuvideo.ui.PersonalInfoActivity" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFF2F5F7"/>
+        <!-- 识货-->
+        <item name="com.hupu.shihuo/com.hupu.shihuo.community.view.CommunityNoteFeedActivity" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFFFFFFF"/>
+        <!--拼多多 B240927-82015-->
+        <item name="com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.activity.NewPageActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFFFFFFF"/>
+        <!--华为智慧生活 B241006-82238-->
+        <item name="com.huawei.smarthome/com.huawei.smarthome.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:2,color:#00000000"/>
+        <!--B250118-81367-->
+        <item name="com.tencent.mm/com.tencent.mm.ui.chatting.SendImgProxyUI" navColorPolicyV2="IMMERSE_V2,style:2,color:#00000000"/>
+        <!--哔哩哔哩 B250127-80384-->
+        <item name="tv.danmaku.bili/com.bilibili.socialize.share.core.ui.BiliShareDelegateActivity"  navColorPolicyV2="IMMERSE_V2,style:2,color:#00000000"/>
+        <item name="tv.danmaku.bili/com.tencent.connect.common.AssistActivity"  navColorPolicyV2="IMMERSE_V2,style:2,color:#00000000"/>
+        <!--小红书 B250301-80135-->
+        <item name="com.xingin.xhs/com.xingin.comment.input.ui.NoteCommentActivity"  navColorPolicyV2="IMMERSE_V2,style:2,color:#00000000"/>
+        <!--支付宝 芭芭农场 B250323-80432-->
+        <item name="com.eg.android.AlipayGphone/com.alipay.android.phone.wallet.outlauncher.page.UserGrowthActivity" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFFFFFFF"/>
+        <!--个人所得税 开屏页 B250325-81805-->
+        <item name="cn.gov.tax.its/cn.gov.tax.its.MainActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:2,color:#FFFFFFFF"/>
+        <!--快对 扫一扫 B250417-81583-->
+        <item name="com.kuaiduizuoye.scan/com.zybang.camera.activity.SearchCameraSDKActivity"  navColorPolicyV2="IMMERSE_V2,style:2,color:#FF000000"/>
+        <item name="com.kuaiduizuoye.scan/com.zybang.camera.activity.SearchCameraSDKActivityHD"  navColorPolicyV2="IMMERSE_V2,style:2,color:#FF000000"/>
+        <!--斗鱼直播 B250417-84631-->
+        <item name="air.tv.douyu.android/com.douyu.module.player.p.rambobase.RamboPlayerActivity"  navColorPolicyV2="IMMERSE_V2,style:2,color:#FF000000"/>
+        <!--微信扫一扫 B250806-87286-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.scanner.ui.BaseScanUI"  navColorPolicyV2="IMMERSE_V2,style:2,color:#FF000000"/>
+        <!--今日头条图片 B250811-87856-->
+        <item name="com.ss.android.article.news/com.bytedance.ugc.ugc.thumb.view.ThumbPreviewActivity" navColorPolicyV2="IMMERSE_V2,style:2,color:#FF000000"/>
+
+        <!-- style:1 -->
+        <!--QQ B240830-85024-->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.QQTranslucentBrowserActivity" navColorPolicyV2="IMMERSE_V2,style:1"/>
+        <!-- App1-->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.QPublicTransFragmentActivity" navColorPolicyV2="IMMERSE_V2,style:1"/>
+        <!-- 天天象棋-->
+        <item name="com.tencent.qqgame.xq/com.tencent.qqgame.xq.AppActivity" navColorPolicyV2="IMMERSE_V2,style:1"/>
+        <!--微信红包 B250301-84637-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNotHookReceiveUI"  navColorPolicyV2="IMMERSE_V2,style:1"/>
+        <item name="com.tencent.mm/com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNewReceiveUI"  navColorPolicyV2="IMMERSE_V2,style:1"/>
+        <!--老虎国际-->
+        <item name="com.tigerbrokers.stock/com.tigerbrokers.stockdetail.ui.activity.StockDetailPortraitWrapperActivity" navColorPolicyV2="IMMERSE_V2,style:1"/>
+        <!--抖音 视频 B250816-81945-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.hotspot.HotSpotDetailActivity" navColorPolicyV2="IMMERSE_V2,style:1"/>
+
+        <!-- style:0 -->
+        <!-- foreImmerseV2 -->
+        <!-- 腾讯会议-->
+        <item name="com.tencent.wemeet.app/com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity" navColorPolicyV2="IMMERSE_V2,style:0,foreImmerseV2"/>
+        <item name="com.tencent.wemeet.app/com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity" type="2" navColorPolicyV2="IMMERSE_V2,style:0,foreImmerseV2"/>
+        <!-- 腾讯视频 卡片管理-->
+        <item name="com.tencent.qqlive/com.tencent.qqlive.universal.usercenter.activity.UserCenterCardEditorActivity" navColorPolicyV2="IMMERSE_V2,style:0,foreImmerseV2"/>
+
+        <!-- forceDrawBlur -->
+        <!--QQ 直播-->
+        <!--<item name="com.tencent.mobileqq/com.tencent.mobileqq.qqlive.room.frame.activity.QQliveRoomActivity" navColorPolicyV2="IMMERSE_V2,style:0,forceDrawBlur:1"/>-->
+
+        <!-- oneSideColor -->
+        <!-- 爱奇艺-->
+        <item name="com.qiyi.video/org.iqiyi.video.activity.PlayerActivity" navColorPolicyV2="IMMERSE_V2,style:0,oneSideColor:1"/>
+        <!-- 抖音商城-->
+        <item name="com.ss.android.ugc.livelite/com.ss.android.ugc.aweme.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:0,oneSideColor:1"/>
+        <!--作业帮首页 听学部分点击一个进去播放的界面以及工具库的大部分界面-->
+        <item name="com.baidu.homework/com.baidu.homework.activity.web.ZybWebActivity" navColorPolicyV2="IMMERSE_V2,style:0,oneSideColor:1"/>
+        <!--优酷视频播放界面-->
+        <item name="com.youku.phone/com.youku.ui.activity.DetailActivity" navColorPolicyV2="IMMERSE_V2,style:0,oneSideColor:1"/>
+        <!--腾讯视频播放界面-->
+        <!--<item name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity" navColorPolicyV2="IMMERSE_V2,style:0,oneSideColor:1"/>-->
+        <!--  抖音极速版 放映厅 B240820-85383-->
+        <item name="com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.lvideo.theater.LVTheaterPageActivity" navColorPolicyV2="IMMERSE_V2,style:0,oneSideColor:1"/>
+
+        <!-- 时长配置 -->
+        <!--微信主界面-->
+        <item name="com.tencent.mm/com.tencent.mm.ui.LauncherUI" navColorPolicyV2="IMMERSE_V2,style:0,updateTime:1500,startMaxFrameRate:1"/>
+        <!--抖音主界面-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity" navColorPolicyV2="IMMERSE_V2,style:0,updateTime:1500,userLastColor"/>
+        <!--B241022-82988-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI" navColorPolicyV2="IMMERSE_V2,style:0,updateTime:1500"/>
+        <!--B250401-86902-->
+        <item name="com.eg.android.AlipayGphone/com.alipay.mobile.nebulax.xriver.activity.XRiverActivity" navColorPolicyV2="IMMERSE_V2,style:0,defaultDelayTime:3000"/>
+
+        <!-- 区别于包名配置 -->
+        <!-- 中国移动-->
+        <item name="com.greenpoint.android.mc10086.activity/com.mc10086.cmcc.view.tabs.AppTabFragment" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <item name="com.greenpoint.android.mc10086.activity/com.cmccit.webview.ac.CommonHtml5Activity" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <!-- 中国电信-->
+        <item name="com.ct.client/com.ct.client.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <item name="com.ct.client/com.ct.client.common.webview.OnlineBusinessWebkitActivity" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <item name="com.ct.client/com.ct.client.zxing.activity.CtScanActivity" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <item name="com.ct.client/com.ct.client.common.webview.CommWebkitActivity" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <!--中国电信 应用引导广告界面 B240819-82232-->
+        <item name="com.ct.client/com.ct.client.activity.NewUserGuideActivity" navColorPolicyV2="IMMERSE_V2,style:0"/>
+        <!--中国电信 星播客界面 B240819-82232-->
+        <item name="com.ct.client/io.dcloud.feature.sdk.multi.DCUniMPActivity0" navColorPolicyV2="IMMERSE_V2,style:0"/>
+
+        <!-- 均色-->
+        <!--夸克首页-->
+        <item name="com.quark.browser/com.ucpro.BrowserActivity" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--哔哩哔哩首页-->
+        <item name="tv.danmaku.bili/tv.danmaku.bili.MainActivityV2" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--edge浏览器首页-->
+        <item name="com.microsoft.emmx/com.microsoft.ruby.Main" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--网易云音乐首页-->
+        <item name="com.netease.cloudmusic/com.netease.cloudmusic.activity.IconChangeDefaultAlias" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--网易云音乐首页-->
+        <item name="com.netease.cloudmusic/com.netease.cloudmusic.activity.MainActivity" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--QQ音乐首页-->
+        <item name="com.tencent.qqmusic/com.tencent.qqmusic.activity.icons.Alias216AppStarterActivity" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <item name="com.tencent.qqmusic/com.tencent.qqmusic.activity.AppStarterActivity" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--虎牙直播 首页 B250415-84727、B250417-80561-->
+        <item name="com.duowan.kiwi/com.duowan.kiwi.homepage.Homepage" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+        <!--Apple Music-->
+        <item name="com.apple.android.music/com.apple.android.music.common.MainContentActivity" navColorPolicyV2="IMMERSE_V2,style:0,avgSimpleColor:1"/>
+
+        <!--SKETCHY_COLOR_RANGE-->
+        <!--快手首页-->
+        <item name="com.smile.gifmaker/com.yxcorp.gifshow.HomeActivity" navColorPolicyV2="IMMERSE_V2,style:0,sketchyColorRange:1,refreshOnIfColorChange:1"/>
+        <!--快手极速版首页-->
+        <item name="com.kuaishou.nebula/com.yxcorp.gifshow.HomeActivity" navColorPolicyV2="IMMERSE_V2,style:0,sketchyColorRange:1,refreshOnIfColorChange:1"/>
+        <!--抖音-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.detail.ui.DetailActivity" navColorPolicyV2="IMMERSE_V2,style:0,sketchyColorRange:1"/>
+        <!--翼支付 B250417-84432-->
+        <item name="com.chinatelecom.bestpayclient/com.alipay.mobile.nebulacore.ui.H5Activity" navColorPolicyV2="IMMERSE_V2,style:0,sketchyColorRange:1"/>
+
+        <!--LIMIT_FRAME_RATE-->
+        <!--B250218-82925-->
+        <item name="com.sina.weibo/com.sina.weibo.preview.MediaPreviewActivity" navColorPolicyV2="IMMERSE_V2,style:0,limitFrameRate:1"/>
+
+        <!--ASYNC_PRESENT-->
+        <!--今日头条图片 B250911-87577-->
+        <item name="com.ss.android.article.news/com.bytedance.ugc.ugc.thumb.view.ThumbPreviewActivity" navColorPolicyV2="IMMERSE_V2,style:0,asyncPresent:1"/>
+        <!--百度地图首页 B251005-81034-->
+        <item name="com.baidu.BaiduMap/com.baidu.baidumaps.MapsActivity" navColorPolicyV2="IMMERSE_V2,style:0,asyncPresent:1"/>
+
+        <!--USER_LAST_COLOR-->
+        <!--企业微信 设置页 B250911-83378-->
+        <item name="com.tencent.wework/com.tencent.wework.launch.WwMainActivity" navColorPolicyV2="IMMERSE_V2,style:0,userLastColor"/>
+
+        <!--
+         navColorPolicy  immerse:IMMERSE  specificColor:#AARRGGBB
+        -->
+        <!-- 内销top100  -->
+        <item name="com.snda.wifilocating" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.mobileqq" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.mm" navColorPolicy="IMMERSE"/>
+        <item name="com.kugou.android" navColorPolicy="IMMERSE"/>
+        <item name="com.qiyi.video" navColorPolicy="IMMERSE"/>
+        <item name="com.taobao.taobao" navColorPolicy="IMMERSE"/>
+        <item name="com.youku.phone" navColorPolicy="IMMERSE"/>
+        <item name="com.android.bbk.lockscreen3" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.browser" navColorPolicy="IMMERSE"/>
+        <item name="com.android.browser" navColorPolicy="IMMERSE"/>
+        <item name="com.baidu.BaiduMap" navColorPolicy="IMMERSE"/>
+        <item name="com.vlife.vivo.wallpaper" navColorPolicy="IMMERSE"/>
+        <item name="com.eg.android.AlipayGphone" navColorPolicy="IMMERSE"/>
+        <item name="com.baidu.searchbox" navColorPolicy="IMMERSE"/>
+        <item name="com.sina.weibo" navColorPolicy="IMMERSE"/>
+        <item name="com.shoujiduoduo.ringtone" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.qqlive" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.mtt" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.qqmusic" navColorPolicy="IMMERSE"/>
+        <item name="com.sohu.sohuvideo" navColorPolicy="IMMERSE"/>
+        <item name="com.smile.gifmaker" navColorPolicy="IMMERSE"/>
+        <item name="com.immomo.momo" navColorPolicy="IMMERSE"/>
+        <item name="com.bbk.appstore" navColorPolicy="IMMERSE"/>
+        <item name="com.tmall.wireless" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.qqpimsecure" navColorPolicy="IMMERSE"/>
+        <item name="com.sankuai.meituan" navColorPolicy="IMMERSE"/>
+        <item name="com.mt.mtxx.mtxx" navColorPolicy="IMMERSE"/>
+        <item name="com.qzone" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.karaoke" navColorPolicy="IMMERSE"/>
+        <item name="cn.andouya" navColorPolicy="IMMERSE"/>
+        <item name="com.Qunar" navColorPolicy="IMMERSE"/>
+        <item name="com.sohu.inputmethod.sogou" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.space" navColorPolicy="IMMERSE"/>
+        <item name="com.meitu.meiyancamera" navColorPolicy="IMMERSE"/>
+        <item name="cn.kuwo.player" navColorPolicy="IMMERSE"/>
+        <item name="com.storm.smart" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.news" navColorPolicy="IMMERSE"/>
+        <item name="com.netease.newsreader.activity" navColorPolicy="IMMERSE"/>
+        <item name="com.hunantv.imgo.activity" navColorPolicy="IMMERSE"/>
+        <item name="com.letv.android.client" navColorPolicy="IMMERSE"/>
+        <item name="com.tudou.android" navColorPolicy="IMMERSE"/>
+        <item name="com.qihoo360.mobilesafe" navColorPolicy="IMMERSE"/>
+        <item name="com.baidu.video" navColorPolicy="IMMERSE"/>
+        <item name="com.pplive.androidphone" navColorPolicy="IMMERSE"/>
+        <item name="com.netease.cloudmusic" navColorPolicy="IMMERSE"/>
+        <item name="com.ss.android.article.news" navColorPolicy="IMMERSE"/>
+        <item name="com.autonavi.minimap" navColorPolicy="IMMERSE"/>
+        <item name="ctrip.android.view" navColorPolicy="IMMERSE"/>
+        <item name="com.jingdong.app.mall" navColorPolicy="IMMERSE"/>
+        <item name="com.achievo.vipshop" navColorPolicy="IMMERSE"/>
+        <item name="com.baidu.homework" navColorPolicy="IMMERSE"/>
+        <item name="com.cleanmaster.mguard_cn" navColorPolicy="IMMERSE"/>
+        <item name="com.duowan.mobile" navColorPolicy="IMMERSE"/>
+        <item name="com.duoduo.child.story" navColorPolicy="IMMERSE"/>
+        <item name="tv.pps.mobile" navColorPolicy="IMMERSE"/>
+        <item name="cn.wps.moffice_eng" navColorPolicy="IMMERSE"/>
+        <item name="com.handsgo.jiakao.android" navColorPolicy="IMMERSE"/>
+        <item name="com.daohang2345" navColorPolicy="IMMERSE"/>
+        <item name="com.mogujie" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.ttpic" navColorPolicy="IMMERSE"/>
+        <item name="com.meitu.meipaimv" navColorPolicy="IMMERSE"/>
+        <item name="com.wuba" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.qqpim" navColorPolicy="IMMERSE"/>
+        <item name="com.changba" navColorPolicy="IMMERSE"/>
+        <item name="com.duowan.groundhog.mctools" navColorPolicy="IMMERSE"/>
+        <item name="com.sds.android.ttpod" navColorPolicy="IMMERSE"/>
+        <item name="com.iflytek.inputmethod" navColorPolicy="IMMERSE"/>
+        <item name="com.chaozh.iReader" navColorPolicy="IMMERSE"/>
+        <item name="com.moji.mjweather" navColorPolicy="IMMERSE"/>
+        <item name="com.audiocn.kalaok" navColorPolicy="IMMERSE"/>
+        <item name="com.kandian.vodapp" navColorPolicy="IMMERSE"/>
+        <item name="com.renren.mini.android" navColorPolicy="IMMERSE"/>
+        <item name="com.lemon.faceu" navColorPolicy="IMMERSE"/>
+        <item name="com.sdu.didi.psnger" navColorPolicy="IMMERSE"/>
+        <item name="vStudio.Android.Camera360" navColorPolicy="IMMERSE"/>
+        <item name="com.dewmobile.kuaiya" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.token" navColorPolicy="IMMERSE"/>
+        <item name="com.xunlei.downloadprovider" navColorPolicy="IMMERSE"/>
+        <item name="com.wochacha" navColorPolicy="IMMERSE"/>
+        <item name="cn.jingling.motu.photowonder" navColorPolicy="IMMERSE"/>
+        <item name="bubei.tingshu" navColorPolicy="IMMERSE"/>
+        <item name="com.qihoo.video" navColorPolicy="IMMERSE"/>
+        <item name="com.baidu.tieba" navColorPolicy="IMMERSE"/>
+        <item name="com.youdao.dict" navColorPolicy="IMMERSE"/>
+        <item name="com.jxedt" navColorPolicy="IMMERSE"/>
+        <item name="com.fenbi.android.solar" navColorPolicy="IMMERSE"/>
+        <item name="me.ele" navColorPolicy="IMMERSE"/>
+        <item name="com.meilishuo" navColorPolicy="IMMERSE"/>
+        <item name="com.dianping.v1" navColorPolicy="IMMERSE"/>
+        <item name="com.greenpoint.android.mc10086.activity" navColorPolicy="IMMERSE"/>
+        <item name="com.iflytek.cmcc" navColorPolicy="IMMERSE"/>
+        <item name="com.mydream.wifi" navColorPolicy="IMMERSE"/>
+        <item name="com.xunlei.kankan" navColorPolicy="IMMERSE"/>
+        <item name="com.nuomi" navColorPolicy="IMMERSE"/>
+        <item name="com.sankuai.meituan.takeoutnew" navColorPolicy="IMMERSE"/>
+        <item name="com.cubic.autohome" navColorPolicy="IMMERSE"/>
+        <item name="com.suning.mobile.ebuy" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.gamehelper.smoba" navColorPolicy="IMMERSE"/>
+        <item name="cmb.pb" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.map" navColorPolicy="IMMERSE"/>
+        <item name="cn.cntv" navColorPolicy="IMMERSE"/>
+        <item name="com.qq.reader" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.PCTools" navColorPolicy="IMMERSE"/>
+        <item name="com.bbk.PCTools" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.dlna" navColorPolicy="IMMERSE"/>
+        <item name="com.bbk.iqoo.feedback" navColorPolicy="IMMERSE"/>
+        <item name="com.yozo.vivo.office" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.easyshare" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.game" navColorPolicy="IMMERSE"/>
+        <item name="com.vivo.childrenmode" navColorPolicy="IMMERSE"/>
+        <item name="com.ruichuang" navColorPolicy="IMMERSE"/>
+        <item name="com.sie.mp" navColorPolicy="IMMERSE"/>
+        <!-- zhengjia add 20241129 for [B241121-85165] begin-->
+        <item name="com.max.xiaoheihe" navColorPolicy="IMMERSE"/>
+        <!-- zhengjia add 20241129 for [B241121-85165] end-->
+        <!-- zhengjia add 20250113 for Car Machine begin-->
+        <item name="com.tencent.qqmusiccar" navColorPolicy="IMMERSE"/>
+        <item name="com.kugou.android.auto" navColorPolicy="IMMERSE"/>
+        <!-- zhengjia add 20250113 for Car Machine end-->
+        <item name="com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.sdu.didi.psnger/com.didi.sdk.app.MainActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.youdao.dict/com.youdao.dict.activity.OCRFromCameraActivity" navColorPolicy="#FF000000"/>
+        <item name="com.fenbi.android.solar/com.fenbi.android.solar.crop.SearchCrop" navColorPolicy="#FF000000"/>
+        <item name="com.cubic.autohome/com.autohome.plugin.imgocr.activity.ScanImageActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.tencent.gamehelper.smoba/com.tencent.gamehelper.ui.region.RegionMapActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="cn.jingling.motu.photowonder/cn.jingling.motu.photowonder.PhotoWonder" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.sankuai.meituan/com.meituan.android.flight.business.homepage.TrafficHomePageActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.taobao.taobao/com.etao.feimagesearch.FEISCaptureActivity" navColorPolicy="#FF000000"/>
+        <item name="vStudio.Android.Camera360/vStudio.Android.Camera360.activity.CameraMainActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.qiyi.video/com.iqiyi.publisher.ui.activity.FeedPublisherEntranceActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.mt.mtxx.mtxx/com.meitu.album2.ui.AlbumActivity" navColorPolicy="#FFF9F9F9"/>
+        <item name="com.mt.mtxx.mtxx/com.meitu.meitupic.modularcloudfilter.CloudFilterH5Activity" navColorPolicy="#FFF9F9F9"/>
+        <item name="com.mt.mtxx.mtxx/com.meitu.meitupic.modularcloudfilter.ui.CloudFilterIndexActivity" navColorPolicy="#FFF9F9F9"/>
+        <item name="com.mt.mtxx.mtxx/com.meitu.meitupic.framework.web.WebviewH5Activity" navColorPolicy="#FFF9F9F9"/>
+        <item name="com.mt.mtxx.mtxx/com.meitu.meitupic.modularmaterialcenter.ActivityMaterialCategory" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.moji.mjweather/com.moji.mjweather.MainActivity" navColorPolicy="#FF323232"/>
+        <item name="com.tencent.qqmusic/com.tencent.qqmusic.activity.NewGuideForNewUserActivity" navColorPolicy="#FFE8E8E8"/>
+        <item name="com.vivo.easyshare/com.vivo.easyshare.activity.CaptureActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.aio.photo.AIOGalleryActivity" navColorPolicy="#FFF1F2F7"/>
+        <item name="com.taobao.taobao/com.taobao.tao.allspark.feed.activity.DongtaiCancelActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.taobao.taobao/com.taobao.tao.detail.activity.DetailActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.taobao.taobao/com.taobao.wetao.home.WeTaoMainActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.ss.android.article.news/com.ss.android.article.base.feature.category.activity.CategoryExpandActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.ss.android.article.news/com.ss.android.account.v2.view.AccountLoginActivity" navColorPolicy="#FFFAFAFA"/>
+        <item name="com.tmall.wireless/com.tmall.wireless.detail.ui.TMItemDetailsActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.tencent.ttpic/com.tencent.ttpic.module.MainActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.suning.mobile.ebuy/com.suning.dl.ebuy.dynamicload.SuningDLProxySingleTaskActivity" navColorPolicy="#FFEDEDED"/>
+        <item name="com.tudou.android/com.tudou.waterfall.ui.WaterfallActivity" navColorPolicy="#FF000000"/>
+        <item name="com.cleanmaster.mguard_cn/com.cleanmaster.boost.main.ProcessManagerActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.sina.weibo/com.sina.weibo.VisitorMainTabActivity" navColorPolicy="#FFFAFAFA"/>
+        <item name="com.sina.weibo/com.sina.weibo.MainTabActivity" navColorPolicy="#FFFAFAFA"/>
+
+        <!-- paddingColorPolicy  light:LIGHT dark:DARK  -->
+
+        <!-- liqigong add 20190506 for [B190429-1466] begin-->
+        <item name="com.tencent.news" paddingColorPolicy ="DARK"/>
+        <!-- liqigong add 20190506 for [B190429-1466] end-->
+
+        <!-- 外销印度、印尼top100  -->
+        <item name="com.whatsapp" navColorPolicy="IMMERSE"/>
+        <item name="in.startv.hotstar" navColorPolicy="IMMERSE"/>
+        <item name="com.facebook.orca" navColorPolicy="IMMERSE"/>
+        <item name="com.lenovo.anyshare.gps" navColorPolicy="IMMERSE"/>
+        <item name="com.UCMobile.intl" navColorPolicy="IMMERSE"/>
+        <item name="com.facebook.katana" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.apps.nbu.paisa.user" navColorPolicy="IMMERSE"/>
+        <item name="com.facebook.lite" navColorPolicy="IMMERSE"/>
+        <item name="com.mxtech.videoplayer.ad" navColorPolicy="IMMERSE"/>
+        <item name="com.jio.myjio" navColorPolicy="IMMERSE"/>
+        <item name="com.jio.jioplay.livetv" navColorPolicy="IMMERSE"/>
+        <item name="com.instagram.android" navColorPolicy="IMMERSE"/>
+        <item name="com.uc.iflow" navColorPolicy="IMMERSE"/>
+        <item name="com.imo.android.imoim" navColorPolicy="IMMERSE"/>
+        <item name="com.jio.media.jiobeats" navColorPolicy="IMMERSE"/>
+        <item name="club.fromfactory" navColorPolicy="IMMERSE"/>
+        <item name="com.uc.vmate" navColorPolicy="IMMERSE"/>
+        <item name="com.phonepe.app" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.apps.tachyon" navColorPolicy="IMMERSE"/>
+        <item name="cn.xender" navColorPolicy="IMMERSE"/>
+        <item name="com.amazon.mShop.android.shopping" navColorPolicy="IMMERSE"/>
+        <item name="net.one97.paytm" navColorPolicy="IMMERSE"/>
+        <item name="com.uc.browser.en" navColorPolicy="IMMERSE"/>
+        <item name="com.tv.v18.viola" navColorPolicy="IMMERSE"/>
+        <item name="com.commsource.beautyplus" navColorPolicy="IMMERSE"/>
+        <item name="com.newsdog" navColorPolicy="IMMERSE"/>
+        <item name="com.domobile.applock" navColorPolicy="IMMERSE"/>
+        <item name="com.flipkart.android" navColorPolicy="IMMERSE"/>
+        <item name="com.gaana" navColorPolicy="IMMERSE"/>
+        <item name="com.paytmmall" navColorPolicy="IMMERSE"/>
+        <item name="com.facebook.mlite" navColorPolicy="IMMERSE"/>
+        <item name="com.jio.join" navColorPolicy="IMMERSE"/>
+        <item name="com.shopclues" navColorPolicy="IMMERSE"/>
+        <item name="tv.accedo.airtel.wynk" navColorPolicy="IMMERSE"/>
+        <item name="sg.bigo.live" navColorPolicy="IMMERSE"/>
+        <item name="com.eterno" navColorPolicy="IMMERSE"/>
+        <item name="com.olx.ssa.ug" navColorPolicy="IMMERSE"/>
+        <item name="com.quvideo.xiaoying" navColorPolicy="IMMERSE"/>
+        <item name="com.steam.photoeditor" navColorPolicy="IMMERSE"/>
+        <item name="com.cricbuzz.android" navColorPolicy="IMMERSE"/>
+        <item name="com.apps.go.clean.boost.master" navColorPolicy="IMMERSE"/>
+        <item name="com.myairtelapp" navColorPolicy="IMMERSE"/>
+        <item name="com.olacabs.customer" navColorPolicy="IMMERSE"/>
+        <item name="com.xpro.camera.lite" navColorPolicy="IMMERSE"/>
+        <item name="com.opera.mini.native" navColorPolicy="IMMERSE"/>
+        <item name="com.pic.mycamera" navColorPolicy="IMMERSE"/>
+        <item name="video.like" navColorPolicy="IMMERSE"/>
+        <item name="info.cloneapp.mochat.in.goast" navColorPolicy="IMMERSE"/>
+        <item name="com.ubercab" navColorPolicy="IMMERSE"/>
+        <item name="com.appstar.callrecorder" navColorPolicy="IMMERSE"/>
+        <item name="com.shopping.limeroad" navColorPolicy="IMMERSE"/>
+        <item name="com.bsb.hike" navColorPolicy="IMMERSE"/>
+        <item name="com.cam001.selfie" navColorPolicy="IMMERSE"/>
+        <item name="com.powerful.cleaner" navColorPolicy="IMMERSE"/>
+        <item name="com.pic.pipcamera" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.play.games" navColorPolicy="IMMERSE"/>
+        <item name="com.jabong.android" navColorPolicy="IMMERSE"/>
+        <item name="com.cleanmaster.mguard" navColorPolicy="IMMERSE"/>
+        <item name="panda.keyboard.emoji.theme" navColorPolicy="IMMERSE"/>
+        <item name="com.yahoo.mobile.client.android.mail" navColorPolicy="IMMERSE"/>
+        <item name="com.starmakerinteractive.starmaker" navColorPolicy="IMMERSE"/>
+        <item name="com.herman.ringtone" navColorPolicy="IMMERSE"/>
+        <item name="com.ixigo.train.ixitrain" navColorPolicy="IMMERSE"/>
+        <item name="com.atomic.apps.ringtone.cutter" navColorPolicy="IMMERSE"/>
+        <item name="in.mohalla.sharechat" navColorPolicy="IMMERSE"/>
+        <item name="com.lbe.parallel.intl" navColorPolicy="IMMERSE"/>
+        <item name="cris.icms.ntes" navColorPolicy="IMMERSE"/>
+        <item name="com.ideacellular.myidea" navColorPolicy="IMMERSE"/>
+        <item name="com.myntra.android" navColorPolicy="IMMERSE"/>
+        <item name="com.jio.media.ondemand" navColorPolicy="IMMERSE"/>
+        <item name="com.outfit7.talkingtom" navColorPolicy="IMMERSE"/>
+        <item name="idealogicsnetwork.melivideos" navColorPolicy="IMMERSE"/>
+        <item name="com.ksmobile.launcher" navColorPolicy="IMMERSE"/>
+        <item name="org.videolan.vlc" navColorPolicy="IMMERSE"/>
+        <item name="com.apusapps.browser" navColorPolicy="IMMERSE"/>
+        <item name="com.pinterest" navColorPolicy="IMMERSE"/>
+        <item name="com.sonyliv" navColorPolicy="IMMERSE"/>
+        <item name="in.org.npci.upiapp" navColorPolicy="IMMERSE"/>
+        <item name="com.snapdeal.main" navColorPolicy="IMMERSE"/>
+        <item name="com.intsig.camscanner" navColorPolicy="IMMERSE"/>
+        <item name="com.til.timesnews" navColorPolicy="IMMERSE"/>
+        <item name="com.railyatri.in.mobile" navColorPolicy="IMMERSE"/>
+        <item name="com.twitter.android" navColorPolicy="IMMERSE"/>
+        <item name="com.smule.singandroid" navColorPolicy="IMMERSE"/>
+        <item name="com.goibibo" navColorPolicy="IMMERSE"/>
+        <item name="com.application.onead" navColorPolicy="IMMERSE"/>
+        <item name="cris.org.in.prs.ima" navColorPolicy="IMMERSE"/>
+        <item name="com.ehawk.antivirus.applock.wifi" navColorPolicy="IMMERSE"/>
+        <item name="com.makemytrip" navColorPolicy="IMMERSE"/>
+        <item name="com.amazon.avod.thirdpartyclient" navColorPolicy="IMMERSE"/>
+        <item name="com.mcent.browser" navColorPolicy="IMMERSE"/>
+        <item name="com.grabtaxi.passenger" navColorPolicy="IMMERSE"/>
+        <item name="com.shopee.id" navColorPolicy="IMMERSE"/>
+        <item name="com.gojek.app" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.ibg.joox" navColorPolicy="IMMERSE"/>
+        <item name="com.lazada.android" navColorPolicy="IMMERSE"/>
+        <item name="com.tokopedia.tkpd" navColorPolicy="IMMERSE"/>
+        <item name="jp.naver.line.android" navColorPolicy="IMMERSE"/>
+        <item name="com.roidapp.photogrid" navColorPolicy="IMMERSE"/>
+        <item name="blibli.mobile.commerce" navColorPolicy="IMMERSE"/>
+        <item name="com.ss.android.ugc.trill" navColorPolicy="IMMERSE"/>
+        <item name="com.telkomsel.telkomselcm" navColorPolicy="IMMERSE"/>
+        <item name="com.halo.wifikey.wifilocating" navColorPolicy="IMMERSE"/>
+        <item name="jd.cdyjy.overseas.market.indonesia" navColorPolicy="IMMERSE"/>
+        <item name="tv.hooq.android" navColorPolicy="IMMERSE"/>
+        <item name="com.vshow.me" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.emoji.gokeyboard" navColorPolicy="IMMERSE"/>
+        <item name="com.andi.alquran.id" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.youtube" navColorPolicy="IMMERSE"/>
+        <item name="com.app.tokobagus.betterb" navColorPolicy="IMMERSE"/>
+        <item name="com.traveloka.android" navColorPolicy="IMMERSE"/>
+        <item name="com.gau.go.launcherex" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.apps.primer" navColorPolicy="IMMERSE"/>
+        <item name="com.viu.phone" navColorPolicy="IMMERSE"/>
+        <item name="com.smartkeyboard.emoji" navColorPolicy="IMMERSE"/>
+        <item name="org.telegram.messenger" navColorPolicy="IMMERSE"/>
+        <item name="com.zhiliaoapp.musically" navColorPolicy="IMMERSE"/>
+        <item name="com.duapps.recorder" navColorPolicy="IMMERSE"/>
+        <item name="com.waze" navColorPolicy="IMMERSE"/>
+        <item name="com.pure.indosat.care" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.security" navColorPolicy="IMMERSE"/>
+        <item name="com.alibaba.aliexpresshd" navColorPolicy="IMMERSE"/>
+        <item name="com.naver.linewebtoon" navColorPolicy="IMMERSE"/>
+        <item name="com.jiubang.goclockex" navColorPolicy="IMMERSE"/>
+        <item name="com.instagram.boomerang" navColorPolicy="IMMERSE"/>
+        <item name="com.typany.ime" navColorPolicy="IMMERSE"/>
+        <item name="com.ss.android.ugc.boom" navColorPolicy="IMMERSE"/>
+        <item name="com.kwai.mercury" navColorPolicy="IMMERSE"/>
+        <item name="vStudio.Android.Camera360" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.zcamera" navColorPolicy="IMMERSE"/>
+        <item name="com.quvideo.xiaoying" navColorPolicy="IMMERSE"/>
+        <item name="com.facebook.orca" navColorPolicy="IMMERSE"/>
+        <item name="com.qisiemoji.inputmethod" navColorPolicy="IMMERSE"/>
+        <item name="com.altermyth.bima.tablet" navColorPolicy="IMMERSE"/>
+        <item name="com.anonytun.android" navColorPolicy="IMMERSE"/>
+        <item name="bri.delivery.brimobile" navColorPolicy="IMMERSE"/>
+        <item name="com.whatsweb.app" navColorPolicy="IMMERSE"/>
+        <item name="cn.wps.moffice_eng" navColorPolicy="IMMERSE"/>
+        <item name="io.wifimap.wifimap" navColorPolicy="IMMERSE"/>
+        <item name="com.grabtaxi.driver2" navColorPolicy="IMMERSE"/>
+        <item name="com.superapps.browser" navColorPolicy="IMMERSE"/>
+        <item name="com.speedbooster.optimizer" navColorPolicy="IMMERSE"/>
+        <item name="com.bca" navColorPolicy="IMMERSE"/>
+        <item name="id.co.babe" navColorPolicy="IMMERSE"/>
+        <item name="com.shinycore.picsayfree" navColorPolicy="IMMERSE"/>
+        <item name="io.silvrr.installment" navColorPolicy="IMMERSE"/>
+        <item name="com.xvideostudio.videoeditor" navColorPolicy="IMMERSE"/>
+        <item name="com.spotify.music" navColorPolicy="IMMERSE"/>
+        <item name="wp.wattpad" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.mm" navColorPolicy="IMMERSE"/>
+        <item name="com.keyboard.colorkeyboard" navColorPolicy="IMMERSE"/>
+        <item name="com.dridev.kamusku" navColorPolicy="IMMERSE"/>
+        <item name="com.android.chrome" navColorPolicy="IMMERSE"/>
+        <item name="video.like/sg.bigo.live.community.mediashare.detail.VideoDetailActivityV2" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.smule.singandroid/com.smule.singandroid.MasterActivity_" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.android.chrome/org.chromium.chrome.browser.customtabs.SeparateTaskCustomTabActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.android.chrome/com.google.android.apps.chrome.Main" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.tencent.mm/com.tencent.mm.ui.conversation.BizConversationUI" navColorPolicy="#FFFFFFFF"/>
+
+        <!--外销泰国、菲律宾、马来西亚、俄罗斯top100 -->
+        <item name="com.forshared" navColorPolicy="IMMERSE"/>
+        <item name="com.shopee.th" navColorPolicy="IMMERSE"/>
+        <item name="com.tencent.wesing" navColorPolicy="IMMERSE"/>
+        <item name="th.co.truemoney.wallet" navColorPolicy="IMMERSE"/>
+        <item name="com.garena.gaslite" navColorPolicy="IMMERSE"/>
+        <item name="com.tdcm.trueidapp" navColorPolicy="IMMERSE"/>
+        <item name="com.linecorp.linetv" navColorPolicy="IMMERSE"/>
+        <item name="com.azarlive.android" navColorPolicy="IMMERSE"/>
+        <item name="com.beetalk" navColorPolicy="IMMERSE"/>
+        <item name="com.hermes.superb.booster" navColorPolicy="IMMERSE"/>
+        <item name="com.hyperspeed.rocketclean" navColorPolicy="IMMERSE"/>
+        <item name="com.kasikorn.retail.mbanking.wap" navColorPolicy="IMMERSE"/>
+        <item name="com.scb.phone" navColorPolicy="IMMERSE"/>
+        <item name="camera360.lite.beauty.selfie.camera" navColorPolicy="IMMERSE"/>
+        <item name="jp.naver.linecamera.android" navColorPolicy="IMMERSE"/>
+        <item name="com.apusapps.tools.booster" navColorPolicy="IMMERSE"/>
+        <item name="com.ais.mimo.eservice" navColorPolicy="IMMERSE"/>
+        <item name="com.guardian.security.pri" navColorPolicy="IMMERSE"/>
+        <item name="th.co.crie.tron2.android" navColorPolicy="IMMERSE"/>
+        <item name="com.estrongs.android.pop" navColorPolicy="IMMERSE"/>
+        <item name="com.groundhog.mcpemaster" navColorPolicy="IMMERSE"/>
+        <item name="com.ss.android.article.topbuzzvideo.id" navColorPolicy="IMMERSE"/>
+        <item name="sg.bigo.hellotalk" navColorPolicy="IMMERSE"/>
+        <item name="com.Ch7.Android" navColorPolicy="IMMERSE"/>
+        <item name="ktbcs.netbank" navColorPolicy="IMMERSE"/>
+        <item name="com.bbl.mobilebanking" navColorPolicy="IMMERSE"/>
+        <item name="com.tdcm.android.trueyou" navColorPolicy="IMMERSE"/>
+        <item name="com.ais.mimo.AISPlay" navColorPolicy="IMMERSE"/>
+        <item name="com.beeasy.airpay" navColorPolicy="IMMERSE"/>
+        <item name="com.kasikornbank.kpaymerchant" navColorPolicy="IMMERSE"/>
+        <item name="com.rsupport.mvagent" navColorPolicy="IMMERSE"/>
+        <item name="com.niksoftware.snapseed" navColorPolicy="IMMERSE"/>
+        <item name="messenger.messenger.messenger.messenger" navColorPolicy="IMMERSE"/>
+        <item name="com.oneapp.max" navColorPolicy="IMMERSE"/>
+        <item name="com.wantu.activity" navColorPolicy="IMMERSE"/>
+        <item name="net.fsnasia.adpocket" navColorPolicy="IMMERSE"/>
+        <item name="net.siamdev.nattster.manman" navColorPolicy="IMMERSE"/>
+        <item name="com.meitu.makeup" navColorPolicy="IMMERSE"/>
+        <item name="com.fasttrack.security" navColorPolicy="IMMERSE"/>
+        <item name="com.mobilife.gsb.mymo" navColorPolicy="IMMERSE"/>
+        <item name="com.ookbee.joyapp.android" navColorPolicy="IMMERSE"/>
+        <item name="joyo.musicvideo.showcommunity" navColorPolicy="IMMERSE"/>
+        <item name="co.mywallet.mywallet" navColorPolicy="IMMERSE"/>
+        <item name="com.chilindo" navColorPolicy="IMMERSE"/>
+        <item name="com.appg.danjicam" navColorPolicy="IMMERSE"/>
+        <item name="asuk.com.android.app" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.apps.youtube.mango" navColorPolicy="IMMERSE"/>
+        <item name="com.naver.vapp" navColorPolicy="IMMERSE"/>
+        <item name="com.graph.weather.forecast.channel" navColorPolicy="IMMERSE"/>
+        <item name="pola.cam.video.android" navColorPolicy="IMMERSE"/>
+        <item name="com.shopee.ph" navColorPolicy="IMMERSE"/>
+        <item name="com.ginnypix.kujicam" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.apps.freighter" navColorPolicy="IMMERSE"/>
+        <item name="com.globe.gcash.android" navColorPolicy="IMMERSE"/>
+        <item name="com.lotusflare.globe.de" navColorPolicy="IMMERSE"/>
+        <item name="com.gen.workoutme" navColorPolicy="IMMERSE"/>
+        <item name="com.netflix.mediaclient" navColorPolicy="IMMERSE"/>
+        <item name="com.viber.voip" navColorPolicy="IMMERSE"/>
+        <item name="homeworkout.homeworkouts.noequipment" navColorPolicy="IMMERSE"/>
+        <item name="com.dotc.latin.ime.tap" navColorPolicy="IMMERSE"/>
+        <item name="iflix.play" navColorPolicy="IMMERSE"/>
+        <item name="loseweight.weightloss.workout.fitness" navColorPolicy="IMMERSE"/>
+        <item name="tv.tamago.tamago" navColorPolicy="IMMERSE"/>
+        <item name="com.devloper.huju.camera" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.gosms" navColorPolicy="IMMERSE"/>
+        <item name="kjv.bible.kingjamesbible" navColorPolicy="IMMERSE"/>
+        <item name="vsin.t16_funny_photo" navColorPolicy="IMMERSE"/>
+        <item name="com.abscbn.iwantv" navColorPolicy="IMMERSE"/>
+        <item name="com.apusapps.launcher" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.gosms.pctheme.smsthemes2017" navColorPolicy="IMMERSE"/>
+        <item name="com.tribe.mytribe" navColorPolicy="IMMERSE"/>
+        <item name="com.pic.photoeditor" navColorPolicy="IMMERSE"/>
+        <item name="asia.coins.mobile" navColorPolicy="IMMERSE"/>
+        <item name="com.microsoft.office.word" navColorPolicy="IMMERSE"/>
+        <item name="com.paymaya" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.gosms.pctheme.newmessengerversion2017" navColorPolicy="IMMERSE"/>
+        <item name="destiny.facecamera" navColorPolicy="IMMERSE"/>
+        <item name="com.xime.latin.lite" navColorPolicy="IMMERSE"/>
+        <item name="lystudio.karaokezingproject" navColorPolicy="IMMERSE"/>
+        <item name="kr.zinna.peraswipe" navColorPolicy="IMMERSE"/>
+        <item name="com.jiubang.darlingclock" navColorPolicy="IMMERSE"/>
+        <item name="com.cyberlink.powerdirector.DRA140225_01" navColorPolicy="IMMERSE"/>
+        <item name="com.jpbrothers.android.polaroid.sub1" navColorPolicy="IMMERSE"/>
+        <item name="ph.homecredit.myhomecredit" navColorPolicy="IMMERSE"/>
+        <item name="com.zalora.android" navColorPolicy="IMMERSE"/>
+        <item name="com.vsco.cam" navColorPolicy="IMMERSE"/>
+        <item name="mega.privacy.android.app" navColorPolicy="IMMERSE"/>
+        <item name="com.adobe.lrmobile" navColorPolicy="IMMERSE"/>
+        <item name="com.bluetunes.free" navColorPolicy="IMMERSE"/>
+        <item name="com.shopee.my" navColorPolicy="IMMERSE"/>
+        <item name="com.mudah.my" navColorPolicy="IMMERSE"/>
+        <item name="my.com.maxis.hotlink.production" navColorPolicy="IMMERSE"/>
+        <item name="com.letv.asia.video" navColorPolicy="IMMERSE"/>
+        <item name="com.murad.waktusolat" navColorPolicy="IMMERSE"/>
+        <item name="my.com.maybank2u.m2umobile" navColorPolicy="IMMERSE"/>
+        <item name="my.elevenstreet.app" navColorPolicy="IMMERSE"/>
+        <item name="com.mobiusx.live4dresults" navColorPolicy="IMMERSE"/>
+        <item name="com.yonder.celcom" navColorPolicy="IMMERSE"/>
+        <item name="com.photobook.android" navColorPolicy="IMMERSE"/>
+        <item name="com.mixtunes.freemusic" navColorPolicy="IMMERSE"/>
+        <item name="com.jb.video" navColorPolicy="IMMERSE"/>
+        <item name="com.omesti.myumobile" navColorPolicy="IMMERSE"/>
+        <item name="madlipz.eigenuity.com" navColorPolicy="IMMERSE"/>
+        <item name="com.fundevs.app.mediaconverter" navColorPolicy="IMMERSE"/>
+        <item name="com.asiainno.uplive" navColorPolicy="IMMERSE"/>
+        <item name="com.flashlight.brightest.beacon.torch" navColorPolicy="IMMERSE"/>
+        <item name="com.quh.anhun.Sali" navColorPolicy="IMMERSE"/>
+        <item name="com.airasia.mobile" navColorPolicy="IMMERSE"/>
+        <item name="com.vuclip.viu" navColorPolicy="IMMERSE"/>
+        <item name="com.amplez.astro_remote" navColorPolicy="IMMERSE"/>
+        <item name="com.tumblr" navColorPolicy="IMMERSE"/>
+        <item name="my.com.myboost" navColorPolicy="IMMERSE"/>
+        <item name="com.epf.main" navColorPolicy="IMMERSE"/>
+        <item name="com.cimbmalaysia" navColorPolicy="IMMERSE"/>
+        <item name="com.mobi.wallet" navColorPolicy="IMMERSE"/>
+        <item name="my.com.tonton.mobile" navColorPolicy="IMMERSE"/>
+        <item name="com.imo.android.imoimbeta" navColorPolicy="IMMERSE"/>
+        <item name="com.thecarousell.Carousell" navColorPolicy="IMMERSE"/>
+        <item name="com.trivago" navColorPolicy="IMMERSE"/>
+        <item name="net.zedge.android" navColorPolicy="IMMERSE"/>
+        <item name="com.bitsmedia.android.muslimpro" navColorPolicy="IMMERSE"/>
+        <item name="com.Xpax" navColorPolicy="IMMERSE"/>
+        <item name="copydata.cloneit" navColorPolicy="IMMERSE"/>
+        <item name="com.joom" navColorPolicy="IMMERSE"/>
+        <item name="store.panda.client" navColorPolicy="IMMERSE"/>
+        <item name="com.allgoritm.youla" navColorPolicy="IMMERSE"/>
+        <item name="com.vkontakte.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.sberbankmobile" navColorPolicy="IMMERSE"/>
+        <item name="com.avito.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.yandex.searchplugin" navColorPolicy="IMMERSE"/>
+        <item name="com.yandex.browser" navColorPolicy="IMMERSE"/>
+        <item name="com.creative.sandbox.number.drawning.coloring" navColorPolicy="IMMERSE"/>
+        <item name="ru.auto.ara" navColorPolicy="IMMERSE"/>
+        <item name="com.sandbox.number.coloringpages" navColorPolicy="IMMERSE"/>
+        <item name="ru.rostel" navColorPolicy="IMMERSE"/>
+        <item name="free.zaycev.net" navColorPolicy="IMMERSE"/>
+        <item name="ru.mts.mymts" navColorPolicy="IMMERSE"/>
+        <item name="com.smile.gifmaker" navColorPolicy="IMMERSE"/>
+        <item name="com.edadeal.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.mail.mailapp" navColorPolicy="IMMERSE"/>
+        <item name="ru.dublgis.dgismobile" navColorPolicy="IMMERSE"/>
+        <item name="ru.hh.android" navColorPolicy="IMMERSE"/>
+        <item name="com.shazam.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.yandex.music" navColorPolicy="IMMERSE"/>
+        <item name="ru.vtb24.mobilebanking.android" navColorPolicy="IMMERSE"/>
+        <item name="com.google.android.apps.walletnfcrel" navColorPolicy="IMMERSE"/>
+        <item name="com.tfgco.apps.coloring.free.color.by.number" navColorPolicy="IMMERSE"/>
+        <item name="com.perm.kate_new_6" navColorPolicy="IMMERSE"/>
+        <item name="com.p74.player" navColorPolicy="IMMERSE"/>
+        <item name="ru.mw" navColorPolicy="IMMERSE"/>
+        <item name="com.drweb" navColorPolicy="IMMERSE"/>
+        <item name="ru.cian.main" navColorPolicy="IMMERSE"/>
+        <item name="ru.yandex.yandexmaps" navColorPolicy="IMMERSE"/>
+        <item name="ru.ivi.client" navColorPolicy="IMMERSE"/>
+        <item name="com.iconjob.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.tele2.mytele2" navColorPolicy="IMMERSE"/>
+        <item name="ru.beeline.services" navColorPolicy="IMMERSE"/>
+        <item name="voiceapp.commands.alice" navColorPolicy="IMMERSE"/>
+        <item name="com.kms.free" navColorPolicy="IMMERSE"/>
+        <item name="ru.yandex.yandexbus" navColorPolicy="IMMERSE"/>
+        <item name="com.lamoda.lite" navColorPolicy="IMMERSE"/>
+        <item name="com.badoo.mobile" navColorPolicy="IMMERSE"/>
+        <item name="com.comuto" navColorPolicy="IMMERSE"/>
+        <item name="com.inapp.instar.number.coloring.sandbox.game" navColorPolicy="IMMERSE"/>
+        <item name="net.wordbit.enru" navColorPolicy="IMMERSE"/>
+        <item name="ru.gibdd_pay.app" navColorPolicy="IMMERSE"/>
+        <item name="com.cyphercove.sequinflip" navColorPolicy="IMMERSE"/>
+        <item name="com.vk.stream" navColorPolicy="IMMERSE"/>
+        <item name="ru.yandex.mail" navColorPolicy="IMMERSE"/>
+        <item name="com.gdz_ru" navColorPolicy="IMMERSE"/>
+        <item name="com.ostata.guide" navColorPolicy="IMMERSE"/>
+        <item name="com.ticno.olymptrade" navColorPolicy="IMMERSE"/>
+        <item name="com.uma.musicvk" navColorPolicy="IMMERSE"/>
+        <item name="com.popularapp.periodcalendar" navColorPolicy="IMMERSE"/>
+        <item name="com.camerasideas.instashot" navColorPolicy="IMMERSE"/>
+        <item name="com.animoji.phonex" navColorPolicy="IMMERSE"/>
+        <item name="com.contextlogic.wish" navColorPolicy="IMMERSE"/>
+        <item name="ru.yota.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.sberbank.spasibo" navColorPolicy="IMMERSE"/>
+        <item name="ru.mail.horo.android" navColorPolicy="IMMERSE"/>
+        <item name="ru.yandex.metro" navColorPolicy="IMMERSE"/>
+        <item name="com.wallpaperscraft.wallpaper" navColorPolicy="IMMERSE"/>
+        <item name="ru.sunlight.sunlight" navColorPolicy="IMMERSE"/>
+        <!-- [B180306-441] -->
+        <item name="com.facebook.katana/com.facebook.katana.LoginActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- [B180316-839] -->
+        <item name="com.facebook.katana/com.facebook.composer.activity.ComposerActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="cn.wps.moffice_eng/cn.wps.moffice.presentation.multiactivity.Presentation1" navColorPolicy="#FFF7F7F7"/>
+        <item name="ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen" navColorPolicy="#FFFFFFFF"/>
+        <item name="ru.yandex.yandexmaps/ru.yandex.speechkit.gui.RecognizerActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="jp.naver.linecamera.android/jp.naver.linecamera.android.activity.CameraActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- [B180409-860] -->
+        <item name="com.sina.weibo/com.sina.weibo.page.SuperPageActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- alienScreenPolicy  keepfull:KEEPFULL notkeepfull:NOTKEEPFULL appsetting:APPSETTING  -->
+        <!-- internalFlag  meaning explained in windowmanager  -->
+        <!-- paddingColorPolicy  light:LIGHT dark:DARK  -->
+        <!-- homeIndicatorPolicy  auto:AUTO dark:DARK light:LIGHT dimDark:DARK_DIM dimLight:LIGHT_DIM disable:DISABLE-->
+        <item name="com.baidu.tieba/com.baidu.tieba.videoplay.VideoPlayActivity" internalFlag ="0x1"/>
+        <item name="com.baidu.tieba/com.baidu.tieba.image.ImageViewerActivity" internalFlag ="0x1"/>
+        <item name="com.netease.cloudmusic/com.netease.cloudmusic.activity.MvVideoActivity" internalFlag ="0x1"/>
+        <item name="cn.wps.moffice_eng/cn.wps.moffice.writer.multiactivity.Writer1" internalFlag ="0x1"/>
+        <item name="com.example.chinesechess.vivo/com.tuyoo.main.GameActivity" internalFlag ="0x1"/>
+        <item name="com.kukool.appstyle.vivo/com.kukool.game.ddz.MainActivity" internalFlag ="0x1"/>
+        <item name="com.taobao.taobao/com.taobao.avplayer.timeline.VideoListActivity" internalFlag="0x1"/>
+        <item name="com.cootek.smartdialer/com.cootek.feedsnews.ui.FeedsVideoActivityNew" internalFlag="0x1"/>
+        <item name="com.qidian.QDReader/com.qidian.QDReader.ui.activity.QDReaderActivity"  internalFlag="0x1"/>
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.main.MainActivity"  internalFlag="0x1"/>
+        <item name="com.tencent.mm"  internalFlag="0x2000" />
+        <item name="com.google.android.apps.docs/com.google.android.apps.viewer.ProjectorActivity"  internalFlag="0x1"/>
+        <!-- [B180305-1056] -->
+        <item name="com.tencent.weread/com.tencent.weread.NotTranslucentReaderFragmentActivity"  internalFlag="0x1"/>
+        <item name="com.baidu.tieba/com.baidu.tieba.pb.pb.main.PbActivity"  internalFlag="0x1"/>
+        <item name="com.baidu.tieba/com.baidu.tieba.frs.videomiddlepage.VideoMiddlePageActivity"  internalFlag="0x1"/>
+        <!-- [B180209-317] -->
+        <item name="com.ushaqi.zhuishushenqi/com.ushaqi.zhuishushenqi.reader.ReaderActivity"  internalFlag="0x1"/>
+        <!-- [B180305-1046] -->
+        <item name="com.dangdang.reader/com.dangdang.reader.dread.ReadMainActivity"  internalFlag="0x1"/>
+        <!-- [Ben180307-047] -->
+        <item name="com.path/com.path.camera.CameraActivity"  internalFlag="0x1"/>
+        <!-- [B180308-651] -->
+        <item name="com.facebook.orca/com.facebook.messenger.neue.MainActivity"  internalFlag="0x1"/>
+        <!-- [B180305-080] -->
+        <item name="com.duokan.reader/com.duokan.reader.DkMainActivity"  internalFlag="0x1"/>
+        <item name="com.autonavi.minimap" paddingColorPolicy ="LIGHT"/>
+        <item name="com.ifeng.newvideo" paddingColorPolicy ="DARK"/>
+        <item name="tv.danmaku.bili" paddingColorPolicy ="DARK"/>
+        <item name="com.miniclip.eightballpool" paddingColorPolicy ="DARK"/>
+        <item name="com.tencent.qqlive" paddingColorPolicy ="DARK"/>
+        <item name="com.sohu.sohuvideo" paddingColorPolicy ="DARK"/>
+        <item name="com.ifeng.news2" paddingColorPolicy ="DARK"/>
+        <item name="sogou.mobile.explorer" paddingColorPolicy="LIGHT"/>
+        <item name="com.tudou.android" paddingColorPolicy="DARK"/>
+        <item name="com.mailin.ddz.vivo" paddingColorPolicy="DARK"/>
+        <item name="com.kascend.chushou" paddingColorPolicy="DARK"/>
+        <item name="com.supercell.boombeach.vivo" paddingColorPolicy="DARK"/>
+        <item name="com.example.chinesechess.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.kukool.appstyle.vivo" homeIndicatorPolicy ="HIDE" />
+        <item name="com.tencent.tmgp.sgame" homeIndicatorPolicy ="HIDE" />
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.aio.photo.AIOGalleryActivity"  alienScreenPolicy="KEEPFULL" />
+        <item name="com.tencent.mm/com.tencent.mm.plugin.mmsight.ui.SightCaptureUI"  alienScreenPolicy="KEEPFULL" />
+        <item name="com.tencent.mm/com.tencent.mm.plugin.voip.ui.VideoActivity"  alienScreenPolicy="KEEPFULL" />
+        <item name="com.tencent.mm/com.tencent.mm.ui.chatting.gallery.ImageGalleryUI"  alienScreenPolicy="KEEPFULL" homeIndicatorPolicy ="DARK" />
+        <item name="com.microsoft.bing/com.microsoft.clients.bing.activities.ResultActivity"  alienScreenPolicy="KEEPFULL" />
+        <item name="com.youzu.tsjy.vivo" homeIndicatorPolicy ="HIDE" />
+
+
+        <!-- [B180226-354]  -->
+        <item name="com.snapchat.android/com.snapchat.android.LandingPageActivity" alienScreenPolicy="KEEPFULL"/>
+        <!-- [B180319-838] -->
+        <item name="com.engloryintertech.caping/com.me.topnews.home.MainActivity" alienScreenPolicy="KEEPFULL"/>
+        <item name="android.server.FrameTestApp"  alienScreenPolicy="KEEPFULL" />
+        <!-- [B180319-838]  -->
+        <!-- jianghong add 20180325 begin-->
+        <item name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.HomeActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.netease.hyxd.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.youku.phone/com.youku.ui.activity.DetailActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.youku.phone/com.youku.ui.activity.HomePageActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.qiyi.video/org.qiyi.android.video.MainActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.qiyi.video/org.iqiyi.video.activity.PlayerActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.ss.android.article.video/com.ss.android.article.video.activity.SplashActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.sohu.sohuvideo/com.sohu.sohuvideo.mvp.ui.activity.VideoDetailActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.hunantv.imgo.activity/com.mgtv.ui.player.VodPlayerPageActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.duowan.kiwi/com.duowan.kiwi.channelpage.ChannelPage" homeIndicatorPolicy ="HIDE"/>
+        <item name="air.tv.douyu.android/tv.douyu.view.activity.PlayerActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.tencent.tmgp.cf" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.netease.zjz.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.netease.zjz" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.tencent.tmgp.pubgm" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.tencent.tmgp.pubgmhd" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.netease.newsreader.activity/com.netease.nr.phone.main.MainActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.tencent.news/com.tencent.news.activity.SplashActivity" homeIndicatorPolicy ="HIDE"/>
+        <!-- jianghong add 20180325 end-->
+        <!-- jianghong add 20180327 begin-->
+        <item name="com.qqgame.hlddz" homeIndicatorPolicy ="HIDE"/>
+        <item name="tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.VideoDetailActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.qqgame.happymj" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.zengame.waddz.p365you" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.minitech.miniworld.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.rovio.angrybirds" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.tencent.tmgp.dragonnest" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.wjdj.moba" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mobile.legends" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mobilelegends.amazon"  homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mobilelegends.bp" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mobilelegends.hwgame" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mulong.wjdj" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mobilelegends.w00t" homeIndicatorPolicy ="HIDE"/>
+        <!-- jianghong add 20180327 end-->
+        <!-- jianghong add 20180330 begin-->
+
+        <!-- video-->
+        <item name="com.qihoo.video/com.qihoo.baodian.player.BaodianDetailActivity" homeIndicatorPolicy ="HIDE" />
+        <item name="com.pplive.androidphone/com.pplive.androidphone.ui.detail.ChannelDetailActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.baidu.video/com.baidu.video.ui.LiveVideoDetailActivity" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.tudou.android/com.tudou.android.ui.activity.homepage.HomePageActivity" homeIndicatorPolicy ="HIDE" internalFlag="0x10000"/>
+        <item name="com.xunlei.kankan/com.xunlei.kankan.player.KankanPlayerActivity" homeIndicatorPolicy ="HIDE"/>
+        <!-- game-->
+        <item name="com.wyd.hero.yqlfc.cb1.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.yingxiong.hero.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.imangi.templerun2" homeIndicatorPolicy ="HIDE" />
+        <item name="com.tencent.game.rhythmmaster" homeIndicatorPolicy ="HIDE" />
+        <item name="com.outfit7.mytalkingangelafree.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.netease.dwrg5.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.icarry.sanguo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.hero.sm" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.mfp.jelly.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.qileyx.ddz.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="cn.jj" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.rovio.angrybirds.vv" homeIndicatorPolicy ="HIDE"/>
+        <!-- other-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsAdNativeLandingPagesUI" homeIndicatorPolicy ="HIDE"/>
+        <!-- jianghong add 20180330 end-->
+        <!-- jianghong add 20180409 begin-->
+        <!-- [B180403-340]  -->
+        <item name="com.whatsapp/com.whatsapp.HomeActivity" alienScreenPolicy="KEEPFULL"/>
+        <!-- duanyongxu add B240725-82727 begin-->
+        <item name="com.baidu.wenku/com.baidu.wenku.course.detail.view.CourseDetailActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- duanyongxu add B240725-82727 end-->
+        <!-- [B180408-904]  -->
+        <item name="com.faloo.BookReader4Android/com.faloo.app.read.Read" internalFlag="0x1"/>
+        <!-- [B180328-865]  -->
+        <item name="com.melot.bang/com.melot.bang.framework.room.RoomActivity" homeIndicatorPolicy ="HIDE"/>
+        <!-- jianghong add 20180409 end-->
+        <!-- jianghong add 20180418 begin-->
+        <!-- include immerse pkg modification-->
+        <item name="my.beautyCamera/my.beautyCamera.PocoCamera" alienScreenPolicy="KEEPFULL" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.jjwxc.reader/com.example.jinjiangshucheng.ui.NovelPager_Act" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.netease.sgrlz.vivo" homeIndicatorPolicy ="HIDE"/>
+        <item name="com.netease.wjdld" homeIndicatorPolicy ="HIDE"/>
+        <!-- jianghong add 20180418 end-->
+        <!-- jianghong add 20180428 begin-->
+        <item name="com.tencent.weread/com.tencent.weread.NotTranslucentReaderFragmentActivity" homeIndicatorPolicy ="HIDE"/>
+        <!-- jianghong add 20180428 end-->
+        <!-- wangbiying add 20180505 for [B180420-262] begin-->
+        <item name="com.baidu.tieba/com.baidu.tieba.image.ImageViewerActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180505 for [B180420-262] end-->
+        <!-- wangbiying add 20180507 for [B180503-242] begin-->
+        <item name="com.facebook.katana/com.facebook.katana.activity.ImmersiveActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20180507 for [B180503-242] end-->
+        <!-- wangbiying add 20180525 for [B180505-330] begin-->
+        <item name="com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsGalleryUI" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180525 for [B180505-330] end-->
+        <!-- wangbiying add 20180525 for [B180522-792] begin-->
+        <item name="com.whatsapp/com.whatsapp.voipcalling.VoipActivityV2" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180525 for [B180522-792] end-->
+        <!-- wangbiying add 20180525 for [B180522-148] begin-->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginInfoActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20180525 for [B180522-148] end-->
+        <!-- wangbiying add 20180530 for [B180527-289] begin-->
+        <item name="cmb.pb/cmb.pb.ui.MyBankCardActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180530 for [B180527-289] end-->
+        <!-- wangbiying add 20180530 for [B180604-1099] begin-->
+        <item name="com.sina.weibo/com.sina.weibo.photoalbum.imageviewer.ImageViewer" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20180530 for [B180604-1099] end-->
+        <!-- wangbiying add 20180619 for [B180608-247] begin-->
+        <item name="com.pocketgems.android.dragon" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180619 for [B180608-247] end-->
+        <!-- wangbiying add 20180620 for [B180516-236] begin-->
+        <item name="com.youzu.xyneg.vivo" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180620 for [B180516-236] end-->
+        <!-- wangbiying add 20180704 for [B180531-929] begin-->
+        <item name="com.gameloft.android.GAND.GloftRF17" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180704 for [B180531-929] end-->
+        <!-- wangbiying add 20180704 for [B180616-126] begin-->
+        <item name="com.ea.gp.fifaworld" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180704 for [B180616-126] end-->
+        <!-- wangbiying add 20180704 for [B180621-506] begin-->
+        <item name="com.popcap.pvz2cthdbbg" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180704 for [B180621-506] end-->
+        <!-- wangbiying add 20180704 for momo.live inputmethod begin-->
+        <item name="com.immomo.momo/com.immomo.molive.gui.activities.live.base.LiveActivity" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180704 for momo.live inputmethod end-->
+        <!-- wangbiying add 20180717 for [B180713-267] begin-->
+        <item name="com.youku.phone/com.shuqi.y4.ReadActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180717 for [B180713-267] end-->
+        <!-- wangbiying add 20180723 for [B180503-592] begin-->
+        <item name="com.sqage.wohucanglong.vivo/com.sqage.Ogre.OgreInstance.QuDaoActivity" homeIndicatorPolicy="HIDE"/>
+        <!-- wangbiying add 20180723 for [B180503-592] end-->
+        <!-- wangbiying add 20180723 for [B180625-761] begin-->
+        <item name="com.taobao.taobao/com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20180723 for [B180625-761] end-->
+        <!-- wangbiying add 20180816 for [B180811-553] begin-->
+        <item name="jp.naver.line.android/com.facebook.FacebookActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20180816 for [B180811-553] end-->
+        <!-- wangbiying add 20180822 for [B180513-244] begin-->
+        <item name="com.tmall.wireless/com.tmall.wireless.share.activity.TMShareActivity" alienScreenPolicy="KEEPFULL"/>
+        <item name="com.tmall.wireless/com.tmall.wireless.share.activity.TMShareMediatorActivity" alienScreenPolicy="KEEPFULL"/>
+        <!-- wangbiying add 20180822 for [B180513-244] end-->
+        <!-- wangbiying add 20180822 for [Ben180815-012] begin-->
+        <item name="com.instagram.boomerang/com.instagram.boomerang.BoomerangActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180822 for [Ben180815-012] end-->
+        <!-- wangbiying add 20180929 for [B180919-1078] begin-->
+        <item name="com.hunantv.imgo.activity/com.ushaqi.zhuishushenqi.reader.ReaderActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180929 for [B180919-1078] end-->
+        <!-- wangbiying add 20180930 for [B180917-292] begin-->
+        <item name="com.tencent.mm/com.tencent.mm.ui.chatting.gallery.ImageGalleryUI" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20180930 for [B180917-292] end-->
+        <!-- wangbiying add 20181018 for [B181016-1293] begin-->
+        <item name="com.sankuai.meituan/com.meituan.android.pt.homepage.activity.MainActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20181018 for [B181016-1293] end-->
+        <!-- wangbiying add 20181030 for [B181011-1483] begin-->
+        <item name="com.ss.android.article.news/com.ss.android.account.v2.view.AccountLoginActivity" alienScreenPolicy="NOTKEEPFULL"/>
+        <!-- wangbiying add 20181030 for [B181011-1483] end-->
+        <!-- wangbiying add 20181101 for [B181101-699] begin-->
+        <item name="com.letv.android.client" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20181101 for [B181101-699] end-->
+        <!-- wangbiying add 20181110 for [B181101-273] begin-->
+        <item name="com.qiyi.video" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20181110 for [B181101-273] end-->
+        <!-- wangbiying add 20181110 for [B181010-615] begin-->
+        <item name="com.sina.weibo/com.sina.weibo.MoreItemsActivity" internalFlag ="0x1"/>
+        <!-- wangbiying add 20181110 for [B181010-615] end-->
+        <!-- wangbiying add 20181219 for [B181219-456] begin-->
+        <item name="com.lazada.android/com.lazada.android.pdp.module.detail.LazDetailActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20181219 for [B181219-456] end-->
+        <!-- wangbiying add 20181220 for [B181204-1373] begin-->
+        <item name="com.tencent.karaoke/com.tencent.karaoke.module.live.ui.LiveActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20181220 for [B181204-1373] end-->
+        <!-- wangbiying add 20181225 for [B181221-605] begin-->
+        <item name="com.qiyi.video/org.iqiyi.video.activity.PlayerActivity" navColorPolicy="#FF000000"/>
+        <item name="com.zhongduomei.rrmj.society/com.zhongduomei.rrmj.society.function.me.download.MyDownloadActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20181225 for [B181221-605] end-->
+        <!-- wangbiying add 20181220 for [B190108-810] begin-->
+        <item name="com.ss.android.article.news/com.ss.android.ugc.detail.detail.ui.v2.view.TikTokDetailActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20181220 for [B190108-810] end-->
+        <!-- wangbiying add 20190215 for [B190129-980] begin-->
+        <item name="jp.naver.line.android/com.linecorp.line.profile.user.root.view.UserProfileActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20190215 for [B190129-980] end-->
+        <!-- wangbiying add 20190215 for [B190131-715] begin-->
+        <item name="com.google.android.music/com.google.android.music.ui.TrackContainerActivity" navColorPolicy="#FFF8F8F8"/>
+        <!-- wangbiying add 20190215 for [B190131-715] end-->
+        <!-- wangbiying add 20190215 for [B190131-1389] begin-->
+        <item name="cn.wps.moffice_eng/cn.wps.moffice.main.local.HomeRootActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20190215 for [B190131-1389] end-->
+        <!-- wangbiying add 20190223 for [B190222-1278] begin-->
+        <item name="com.google.android.youtube/com.google.android.youtube.api.StandalonePlayerActivity" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20190223 for [B190222-1278] end-->
+        <!-- wangbiying add 20190316 for [B190316-340] begin-->
+        <item name="com.tencent.wesing/com.tencent.karaoke.module.splash.ui.SplashBaseActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20190316 for [B190316-340] end-->
+        <!-- wangbiying add 20190316 for [B190304-1187] begin-->
+        <item name="com.tencent.mobileqq/cooperation.qzone.QzonePicturePluginProxyActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190316 for [B190304-1187] end-->
+        <!-- liqigong add 20190410 for [Ben190322-024] begin-->
+        <item name="jp.naver.line.android/com.linecorp.line.profile.picker.UserProfileImagePickerActivity" alienScreenPolicy="NOTKEEPFULL"/>
+        <!-- liqigong add 20190410 for [Ben190322-024] end-->
+        <!-- liqigong add 20190430 for [B190420-775] begin-->
+        <item name="android/com.android.internal.app.PlatLogoActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- liqigong add 20190430 for [B190420-775] end-->
+        <!-- liqigong add 20190430 for [B190422-294] begin-->
+        <item name="com.android.vending/com.android.vending.AssetBrowserActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- liqigong add 20190430 for [B190422-294] end-->
+        <!-- liqigong add 20190506 for [Ben190422-020] begin-->
+        <item name="com.facebook.katana/com.facebook.inspiration.activity.InspirationCameraActivity" alienScreenPolicy="NOTKEEPFULL"/>
+        <!-- liqigong add 20190506 for [Ben190422-020] end-->
+        <!-- liqigong add 20190520 for [B190516-1489] begin-->
+        <item name="Splash Screen com.huawei.health" navColorPolicy="#FF000000"/>
+        <!-- liqigong add 20190520 for [B190516-1489] end-->
+        <!-- liqigong add 20190603 for [B190524-880] begin-->
+        <item name="com.ansangha.drdriving" paddingColorPolicy="DARK"/>
+        <item name="com.google.android.gms/com.google.android.gms.games.PlayGamesUpgradeActivity" paddingColorPolicy="DARK"/>
+        <item name="com.google.android.gms/com.google.android.gms.common.api.GoogleApiActivity" paddingColorPolicy="DARK"/>
+        <!-- liqigong add 20190603 for [B190524-880] end-->
+        <!-- liqigong add 20190603 for [B190530-1119] begin-->
+        <item name="com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- liqigong add 20190603 for [B190530-1119] end-->
+        <!-- liqigong add 20190603 for [B190602-974] begin-->
+        <item name="com.ss.android.article.video" paddingColorPolicy="DARK"/>
+        <!-- liqigong add 20190603 for [B190602-974] end-->
+        <!-- liqigong add 20190617 for [B190610-1389] begin-->
+        <item name="cn.kuwo.player/cn.kuwo.show.ui.activity.MainActivity" navColorPolicy="#FF000000"/>
+        <!-- liqigong add 20190617 for [B190610-1389] end-->
+        <!-- liqigong add 20190627 for [B190613-1580] begin-->
+        <item name="com.tencent.tmgp.sgame/com.tencent.tmgp.sgame.SGameActivity" paddingColorPolicy="DARK"/>
+        <!-- liqigong add 20190627 for [B190613-1580] end-->
+        <!-- liqigong add 20190708 for [[B190707-1643]] begin-->
+        <item name="com.mt.mtxx.mtxx/com.meitu.meitupic.modularembellish.pen.IMGMagicPenActivity" alienScreenPolicy="NOTKEEPFULL"/>
+        <item name="com.mt.mtxx.mtxx/com.meitu.meitupic.modularembellish.IMGTextActivity" alienScreenPolicy="NOTKEEPFULL"/>
+        <!-- liqigong add 20190708 for [[B190707-1643]] end-->
+        <!-- wangbiying add 20190722 for [B190719-1269] begin -->
+        <item name="com.jakarta.baca/com.jakata.baca.activity.VideoNewsDetailActivity" paddingColorPolicy="DARK"/>
+        <item name="id.co.babe/com.ss.android.application.app.mainpage.BottomTabMainActivity" paddingColorPolicy="DARK"/>
+        <item name="com.ss.android.article.master.id/com.ss.android.application.app.mainpage.BottomTabMainActivity" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20190722 for [B190719-1269] end -->
+        <!-- wangbiying add 20190725 for [B190719-2802] begin -->
+        <item name="com.sankuai.meituan/com.meituan.android.generalcategories.picassomodule.activity.PicassoModulesPopActivity" navColorPolicy="#FFF6F6F6"/>
+        <!-- wangbiying add 20190725 for [B190719-2802] end -->
+        <!-- wangbiying add 20190805 for [B190727-924] begin -->
+        <item name="com.baidu.searchbox/com.baidu.megapp.proxy.activity.FragmentActivityProxy" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190805 for [B190727-924] end -->
+        <!-- wangbiying add 20190805 for [B190722-1539] begin -->
+        <item name="com.pplive.androidphone/com.pplive.androidphone.ui.barcode.BarcodeCaptureActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190805 for [B190722-1539] end -->
+        <!-- wangbiying add 20190805 for [B190801-2781] begin -->
+        <item name="com.ss.android.article.news/com.ss.android.article.news.activity.MainActivity" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20190805 for [B190801-2781] end -->
+        <!-- wangbiying add 20190805 for [B190806-1844] begin -->
+        <item name="com.commsource.beautyplus/com.commsource.camera.CameraActivity" navColorPolicy="#FF000000"/>
+        <item name="com.commsource.beautyplus/com.commsource.camera.xcamera.CameraNewActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190805 for [B190806-1844] end -->
+        <!-- liqigong add 20190627 for [B190618-862] begin-->
+        <item name="com.tencent.qqmusic" paddingColorPolicy="DARK"/>
+        <!-- liqigong add 20190627 for [B190618-862] end-->
+        <!-- liqigong add 20190520 for [B190517-1611] begin-->
+        <item name="cn.kuwo.player" paddingColorPolicy="DARK"/>
+        <item name="com.kugou.android" paddingColorPolicy="DARK"/>
+        <!-- liqigong add 20190520 for [B190517-1611] end-->
+        <!-- wangbiying add 20190812 for [B190809-1441] begin -->
+        <item name="com.sina.news/com.sina.news.module.live.video.activity.VideoArticleActivity" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20190812 for [B190809-1441] end -->
+        <!-- wangbiying add 20190812 for [B190808-1730] begin -->
+        <item name="com.asiainno.uplive/com.asiainno.uplive.live.ui.LiveWatchActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190812 for [B190808-1730] end -->
+        <!-- wangbiying add 20190812 for [B190701-1624] begin -->
+        <item name="com.kugou.android/com.kugou.fanxing.shortvideo.player.ui.ShortVideoPlayerActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190812 for [B190701-1624] end -->
+        <!-- wangbiying add 20190820 for GooglePlay begin -->
+        <item name="com.android.vending/com.google.android.finsky.screenshotsactivity.ScreenshotsActivityV2" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190820 for GooglePlay begin -->
+        <!-- wangbiying add 20190902 for [B190901-1516] begin -->
+        <item name="com.hunantv.imgo.activity/com.mgtv.ui.player.VodPlayerPageActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20190902 for [B190901-1516] end -->
+        <!-- wangbiying add 20190902 for [B190816-2158] begin -->
+        <item name="com.baidu.netdisk/com.baidu.netdisk.ui.preview.image.ImagePagerActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190902 for [B190816-2158] end -->
+        <!-- wangbiying add 20190903 for [B190902-2123] begin -->
+        <item name="com.tencent.mobileqq/com.tencent.av.ui.AVActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20190903 for [B190902-2123] end -->
+        <!-- wangbiying add 20190905 for [B190902-2681] begin -->
+        <item name="com.tencent.qqlive/com.tencent.qqlive.ona.activity.SplashHomeActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20190905 for [B190902-2681] end -->
+        <!-- liqigong add 20190923 for [B190923-2788] begin -->
+        <item name="com.qidian.QDReader.traditional/com.qidian.QDReader.ui.activity.QDReaderActivity" alienScreenPolicy="KEEPFULL"/>
+        <!-- liqigong add 20190923 for [B190923-2788] end -->
+        <!-- wangbiying add 20190923 for [B190923-1231] begin -->
+        <item name="com.eg.android.AlipayGphone/com.alipay.mobile.beehive.poiselect.ui.LocationDetailActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20190923 for [B190923-1231] end -->
+        <!-- wangbiying add 20190930 for [B190927-2782] begin -->
+        <item name="com.whatsapp/com.whatsapp.Conversation" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.whatsapp/com.whatsapp.wallpaper.SolidColorWallpaperPreview" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20190930 for [B190927-2782] end -->
+        <!-- wangbiying add 20190930 for [B190928-2179] begin -->
+        <item name="com.duowan.kiwi/com.duowan.kiwi.liveroom.ChannelPage" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20190930 for [B190928-2179] end -->
+        <!-- wangbiying add 20191023 for [B191022-1902] begin -->
+        <item name="com.asiainno.uplive/com.asiainno.uplive.live.ui.LiveShowActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20191023 for [B191022-1902] end -->
+        <!-- wangbiying add 20191115 for [B191031-719] begin -->
+        <item name="com.whatsapp/com.whatsapp.gallerypicker.MediaPreviewActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20191115 for [B191031-719] end -->
+        <!-- wangbiying add 20191202 for [B191124-941] -->
+        <item name="jp.naver.line.android/com.linecorp.line.timeline.activity.mediaviewer.MediaViewerActivity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20191202 for [B191203-265] -->
+        <item name="com.handsgo.jiakao.android/com.handsgo.jiakao.android.splash.Login" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20191202 for [B191202-2246] -->
+        <item name="com.qzone/com.tencent.sc.activity.SplashActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20200518 for [B200508-1962] -->
+        <item name="com.whatsapp/com.whatsapp.profile.ProfileInfoActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20200518 for [B200427-1907] -->
+        <item name="com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20200518 for [B200510-982] -->
+        <item name="com.facebook.orca/com.facebook.messaging.montage.composer.MontageComposerActivity" navColorPolicy="#FF000000" paddingColorPolicy="DARK"/>
+        <!-- wangbiying add 20200518 for [B200512-2688] -->
+        <item name="com.sankuai.meituan/com.meituan.android.mrn.container.MRNBaseActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20201009 for [B200807-1042] -->
+        <item name="com.instagram.android" navFixColor="#FF000000"/>
+        <!-- wangbiying add 20201118 for [B201113-2371] -->
+        <item name="com.sankuai.meituan/com.sankuai.meituan.search.result.SearchResultActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20201126 for [B201125-1362] -->
+        <item name="com.Qunar/com.mqunar.react.base.stack.container.QReactNativeActivity1" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20201130 for [B201129-559] -->
+        <item name="com.dianping.v1/com.dianping.shopshell.ShopInfoActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20201221 for [B201212-1217] -->
+        <item name="com.ss.android.article.news/com.bytedance.components.comment.detail.CommentDetailActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20210112 for [Bin201217-026] -->
+        <item name="com.android.chrome/org.chromium.chrome.browser.webapps.SameTaskWebApkActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- wangbiying add 20210226 for [B210208-2121] -->
+        <item name="com.facebook.katana/com.facebook.browser.lite.BrowserLiteInMainProcess2Activity" navColorPolicy="#FF000000"/>
+        <!-- wangbiying add 20210621 for [B210604-904] -->
+        <item name="com.snda.wifilocating/com.appara.feed.ui.ArticleDetailActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20230312 for [B230302-3630] -->
+        <item name="com.ss.android.article.news/com.ss.android.detail.feature.detail2.view.NewVideoDetailActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.ss.android.article.news/com.ss.android.detail.feature.detail2.view.NewDetailActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20230414 for [B230412-2017] -->
+        <item name="com.youku.phone/com.youku.hotspot.activity.HotSpotActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20230524 for [B230523-1776] -->
+        <item name="com.baidu.video/com.baidu.video.ui.portraitvideo.PortraitVideoActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20230625 for [B230612-3129] -->
+        <item name="com.tencent.mobileqq/com.qzone.reborn.base.QZoneShellActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20230824 for [B230818-2238] -->
+        <item name="com.tencent.mm/com.tencent.mm.pluginsdk.ui.tools.MiniQBReaderUI" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20230918 for [B230917-1110] -->
+        <item name="com.sankuai.meituan/com.meituan.android.hotel.reuse.homepage.HotelPoiListFrontActivity" navColorPolicy="#FF000000"/>
+        <!-- duanyongxu add 202301011 for [B230928-4630][B230915-844] begin-->
+        <item name="com.baidu.haokan/com.duowan.mobile.basemedia.watchlive.activity.LiveTemplateActivity" alienScreenPolicy="AUTOMATCH"/>
+        <item name="com.jingdong.app.mall/com.jd.lib.unification.video.recorder.VideoRecorderActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- duanyongxu add 202301011 for [B230928-4630][B230915-844] end-->
+        <!-- zhengjia add 20231124 for [B231115-2047] -->
+        <item name="com.immomo.momo/com.immomo.momo.message.activity.GroupChatActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20231212 for [B231129-1875] -->
+        <item name="com.baidu.BaiduMap/com.baidu.baidumaps.MapsActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20240328 for [B240324-80311] begin -->
+        <item name="com.tencent.tmgp.pubgmhd" paddingColorPolicy="DARK"/>
+        <!-- zhengjia add 20240328 for [B240320-82571] -->
+        <item name="com.youku.phone/com.youku.unic.container.UnicContainerActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20240812 for [B240717-84446] -->
+        <item name="com.taobao.taobao/com.taobao.android.tbabilitykit.pop.StdPopContainerActivity" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.taobao.taobao/com.taobao.weex.weexv2.page.WeexV2Activity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20240813 for [B240803-81621] begin -->
+        <item name="com.youku.phone/com.youku.hotspot.activity.HotSpotActivity" paddingColorPolicy="DARK"/>
+        <!-- zhengjia add 20240912 for [Bwb240912-167] -->
+        <item name="com.youku.phone/com.youku.android.smallvideo.entry.SmallVideoLandingActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20240912 for [[Bwb240912-168] -->
+        <item name="com.jingdong.app.mall/com.jd.lib.mylive.view.activity.VideoLiveRoomActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20240928 for [B240925-81279] -->
+        <item name="com.taobao.taobao/com.etao.feimagesearch.capture.CaptureActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20241217 for [B241214-82233] -->
+        <item name="ctrip.android.view/ctrip.android.reactnative.preloadv2.CRNTransparentActivityV2" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250303 for [B250228-81139] -->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.troop.activity.TroopAvatarWallPreviewActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20250307 for B250306-82924] -->
+        <item name="com.tencent.mobileqq/com.qzone.reborn.feedx.activity.QZoneFriendFeedXActivity" navColorPolicy="#00000000"/>
+        <!-- zhengjia add 20250313 for [B250308-81318] -->
+        <item name="com.taobao.taobao/com.taobao.message.activity.ChatActivityV2" navColorPolicy="#FFFFFFFF"/>
+        <item name="com.taobao.taobao/com.taobao.message.activity.ChatActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250318 for [B250227-85861] -->
+        <item name="com.smile.gifmaker/com.kuaishou.live.anchor.basic.activity.LivePushActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20250621 for [B250619-80777] -->
+        <item name="com.dianping.v1/com.dianping.main.login.picassologin.LoginLiteActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250624 for B250605-81263 begin-->
+        <item name="tv.danmaku.bili/com.bilibili.studio.centerplus.ui.CenterPlusMainActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250624 for B250605-81263 end-->
+        <!-- zhengjia add 20250630 for B250619-85252 begin-->
+        <item name="com.duowan.kiwi/com.kiwi.phoenix.picker.ui.picker.PreviewActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250630 for B250619-85252 end-->
+        <!-- zhengjia add 20250630 for B250620-83281 begin-->
+        <item name="com.wuba/com.wuba.tribe.publish.camera.activity.PublishCameraActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250630 for B250620-83281 end-->
+        <!-- zhengjia add 20250630 for B250617-82758 begin-->
+        <item name="tv.danmaku.bili/com.bilibili.bplus.following.publish.view.MediaChooserActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250630 for B250617-82758 end-->
+        <!-- zhengjia add 20250630 for B250619-80739begin-->
+        <item name="com.taobao.taobao/com.taobao.taopai.business.record.fragment.TPRecordActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250630 for B250619-80739 end-->
+        <!-- zhengjia add 20250709 for [B250707-82250] begin-->
+        <item name="com.eg.android.AlipayGphone/com.alipay.mobile.beehive.photo.ui.PhotoPreviewActivity" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250709 for [B250707-82250] end-->
+        <!-- zhengjia add 20250709 for [B250628-83271] -->
+        <item name="com.taobao.taobao/com.taobao.themis.container.app.TMSActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250717 for [B250714-82777] -->
+        <item name="com.taobao.taobao/com.taobao.taolivehome.TaoLiveHomepageActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250729 for [B250726-82072] -->
+        <item name="com.jingdong.app.mall/com.jd.lib.usermanager.view.activity.CropImageActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20250729 for [B250722-86593] -->
+        <item name="cmb.pb/com.pb.capture.ui.PBCaptureActivity" navColorPolicy="#FF000000"/>
+        <!-- zhengjia add 20250731 for [B250727-81921] -->
+        <item name="com.taobao.taobao/com.taobao.android.trade.cart.CartActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250804 for [B250803-80665] -->
+        <item name="com.taobao.taobao/com.taobao.android.tbabilitykit.pop.StdPopActivityGroup" navColorPolicy="#00000000"/>
+        <!-- zhengjia add 20250808 for [B250802-81666] begin-->
+        <item name="com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordNewActivity" alienScreenPolicy="NOTKEEPFULL"/>
+        <!-- zhengjia add 20250809 for B250717-86595 begin-->
+        <item name="com.alibaba.android.rimet/com.taobao.taopai.business.SocialVideoPreviewActivityRefactor" alienScreenPolicy="AUTOMATCH"/>
+        <!-- zhengjia add 20250915 for [B250828-83273] -->
+        <item name="com.taobao.taobao/com.taobao.search.uniform.SearchActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20250919 for [B250908-85882] -->
+        <item name="com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity" navColorPolicy="#FFFFFFFF"/>
+        <!-- zhengjia add 20251215 for [B251214-81246] -->
+        <item name="com.taobao.taobao/com.taobao.android.editionswitcher.EditionSwitcherActivity" navColorPolicy="#FFFFFFFF"/>
+
+
+        <!-- navFixColor -->
+        <!-- 内销 top300 -->
+        <item name="com.ss.android.ugc.aweme" navFixColor="#FF000000"/>
+        <item name="com.tencent.tmgp.sgame" navFixColor="#FF000000"/>
+        <item name="com.tencent.tmgp.pubgmhd" navFixColor="#FF000000"/>
+        <item name="com.netease.dwrg5.vivo" navFixColor="#FF000000"/>
+        <item name="com.minitech.miniworld.vivo" navFixColor="#FF000000"/>
+        <item name="com.netease.hyxd.vivo" navFixColor="#FF000000"/>
+        <item name="com.tencent.tmgp.cf" navFixColor="#FF000000"/>
+        <item name="com.ss.android.ugc.live" navFixColor="#FF000000"/>
+        <item name="com.tencent.tmgp.speedmobile" navFixColor="#FF000000"/>
+        <item name="com.lemon.faceu" navFixColor="#FF000000"/>
+        <item name="com.tencent.tmgp.pubgm" navFixColor="#FF000000"/>
+        <item name="com.mt.mtxx.mtxx" navFixColor="#FF000000"/>
+        <item name="com.netease.mc.vivo" navFixColor="#FF000000"/>
+        <item name="com.happyelements.AndroidAnimal" navFixColor="#FF000000"/>
+        <item name="com.outfit7.talkingtomgoldrun.vivo" navFixColor="#FF000000"/>
+        <item name="com.meitu.meipaimv" navFixColor="#FF000000"/>
+        <item name="com.tencent.weishi" navFixColor="#FF000000"/>
+        <item name="com.ztgame.bob" navFixColor="#FF000000"/>
+        <item name="com.outfit7.mytalkingtom.vivo" navFixColor="#FF000000"/>
+        <item name="com.wepie.snake.vivo" navFixColor="#FF000000"/>
+        <item name="com.outfit7.mytalkingangelafree.vivo" navFixColor="#FF000000"/>
+        <item name="com.qqgame.hlddz" navFixColor="#FF000000"/>
+        <item name="com.chinamworld.main" navFixColor="#FF000000"/>
+        <item name="com.kiloo.subwaysurf" navFixColor="#FF000000"/>
+        <item name="com.qileyx.ddz.vivo" navFixColor="#FF000000"/>
+        <item name="com.web.d17122407.v.shishicai" navFixColor="#FF000000"/>
+        <item name="com.popcap.pvz2cthdbbg" navFixColor="#FF000000"/>
+        <item name="com.cmplay.tiles2_cn.vivo" navFixColor="#FF000000"/>
+        <item name="com.netease.zjz.vivo" navFixColor="#FF000000"/>
+        <item name="com.qqgame.happymj" navFixColor="#FF000000"/>
+        <item name="com.turbochilli.rollingsky_cn.vivo" navFixColor="#FF000000"/>
+        <item name="com.jusisoft.jiawawa" navFixColor="#FF000000"/>
+        <item name="com.joym.legendhero.vivo" navFixColor="#FF000000"/>
+        <item name="com.dbhydbhy.duokai" navFixColor="#FF000000"/>
+        <item name="com.moqu.douwan" navFixColor="#FF000000"/>
+        <item name="com.xllc.psqr.hgssc" navFixColor="#FF000000"/>
+        <item name="com.xiu8.android.activity" navFixColor="#FF000000"/>
+        <item name="com.zengame.waddz.p365you" navFixColor="#FF000000"/>
+        <item name="com.cmcm.arrowio_cn.vivo" navFixColor="#FF000000"/>
+        <item name="cn.jj" navFixColor="#FF000000"/>
+        <item name="com.tongchengpzhl.com" navFixColor="#FF000000"/>
+        <item name="com.tencent.tmgp.qqx5" navFixColor="#FF000000"/>
+        <item name="com.imangi.templerun2" navFixColor="#FF000000"/>
+        <item name="com.sjb.zuqiu.tiyuss" navFixColor="#FF000000"/>
+        <item name="com.supercell.clashofclans.vivo" navFixColor="#FF000000"/>
+        <item name="com.mfp.jelly.vivo" navFixColor="#FF000000"/>
+        <item name="com.houcai.vest50" navFixColor="#FF000000"/>
+        <item name="com.MobileTicket" navFixColor="#FF000000"/>
+        <item name="com.tencent.game.rhythmmaster" navFixColor="#FF000000"/>
+        <item name="com.moji.mjweather" navFixColor="#FF000000"/>
+
+        <!-- 外销印度 top100 -->
+        <item name="com.whatsapp" navFixColor="#FF000000"/>
+        <item name="com.zhiliaoapp.musically" navFixColor="#FF000000"/>
+        <item name="dreamworld.raj" navFixColor="#FF000000"/>
+        <item name="com.truecaller" navFixColor="#FF000000"/>
+        <item name="com.jio.media.jiobeats" navFixColor="#FF000000"/>
+        <item name="com.google.android.apps.nbu.paisa.user" navFixColor="#FF000000"/>
+        <item name="com.crazyapps.mobilelocationtracker" navFixColor="#FF000000"/>
+        <item name="com.domobile.applock" navFixColor="#FF000000"/>
+        <item name="video.like" navFixColor="#FF000000"/>
+        <item name="com.gaana" navFixColor="#FF000000"/>
+        <item name="vmdd.dwnl.com.videodownloader" navFixColor="#FF000000"/>
+        <item name="com.ludo.king" navFixColor="#FF000000"/>
+        <item name="com.king.candycrushsaga" navFixColor="#FF000000"/>
+        <item name="com.imangi.templerun" navFixColor="#FF000000"/>
+        <item name="com.fingersoft.hillclimb" navFixColor="#FF000000"/>
+        <item name="com.moonactive.coinmaster" navFixColor="#FF000000"/>
+        <item name="com.ansangha.drdriving" navFixColor="#FF000000"/>
+        <item name="com.ffgames.racingincar2" navFixColor="#FF000000"/>
+        <item name="com.brainbaazi" navFixColor="#FF000000"/>
+        <item name="io.teslatech.callbreak" navFixColor="#FF000000"/>
+        <item name="com.free.ludo.game" navFixColor="#FF000000"/>
+        <item name="com.nextwave.wcc_lt" navFixColor="#FF000000"/>
+        <item name="com.rioo.runnersubway" navFixColor="#FF000000"/>
+        <item name="com.outfit7.mytalkingtomfree" navFixColor="#FF000000"/>
+        <item name="com.nautilus.RealCricket3D" navFixColor="#FF000000"/>
+        <item name="com.BiosseTeam.motoracing3d" navFixColor="#FF000000"/>
+        <item name="com.blacklightsw.ludo" navFixColor="#FF000000"/>
+        <item name="com.antiterrorism.shooter.as" navFixColor="#FF000000"/>
+        <item name="com.free.game.endlesrunlostoz" navFixColor="#FF000000"/>
+        <item name="com.city.real.drift.racing.driving.iracing" navFixColor="#FF000000"/>
+        <item name="com.sablo.excavator.simulator" navFixColor="#FF000000"/>
+        <item name="com.door.glass.bottle.shooter.expert" navFixColor="#FF000000"/>
+        <item name="com.DUnionGames.theroyalindianweddingrituals" navFixColor="#FF000000"/>
+        <item name="bubbleshooter.orig" navFixColor="#FF000000"/>
+        <item name="com.nextwave.wcc2" navFixColor="#FF000000"/>
+        <item name="com.showtimeapp" navFixColor="#FF000000"/>
+        <item name="com.jetstartgames.chess" navFixColor="#FF000000"/>
+        <item name="com.ardiyasinc.junglerun" navFixColor="#FF000000"/>
+        <item name="com.hybirdpuzzle.blockpuzzlejewel" navFixColor="#FF000000"/>
+        <item name="com.alien.shooter.galaxy.attack" navFixColor="#FF000000"/>
+        <item name="com.habibur.trafficracing" navFixColor="#FF000000"/>
+        <item name="com.teniubi.moto.rider" navFixColor="#FF000000"/>
+        <item name="com.outfit7.mytalkingangelafree" navFixColor="#FF000000"/>
+        <item name="game.bubble.shooter.dragon.pop" navFixColor="#FF000000"/>
+        <item name="com.supercell.clashofclans" navFixColor="#FF000000"/>
+        <item name="com.studio.fruitslice3d" navFixColor="#FF000000"/>
+        <item name="com.nordcurrent.sniperarena" navFixColor="#FF000000"/>
+        <item name="com.freegames.indianhilltraindriving" navFixColor="#FF000000"/>
+        <item name="com.octro.teenpatti" navFixColor="#FF000000"/>
+        <item name="com.billiards.city.pool.nation.club" navFixColor="#FF000000"/>
+        <item name="com.moonglabs.nazara.rcbepic" navFixColor="#FF000000"/>
+        <item name="com.junerking.archery" navFixColor="#FF000000"/>
+        <item name="com.mtsfreegames.trainracingmultiplayer" navFixColor="#FF000000"/>
+        <item name="com.igoldtech.streetchaser" navFixColor="#FF000000"/>
+        <item name="com.yx.sniperkiller" navFixColor="#FF000000"/>
+        <item name="com.bitmango.rolltheballunrollme" navFixColor="#FF000000"/>
+        <!-- 外销印尼 top100 -->
+        <item name="com.ss.android.ugc.trill" navFixColor="#FF000000"/>
+        <item name="com.google.android.play.games" navFixColor="#FF000000"/>
+        <item name="com.tencent.ibg.joox" navFixColor="#FF000000"/>
+        <item name="com.ksmobile.launcher" navFixColor="#FF000000"/>
+        <item name="com.smule.singandroid" navFixColor="#FF000000"/>
+        <item name="com.linecorp.b612.android" navFixColor="#FF000000"/>
+        <item name="com.quvideo.xiaoying" navFixColor="#FF000000"/>
+        <item name="com.roidapp.photogrid" navFixColor="#FF000000"/>
+        <item name="com.qisiemoji.inputmethod" navFixColor="#FF000000"/>
+        <item name="com.smokeeffect.nameart" navFixColor="#FF000000"/>
+        <item name="panda.keyboard.emoji.theme" navFixColor="#FF000000"/>
+        <item name="com.picsart.studio" navFixColor="#FF000000"/>
+        <item name="iflix.play" navFixColor="#FF000000"/>
+        <item name="com.mldstudio.tetatekisilang" navFixColor="#FF000000"/>
+        <item name="me.pou.app" navFixColor="#FF000000"/>
+        <item name="com.differencetenderwhite.skirt" navFixColor="#FF000000"/>
+        <item name="com.tebakgambar" navFixColor="#FF000000"/>
+        <item name="com.mobirix.fishinghook" navFixColor="#FF000000"/>
+        <item name="com.h8games.helixjump" navFixColor="#FF000000"/>
+        <item name="com.wordgame.puzzle.board.id" navFixColor="#FF000000"/>
+        <item name="com.viosappsmedia.kuissurveyfamilyseratus" navFixColor="#FF000000"/>
+        <item name="com.king.candycrushsodasaga" navFixColor="#FF000000"/>
+        <item name="com.sweetfuirt.candy" navFixColor="#FF000000"/>
+        <item name="com.youmusic.magictiles" navFixColor="#FF000000"/>
+        <item name="com.bentostudio.ballsvsblocks" navFixColor="#FF000000"/>
+        <!-- 外销马来西亚 top100 -->
+        <item name="com.ratelekom.findnow" navFixColor="#FF000000"/>
+        <item name="com.lenovo.anyshare.gps" navFixColor="#FF000000"/>
+        <item name="com.manga.anime.facechanger" navFixColor="#FF000000"/>
+        <item name="my.com.maxis.hotlink.production" navFixColor="#FF000000"/>
+        <item name="my.com.maybank2u.m2umobile" navFixColor="#FF000000"/>
+        <item name="com.mobiusx.live4dresults" navFixColor="#FF000000"/>
+        <item name="com.tencent.wesing" navFixColor="#FF000000"/>
+        <item name="com.duapps.recorder" navFixColor="#FF000000"/>
+        <item name="com.guardian.security.pri" navFixColor="#FF000000"/>
+        <item name="com.cleanmaster.mguard" navFixColor="#FF000000"/>
+        <item name="com.spotify.music" navFixColor="#FF000000"/>
+        <item name="com.wordgame.puzzle.board.en" navFixColor="#FF000000"/>
+        <item name="net.peakgames.toonblast" navFixColor="#FF000000"/>
+        <item name="com.alegrium.cong2" navFixColor="#FF000000"/>
+        <item name="com.cmplay.tiles2" navFixColor="#FF000000"/>
+        <item name="com.avocado.newcolorus" navFixColor="#FF000000"/>
+        <item name="com.yiyou.game.trickytwo" navFixColor="#FF000000"/>
+        <item name="com.addswhilessuffers.binds" navFixColor="#FF000000"/>
+        <item name="com.zynga.livepoker" navFixColor="#FF000000"/>
+        <item name="com.lemongame.klondike.solitaire" navFixColor="#FF000000"/>
+        <item name="com.supercell.clashroyale" navFixColor="#FF000000"/>
+        <item name="com.playrix.homescapes" navFixColor="#FF000000"/>
+        <item name="com.nekki.shadowfight" navFixColor="#FF000000"/>
+        <!-- 外销泰国 top100 -->
+        <item name="com.commsource.beautyplus" navFixColor="#FF000000"/>
+        <item name="com.app.ringtone.aorjao" navFixColor="#FF000000"/>
+        <item name="vStudio.Android.Camera360" navFixColor="#FF000000"/>
+        <item name="com.kasikorn.retail.mbanking.wap" navFixColor="#FF000000"/>
+        <item name="com.beetalk" navFixColor="#FF000000"/>
+        <item name="com.colorphone.smooth.dialer" navFixColor="#FF000000"/>
+        <item name="com.apusapps.tools.booster" navFixColor="#FF000000"/>
+        <item name="com.BECi.live3" navFixColor="#FF000000"/>
+        <item name="com.azarlive.android" navFixColor="#FF000000"/>
+        <item name="camera360.lite.beauty.selfie.camera" navFixColor="#FF000000"/>
+        <item name="com.ais.mimo.AISPlay" navFixColor="#FF000000"/>
+        <item name="com.oneapp.max" navFixColor="#FF000000"/>
+        <item name="ktbcs.netbank" navFixColor="#FF000000"/>
+        <item name="com.devsisters.gb" navFixColor="#FF000000"/>
+        <!-- 外销菲律宾 top100 -->
+        <item name="com.snapchat.android" navFixColor="#FF000000"/>
+        <item name="kr.co.manhole.hujicam" navFixColor="#FF000000"/>
+        <item name="com.bestgo.imobicallflash" navFixColor="#FF000000"/>
+        <item name="com.speedbooster.optimizer" navFixColor="#FF000000"/>
+        <item name="com.voyagephotolab.picframe" navFixColor="#FF000000"/>
+        <item name="com.netflix.mediaclient" navFixColor="#FF000000"/>
+        <item name="com.imo.android.imoim" navFixColor="#FF000000"/>
+        <item name="com.ginnypix.kujicam" navFixColor="#FF000000"/>
+        <item name="com.ehawk.antivirus.applock.wifi" navFixColor="#FF000000"/>
+        <item name="com.waze" navFixColor="#FF000000"/>
+        <item name="com.keyboard.flagard" navFixColor="#FF000000"/>
+        <item name="com.peoplefun.wordcross" navFixColor="#FF000000"/>
+        <item name="com.episodeinteractive.android.catalog" navFixColor="#FF000000"/>
+        <item name="com.roblox.client" navFixColor="#FF000000"/>
+        <item name="com.nintendo.zara" navFixColor="#FF000000"/>
+        <item name="com.bdj.vortexDroid" navFixColor="#FF000000"/>
+        <item name="com.mobilityware.solitaire" navFixColor="#FF000000"/>
+        <item name="io.voodoo.stackjump" navFixColor="#FF000000"/>
+        <item name="com.andreisokal.ballscontrol" navFixColor="#FF000000"/>
+        <!-- 外销俄罗斯 top100 -->
+        <item name="com.circlek.loyalty" navFixColor="#FF000000"/>
+        <item name="ru.yandex.yandexnavi" navFixColor="#FF000000"/>
+        <item name="free.zaycev.net" navFixColor="#FF000000"/>
+        <item name="com.shazam.android" navFixColor="#FF000000"/>
+        <item name="com.narvii.amino.master" navFixColor="#FF000000"/>
+        <item name="com.p74.player" navFixColor="#FF000000"/>
+        <item name="sixpack.sixpackabs.absworkout" navFixColor="#FF000000"/>
+        <item name="com.vk.quiz" navFixColor="#FF000000"/>
+        <item name="com.ketchapp.knifehit" navFixColor="#FF000000"/>
+        <item name="com.ketchapp.rider" navFixColor="#FF000000"/>
+        <item name="com.Serbull.TestsYou" navFixColor="#FF000000"/>
+        <item name="com.spaceapegames.fastlane" navFixColor="#FF000000"/>
+        <item name="com.etermax.orbital1" navFixColor="#FF000000"/>
+        <item name="com.secondarm.taptapdash" navFixColor="#FF000000"/>
+        <item name="com.whatgames.android.ANMP.FAHM" navFixColor="#FF000000"/>
+        <item name="com.powertower.cbbing.en" navFixColor="#FF000000"/>
+        <item name="smellymoo.sand" navFixColor="#FF000000"/>
+        <item name="com.orangeapps.piratetreasure" navFixColor="#FF000000"/>
+
+    </itemList>
+</window-policy>

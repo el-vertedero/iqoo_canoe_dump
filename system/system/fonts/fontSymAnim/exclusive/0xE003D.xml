@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE003D"/>
+
+
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus />
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="dynamicColor" duration="300" to="0xFFFFFF" />
+<!--                取消透明度: 有透明度, 两层重叠部分透明度叠加, 造成颜色不一致 -->
+<!--                <animationItem animationType="alpha" duration="300" to="0.9" />-->
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+</fontSymbolAnimation>

@@ -1,0 +1,15 @@
+<!--
+    Input:
+        vendor/vivo/external/VivoCamera/system/extras/vivocameraserver/process/manifest_android.frameworks.vivocameraservice.service@2.0.xml
+-->
+<manifest version="9.0" type="framework">
+    <hal format="hidl">
+        <name>android.frameworks.vivocameraservice.service</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IVivoCameraService/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.frameworks.vivocameraservice.service</name>
+        <fqname>IVivoCameraService/default</fqname>
+    </hal>
+</manifest>

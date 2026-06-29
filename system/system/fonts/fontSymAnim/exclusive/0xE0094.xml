@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0094" />
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="7">
+            <originStatus  glyphAnimProgress="100">
+                <layer index="0" alpha="0"/>
+                <layer index="1" alpha="0"/>
+                <layer index="2" alpha="0"/>
+                <layer index="4" alpha="1"/>
+                <layer index="6" alpha="1"/>
+            </originStatus>
+            <serialGroup>
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="0" />
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="1" />
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="2" />
+                    <animationItem animationType="glyphAnimProgress" duration="60" to="150" />
+                    <!-- 将挡板移出 -->
+                    <animationItem animationType="translateX" duration="0" to="100"  layersIndex="3"/>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="6" />
+                    <animationItem animationType="alpha" duration="0" to="1" layersIndex="2" />
+                </parallelGroup>
+
+                <animationItem animationType="delay" duration="1140" />
+                <parallelGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="200" />
+                    <animationItem animationType="alpha" duration="200" to="1" layersIndex="1" />
+                </parallelGroup>
+                <animationItem animationType="delay" duration="1200" />
+
+                <parallelGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="249" />
+                    <animationItem animationType="alpha" duration="100" to="1" layersIndex="0" />
+                </parallelGroup>
+                <animationItem animationType="delay" duration="1370" />
+            </serialGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+
+</fontSymbolAnimation>

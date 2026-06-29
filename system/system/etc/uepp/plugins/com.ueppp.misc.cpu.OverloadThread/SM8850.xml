@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.cpu.OverloadThread"
+    __ver__="1">
+    <group __id__="com.tencent.mm">
+        <group __id__="com.tencent.mm">
+            <elem __name__="VFS.Maintenance"
+                invalid_temp="35"
+                valid_temp="37"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+        </group>
+
+        <group __id__="com.tencent.mm:push">
+            <elem __name__="VFS.Maintenance"
+                invalid_temp="35"
+                valid_temp="37"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.bbk.appstore">
+        <group __id__="com.bbk.appstore:install">
+            <elem __name__="*"
+                appstore_download_limit="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.immomo.momo">
+        <group __id__="com.immomo.momo">
+            <elem __name__="glide-animation-thread-0"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="read_thread"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.ss.android.ugc.aweme.lite">
+        <group __id__="com.ss.android.ugc.aweme.lite">
+            <elem __name__="#LogReaper"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="#tp-default-*"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="#TmaJsThread-1"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="#Accessory Display Transport"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="DefaultDispatcher-worker-5"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.ss.android.ugc.aweme">
+        <group __id__="com.ss.android.ugc.aweme">
+            <elem __name__="#LogReaper"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="Lynx_JS"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="Playe2-*"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="ttmp-idle"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="#TmaJsThread-1"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="#Accessory Display Transport"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="DefaultDispatcher-worker-5"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.smile.gifmaker">
+        <group __id__="com.smile.gifmaker">
+            <elem __name__="AnrOtherSample"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="DClynRsMonitor"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="StannisProcess"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="TxGLThread1"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="AryaRsMonitor"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="in.mohalla.sharechat">
+        <group __id__="in.mohalla.sharechat">
+            <elem __name__="DefaultDispatch"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.ytl.testload">
+        <group __id__="com.ytl.testload">
+            <elem __name__="*"/>
+        </group>
+    </group>
+
+    <group __id__="com.ss.android.article.news">
+        <group __id__="com.ss.android.article.news">
+            <elem __name__="bd_tracker_n"/>
+        </group>
+    </group>
+
+    <group __id__="com.vivo.browser">
+        <group __id__="com.vivo.browser">
+            <elem __name__="RequestRece"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.youku.phone">
+        <group __id__="com.youku.phone">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="RequestRece"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.quark.browser">
+        <group __id__="com.quark.browser">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="RequestRece"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.UCMobile">
+        <group __id__="com.UCMobile">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.baidu.searchbox.lite">
+        <group __id__="com.baidu.searchbox.lite">
+            <elem __name__="elastic_dsp_sou"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+
+            <elem __name__="elastic_dsp_ges"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"
+                no_audio="1"
+                no_record="1"
+                no_camera="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.codoon.gps">
+        <group __id__="com.codoon.gps">
+            <elem __name__="hawtdispatch-DE"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.cat.readall">
+        <group __id__="com.cat.readall">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="tv.danmaku.bili">
+        <group __id__="tv.danmaku.bili">
+            <elem __name__="ff_video_dec"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="ijk_ff_aoutand"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.xtc.watch">
+        <group __id__="com.xtc.watch">
+            <elem __name__="http service"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.light.shadow">
+        <group __id__="com.light.shadow">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.web.magicbox">
+        <group __id__="com.web.magicbox">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.chuyiapp.cy">
+        <group __id__="com.chuyiapp.cy">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.video.lizhinew">
+        <group __id__="com.video.lizhinew">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.dffy">
+        <group __id__="com.dffy">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.video.aiyounew">
+        <group __id__="com.video.aiyounew">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.shuixia.videoplay">
+        <group __id__="com.shuixia.videoplay">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.qukan.qkvideo">
+        <group __id__="com.qukan.qkvideo">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="cc.kixmix.video">
+        <group __id__="cc.kixmix.video">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.free.player">
+        <group __id__="com.free.player">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.hyin">
+        <group __id__="com.hyin">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="soni.dby">
+        <group __id__="soni.dby">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.skyworth.icast.mobile">
+        <group __id__="com.skyworth.icast.mobile">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.poui.vctyp.whity">
+        <group __id__="com.poui.vctyp.whity">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.hunantv.imgo.activity">
+        <group __id__="com.hunantv.imgo.activity">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.idianVideo.app.android">
+        <group __id__="com.idianVideo.app.android">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.foodji.caipp.shready">
+        <group __id__="com.foodji.caipp.shready">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.example.calculate.hx">
+        <group __id__="com.example.calculate.hx">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.syxingsc.ksxshuiyue">
+        <group __id__="com.syxingsc.ksxshuiyue">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.everyday.collection">
+        <group __id__="com.everyday.collection">
+            <elem __name__="cling-*"
+                invalid_temp="30"
+                valid_temp="32"/>
+        </group>
+    </group>
+
+    <group __id__="com.yiyou.ga">
+        <group __id__="com.yiyou.ga">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.le123.ysdq">
+        <group __id__="com.le123.ysdq">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.duowan.kiwi">
+        <group __id__="com.duowan.kiwi">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.rsg.wdyz">
+        <group __id__="com.rsg.wdyz">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.dz.hmjc">
+        <group __id__="com.dz.hmjc">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.kaixinkan.ugc.video">
+        <group __id__="com.kaixinkan.ugc.video">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.android.VideoPlayer">
+        <group __id__="com.android.VideoPlayer">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.njh.biubiu">
+        <group __id__="com.njh.biubiu">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.baidu.video">
+        <group __id__="com.baidu.video">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.strawberry.cmbz">
+        <group __id__="com.strawberry.cmbz">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.babytree.apps.pregnancy">
+        <group __id__="com.babytree.apps.pregnancy">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="cn.zepeto.main">
+        <group __id__="cn.zepeto.main">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.didapinche.booking">
+        <group __id__="com.didapinche.booking">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.adeptadmon.abort">
+        <group __id__="com.adeptadmon.abort">
+            <elem __name__="vclould.mdl"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.lemon.lv">
+        <group __id__="com.lemon.lv">
+            <elem __name__="VE-AudioSLESPla"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.kuaishou.nebula">
+        <group __id__="com.kuaishou.nebula">
+            <elem __name__="AryaRsMonitor"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="DClynRsMonitor"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="StannisProcess"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+
+            <elem __name__="TxGLThread1"
+                invalid_temp="30"
+                valid_temp="32"
+                background="1"/>
+        </group>
+    </group>
+
+    <group __id__="com.NWilfxj.FxKDr">
+        <group __id__="com.NWilfxj.FxKDr">
+            <elem __name__="d-miner"/>
+        </group>
+    </group>
+</group>

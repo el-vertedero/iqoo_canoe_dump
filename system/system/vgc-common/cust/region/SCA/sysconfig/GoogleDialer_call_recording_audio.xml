@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<!--强合规SCA：智利（CL）、秘鲁（PE）、哥伦比亚（CO）【以色列（IL）、澳大利亚（AU）先保留国家码，不合并区域】-->
+	<!--通话录音配置 支持：智利（CL）、秘鲁（PE）、哥伦比亚（CO）、尼加拉瓜（NI）、多米尼加（DO）-->
+	<!--通话录音配置 不支持：巴拿马（PA）、哥斯达黎加（CR）-->
+	<feature name= "com.google.android.apps.dialer.call_recording_audio" 
+	defaultValue = "true"
+	available = "CL,PE,CO,NI,DO"
+	unavailable = "PA,CR"
+	/>
+	
+</config>

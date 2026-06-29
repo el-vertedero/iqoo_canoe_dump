@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE017E" />
+
+    <animationList>
+        <symbolAnimation layerCnt="3">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <serialGroup>
+                <animationItem animationType="alpha" duration="200" to="0" />
+
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

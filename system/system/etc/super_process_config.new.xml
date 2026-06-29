@@ -1,0 +1,21 @@
+<config version="25050600">
+    <sps switch="on" />
+    <packages>
+        <package name="com.vivo.permissionmanager" fwk-version="10-" enable-on="*" need-permission="true"/>
+        <package name="com.vivo.appfilter" fwk-version="10-" enable-on="*" need-permission="true"/>
+        <package name="com.vivo.multinlp" fwk-version="10-" enable-on="*" need-permission="true"/>
+        <package name="com.iqoo.powersaving" fwk-version="10-" enable-on="*" />
+        <package name="com.vivo.globalanimation" fwk-version="10-" enable-on="*" />
+        <package name="com.vivo.basemanager" fwk-version="10-" enable-on="*" />
+        <package name="com.vivo.penwrite" fwk-version="10-" enable-on="*" />
+        <!-- <package name="com.vivo.gamewatch" fwk-version="20-" enable-on="*" /> -->
+        <package name="com.vivo.gamecube" fwk-version="20-" enable-on="*" />
+        <package name="com.vivo.doubleinstance" fwk-version="20-" enable-on="*" need-permission="true"/>
+        <package name="com.vivo.epm" fwk-version="20-" enable-on="*" need-permission="true"/>
+        <package name="com.vivo.vms" fwk-version="20-" enable-on="*" need-permission="true"/>
+        <!-- demo:
+        <package name="com.vivo.abc" fwk-version="8,10-" pkg-version="10010", enable-on="*" />
+        <package name="com.vivo.def" disable-on="PD2049,PD2046" />
+        -->
+    </packages>
+</config>

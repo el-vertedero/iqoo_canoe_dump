@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="appear" layerInterval="200" playbackMode="byGroup"
+        playbackOrder="parallel" repeatCount="3" repeatMode="reverseRestart"/>
+    <animationList>
+        <symbolAnimation>
+            <originStatus />
+            <serialGroup delay="0" interpolator="ease">
+                <animationItem animationType="scale" duration="1000" to="2" />
+                <parallelGroup>
+                    <animationItem animationType="rotationY" duration="1000" to="180" />
+                    <animationItem animationType="rotationZ" duration="1000" to="180" />
+                    <animationItem animationType="rotationX" duration="1000" to="180" />
+                </parallelGroup>
+                <animationItem animationType="translateX" duration="1000" to="100" />
+                <animationItem animationType="translateX" duration="1000" to="0" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

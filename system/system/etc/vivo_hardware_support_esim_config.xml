@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <product model="PD2283F_EX">
+      <item hardware_id="00" rf_bit_index="4,5" />
+  </product>
+
+  <product model="PD2325F_EX">
+      <item hardware_id="00" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2341F_EX">
+      <item hardware_id="11" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2343F_EX">
+      <item hardware_id="00" rf_bit_index="1,2" />
+  </product>
+
+  <product model="PD2363F_EX">
+      <item hardware_id="00" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2418F_EX">
+      <item hardware_id="11" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2437F_EX">
+      <item hardware_id="00" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2438F_EX">
+      <item hardware_id="00" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2447F_EX">
+      <item hardware_id="00" rf_bit_index="0,1" />
+  </product>
+
+  <product model="PD2465F_EX">
+      <item hardware_id="00" rf_bit_index="5,6" />
+  </product>
+
+  <product model="PD2503F_EX">
+      <item hardware_id="00" rf_bit_index="2,3" />
+  </product>
+
+  <product model="PD2511F_EX">
+      <item hardware_id="00" rf_bit_index="9,10" />
+  </product>
+
+  <product model="PD2512F_EX">
+      <item hardware_id="0" rf_bit_index="7" />
+  </product>
+
+  <product model="PD2529F_EX">
+      <item hardware_id="1" rf_bit_index="2" />
+  </product>
+
+  <product model="PD2539F_EX">
+      <item hardware_id="11" rf_bit_index="8,9" />
+  </product>
+
+  <product model="PD2542F_EX">
+      <item hardware_id="00" rf_bit_index="4,5" />
+  </product>
+
+  <product model="PD2544F_EX">
+      <item hardware_id="00" rf_bit_index="4,5" />
+  </product>
+
+  <product model="PD2608">
+      <item hardware_id="1" rf_bit_index="0" />
+  </product>
+
+  <product model="PD2607F_EX">
+      <item hardware_id="01" rf_bit_index="8,9" />
+  </product>
+</config>

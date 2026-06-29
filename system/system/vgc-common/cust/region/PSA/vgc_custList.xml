@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <custlist name="setupwizard_language_with_iso_map">
+        <item name="MM" value="en_US"/>
+        <item name="NP" value="ne_NP"/>
+        <item name="LK" value="en_US"/>
+        <item name="BT" value="en_US"/>
+        <item name="KH" value="km_KH"/>
+        <item name="SG" value="en_US"/>
+        <item name="PG" value="en_US"/>
+    </custlist>
+    <custlist name="pms_area_region_preinstall_apps">
+        <item name="com.vivo.screenagent-enable" value="PG,SG,NP,LK,BT"/>
+        <item name="com.vivo.screenagent-default" value="false"/>
+        <item name="com.vivo.screenagent-ota" value="true"/>
+    </custlist>
+</config>

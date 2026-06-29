@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE004A"/>
+
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus alpha="0.28" glyphAnimProgress="100" />
+            <parallelGroup >
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0.0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="17" to="1.0"  />
+                    <animationItem animationType="scale" duration="250" to="1.2" interpolator="custom(0.14, 0.17, 0.31, 0.99)" />
+                    <animationItem animationType="scale" duration="250" to="1.0" interpolator="custom(0.10, 0.00, 0.31, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem layersIndex="0" animationType="delay" duration="167" to="0.0" />
+                    <animationItem layersIndex="0" animationType="translateY" duration="17" to="2.79" interpolator="custom(0.17, 0.00, 0.25, 1.00)" />
+                    <animationItem layersIndex="0" animationType="translateY" duration="217" to="-5.02" interpolator="custom(0.14, 0.00, 0.45, 1.00)" />
+                    <animationItem layersIndex="0" animationType="translateY" duration="250" to="0.0" interpolator="custom(0.11, 0.00, 0.42, 1.00)" />
+                </serialGroup>
+
+
+
+
+<!--                <animationItem animationType="glyphAnimProgress" duration="500" to="650" />-->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="1.0" interpolator="custom(0.17, 0.17, 0.83, 0.83)"  />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xF95954"  layersIndex="0,1" interpolator="custom(0.17, 0.16, 0.83, 0.84)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+</fontSymbolAnimation>

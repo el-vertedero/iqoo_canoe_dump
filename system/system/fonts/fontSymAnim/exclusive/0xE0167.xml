@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0167" extraUnicodes="0xF0098,0xF0099"/>
+
+    <animationList>
+
+        <!-- [0] -->
+        <symbolAnimation layerCnt="2">
+            <originStatus glyphAnimProgress="100" >
+            </originStatus>
+            <parallelGroup >
+                <serialGroup>
+                    <animationItem animationType="scale" duration="150" to="0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="scale" duration="83" to="0.7147" interpolator="custom(0.24, 0.16, 0.49, 0.61)" />
+                </serialGroup>
+
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="133" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="1" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="133" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xFFFFFF"  />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="150" />
+                    <animationItem animationType="glyphAnimProgress" duration="0" to="150" />
+                    <animationItem animationType="glyphAnimProgress" duration="83" to="649" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+        <!-- [1] -->
+        <symbolAnimation layerCnt="2">
+            <originStatus glyphAnimProgress="100" scale="0.7147" >
+            </originStatus>
+            <parallelGroup >
+                <serialGroup>
+                    <animationItem animationType="scale" duration="83" to="1.05" interpolator="custom(0.26, 0.40, 0.58, 0.77)" />
+                </serialGroup>
+                <animationItem animationType="glyphAnimProgress" duration="83" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+
+        <!-- [2] -->
+        <symbolAnimation layerCnt="2">
+            <originStatus glyphAnimProgress="100" scale="1.05" >
+            </originStatus>
+            <parallelGroup >
+                <serialGroup>
+                    <animationItem animationType="scale" duration="83" to="1.14" interpolator="custom(0.28, 0.63, 0.61, 1.00)" />
+                    <animationItem animationType="scale" duration="250" to="1" interpolator="custom(0.10, 0.00, 0.30, 1.00)" />
+                </serialGroup>
+                <animationItem animationType="glyphAnimProgress" duration="83" to="600" />
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+</fontSymbolAnimation>

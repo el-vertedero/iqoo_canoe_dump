@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0100" />
+    <animationList>
+        <symbolAnimation layerCnt="3" >
+            <originStatus alpha="1" />
+            <parallelGroup>
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="250" to="149" interpolator="custom(0.00, 0.00, 0.20, 1.00)"/>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="glyphAnimProgress" duration="183" to="100" interpolator="custom(0.25, 0.10, 0.25, 1.00)"/>
+                </serialGroup>
+<!--                <serialGroup>-->
+<!--                    <animationItem animationType="translateY" duration="250" to="9.58" interpolator="custom(0.00, 0.00, 0.20, 1.00)" layersIndex="1"/>-->
+<!--                    <animationItem animationType="delay" duration="167" />-->
+<!--                    <animationItem animationType="translateY" duration="183" to="0" interpolator="custom(0.25, 0.10, 0.25, 1.00)" layersIndex="1"/>-->
+<!--                </serialGroup>-->
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

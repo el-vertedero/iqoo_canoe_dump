@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0179" />
+
+    <animationList>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <serialGroup>
+                <animationItem animationType="translateX" layersIndex="3" duration="0" to="100" />
+                <animationItem animationType="alpha" layersIndex="3" duration="0" to="1" />
+                <animationItem animationType="alpha" layersIndex="0,1,2" duration="0" to="0" />
+<!--                <animationItem animationType="alpha"  duration="200" to="1" />-->
+                <parallelGroup>
+                    <animationItem animationType="dynamicAlpha" layersIndex="0,1,2" duration="200" to="1" />
+                    <animationItem animationType="dynamicColor" layersIndex="0,1,2" duration="200" to="1" />
+                </parallelGroup>
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

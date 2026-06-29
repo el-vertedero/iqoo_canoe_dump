@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0120" />
+
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+                <!-- 中间的圈  -->
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="217" to="150" layersIndex="1" interpolator="custom(0.25, 0.45, 0.30, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="233" to="200" layersIndex="1" interpolator="custom(0.25, 0.45, 0.30, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="translateY" duration="217" to="2.2848" layersIndex="1" interpolator="custom(0.25, 0.90, 0.30, 1.00)" />
+                    <animationItem animationType="translateY" duration="233" to="0" layersIndex="1" interpolator="custom(0.25, 0.90, 0.30, 1.00)" />
+                </serialGroup>
+
+                <!-- 半环  -->
+                <animationItem animationType="rotationZ" duration="450" to="360" layersIndex="0" interpolator="custom(0.25, 0.10, 0.25, 1.00)" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

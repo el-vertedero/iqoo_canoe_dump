@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0070" />
+    <animationList>
+        <symbolAnimation layerCnt="2">
+            <originStatus />
+            <parallelGroup>
+                <animationItem animationType="dynamicColor" duration="0" to="0xA6A6A6" layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                <animationItem animationType="dynamicAlpha" duration="0" to="0.1" layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

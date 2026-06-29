@@ -1,0 +1,15 @@
+on property:sys.touch_firmware_zip=1
+	copy /data/bbkcore/com_vivo_touchscreen_zip_fw.zip /data/vendor/touchscreen/com_vivo_touchscreen_zip_fw.zip
+	chmod 666 /data/vendor/touchscreen/com_vivo_touchscreen_zip_fw.zip
+	start cacheupdate
+
+on property:sys.touch_firmware_zip=2
+	rm  /data/vendor/touchscreen/com_vivo_touchscreen_zip_fw.zip
+
+
+service cacheupdate /vendor/bin/vts_app --update-cache
+    disabled
+    class core
+    user system
+    seclabel u:r:vts_app:s0
+    oneshot

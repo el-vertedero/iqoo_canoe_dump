@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE014C" />
+
+    <animationList>
+        <symbolAnimation layerCnt="3" scalePivotLayerIndex="2" >
+            <originStatus alpha="1.0"  />
+            <parallelGroup >
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="200" to="0.75" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="scale" duration="240" to="1.1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="scale" duration="200" to="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="160" to="0.05" layersIndex="1" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="delay" duration="80" />
+                    <animationItem animationType="alpha" duration="160" to="1" layersIndex="1" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="240" />
+                    <animationItem animationType="translateX" duration="0" to="-10.793" layersIndex="1" />
+                    <animationItem animationType="translateX" duration="240" to="4.339" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="200" to="0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="240" />
+                    <animationItem animationType="translateY" duration="0" to="-10.529" layersIndex="1" />
+                    <animationItem animationType="translateY" duration="240" to="4.305" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateY" duration="200" to="0" layersIndex="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

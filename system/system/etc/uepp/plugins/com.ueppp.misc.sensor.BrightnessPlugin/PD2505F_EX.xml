@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.sensor.BrightnessPlugin"
+    __ver__="1">
+    <elem __name__="normal_config"
+        lockBrightnessLevel="2"
+        demoDeviceLastLevel="2"
+        reduceTempInterval="2"
+        tempStartName="temp_brightness_trigger_start"
+        tempEndName="temp_brightness_trigger_end"
+        tempSupportType="virtual_shell_ntc"/>
+
+    <group __id__="normal_temp_nit">
+        <elem __name__="old_panel_type__V__tft"
+            temp="0;43;47;49"
+            nit="-1;400;260;150"/>
+
+        <group __id__="panel_type__V__tft">
+            <elem __name__="panel_max_nit__V__800"
+                temp="0;41;43;45;47;49"
+                nit="-1;600;400;400;260;150"/>
+        </group>
+
+        <group __id__="panel_type__V__Amoled">
+            <elem __name__="panel_max_nit__V__430"
+                temp="0;43;47;49"
+                nit="-1;365;225;130"/>
+
+            <elem __name__="panel_max_nit__V__500"
+                temp="0;43;45;47;49"
+                nit="-1;430;365;300;225"/>
+
+            <elem __name__="panel_max_nit__V__600"
+                temp="0;41;43;45;47;49"
+                nit="-1;500;430;365;300;225"/>
+
+            <elem __name__="panel_max_nit__V__800"
+                temp="0;41;43;45;47;49"
+                nit="-1;600;430;365;300;225"/>
+        </group>
+    </group>
+
+    <group __id__="virtual_shell_temp_nit">
+        <elem __name__="old_panel_type__V__tft"
+            temp="0;42;46;48"
+            nit="-1;400;260;150"/>
+
+        <group __id__="panel_type__V__tft">
+            <elem __name__="panel_max_nit__V__800"
+                temp="0;40;42;44;46;48"
+                nit="-1;600;400;400;260;150"/>
+        </group>
+
+        <group __id__="panel_type__V__Amoled">
+            <elem __name__="panel_max_nit__V__430"
+                temp="0;42;44;46"
+                nit="-1;365;225;130"/>
+
+            <elem __name__="panel_max_nit__V__500"
+                temp="0;42;44;46;48"
+                nit="-1;430;365;300;225"/>
+
+            <elem __name__="panel_max_nit__V__600"
+                temp="0;40;42;44;46;48"
+                nit="-1;500;430;365;300;225"/>
+
+            <elem __name__="panel_max_nit__V__800"
+                temp="0;40;42;44;46;48"
+                nit="-1;600;430;365;300;225"/>
+        </group>
+    </group>
+
+    <group __id__="lock_game_nit">
+        <elem __name__="panel_max_nit__V__800"
+            temp="0;42;49"
+            nit="-1;500;225"/>
+    </group>
+</group>

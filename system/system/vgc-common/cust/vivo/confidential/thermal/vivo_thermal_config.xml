@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config versionCode="1">
+	<!-- 基本温度节点类型：
+		thermal_name：自定义名称，必填
+		thermal_type：自定义类型，必填，《使用者关注字段，配置之后不支持修改删除》
+		device_type：温度节点定义的类型
+		read_type：温度获取类型，轮询loop，被动接收netlink，中断trip_*
+		tick_time：采用轮询方式时间间隔，单位秒，默认10秒
+		accuracy：温度精确度，默认三位，即1000
+		enable_check：温度节点是否为enable状态，检查节点
+		compose_type：温度组合类型，如 vir_shell+board，表示壳温和板温同时满足，vir_shell|board，表示壳温或板温满足其一即可，shell_battery?board，表示前面温度不支持就使用后面温度
+	-->
+	<thermal-type thermal_name="board" thermal_type="1" read_type="trip_2" tick_time="10" accuracy="1000"
+		device_type="case_therm|board_therm|quiet_therm|mtktsAP|quiet-therm-adc|skin-therm|ap_ntc|board-thmzone" />
+	<thermal-type thermal_name="battery" thermal_type="2" device_type="battery|mtktsbattery" read_type="loop" tick_time="10" accuracy="1000" />
+	<thermal-type thermal_name="vir_shell" thermal_type="3" device_type="vir_shell_max|tz_shell" enable_check="/sys/class/tshell/shelltemp_en" read_type="netlink" />
+	<thermal-type thermal_name="bl_board" thermal_type="4" device_type="tft_bl_therm|tft_ntc" read_type="loop" tick_time="10" accuracy="1000" />
+
+	<thermal-type thermal_name="shell_battery" thermal_type="101" compose_type="vir_shell+battery" />
+
+	<thermal-type thermal_name="common_shell" thermal_type="1001" compose_type="vir_shell?board" />
+	<thermal-type thermal_name="common_battery" thermal_type="1002" compose_type="battery" />
+
+	<thermal-type thermal_name="camera_shell" thermal_type="1011" compose_type="vir_shell?board" />
+	<thermal-type thermal_name="compile_shell" thermal_type="1012" compose_type="vir_shell?board" />
+
+	<thermal-type thermal_name="overheat_combined" thermal_type="1021" compose_type="shell_battery?board" />
+
+	<thermal-type thermal_name="overheat_brightness" thermal_type="1031" compose_type="bl_board" />
+
+
+	<!-- 温度数据：
+		thermal_limit：每个注册端，同个关注温度限制条数
+		listener_limit：所有监听者，限制的条数
+		regTime_length：注册时间，最长长度
+		getStatus_limit：直接调用获取当前温度等级接口，最大条数
+	-->
+	<thermal-report thermal_limit="3" listener_limit="200" regTime_length="2000" getStatus_limit="200"/>
+
+
+	<!-- 温度等级支持如下，新增时建议左右预留给后续新增《使用者关注字段，配置之后不支持修改删除》：
+		STATUS_NONE				// 无热感知————无需温控/默认使能策略
+		STATUS_NOTICE			// 轻微感知
+		STATUS_GUARDED			// 防御预备
+		STATUS_LIGHT			// 轻度发热
+		STATUS_CAUTION			// 谨慎观察
+		STATUS_RAISED			// 持续升温
+		STATUS_MODERATE			// 中度发热
+		STATUS_ELEVATED			// 中度偏高
+		STATUS_HIGH				// 高温状态
+		STATUS_HEIGHTENED		// 显著升温
+		STATUS_INTENSE			// 强烈热感
+		STATUS_SEVERE			// 重度发热
+		STATUS_CRITICAL			// 严重发热
+		STATUS_EXTREME			// 极端高温
+		STATUS_DRACONIAN		// 严苛限制————除必要应用需暂停使用
+		STATUS_EMERGENCY		// 紧急状态
+		STATUS_CATASTROPHIC		// 灾难状态
+		STATUS_SHUTDOWN			// 停止使用————关机断电/不使能温控策略
+	-->
+	<threshold-type
+		STATUS_NONE="10"
+		STATUS_NOTICE="20"
+		STATUS_GUARDED="30"
+		STATUS_LIGHT="40"
+		STATUS_CAUTION="50"
+		STATUS_RAISED="60"
+		STATUS_MODERATE="70"
+		STATUS_ELEVATED="80"
+		STATUS_HIGH="90"
+		STATUS_HEIGHTENED="100"
+		STATUS_INTENSE="110"
+		STATUS_SEVERE="120"
+		STATUS_CRITICAL="130"
+		STATUS_EXTREME="140"
+		STATUS_DRACONIAN="150"
+		STATUS_EMERGENCY="160"
+		STATUS_CATASTROPHIC="170"
+		STATUS_SHUTDOWN="180" />
+
+
+	<!-- 温度等级阈值
+		thermal_name：自定义名称，必填
+		compose_thermal_name：组成的温度，必填；跟下方各个温度等级的配置，成对应关系
+		STATUS_：具体温度等级下的阈值《使用者关注字段，配置之后不支持删除》
+	-->
+	<threshold
+		thermal_name="common_shell"
+		compose_thermal_name="vir_shell;board"
+		STATUS_NONE="30;30"
+		STATUS_NOTICE="33;34"
+		STATUS_GUARDED="35;36"
+		STATUS_LIGHT="37;38"
+		STATUS_RAISED="39;40"
+		STATUS_MODERATE="40;42"
+		STATUS_ELEVATED="42;44"
+		STATUS_HIGH="43;45"
+		STATUS_HEIGHTENED="44;46"
+		STATUS_SEVERE="46;48"
+		STATUS_CRITICAL="48;50"
+		STATUS_EXTREME="50;52"
+		STATUS_EMERGENCY="53;55"
+		STATUS_SHUTDOWN="60;65" />
+
+	<threshold
+		thermal_name="common_battery"
+		compose_thermal_name="battery"
+		STATUS_NONE="25"
+		STATUS_LIGHT="37"
+		STATUS_MODERATE="40"
+		STATUS_SEVERE="45"
+		STATUS_CRITICAL="48"
+		STATUS_EMERGENCY="55"
+		STATUS_SHUTDOWN="60" />
+
+	<threshold
+		thermal_name="camera_shell"
+		compose_thermal_name="vir_shell;board"
+		STATUS_NONE="25;25"
+		STATUS_GUARDED="35;36"
+		STATUS_LIGHT="37;38"
+		STATUS_MODERATE="41;43"
+		STATUS_HIGH="43;45"
+		STATUS_HEIGHTENED="45;47"
+		STATUS_SEVERE="47;49"
+		STATUS_CRITICAL="48;50"
+		STATUS_EXTREME="50;52"
+		STATUS_EMERGENCY="53;55"
+		STATUS_CATASTROPHIC="55;58"
+		STATUS_SHUTDOWN="60;65" />
+
+	<threshold
+		thermal_name="compile_shell"
+		compose_thermal_name="vir_shell;board"
+		STATUS_NONE="33;34"
+		STATUS_NOTICE="34;35"
+		STATUS_GUARDED="35;36"
+		STATUS_LIGHT="36;37"
+		STATUS_CAUTION="37;38"
+		STATUS_RAISED="38;39"
+		STATUS_MODERATE="39;40"
+		STATUS_ELEVATED="40;42"
+		STATUS_HIGH="41;43"
+		STATUS_HEIGHTENED="42;44"
+		STATUS_INTENSE="43;45" />
+
+	<threshold
+		thermal_name="overheat_combined"
+		compose_thermal_name="vir_shell;battery;board"
+		STATUS_NONE="25;25;25"
+		STATUS_SEVERE="48;40;50"
+		STATUS_CRITICAL="50;45;52"
+		STATUS_EXTREME="52;45;57"
+		STATUS_EMERGENCY="53;48;58" />
+
+	<threshold
+		thermal_name="overheat_brightness"
+		compose_thermal_name="bl_board"
+		STATUS_NONE="25"
+		STATUS_NOTICE="35"
+		STATUS_GUARDED="36"
+		STATUS_LIGHT="37"
+		STATUS_CAUTION="38"
+		STATUS_EMERGENCY="60" />
+</config>

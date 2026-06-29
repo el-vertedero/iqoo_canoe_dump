@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2024 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+ -->
+
+<!--
+This XML defines an allowlist for packages that want to join a particular shared-uid.
+If a non-system package that is signed with platform signature, is trying to join a particular
+shared-uid, and not in this list, the installation will fail.
+
+- The "package" XML attribute refers to the app's package name.
+- The "shareduid" XML attribute refers to the shared uid name.
+
+Example usage
+    1. <allow-package-shareduid package="com.example.app" shareduid="android.uid.system"/>
+        Indicates that a package - com.example.app, will be able to join android.uid.system.
+    2. <allow-package-shareduid package="oem.example.app" shareduid="oem.uid.custom"/>
+        Indicates that a package - oem.example.app, will be able to join oem.uid.custom.
+-->
+
+<config>
+    <allow-package-shareduid package="com.vivo.auxiliarytest" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.example.administrator.iceuiauto" shareduid="android.uid.system" />
+    <allow-package-shareduid package="android.monkey.cts" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.apitest" shareduid="android.uid.system" />
+    <allow-package-shareduid package="android.upgrade.cts" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.testEnvironment" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.android.bluetooth.toolkit" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.cotatest" shareduid="android.uid.system" />
+
+    <!--vivo liuzhan add the automated testing tool apk to the white list, start -->
+    <allow-package-shareduid package="cn.com.vivo.hw.snt" shareduid="android.uid.system" />
+    <allow-package-shareduid package="cn.com.vivo.hw.snt.test" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.auxiliarytest" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.vaft" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.srncommand" shareduid="android.uid.system" />
+    <!--vivo liuzhan add the automated testing tool apk to the white list,end -->
+
+    <!--vivo liuyubing add for testing tool apk begin -->
+    <allow-package-shareduid package="com.vivo.uiautestdemo.displaytesttool" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.displayuitest" shareduid="android.uid.system" />
+    <!--vivo liuyubing add for testing tool apk end -->
+
+    <!--vivo VCOMMFRM xiaoming add for TELEPHONY_TEST_APP INSTALL_WHITE_LIST begin-->
+    <allow-package-shareduid package="com.vivo.telephonydevelopapp" shareduid="android.uid.phone" />
+    <!--vivo VCOMMFRM xiaoming add for TELEPHONY_TEST_APP INSTALL_WHITE_LIST end-->
+	
+    <!--vivo val add for testing tool apk begin -->
+    <allow-package-shareduid package="com.vivo.attool" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.autofieldtest" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.vaft" shareduid="android.uid.system" />
+    <allow-package-shareduid package="jp.co.cyberagent.stf" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.example.com.gmsconfig" shareduid="android.uid.system" />
+    <allow-package-shareduid package="cts.gmssetuptool" shareduid="android.uid.system" />
+    <allow-package-shareduid package="chlanguage.com.changelanguage" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vgl.autotestserver" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.android.bbklog" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.athelper" shareduid="android.uid.system" />
+    <allow-package-shareduid package="vivo.update_full" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.val.screenrecordtools" shareduid="android.uid.system" />
+    <allow-package-shareduid package="com.vivo.atphonemanager" shareduid="android.uid.system" />
+    <!--vivo val add for testing tool apk end -->
+    <allow-package-shareduid package="com.android.settings.test" shareduid="android.uid.system" />
+    <!--vivo niumingkun add for CameraDebugLogger_TEST_APP INSTALL_WHITE_LIST begin-->
+    <allow-package-shareduid package="com.mediatek.camera.debug" shareduid="android.uid.system" />
+    <!--vivo niumingkun add for CameraDebugLogger_TEST_APP INSTALL_WHITE_LIST end-->
+</config>

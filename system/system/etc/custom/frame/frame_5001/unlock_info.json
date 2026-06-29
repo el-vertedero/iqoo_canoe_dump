@@ -1,0 +1,53 @@
+{
+	"version": 3,
+	"style_id": 22,
+	"time_view": {
+        "version": "3",
+	    "style_id": "s7-4x4",
+		"clock_font": {
+			"font_id": "6",
+			"font_path": "/system/fonts/vivoSansClockHAVF.ttf",
+			"font_weight": 600
+		},
+		"main_color": {
+			"type_id": -3,
+			"progress": 50,
+			"fixed_color": "#FFD8F1FC"
+		},
+		"location": {
+			"start_row": 0,
+			"start_col": 0,
+			"row_count": 4,
+			"col_count": 4,
+			"align": 2
+		},
+		"unfold_location": {
+			"start_row": 0,
+			"start_col": 2,
+			"row_count": 4,
+			"col_count": 4,
+			"align": 2
+		},
+		"pad_portrait_location": {
+			"start_row": 0,
+			"start_col": 2,
+			"row_count": 4,
+			"col_count": 4,
+			"align": 2
+		},
+		"pad_landscape_location": {
+			"start_row": 0,
+			"start_col": 4,
+			"row_count": 4,
+			"col_count": 4,
+			"align": 2
+		}
+    },
+	"info_widget": {
+		"info_type": "com.vivo.systemuiplugin/none"
+	},
+	"shortcut": {
+		"left_tool": "phone",
+		"right_tool": "camera"
+	}
+}

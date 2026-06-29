@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE010B" />
+    <animationList>
+        <symbolAnimation layerCnt="4" rotPivotLayerIndex="2">
+            <originStatus alpha="1" glyphAnimProgress="100">
+            </originStatus>
+            <parallelGroup>
+
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="217" to="150" interpolator="custom(0.28, 0.40, 0.83, 0.83)" />
+                    <animationItem animationType="alpha" duration="17" to="0"  layersIndex="3" />
+                    <animationItem animationType="translateX" duration="0" to="-200"  layersIndex="2,3"/>
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="rotationZ" duration="117" to="16" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="33" to="16" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="83" to="-26" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="133" to="9" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="100" to="-9" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="117" to="3" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="100" to="-2" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="133" to="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="100" to="-0.5" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="100" to="0.04" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="100" to="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="0" to="0.092307692"  layersIndex="0"/>
+                    <animationItem animationType="delay" duration="100" />
+                    <animationItem animationType="translateX" duration="117" to="7.403076923"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="33" to="7.403076923"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="100" to="-8.418461538"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="117" to="5.180307692"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="133" to="-1.041230769"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="133" to="0.594461538"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="117" to="-0.062769231"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="117" to="0.011076923"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="100" to="-0.406153846"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="100" to="0.380307692"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="translateX" duration="100" to="0"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group __id__="com.ueppp.misc.common.WriteNodePlugin"
+    __ver__="1">
+    <group __id__="actionLists">
+        <group __id__="DexOptActionForeground">
+            <elem __name__="action0"
+                path="/dev/cpuctl/dex2oat/background/cpu.uclamp.max"
+                value="35"
+                type="overlay"
+                default="100"/>
+        </group>
+
+        <group __id__="DexOptActionBackground">
+            <elem __name__="action0"
+                path="/dev/cpuctl/dex2oat/background/cpu.uclamp.max"
+                value="15"
+                type="overlay"
+                default="100"/>
+        </group>
+    </group>
+</group>

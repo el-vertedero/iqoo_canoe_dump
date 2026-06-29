@@ -1,0 +1,1084 @@
+{
+    "version": "1.5.1",
+    "groupId": "color_frame",
+    "id": "theme_duocai_style3",
+    "preview": "thumb_0.jpg",
+    "user_img_num": 1,
+    "isDeepSupport": true,
+    "isImgDeepSupport": true,
+    "isOpenXZJ": false,
+    "isDeepOpened": true,
+    "isWallpaperFollowUnlock": true,
+    "aodLayout": [
+        {
+            "country_type": 1,
+            "device_type": [11, 12, 13],
+            "width": "170dp",
+            "height": "170dp",
+            "gt_type": 2,
+            "gt_rect": {
+                "left": "0dp",
+                "top": "115dp",
+                "right": "width",
+                "bottom": "546dp"
+            },
+            "gt_rect_wide": {
+                "leftByLayerId": {
+                    "layerId": "layer_frame_bg",
+                    "isFrameInner": true,
+                    "side": "left"
+                },
+                "top": "135dp",
+                "rightByLayerId": {
+                    "layerId": "layer_frame_bg",
+                    "isFrameInner": true,
+                    "side": "right"
+                },
+                "bottom": "529.2dp"
+            }
+        },
+        {
+            "country_type": 2,
+            "device_type": [11, 12, 13],
+            "width": "185dp",
+            "height": "185dp",
+            "gt_type": 2,
+            "gt_rect": {
+                "isInnerCalc": true,
+                "innerCalcType": 1
+            },
+            "gt_rect_wide": {
+                "leftByLayerId": {
+                    "layerId": "layer_frame_bg",
+                    "isFrameInner": true,
+                    "side": "left"
+                },
+                "top": "155dp",
+                "rightByLayerId": {
+                    "layerId": "layer_frame_bg",
+                    "isFrameInner": true,
+                    "side": "right"
+                },
+                "bottom": "594.2dp"
+            }
+        }
+    ],
+    "layers": [
+        {
+            "id": "layer_frame_text1",
+            "type": 5,
+            "tg_aod_hide": true,
+            "textInfo":[
+                {  
+                    "country_type": [1, 2],
+                    "device_type": [11, 12, 13],
+                    "text": "Wander",
+                    "textSize": "48dp",
+                    "textColor": "#333333",
+                    "textMaxChar": 8,
+                    "textAlign": 2,
+                    "isAutoLineWrap": false
+                },
+                {  
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "text": "Wander",
+                    "textSize": "48dp",
+                    "textColor": "#333333",
+                    "textMaxChar": 8,
+                    "textAlign": 2,
+                    "isAutoLineWrap": false
+                },
+                {  
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "text": "Wander",
+                    "textSize": "40dp",
+                    "textColor": "#333333",
+                    "textMaxChar": 8,
+                    "textAlign": 2,
+                    "isAutoLineWrap": false
+                }
+            ],
+            "fileType": "absolute",
+            "fontStyle": "/system/etc/custom/fonts/FZFengYaSongS-GB-Regular.ttf",
+            "fontStyleDebug": "res/FZFengYaSongS-GB-Regular.ttf",
+            "layout": [
+                {
+                    "country_type": [1, 2],
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_right": true,
+                    "align_parent_bottom": true,
+                    "margin_left": "60dp",
+                    "margin_right": "0dp",
+                    "margin_bottom": "-6dp",
+                    "w": "match_parent",
+                    "h": "64dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_right": true,
+                    "align_parent_bottom": true,
+                    "margin_left": "60dp",
+                    "margin_right": "0dp",
+                    "margin_bottom": "-6dp",
+                    "w": "match_parent",
+                    "h": "64dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_right": true,
+                    "align_parent_bottom": true,
+                    "margin_left": "60dp",
+                    "margin_right": "0dp",
+                    "margin_bottom": "-10dp",
+                    "w": "match_parent",
+                    "h": "64dp"
+                }
+            ]
+        },
+        {
+            "id": "layer_frame_icon1",
+            "type": 2,
+            "tg_aod_hide": true,
+            "fileType": "absolute",
+            "src": "/system/etc/custom/frame/frame_1001/res/icon_1.png",
+            "srcDebug": "res/icon_1.png",
+            "sc": "#333333",
+            "layout": [
+                {
+                    "country_type": [1, 2],
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_bottom": true,
+                    "w": "60dp",
+                    "h": "60dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_bottom": true,
+                    "w": "60dp",
+                    "h": "60dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_bottom": true,
+                    "w": "50dp",
+                    "h": "50dp"
+                }
+            ]
+        },
+        {
+            "id": "layer_img1_fg_tt",
+            "type": 1,
+            "sc": "#ffffffff",
+            "hd": true,
+            "hasCanvasPath": true,
+            "canvasPath": [
+                {
+                    "x": "0dp",
+                    "y": "0dp",
+                    "isArc": false
+                },
+                {
+                    "x": "0dp",
+                    "y": "height-24dp",
+                    "isArc": false
+                },
+                {
+                    "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "x": "0dp",
+                    "y": "height-24dp",
+                    "isArc": false
+                },
+                {
+                    "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "x": "0dp",
+                    "y": "height",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "left_bottom"
+                },
+                {
+                    "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "x": "width-100dp",
+                    "y": "height",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "bottom_right"
+                },
+                {
+                    "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "x": "width-100dp",
+                    "y": "height-60dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "left_top"
+                },
+                {
+                    "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "x": "width",
+                    "y": "height-60dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "bottom_right"
+                },
+                {
+                    "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "x": "right",
+                    "y": "height-84dp",
+                    "isArc": false
+                },
+                {
+                    "x": "width",
+                    "y": "height-84dp",
+                    "isArc": false
+                },
+                {
+                    "x": "width",
+                    "y": "0dp",
+                    "isArc": false
+                },
+                {
+                    "x": "0dp",
+                    "y": "0dp",
+                    "isArc": false
+                }
+            ],
+            "hasCanvasPathArrayExt": true,
+            "canvasPathArrayExt":[
+                [
+                    {
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "0dp",
+                        "y": "height-24dp",
+                        "isArc": false
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "height-24dp",
+                        "isArc": false
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_bottom"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_top"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "right",
+                        "y": "height-84dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "width",
+                        "y": "height-84dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "width",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    }   
+                ],
+                [
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_bottom"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_top"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    }
+                ],
+                [
+                    {
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "0dp",
+                        "y": "height-24dp",
+                        "isArc": false
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "height-24dp",
+                        "isArc": false
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_bottom"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_top"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    }
+                ],
+                [
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_bottom"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width-100dp",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "left_top"
+                    },
+                    {
+                        "xyAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "width",
+                        "y": "height-60dp",
+                        "isArc": true,
+                        "arcRadius": "24dp",
+                        "arcOrientation": "bottom_right"
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "right",
+                        "y": "height-84dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "width",
+                        "y": "height-84dp",
+                        "isArc": false
+                    },
+                    {
+                        "x": "width",
+                        "y": "0dp",
+                        "isArc": false
+                    },
+                    {
+                        "xAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                        "x": "0dp",
+                        "y": "0dp",
+                        "isArc": false
+                    }
+                ]
+            ],
+            "layout": {
+                "ty": 1,
+                "margin_bottom_ext": {
+                    "layerId": "layer_frame_bg",
+                    "isFrameInner": false,
+                    "side": "bottom"
+                },
+                "margin_bottom": "0dp",
+                "w": "match_parent",
+                "h": "match_parent"
+            }
+        },
+        {
+            "id": "layer_img1_fg",
+            "type": 20,
+            "tt": 1,
+            "tg_noframedeep_hide": true,
+            "parent": "layer_img1_bg"
+        },
+        {
+            "id": "layer_unlock_clock",
+            "type": 21,
+            "tg_nodeep_up": 2,
+            "tg_nolock_hide": true,
+            "srcDebug": "res/clock720.png",
+            "layout": {
+                "ty": 2,
+                "x": 200,
+                "y": 270,
+                "w": 711,
+                "h": 320
+            }
+        },
+        {
+            "id": "layer_frame_icon_text_fg",
+            "type": 2,
+            "tg_aod_hide": false,
+            "fileType": "absolute",
+            "src": "/system/etc/custom/frame/frame_1001/res/frame_icon_text_fg.png",
+            "srcDebug": "res/frame_icon_text_fg.png",
+            "sc_align": "layer_bg",
+            "layout": [
+                {
+                    "country_type": [1, 2],
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_top": true,
+                    "margin_left": "0dp",
+                    "margin_top": "0dp",
+                    "w": "130dp",
+                    "h": "64dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_top": true,
+                    "margin_left": "0dp",
+                    "margin_top": "0dp",
+                    "w": "130dp",
+                    "h": "64dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_top": true,
+                    "margin_left": "0dp",
+                    "margin_top": "0dp",
+                    "w": "110dp",
+                    "h": "54dp"
+                }
+            ]
+        },
+        {
+            "id": "layer_frame_icon_text_bg",
+            "type": 2,
+            "tg_aod_hide": false,
+            "fileType": "absolute",
+            "src": "/system/etc/custom/frame/frame_1001/res/frame_icon_text_bg.png",
+            "srcDebug": "res/frame_icon_text_bg.png",
+            "sc_align": "layer_frame_icon1",
+            "layout": [
+                {
+                    "country_type": [1, 2],
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_top": true,
+                    "margin_left": "0dp",
+                    "margin_top": "0dp",
+                    "w": "130dp",
+                    "h": "64dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_top": true,
+                    "margin_left": "0dp",
+                    "margin_top": "0dp",
+                    "w": "130dp",
+                    "h": "64dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "align_parent": "layer_frame_bg",
+                    "align_parent_left": true,
+                    "align_parent_top": true,
+                    "margin_left": "0dp",
+                    "margin_top": "0dp",
+                    "w": "110dp",
+                    "h": "54dp"
+                }
+            ]
+        },
+        {
+            "id": "layer_img1_bg_tt",
+            "type": 1,
+            "sc": "#ffffffff",
+            "hd": true,
+            "hasCanvasPath": true,
+            "canvasPath": [
+                {
+                    "x": "0dp",
+                    "y": "50dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "top_left"
+                },
+                {
+                    "x": "0dp",
+                    "y": "height",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "left_bottom"
+                },
+                {
+                    "x": "width-100dp",
+                    "y": "height",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "bottom_right"
+                },
+                {
+                    "x": "width-100dp",
+                    "y": "height-60dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "left_top"
+                },
+                {
+                    "x": "width",
+                    "y": "height-60dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "bottom_right"
+                },
+                {
+                    "x": "width",
+                    "y": "0dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "right_top"
+                },
+                {
+                    "x": "100dp",
+                    "y": "0dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "top_left"
+                },
+                {
+                    "x": "100dp",
+                    "y": "50dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "right_bottom"
+                },
+                {
+                    "x": "0dp",
+                    "y": "50dp",
+                    "isArc": true,
+                    "arcRadius": "24dp",
+                    "arcOrientation": "top_left"
+                }
+            ],
+            "layout": {
+                "ty": 1,
+                "align_parent": "layer_frame_bg",
+                "margin_bottom": "0dp",
+                "w": "match_parent",
+                "h": "match_parent"
+            }
+        },
+        {
+            "id": "layer_img1_bg",
+            "type": 20,
+            "tt": 1,
+            "src": "../../res/origin_lock",
+            "srcDebug": "res/origin_lock",
+            "mask": "../../res/wallpaper_mask_lock.png",
+            "maskDebug": "res/wallpaper_mask_lock.png",
+            "facePath": "face.json",
+            "gt": 11,
+            "layout": {
+                "ty": 1,
+                "align_parent": "parent",
+                "w": "match_parent",
+                "h": "match_parent"
+            },
+            "frame_hide_area": {
+                "bound_size": "24dp",
+                "left_bottom_height": "100dp",
+                "right_bottom_height": "160dp"
+            },
+            "frameHideAreaArrayExt": [
+                {
+                    "left": "0dp",
+                    "topAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "top": "bottom-24dp",
+                    "widthAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "width": "left",
+                    "height": "1dp"
+                },
+                {
+                    "leftAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "left": "right",
+                    "topAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "top": "bottom-84dp",
+                    "widthAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "width": "left",
+                    "height": "1dp"
+                },
+                {
+                    "left": "0dp",
+                    "top": "0dp",
+                    "widthAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "width": "left",
+                    "heightAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "height": "top+50dp"
+                },
+                {
+                    "leftAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "left": "right",
+                    "top": "0dp",
+                    "widthAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "width": "left",
+                    "heightAlignCanvasRectByLayerId": "layer_img1_bg_tt",
+                    "height": "top"
+                }
+            ]
+        },
+        {
+            "id": "layer_frame_bg",
+            "type": 2,
+            "tg_aod_hide": true,
+            "fileType": "absolute",
+            "src": "/system/etc/custom/frame/frame_1001/res/frame_bg_3.png",
+            "srcDebug": "res/frame_bg_3.png",
+            "sc": "#333333",
+            "layout_x": [
+                {
+                    "country_type": 1,
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "alignment": "center",
+                    "margin_min": "24dp",
+                    "width_max": "438dp",
+                    "border_width_stretch": false,
+                    "border_width_left": "0dp",
+                    "border_width_right": "0dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "alignment": "center",
+                    "margin_min": "screenWidth*0.195679",
+                    "border_width_stretch": false,
+                    "border_width_left": "0dp",
+                    "border_width_right": "0dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "alignment": "center",
+                    "margin_min": "screenWidth*0.195679",
+                    "border_width_stretch": false,
+                    "border_width_left": "0dp",
+                    "border_width_right": "0dp"
+                },
+                {
+                    "country_type": 2,
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "alignment": "center",
+                    "margin_min": "screenWidth*0.066667",
+                    "width_max": "438dp",
+                    "width_max_inner_screen": "screenWidth*0.6876",
+                    "border_width_stretch": false,
+                    "border_width_left": "0dp",
+                    "border_width_right": "0dp"
+                }
+            ],
+            "layout_x_landscape": [
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "alignment": "center",
+                    "margin_min": "screenWidth*0.276785",
+                    "border_width_stretch": false,
+                    "border_width_left": "0dp",
+                    "border_width_right": "0dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "alignment": "center",
+                    "margin_min": "screenWidth*0.276785",
+                    "border_width_stretch": false,
+                    "border_width_left": "0dp",
+                    "border_width_right": "0dp"
+                }
+            ],
+            "layout_y": [
+                {
+                    "country_type": 1,
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "alignment": "center",
+                    "h": "wrap_content",
+                    "margin_top": [
+                        {
+                            "tg_xzj": false,
+                            "val": "234dp"
+                        },
+                        {
+                            "tg_xzj": true,
+                            "val": "296dp"
+                        }
+                    ],
+                    "margin_bottom": "100dp",
+                    "border_width_stretch": false,
+                    "border_width_top": "0dp",
+                    "border_width_bottom": "0dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "alignment": "center",
+                    "h": "wrap_content",
+                    "margin_top": [
+                        {
+                            "tg_xzj": false,
+                            "val": "screenHeight*0.283929"
+                        },
+                        {
+                            "tg_xzj": true,
+                            "val": "296dp"
+                        }
+                    ],
+                    "margin_bottom": "screenHeight*0.144642",
+                    "border_width_stretch": false,
+                    "border_width_top": "0dp",
+                    "border_width_bottom": "0dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "alignment": "center",
+                    "h": "wrap_content",
+                    "margin_top": [
+                        {
+                            "tg_xzj": false,
+                            "val": "screenHeight*0.283929"
+                        },
+                        {
+                            "tg_xzj": true,
+                            "val": "296dp"
+                        }
+                    ],
+                    "margin_bottom": "screenHeight*0.144642",
+                    "border_width_stretch": false,
+                    "border_width_top": "0dp",
+                    "border_width_bottom": "0dp"
+                },
+                {
+                    "country_type": 2,
+                    "device_type": [11, 12, 13],
+                    "ty": 1,
+                    "alignment": "center",
+                    "h": "wrap_content",
+                    "margin_top": [
+                        {
+                            "tg_xzj": false,
+                            "val": "screenHeight*0.2925"
+                        },
+                        {
+                            "tg_xzj": true,
+                            "val": "296dp"
+                        }
+                    ],
+                    "margin_bottom": "screenHeight*0.125",
+                    "border_width_stretch": false,
+                    "border_width_top": "0dp",
+                    "border_width_bottom": "0dp"
+                }
+            ],
+            "layout_y_landscape": [
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": [31, 32, 33],
+                    "ty": 1,
+                    "alignment": "center",
+                    "h": "wrap_content",
+                    "margin_top": [
+                        {
+                            "tg_xzj": false,
+                            "val": "screenHeight*0.355781"
+                        },
+                        {
+                            "tg_xzj": true,
+                            "val": "296dp"
+                        }
+                    ],
+                    "margin_bottom": "screenHeight*0.135959",
+                    "border_width_stretch": false,
+                    "border_width_top": "0dp",
+                    "border_width_bottom": "0dp"
+                },
+                {
+                    "country_type": [1, 2],
+                    "device_type": 14,
+                    "pad_type": 34,
+                    "ty": 1,
+                    "alignment": "center",
+                    "h": "wrap_content",
+                    "margin_top": [
+                        {
+                            "tg_xzj": false,
+                            "val": "screenHeight*0.355781"
+                        },
+                        {
+                            "tg_xzj": true,
+                            "val": "296dp"
+                        }
+                    ],
+                    "margin_bottom": "screenHeight*0.135959",
+                    "border_width_stretch": false,
+                    "border_width_top": "0dp",
+                    "border_width_bottom": "0dp"
+                }
+            ]
+        },
+        {
+            "id": "layer_bg",
+            "type": 1,
+            "tg_aod_hide": true,
+            "sc": "#F5F5F5",
+            "layout": {
+                "ty": 1,
+                "w": "match_parent",
+                "h": "match_parent"
+            }
+        }
+    ],
+    "dump_lock": [
+        {
+            "nm": "suck_lock.png",
+            "crop_type": 2,
+            "ly": [
+                "layer_frame_text1",
+                "layer_frame_icon1",
+                "layer_img1_fg_tt",
+                "layer_img1_fg",
+                "layer_frame_icon_text_fg",
+                "layer_frame_icon_text_bg",
+                "layer_img1_bg_tt",
+                "layer_img1_bg",
+                "layer_frame_bg",
+                "layer_bg"
+            ]
+        },
+        {
+            "nm": "user_lock.jpg",
+            "crop_type": 0,
+            "ly": [
+                "layer_frame_text1",
+                "layer_frame_icon1",
+                "layer_img1_fg_tt",
+                "layer_img1_fg",
+                "layer_frame_icon_text_fg",
+                "layer_frame_icon_text_bg",
+                "layer_img1_bg_tt",
+                "layer_img1_bg",
+                "layer_frame_bg",
+                "layer_bg"
+            ]
+        },
+        {
+            "nm": "foreground_lock.png",
+            "crop_type": 1,
+            "ly": [
+                "layer_frame_text1",
+                "layer_frame_icon1",
+                "layer_img1_fg_tt",
+                "layer_img1_fg",
+                "layer_frame_icon_text_fg",
+                "layer_frame_icon_text_bg",
+                "layer_img1_bg_tt",
+                "layer_img1_bg"
+            ]
+        },
+        {
+            "nm": "decoration_lock.png",
+            "crop_type": 3,
+            "ly": [
+                "layer_frame_bg"
+            ]
+        },
+        {
+            "nm": "background_lock.jpg",
+            "crop_type": 0,
+            "ly": [
+                "layer_bg"
+            ]
+        }
+    ],
+    "dump_w": {
+        "nm": "user_desk.jpg"
+    },
+    "dump_a": {
+        "nm": "user_aod.png"
+    }
+}

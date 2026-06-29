@@ -1,0 +1,4 @@
+service vivoatcmd-hal-1 /system/bin/hw/vendor.factory.hardware.vivoatcmd-service
+    class hal
+    user root
+    group system radio cache sdcard_rw sdcard_r media_rw

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application_config>
+    <package name="com.tencent.qqmusic" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.ss.android.article.news" main="" enable="true" mode="1" double_resume="true" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.baidu.searchbox" main="com.baidu.searchbox.MainActivity;com.baidu.searchbox.BoxBrowserActivity" enable="true" mode="1" double_resume="true" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.zhihu.android" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.sina.weibo" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="io.dushu.fandengreader" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.eusoft.ting.en" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.luojilab.player" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.qiyi.video" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="tv.danmaku.bili" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.duowan.kiwi" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.cmcc.cmvideo" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.netease.cloudmusic" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="cn.kuwo.player" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.baidu.netdisk" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.shinyv.cnr" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.sinyee.babybus.recommendapp" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.ifeng.fhdt" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.tencent.news" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.eastmoney.android.berlin" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.tencent.qqlive" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.hunantv.imgo.activity" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.youku.phone" main="" enable="true" mode="0" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.ss.android.ugc.aweme" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.smile.gifmaker" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="com.ss.android.article.video" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+    <package name="air.tv.douyu.android" main="" enable="true" mode="1" double_resume="false" video_auto_fullscreen="true" is_scale="false" need_relaunch="false" draggable="false" />
+</application_config>

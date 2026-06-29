@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0163" />
+
+    <animationList>
+        <symbolAnimation layerCnt="5" scalePivotLayerIndex="2" >
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup>
+
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0" layersIndex="0,1,2,3,4" interpolator="custom(0.42, 0.00, 1.00, 1.00)"  />
+                    <animationItem animationType="delay" duration="17" />
+                    <animationItem animationType="scale" duration="217" to="1.15" layersIndex="0,1,2,3,4" interpolator="custom(0.14, 0.08, 0.31, 1.00)" />
+                    <animationItem animationType="scale" duration="267" to="1" layersIndex="0,1,2,3,4" interpolator="custom(0.14, 0.36, 0.31, 0.98)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="1"  />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0x000000" />
+                </serialGroup>
+
+
+                <!-- 上斜线 -->
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="83" to="65.38" layersIndex="3" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+                <serialGroup>
+                    <animationItem animationType="translateY" duration="83" to="-36.4919" layersIndex="3" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+
+                <!-- 箭头 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="150" />
+                    <animationItem animationType="glyphAnimProgress" duration="217" to="149" interpolator="custom(0.17, 0.00, 0.83, 0.83)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

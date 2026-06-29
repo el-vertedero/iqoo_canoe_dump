@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!--泛南亚PSA：缅甸（MM）、尼泊尔（NP）、斯里兰卡（LK）、不丹（BT）、柬埔寨（KH）、新加坡（SG）、巴布亚新几内亚（PG）【香港（HK）先保留国家码，不合并区域】-->
+	<!--通话录音配置  支持：缅甸（MM）、尼泊尔（NP）、斯里兰卡（LK）、柬埔寨（KH）、新加坡（SG）-->
+	<!--通话录音配置  不支持：不丹（BT）、巴布亚新几内亚（PG）-->
+	<feature name= "com.google.android.apps.dialer.call_recording_audio" 
+	defaultValue = "true"
+	available = "MM,NP,LK,KH,SG"
+	unavailable = "BT,PG"
+	/>
+</config>

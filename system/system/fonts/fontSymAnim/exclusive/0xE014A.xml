@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE014A" />
+
+    <animationList>
+        <symbolAnimation layerCnt="6">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+
+                <animationItem animationType="translateX" duration="0" to="-200" layersIndex="2" />
+
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="160" to="150"  interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="40" to="200"  interpolator="custom(0.21, 0.00, 0.56, 0.40)" />
+                    <animationItem animationType="glyphAnimProgress" duration="160" to="250"  interpolator="custom(0.33, 0.33, 0.84, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="300"  interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="349"  interpolator="custom(0.17, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+                <!-- 三个点 -->
+                <animationItem animationType="alpha" duration="120" to="0.0" layersIndex="5" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                <!-- 三个点对应的圆 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="200" />
+                    <animationItem animationType="alpha" duration="0" to="0.0" layersIndex="3,4"  />
+                    <animationItem animationType="translateX" duration="0" to="-200" layersIndex="3,4"  />
+                </serialGroup>
+
+                <!-- + -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="1" />
+                    <animationItem animationType="delay" duration="200" />
+                    <animationItem animationType="alpha" duration="160" to="1" layersIndex="1" interpolator="custom(0.33, 0.00, 0.83, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

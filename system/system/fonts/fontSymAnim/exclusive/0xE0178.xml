@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0178" />
+
+    <animationList>
+        <symbolAnimation layerCnt="5">
+            <originStatus glyphAnimProgress="100" >
+                <layer index="0" alpha="0.001" />
+                <layer index="1" alpha="0.001" />
+            </originStatus>
+            <parallelGroup >
+
+                <!--  扔掉小挡板  -->
+                <animationItem animationType="translateX" duration="0" to="-200" layersIndex="4" />
+
+                <!--  底部信号  -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="0"   />
+                    <animationItem animationType="alpha" duration="418" to="1" layersIndex="0"  interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                    <animationItem animationType="delay" duration="316" />
+                    <animationItem animationType="alpha" duration="150" to="0" layersIndex="0"  interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                </serialGroup>
+
+                <!--  上部信号  -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="1"   />
+                    <animationItem animationType="delay" duration="183" />
+                    <animationItem animationType="alpha" duration="418" to="1" layersIndex="1"  interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                    <animationItem animationType="delay" duration="132" />
+                    <animationItem animationType="alpha" duration="150" to="0" layersIndex="1"  interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

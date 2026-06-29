@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE010D" />
+
+    <animationList>
+        <symbolAnimation layerCnt="3">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+                <!-- 小下星星 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="147" />
+                    <animationItem animationType="glyphAnimProgress" duration="370" to="150" layersIndex="0" interpolator="custom(0.33, 0.00, 0.57, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="340" to="200" layersIndex="0" interpolator="custom(0.40, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 小上星星 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="306" />
+                    <animationItem animationType="glyphAnimProgress" duration="371" to="150" layersIndex="1" interpolator="custom(0.33, 0.00, 0.57, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="340" to="200" layersIndex="1" interpolator="custom(0.40, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 大星星 -->
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="367" to="150" layersIndex="2" interpolator="custom(0.33, 0.00, 0.57, 1.00)" />
+                    <animationItem animationType="glyphAnimProgress" duration="344" to="200" layersIndex="2" interpolator="custom(0.40, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+</fontSymbolAnimation>

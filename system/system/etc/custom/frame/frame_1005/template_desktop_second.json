@@ -1,0 +1,119 @@
+{
+  "version": "1.3.1",
+  "id": "template_filter_style",
+  "preview": "thumb_0.jpg",
+  "user_img_num": 1,
+  "isDeepSupport": true,
+  "isImgDeepSupport": true,
+  "isDeepOpened": true,
+  "isWallpaperFollowUnlock": false,
+  "assets": [],
+  "aodLayout": [
+    {
+      "country_type": 1,
+      "device_type": 21,
+      "width": "120dp",
+      "height": "120dp",
+      "gt_type": 2,
+      "gt_rect": {
+        "left": "0dp",
+        "top": "115dp",
+        "right": "width",
+        "bottom": "width+115dp"
+      },
+      "gt_rect_wide": {
+        "left": "0dp",
+        "top": "41dp",
+        "right": "width",
+        "bottom": "width+41dp"
+      }
+    },
+    {
+      "country_type": 2,
+      "device_type": 21,
+      "width": "130dp",
+      "height": "130dp",
+      "gt_type": 2,
+      "gt_rect": {
+        "left": "0dp",
+        "top": "115dp",
+        "right": "width",
+        "bottom": "width+115dp"
+      },
+      "gt_rect_wide": {
+        "left": "0dp",
+        "top": "41dp",
+        "right": "width",
+        "bottom": "width+41dp"
+      }
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer_img1_fg",
+      "type": 20,
+      "tg_nodeep_hide": false,
+      "parent": "layer_img1_bg"
+    },
+    {
+      "id": "layer_unlock_clock",
+      "type": 21,
+      "tg_nodeep_up": 1,
+      "tg_nolock_hide": true,
+      "srcDebug": "res/clock720.png",
+      "layout": {
+        "ty": 2,
+        "x": 133,
+        "y": 180,
+        "w": 474,
+        "h": 213
+      }
+    },
+    {
+      "id": "layer_img1_bg",
+      "type": 20,
+      "src": "res/origin_desk",
+      "srcDebug": "res/origin_desk",
+      "mask": "res/wallpaper_mask_desk.png",
+      "maskDebug": "res/wallpaper_mask_desk.png",
+      "facePath": "face.json",
+      "gt": 10,
+      "layout": {
+        "ty": 1,
+        "w": "match_parent",
+        "h": "match_parent"
+      }
+    }
+  ],
+  "dump_lock": [
+    {
+      "nm": "suck_lock.png",
+      "crop_type": 2,
+      "ly": [
+        "layer_img1_fg",
+		"layer_img1_bg"
+      ]
+    },
+    {
+      "nm": "layer_deep_lock.png",
+      "crop_type": 1,
+      "ly": [
+        "layer_img1_fg"
+      ]
+    },
+    {
+      "nm": "user_lock.jpg",
+      "crop_type": 0,
+      "ly": [
+        "layer_img1_fg",
+        "layer_img1_bg"
+      ]
+    }
+  ],
+  "dump_w": {
+    "nm": "user_desk.jpg"
+  },
+  "dump_a": {
+    "nm": "user_aod.png"
+  }
+}

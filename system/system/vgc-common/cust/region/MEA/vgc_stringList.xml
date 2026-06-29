@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <list name="vgc_region_limit_list">
+        <item value="JO"/>
+        <item value="AE"/>
+        <item value="YE"/>
+        <item value="IQ"/>
+        <item value="GH"/>
+        <item value="CI"/>
+        <item value="TZ"/>
+        <item value="EG"/>
+        <item value="KE"/>
+        <item value="NG"/>
+        <item value="AO"/>
+        <item value="TN"/>
+        <item value="DZ"/>
+    </list>
+    <list name="setupwizard_region_recommend_list">
+        <item value="EG"/>
+        <item value="CI"/>
+        <item value="AO"/>
+        <item value="TZ"/>
+    </list>
+</config>

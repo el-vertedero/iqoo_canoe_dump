@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="appear" layerInterval="50"
+        playbackOrder="parallel" />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus  gradient="SweepGradientData|0.5,0.5|0xffffd8a8,0xffffabab,0xffd46c6c,0xffffd8a8|0,0.2,0.8,1|CLAMP" />
+            <serialGroup delay="0" interpolator="ease">
+                <animationItem animationType="gradient" duration="2000" to="SweepGradientData|0.5,0.5|0xffffd8a8,0xffffabab,0xffd46c6c,0xffffd8a8|0,0.8,0.9,1|CLAMP" />
+                <animationItem animationType="gradient" duration="2000" to="SweepGradientData|0.5,0.5|0xffffd8a8,0xffffabab,0xffd46c6c,0xffffd8a8|0,0.2,0.9,1|CLAMP" />
+                <animationItem animationType="gradient" duration="2000" to="SweepGradientData|0.5,0.5|0xffffd8a8,0xffffabab,0xffd46c6c,0xffffd8a8|0,0.5,0.8,1|CLAMP" />
+                <animationItem animationType="gradient" duration="2000" to="SweepGradientData|0.5,0.5|0xffffd8a8,0xff3b82f6,0xffd46c6c,0xffffd8a8|0,0.3,0.7,1|CLAMP" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+
+
+</fontSymbolAnimation>

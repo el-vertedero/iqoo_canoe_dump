@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE011E"  />
+    <animationList>
+        <symbolAnimation layerCnt="1" scalePivotLayerIndex="3" >
+            <originStatus  >
+            </originStatus>
+
+            <serialGroup>
+                <animationItem animationType="scale" duration="200" to="1.13" interpolator="custom(0.25, 0.42, 0.30, 1.00)" />
+                <animationItem animationType="scale" duration="250" to="1" interpolator="custom(0.25, 0.42, 0.30, 1.00)" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

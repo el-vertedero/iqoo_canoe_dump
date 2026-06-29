@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0181" />
+
+    <animationList>
+        <symbolAnimation layerCnt="10" scalePivotLayerIndex="7" >
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="483" to="0.9" layersIndex="7,8" interpolator="custom(0.11, 0.04, 0.20, 1.00)" />
+                    <animationItem animationType="scale" duration="517" to="1" layersIndex="7,8" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 两个水滴横线 -->
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="498" to="19.41" layersIndex="1,5" />
+                    <animationItem animationType="translateX" duration="2" to="0" layersIndex="1,5" />
+                    <animationItem animationType="translateX" duration="505" to="19.41" layersIndex="1,5" />
+                </serialGroup>
+
+                <!-- 下水滴 -->
+                <serialGroup>
+                    <animationItem animationType="translateY" duration="0" to="150" layersIndex="3" />
+                    <animationItem animationType="delay" duration="250" />
+                    <animationItem animationType="translateY" duration="383" to="92.67" layersIndex="0,1,2" interpolator="custom(0.75, 0.13, 0.82, 0.62)" />
+                </serialGroup>
+
+                <!-- 上水滴 -->
+                <serialGroup>
+                    <animationItem animationType="translateY" duration="0" to="-93.6" layersIndex="4,5,6"  />
+                    <animationItem animationType="delay" duration="383" />
+                    <animationItem animationType="translateY" duration="367" to="0" layersIndex="4,5,6" interpolator="custom(0.28, 0.60, 0.20, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

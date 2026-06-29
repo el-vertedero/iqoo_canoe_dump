@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <list name="settings_manageapp_hide_system_app">
+        <item value="com.vivo.customtool"/>
+        <item value="com.vivo.cota"/>
+    </list>
+    <list name="framework_data_save_white_list_except_system_app">
+        <item value="com.vivo.customtool"/>
+        <item value="com.vivo.cota"/>
+        <item value="com.payjoy.status.df"/>
+        <item value="com.trustonic.telecoms.standard.dlc"/>
+        <item value="com.trustonic.telecoms.client.standard.dlc.playground"/>
+        <item value="co.sitic.pp"/>
+        <item value="com.rjio.slc"/>
+        <item value="com.google.android.devicelockcontroller"/>
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+        <item value="com.safaricom.android.simupoa_android"/>
+    </list>
+    <list name="settings_block_background_data">
+        <item value="com.vivo.customtool"/>
+        <item value="com.vivo.cota"/>
+        <item value="com.payjoy.status.df"/>
+        <item value="com.trustonic.telecoms.standard.dlc"/>
+        <item value="com.trustonic.telecoms.client.standard.dlc.playground"/>
+        <item value="co.sitic.pp"/>
+        <item value="com.rjio.slc"/>
+        <item value="com.google.android.devicelockcontroller"/>
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+        <item value="com.safaricom.android.simupoa_android"/>
+    </list>
+    <list name="settings_block_unrestricted_data">
+        <item value="com.vivo.customtool"/>
+        <item value="com.vivo.cota"/>
+        <item value="com.payjoy.status.df"/>
+        <item value="com.trustonic.telecoms.standard.dlc"/>
+        <item value="com.trustonic.telecoms.client.standard.dlc.playground"/>
+        <item value="co.sitic.pp"/>
+        <item value="com.rjio.slc"/>
+        <item value="com.google.android.devicelockcontroller"/>
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+        <item value="com.safaricom.android.simupoa_android"/>
+    </list>
+    <list name="settings_battery_restrict_pkglist">
+        <item value="com.vivo.customtool"/>
+        <item value="com.vivo.cota"/>
+        <item value="com.payjoy.status.df"/>
+        <item value="com.trustonic.telecoms.standard.dlc"/>
+        <item value="com.trustonic.telecoms.client.standard.dlc.playground"/>
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+        <item value="com.safaricom.android.simupoa_android"/>
+    </list>
+    <list name="wifi_customize_passpoint_configuration">
+        <item value="attmexwifi.com;AT&amp;T MX Wi-Fi;334050;4F4E45FFFFFFFFFFFF;wlan.mnc050.mcc334.3gppnetwork.org;AKA;pki.securewifi.att.com.mx/devices/download/wifioattcommx.json"/>
+        <item value="attmexwifi.com;AT&amp;T MX Wi-Fi;334050;FFFFFFFFFFFFFFFFFF;wlan.mnc050.mcc334.3gppnetwork.org;AKA;pki.securewifi.att.com.mx/devices/download/wifioattcommx.json"/>
+        <item value="attmexwifi.com;AT&amp;T MX Wi-Fi;334050;4154543547FFFFFFFF;wlan.mnc050.mcc334.3gppnetwork.org;AKA;pki.securewifi.att.com.mx/devices/download/wifioattcommx.json"/>
+    </list>
+    <list name="rms_protect_list">
+        <item value="com.trustonic.telecoms.standard.dlc,0,1001"/>
+        <item value="com.google.android.devicelockcontroller,0,1001"/>
+        <item value="com.payjoy.access,0,1001"/>
+        <item value="com.safaricom.android.simupoa_android,0,1001"/>
+    </list>
+
+    <list name="common_settings_block_disable">
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+    </list>
+    <list name="common_settings_block_forcestop">
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+    </list>
+    <list name="common_settings_block_uninstall_updates">
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+    </list>
+    <list name="common_settings_block_uninstall">
+        <item value="com.payjoy.access"/>
+    </list>
+    <list name="common_settings_block_clear_cache">
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+    </list>
+    <list name="common_settings_block_clear_data">
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+    </list>
+    <list name="vgc_frozen_exempt_list">
+        <item value="com.payjoy.access"/>
+        <item value="com.payjoy.status"/>
+    </list>
+    <list name="settings_wifi_network_antiflash_pkglist">
+        <item value="com.vivo.customtool"/>
+        <item value="com.vivo.cota"/>
+    </list>
+    <list name="pm_block_delete_list">
+        <item value="com.vivo.customtool"/>
+    </list>
+    <list name="pm_block_disable_component_list">
+        <item value="com.bbk.updater"/>
+        <item value="com.vivo.customtool"/>
+    </list>
+    <list name="pm_block_core_apps_list">
+        <item value="com.bbk.updater"/>
+        <item value="com.vivo.daemonService"/>
+        <item value="com.vivo.cota"/>
+    </list>
+    <list name="pm_block_disable_component_all_list">
+        <item value="com.vivo.daemonService"/>
+        <item value="com.vivo.cota"/>
+    </list>
+    <list name="ams_adb_block_forcestop">
+        <item value="co.sitic.pp"/>
+    </list>
+</config>

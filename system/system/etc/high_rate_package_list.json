@@ -1,0 +1,36 @@
+{
+	"normal_game_highest_list":
+	[
+		"1#com.miHoYo.Yuanshen",
+		"1#com.tencent.tmgp.sgame",
+		"1#com.tencent.tmgp.pubgmhd",
+		"1#com.tencent.tmgp.cod",
+		"1#com.tencent.tmgp.cf",
+		"1#com.dts.freefireth",
+		"1#com.mobile.legends",
+		"1#com.tencent.iglite",
+		"1#com.tencent.ig",
+		"1#com.garena.game.kgth",
+		"1#com.garena.game.codm",
+		"1#com.activision.callofduty.shooter"
+	],
+	"normal_game_list":
+	[
+		"com.tencent.tmgp.sgame",
+		"com.tencent.tmgp.pubgmhd",
+		"com.tencent.tmgp.cod",
+		"com.tencent.tmgp.cf",
+		"com.dts.freefireth",
+		"com.mobile.legends",
+		"com.tencent.iglite",
+		"com.tencent.ig",
+		"com.garena.game.kgth",
+		"com.garena.game.codm",
+		"com.activision.callofduty.shooter"
+	],
+
+	"no_battle_state_list":
+	[
+		"com.miHoYo.Yuanshen"
+	]
+}

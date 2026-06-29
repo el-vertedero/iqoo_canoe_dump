@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE010C" />
+    <animationList>
+        <symbolAnimation layerCnt="4" rotPivotLayerIndex="2">
+            <originStatus alpha="1" glyphAnimProgress="100">
+            </originStatus>
+            <parallelGroup>
+                <animationItem animationType="alpha" layersIndex="3" duration="0" to="1.0"/>
+                <animationItem animationType="alpha" layersIndex="1" duration="0" to="1.0"/>
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="300" to="149" interpolator="custom(0.28, 0.40, 0.20, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="rotationZ" duration="133" to="-13" interpolator="custom(0.33, 0.00, 0.31, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="250" to="2" interpolator="custom(0.33, 0.00, 0.48, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="333" to="-1" interpolator="custom(0.33, 0.00, 0.52, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="283" to="0" interpolator="custom(0.33, 0.00, 0.50, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="133" to="5.058461538"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.18, 1.00)" />
+                    <animationItem animationType="translateX" duration="250" to="-3.843692308"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.41, 1.00)" />
+                    <animationItem animationType="translateX" duration="333" to="-0.029538462"  layersIndex="0" interpolator="custom(0.33, 0.00, 0.47, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

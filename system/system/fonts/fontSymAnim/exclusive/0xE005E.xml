@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE005E" />
+
+    <animationList>
+        <symbolAnimation layerCnt="2" scalePivotLayerIndex="2">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0"  interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="17" />
+                    <animationItem animationType="scale" duration="217" to="1.1" interpolator="custom(0.14, 0.00, 0.45, 1.00)"/>
+                    <animationItem animationType="scale" duration="250" to="1.0" interpolator="custom(0.11, 0.00, 0.42, 1.00)"/>
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xF77FF" interpolator="custom(0.17, 0.06, 0.83, 0.94)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="167" to="0" interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                    <animationItem animationType="delay" duration="17" />
+                    <animationItem animationType="alpha" duration="167" to="1" interpolator="custom(0.17, 0.17, 0.83, 0.83)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="translateY" duration="17" to="11.29" layersIndex="1" interpolator="custom(0.25, 0.01, 0.83, 1.00)" />
+                    <animationItem animationType="translateY" duration="467" to="0" layersIndex="1" interpolator="custom(0.25, 0.39, 0.25, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+</fontSymbolAnimation>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<customlists>
+	<clist name="transparent_white_list">
+		<item name="SideSlideGestureBar-Right" value="com.vivo.upslide" />
+		<item name="SideSlideGestureBar-Left" value="com.vivo.upslide" />
+		<item name="SideSlideGestureBar-Bottom" value="com.vivo.upslide" />
+		<item name="GameCubeSideView" value="com.vivo.gamecube" />
+        <item name="global_except_root_window" value="com.vivo.extractannotate" />
+	</clist>
+	
+	<clist name="transparent_black_list">
+        <item name="com.szkct.weloopbtsmartdevice.activity.SinglePixelActivity" value="com.kct.fundo.btnotification" />
+        <item name="com.qihoo360.mobilesafe.keepalive.ShowOnScreenOffActivity" value="com.qihoo360.mobilesafe" />
+        <item name="com.ludashi.watchdog.keepalive.OnePixelActivity" value="com.ludashi.benchmark" />
+		<item name="com.a99chuxing.nettaxi_driver.activity.OnePxActivity" value="com.a99chuxing.nettaxi_driver" />
+		<item name="com.weimob.message.alive.SinglePixelActivity" value="com.weimob.saas" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="color.phone.led.flash.call.screen" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.ddmh.livewallpaper" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.sixsix.call" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.xmiles.callshow" />
+		<item name="net.kfw.kfwknight.keepLive.KeepLiveActivity" value="net.kfw.kfwknight" />
+		<item name="com.de.icshow.core.daemon.onepx.OnePixelActivity" value="com.laidian.xiu" />
+		<item name="com.foton.repair.daemon.KeepLiveActivity" value="com.foton.repair" />
+		<item name="cmcc.app.nettain.v2.receiver.OnepxActivity" value="cmcc.app.nettain" />
+		<item name="com.sinoiov.cwza.core.activity.KeepLiveActivity" value="com.vehicles.activities" />
+		<item name="com.zxn.process.activity.OnePixelActivity" value="com.liantuo.xiaojingling.newsi" />
+		<item name="com.jd.pushsdk.keeplive.onepx.KeepLiveActivity" value="com.jd.mrd.delivery" />
+		<item name="com.xuexiang.keeplive.activity.OnePixelActivity" value="sms.com.smsapp" />
+		<item name="com.muyuan.ringtone.callshow.keepalive.onepixel.OnepxActivity" value="com.muyuan.android.ringtone" />
+		<item name="android.supports.v12.v.OnePiexlActivity" value="com.ustcinfo.ict.hbPlatform" />
+		<item name="com.qukandian.video.qkdbase.activity.SinglePixelActivity" value="com.jt.hanhan.video" />
+		<item name="com.guazi.im.main.daemon.DaemonActivity" value="com.guazi.im.main" />
+		<item name="com.paic.mo.framework.login.manager.push.OnePxActivity" value="com.paic.mo.client" />
+		<item name="com.ijinshan.browser.protect.OnepxActivity" value="com.ijinshan.browser_fast" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.animation.show" />
+		<item name="com.app.domj.library.androidkeeplive.PixelActivity" value="com.jingcai.apps.qualitydev" />
+		<item name="com.uxdc.tracker.ui.keepalive.OnePixelActivity" value="com.taidu8.yunding" />
+		<item name="com.baijiaxiu.worker.keepalive.activity.OnePixelActivity" value="com.baijiaxiu.worker" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.anbigvideocall.show" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.yilahuo.driftbottle" />
+		<item name="com.haofang.jgzx.ui.module.attendance.activity.OnePiexlActivity" value="com.haofang.jgzx" />
+		<item name="com.meta.xyx.sync.plan.onepix.OPActivity" value="com.meta.xyx" />
+		<item name="com.sangfor.ssl.miniconnect.activities.OnePixelActivity" value="com.sangfor.ssl.miniconnect" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.starbaba.starbaba" />
+		<item name="android.supports.v12.v.OnePiexlActivity" value="com.chinatelecom.ah.NewZhiHuiYingWei" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.femorning.news" />
+		<item name="com.fanjun.keeplive.activity.OnePixelActivity" value="com.lenzetech.kindelf" />
+		<item name="com.ecej.platformemp.keepalive.act.SinglePixelActivity" value="com.ecej.platformemp" />
+		<item name="com.wlqq.processkeepalive.activity.TransparentActivity" value="com.wlqq.intl" />
+		<item name="com.cpgoo.powerdog.keepLive.PixelActivity" value=" com.cpgoo.powerdog" />
+		<item name="android.supports.v12.v.OnePiexlActivity" value="com.bobinfo.wateroffer" />
+		<item name="com.bobinfo.base.ui.SinglePixelActivity" value="com.ustc.mobile.NewGongDanChuLi" />
+	</clist>
+	
+	<clist name="policy_switches">
+		<item name="input_check_switch" value="on"/>
+		<item name="incall_activty_check_switch" value="on"/>
+		<item name="punish_switch" value="on"/>
+		<item name="check_all_window_switch" value="off"/>
+		<item name="try_simulate_back_key_enabled" value="on"/>
+	</clist>
+	
+	<clist name="black_window_check_from_no_focus_time_out_policy">
+		<item name="force_background_recover_enabled" value="true" />
+		<item name="force_foreground_recover_enabled" value="true" />
+		<item name="background_recover_timeout" value="5000" />
+		<item name="foreground_recover_timeout" value="10000" />
+	</clist>
+</customlists>
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE003E" />
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="2" >
+
+            <drawAnimDataList>
+                <drawAnimData layers="1" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="49" contourIndex1="0" pointIndex1="47" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="17" contourIndex1="0" pointIndex1="18" acrossBasePoint1="1" />
+                </drawAnimData>
+            </drawAnimDataList>
+
+
+            <originStatus drawHead="0" drawTail="0">
+            </originStatus>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="alpha" layersIndex="1" duration="0" to="1.0"/>
+                <animationItem animationType="alpha" layersIndex="0" duration="0" to="0.5"/>
+                <animationItem animationType="drawHead" layersIndex="1" duration="383" to="1.0"/>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+</fontSymbolAnimation>

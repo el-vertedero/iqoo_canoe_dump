@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animRegistry>
+
+    <animItem id="0xE0201" type="exclusive">exclusive/0xE0201.xml</animItem>
+    <animItem id="0xE019A" type="exclusive">exclusive/0xE019A.xml</animItem>
+    <animItem id="0xE019B" type="exclusive">exclusive/0xE019B.xml</animItem>
+    <animItem id="0xE019C" type="exclusive">exclusive/0xE019C.xml</animItem>
+    <animItem id="0xE019D" type="exclusive">exclusive/0xE019D.xml</animItem>
+    <animItem id="0xE019E" type="exclusive">exclusive/0xE019E.xml</animItem>
+    <animItem id="0xE019F" type="exclusive">exclusive/0xE019F.xml</animItem>
+    <animItem id="0xE0200" type="exclusive">exclusive/0xE0200.xml</animItem>
+
+    <!--    浏览器 BEGIN   -->
+    <animItem id="0xE0197" type="exclusive">exclusive/0xE0197.xml</animItem>
+    <animItem id="0xE0198" type="exclusive">exclusive/0xE0198.xml</animItem>
+    <!--    浏览器 END   -->
+
+    <!--    游戏中心Tabbar BEGIN   -->
+    <animItem id="0xE0187" type="exclusive">exclusive/0xE0187.xml</animItem>
+    <animItem id="0xE0188" type="exclusive">exclusive/0xE0188.xml</animItem>
+    <animItem id="0xE0189" type="exclusive">exclusive/0xE0189.xml</animItem>
+    <animItem id="0xE018A" type="exclusive">exclusive/0xE018A.xml</animItem>
+    <animItem id="0xE018B" type="exclusive">exclusive/0xE018B.xml</animItem>
+    <animItem id="0xE018C" type="exclusive">exclusive/0xE018C.xml</animItem>
+    <animItem id="0xE0199" type="exclusive">exclusive/0xE0199.xml</animItem>
+    <!--    游戏中心Tabbar END   -->
+
+    <!--    原子岛 BEGIN   -->
+    <animItem id="0xE016E" type="exclusive">exclusive/0xE016E.xml</animItem>
+    <animItem id="0xE016F" type="exclusive">exclusive/0xE016F.xml</animItem>
+    <animItem id="0xE0170" type="exclusive">exclusive/0xE0170.xml</animItem>
+    <animItem id="0xE0171" type="exclusive">exclusive/0xE0171.xml</animItem>
+    <animItem id="0xE0172" type="exclusive">exclusive/0xE0172.xml</animItem>
+    <!--    原子岛 END   -->
+
+    <!--    模块 BEGIN   -->
+    <animItem id="0xE0173" type="exclusive">exclusive/0xE0173.xml</animItem>
+    <animItem id="0xE0174" type="exclusive">exclusive/0xE0174.xml</animItem>
+    <animItem id="0xE0175" type="exclusive">exclusive/0xE0175.xml</animItem>
+    <!--    模块 END   -->
+
+    <!--    管家 BEGIN   -->
+    <animItem id="0xE0181" type="exclusive">exclusive/0xE0181.xml</animItem>
+    <animItem id="0xE0182" type="exclusive">exclusive/0xE0182.xml</animItem>
+    <!--    管家 END   -->
+
+    <!--    对讲机 BEGIN   -->
+    <animItem id="0xE0176" type="exclusive">exclusive/0xE0176.xml</animItem>
+    <animItem id="0xE0177" type="exclusive">exclusive/0xE0177.xml</animItem>
+    <animItem id="0xE0178" type="exclusive">exclusive/0xE0178.xml</animItem>
+    <!--    对讲机 END   -->
+
+    <!--    音乐 BEGIN   -->
+    <animItem id="0xE016B" type="exclusive">exclusive/0xE016B.xml</animItem>
+    <animItem id="0xE016A" type="exclusive">exclusive/0xE016A.xml</animItem>
+    <animItem id="0xE016C" type="exclusive">exclusive/0xE016C.xml</animItem>
+    <animItem id="0xE016D" type="exclusive">exclusive/0xE016D.xml</animItem>
+    <!--    音乐 END   -->
+    <!--    通知中心 BEGIN   -->
+    <animItem id="0xE0183" type="exclusive">exclusive/0xE0183.xml</animItem>
+    <!--    通知中心 END   -->
+    <!--    小窗 BEGIN   -->
+    <animItem id="0xE0180" type="exclusive">exclusive/0xE0180.xml</animItem>
+    <animItem id="0xE017F" type="exclusive">exclusive/0xE017F.xml</animItem>
+    <animItem id="0xE017E" type="exclusive">exclusive/0xE017E.xml</animItem>
+    <animItem id="0xE017C" type="exclusive">exclusive/0xE017C.xml</animItem>
+    <animItem id="0xE017D" type="exclusive">exclusive/0xE017D.xml</animItem>
+    <animItem id="0xE017B" type="exclusive">exclusive/0xE017B.xml</animItem>
+    <animItem id="0xE017A" type="exclusive">exclusive/0xE017A.xml</animItem>
+    <animItem id="0xE0179" type="exclusive">exclusive/0xE0179.xml</animItem>
+    <animItem id="0xE0195" type="exclusive">exclusive/0xE0195.xml</animItem>
+    <animItem id="0xE0196" type="exclusive">exclusive/0xE0196.xml</animItem>
+    <!--    小窗 END   -->
+
+    <!--    锁屏 BEGIN   -->
+    <animItem id="0xE0184" type="exclusive">exclusive/0xE0184.xml</animItem>
+    <animItem id="0xE0185" type="exclusive">exclusive/0xE0185.xml</animItem>
+    <animItem id="0xE0186" type="exclusive">exclusive/0xE0186.xml</animItem>
+    <!--    音乐 END   -->
+
+
+    <!--    商店图标动效 BEGIN   -->
+    <animItem id="0xE0161" type="exclusive">exclusive/0xE0161.xml</animItem>
+    <animItem id="0xE0160" type="exclusive">exclusive/0xE0160.xml</animItem>
+    <animItem id="0xE015F" type="exclusive">exclusive/0xE015F.xml</animItem>
+    <animItem id="0xE015E" type="exclusive">exclusive/0xE015E.xml</animItem>
+    <!--    商店图标动效 END   -->
+
+    <!--    钱包 BEGIN   -->
+    <animItem id="0xE015D" type="exclusive">exclusive/0xE015D.xml</animItem>
+    <animItem id="0xE015C" type="exclusive">exclusive/0xE015C.xml</animItem>
+    <animItem id="0xE015B" type="exclusive">exclusive/0xE015B.xml</animItem>
+    <animItem id="0xE015A" type="exclusive">exclusive/0xE015A.xml</animItem>
+    <!--    钱包 END   -->
+
+    <!--    控制中心 BEGIN   -->
+    <animItem id="0xE003B" type="exclusive">exclusive/0xE003B.xml</animItem>
+    <animItem id="0xE003C" type="exclusive">exclusive/0xE003C.xml</animItem>
+    <animItem id="0xE003D" type="exclusive">exclusive/0xE003D.xml</animItem>
+    <animItem id="0xE003E" type="exclusive">exclusive/0xE003E.xml</animItem>
+    <animItem id="0xE0091" type="exclusive">exclusive/0xE0091.xml</animItem>
+    <animItem id="0xE0092" type="exclusive">exclusive/0xE0092.xml</animItem>
+    <animItem id="0xE0093" type="exclusive">exclusive/0xE0093.xml</animItem>
+    <animItem id="0xE0094" type="exclusive">exclusive/0xE0094.xml</animItem>
+    <animItem id="0xE0009" type="exclusive">exclusive/0xE0009.xml</animItem>
+    <animItem id="0xE0107" type="exclusive">exclusive/0xE0107.xml</animItem>
+    <animItem id="0xE0109" type="exclusive">exclusive/0xE0109.xml</animItem>
+    <animItem id="0xE010A" type="exclusive">exclusive/0xE010A.xml</animItem>
+    <animItem id="0xE010B" type="exclusive">exclusive/0xE010B.xml</animItem>
+    <animItem id="0xE010C" type="exclusive">exclusive/0xE010C.xml</animItem>
+    <!--    控制中心 END   -->
+
+    <!--    底部导航栏 BEGIN -->
+    <!--    小游戏 BEGIN -->
+    <animItem id="0xE018D" type="exclusive">exclusive/0xE018D.xml</animItem>
+    <animItem id="0xE018E" type="exclusive">exclusive/0xE018E.xml</animItem>
+    <animItem id="0xE018F" type="exclusive">exclusive/0xE018F.xml</animItem>
+    <animItem id="0xE0190" type="exclusive">exclusive/0xE0190.xml</animItem>
+    <animItem id="0xE0191" type="exclusive">exclusive/0xE0191.xml</animItem>
+    <animItem id="0xE0192" type="exclusive">exclusive/0xE0192.xml</animItem>
+    <!--    小游戏 END -->
+
+    <!--    底部导航栏 闹钟 BEGIN -->
+    <animItem id="0xE0041" type="exclusive">exclusive/0xE0041.xml</animItem>
+    <animItem id="0xE006A" type="exclusive">exclusive/0xE006A.xml</animItem>
+    <animItem id="0xE0042" type="exclusive">exclusive/0xE0042.xml</animItem>
+    <animItem id="0xE006C" type="exclusive">exclusive/0xE006C.xml</animItem>
+    <animItem id="0xE0043" type="exclusive">exclusive/0xE0043.xml</animItem>
+    <animItem id="0xE006D" type="exclusive">exclusive/0xE006D.xml</animItem>
+    <animItem id="0xE0044" type="exclusive">exclusive/0xE0044.xml</animItem>
+    <animItem id="0xE006E" type="exclusive">exclusive/0xE006E.xml</animItem>
+    <!--    底部导航栏 闹钟 END -->
+
+    <animItem id="0xE0045" type="exclusive">exclusive/0xE0045.xml</animItem>
+    <animItem id="0xE006F" type="exclusive">exclusive/0xE006F.xml</animItem>
+    <animItem id="0xE0046" type="exclusive">exclusive/0xE0046.xml</animItem>
+    <animItem id="0xE0070" type="exclusive">exclusive/0xE0070.xml</animItem>
+    <animItem id="0xE0047" type="exclusive">exclusive/0xE0047.xml</animItem>
+    <animItem id="0xE0048" type="exclusive">exclusive/0xE0048.xml</animItem>
+    <animItem id="0xE0071" type="exclusive">exclusive/0xE0071.xml</animItem>
+    <animItem id="0xE0072" type="exclusive">exclusive/0xE0072.xml</animItem>
+    <animItem id="0xE0049" type="exclusive">exclusive/0xE0049.xml</animItem>
+    <animItem id="0xE004A" type="exclusive">exclusive/0xE004A.xml</animItem>
+    <animItem id="0xE004B" type="exclusive">exclusive/0xE004B.xml</animItem>
+    <animItem id="0xE004C" type="exclusive">exclusive/0xE004C.xml</animItem>
+    <animItem id="0xE0073" type="exclusive">exclusive/0xE0073.xml</animItem>
+    <animItem id="0xE0074" type="exclusive">exclusive/0xE0074.xml</animItem>
+    <animItem id="0xE0075" type="exclusive">exclusive/0xE0075.xml</animItem>
+    <animItem id="0xE0076" type="exclusive">exclusive/0xE0076.xml</animItem>
+    <animItem id="0xE004D" type="exclusive">exclusive/0xE004D.xml</animItem>
+    <animItem id="0xE004E" type="exclusive">exclusive/0xE004E.xml</animItem>
+    <animItem id="0xE004F" type="exclusive">exclusive/0xE004F.xml</animItem>
+    <animItem id="0xE0050" type="exclusive">exclusive/0xE0050.xml</animItem>
+    <animItem id="0xE0077" type="exclusive">exclusive/0xE0077.xml</animItem>
+    <animItem id="0xE0078" type="exclusive">exclusive/0xE0078.xml</animItem>
+    <animItem id="0xE0079" type="exclusive">exclusive/0xE0079.xml</animItem>
+    <animItem id="0xE0051" type="exclusive">exclusive/0xE0051.xml</animItem>
+    <animItem id="0xE0052" type="exclusive">exclusive/0xE0052.xml</animItem>
+    <animItem id="0xE0053" type="exclusive">exclusive/0xE0053.xml</animItem>
+    <animItem id="0xE007A" type="exclusive">exclusive/0xE007A.xml</animItem>
+    <animItem id="0xE007B" type="exclusive">exclusive/0xE007B.xml</animItem>
+    <animItem id="0xE007C" type="exclusive">exclusive/0xE007C.xml</animItem>
+    <animItem id="0xE007D" type="exclusive">exclusive/0xE007D.xml</animItem>
+    <animItem id="0xE0054" type="exclusive">exclusive/0xE0054.xml</animItem>
+    <animItem id="0xE0055" type="exclusive">exclusive/0xE0055.xml</animItem>
+    <animItem id="0xE0056" type="exclusive">exclusive/0xE0056.xml</animItem>
+    <animItem id="0xE007E" type="exclusive">exclusive/0xE007E.xml</animItem>
+    <animItem id="0xE007F" type="exclusive">exclusive/0xE007F.xml</animItem>
+    <animItem id="0xE0080" type="exclusive">exclusive/0xE0080.xml</animItem>
+    <animItem id="0xE0105" type="exclusive">exclusive/0xE0105.xml</animItem>
+    <animItem id="0xE0106" type="exclusive">exclusive/0xE0106.xml</animItem>
+    <animItem id="0xE0059" type="exclusive">exclusive/0xE0059.xml</animItem>
+    <animItem id="0xE0083" type="exclusive">exclusive/0xE0083.xml</animItem>
+    <animItem id="0xE005A" type="exclusive">exclusive/0xE005A.xml</animItem>
+    <animItem id="0xE0084" type="exclusive">exclusive/0xE0084.xml</animItem>
+    <animItem id="0xE005B" type="exclusive">exclusive/0xE005B.xml</animItem>
+    <animItem id="0xE0085" type="exclusive">exclusive/0xE0085.xml</animItem>
+    <animItem id="0xE005C" type="exclusive">exclusive/0xE005C.xml</animItem>
+    <animItem id="0xE0086" type="exclusive">exclusive/0xE0086.xml</animItem>
+    <animItem id="0xE005D" type="exclusive">exclusive/0xE005D.xml</animItem>
+    <animItem id="0xE0087" type="exclusive">exclusive/0xE0087.xml</animItem>
+    <animItem id="0xE005E" type="exclusive">exclusive/0xE005E.xml</animItem>
+    <animItem id="0xE0088" type="exclusive">exclusive/0xE0088.xml</animItem>
+    <animItem id="0xE005F" type="exclusive">exclusive/0xE005F.xml</animItem>
+    <animItem id="0xE0089" type="exclusive">exclusive/0xE0089.xml</animItem>
+    <animItem id="0xE0060" type="exclusive">exclusive/0xE0060.xml</animItem>
+    <animItem id="0xE008A" type="exclusive">exclusive/0xE008A.xml</animItem>
+    <animItem id="0xE008C" type="exclusive">exclusive/0xE008C.xml</animItem>
+    <animItem id="0xE009D" type="exclusive">exclusive/0xE009D.xml</animItem>
+    <animItem id="0xE009E" type="exclusive">exclusive/0xE009E.xml</animItem>
+    <animItem id="0xE0061" type="exclusive">exclusive/0xE0061.xml</animItem>
+    <animItem id="0xE008B" type="exclusive">exclusive/0xE008B.xml</animItem>
+    <animItem id="0xE0063" type="exclusive">exclusive/0xE0063.xml</animItem>
+    <animItem id="0xE008D" type="exclusive">exclusive/0xE008D.xml</animItem>
+    <animItem id="0xE0064" type="exclusive">exclusive/0xE0064.xml</animItem>
+    <animItem id="0xE008E" type="exclusive">exclusive/0xE008E.xml</animItem>
+    <animItem id="0xE0065" type="exclusive">exclusive/0xE0065.xml</animItem>
+    <animItem id="0xE008F" type="exclusive">exclusive/0xE008F.xml</animItem>
+    <animItem id="0xE0090" type="exclusive">exclusive/0xE0090.xml</animItem>
+    <animItem id="0xE0066" type="exclusive">exclusive/0xE0066.xml</animItem>
+    <animItem id="0xE0142" type="exclusive">exclusive/0xE0142.xml</animItem>
+    <animItem id="0xE0143" type="exclusive">exclusive/0xE0143.xml</animItem>
+    <animItem id="0xE0144" type="exclusive">exclusive/0xE0144.xml</animItem>
+    <animItem id="0xE0145" type="exclusive">exclusive/0xE0145.xml</animItem>
+    <animItem id="0xE0146" type="exclusive">exclusive/0xE0146.xml</animItem>
+    <animItem id="0xE0147" type="exclusive">exclusive/0xE0147.xml</animItem>
+    <animItem id="0xE0148" type="exclusive">exclusive/0xE0148.xml</animItem>
+    <animItem id="0xE0149" type="exclusive">exclusive/0xE0149.xml</animItem>
+    <animItem id="0xE014A" type="exclusive">exclusive/0xE014A.xml</animItem>
+    <animItem id="0xE014B" type="exclusive">exclusive/0xE014B.xml</animItem>
+    <animItem id="0xE014C" type="exclusive">exclusive/0xE014C.xml</animItem>
+    <animItem id="0xE014D" type="exclusive">exclusive/0xE014D.xml</animItem>
+    <animItem id="0xE014E" type="exclusive">exclusive/0xE014E.xml</animItem>
+    <animItem id="0xE014F" type="exclusive">exclusive/0xE014F.xml</animItem>
+    <animItem id="0xE0150" type="exclusive">exclusive/0xE0150.xml</animItem>
+    <animItem id="0xE0151" type="exclusive">exclusive/0xE0151.xml</animItem>
+    <animItem id="0xE0152" type="exclusive">exclusive/0xE0152.xml</animItem>
+    <animItem id="0xE0153" type="exclusive">exclusive/0xE0153.xml</animItem>
+    <animItem id="0xE0154" type="exclusive">exclusive/0xE0154.xml</animItem>
+    <animItem id="0xE0163" type="exclusive">exclusive/0xE0163.xml</animItem>
+    <animItem id="0xE0155" type="exclusive">exclusive/0xE0155.xml</animItem>
+    <animItem id="0xE0156" type="exclusive">exclusive/0xE0156.xml</animItem>
+    <animItem id="0xE0157" type="exclusive">exclusive/0xE0157.xml</animItem>
+    <animItem id="0xE0158" type="exclusive">exclusive/0xE0158.xml</animItem>
+    <animItem id="0xE0159" type="exclusive">exclusive/0xE0159.xml</animItem>
+    <animItem id="0xE0164" type="exclusive">exclusive/0xE0164.xml</animItem>
+    <animItem id="0xE0165" type="exclusive">exclusive/0xE0165.xml</animItem>
+    <animItem id="0xE0167" type="exclusive">exclusive/0xE0167.xml</animItem>
+    <animItem id="0xE0166" type="exclusive">exclusive/0xE0166.xml</animItem>
+    <animItem id="0xE0062" type="exclusive">exclusive/0xE0062.xml</animItem>
+
+    <!--    主题 BEGIN -->
+    <animItem id="0xE0082" type="exclusive">exclusive/0xE0082.xml</animItem>
+    <animItem id="0xE0058" type="exclusive">exclusive/0xE0058.xml</animItem>
+    <animItem id="0xE0081" type="exclusive">exclusive/0xE0081.xml</animItem>
+    <animItem id="0xE0057" type="exclusive">exclusive/0xE0057.xml</animItem>
+    <!--    主题 END -->
+
+    <!--    底部导航栏 END -->
+
+    <!--    日历 BEGIN -->
+    <animItem id="0xE0067" type="exclusive">exclusive/0xE0067.xml</animItem>
+    <animItem id="0xE0068" type="exclusive">exclusive/0xE0068.xml</animItem>
+    <animItem id="0xE0069" type="exclusive">exclusive/0xE0069.xml</animItem>
+    <!--    日历 END -->
+
+    <!--    常见图标 BEGIN -->
+    <animItem id="0xE0095" type="exclusive">exclusive/0xE0095.xml</animItem>
+    <animItem id="0xE0096" type="exclusive">exclusive/0xE0096.xml</animItem>
+    <animItem id="0xE009C" type="exclusive">exclusive/0xE009C.xml</animItem>
+    <animItem id="0xE0097" type="exclusive">exclusive/0xE0097.xml</animItem>
+    <animItem id="0xE0098" type="exclusive">exclusive/0xE0098.xml</animItem>
+    <animItem id="0xE0099" type="exclusive">exclusive/0xE0099.xml</animItem>
+    <animItem id="0xE009A" type="exclusive">exclusive/0xE009A.xml</animItem>
+    <animItem id="0xE009B" type="exclusive">exclusive/0xE009B.xml</animItem>
+    <animItem id="0xE0168" type="exclusive">exclusive/0xE0168.xml</animItem>
+    <animItem id="0xE0169" type="exclusive">exclusive/0xE0169.xml</animItem>
+    <animItem id="0xE0193" type="exclusive">exclusive/0xE0193.xml</animItem>
+    <animItem id="0xE0194" type="exclusive">exclusive/0xE0194.xml</animItem>
+    <animItem id="0xE0203" type="exclusive">exclusive/0xE0203.xml</animItem>
+    <!--    常见图标 END -->
+
+    <!--    相机 BEGIN -->
+    <animItem id="0xE0100" type="exclusive">exclusive/0xE0100.xml</animItem>
+    <animItem id="0xE0101" type="exclusive">exclusive/0xE0101.xml</animItem>
+    <animItem id="0xE0102" type="exclusive">exclusive/0xE0102.xml</animItem>
+    <animItem id="0xE0103" type="exclusive">exclusive/0xE0103.xml</animItem>
+    <animItem id="0xE0104" type="exclusive">exclusive/0xE0104.xml</animItem>
+    <animItem id="0xE010E" type="exclusive">exclusive/0xE010E.xml</animItem>
+    <animItem id="0xE010F" type="exclusive">exclusive/0xE010F.xml</animItem>
+    <animItem id="0xE0110" type="exclusive">exclusive/0xE0110.xml</animItem>
+    <animItem id="0xE0111" type="exclusive">exclusive/0xE0111.xml</animItem>
+    <animItem id="0xE0112" type="exclusive">exclusive/0xE0112.xml</animItem>
+    <animItem id="0xE0113" type="exclusive">exclusive/0xE0113.xml</animItem>
+    <animItem id="0xE0114" type="exclusive">exclusive/0xE0114.xml</animItem>
+    <animItem id="0xE0115" type="exclusive">exclusive/0xE0115.xml</animItem>
+    <animItem id="0xE0116" type="exclusive">exclusive/0xE0116.xml</animItem>
+    <animItem id="0xE0117" type="exclusive">exclusive/0xE0117.xml</animItem>
+    <animItem id="0xE0118" type="exclusive">exclusive/0xE0118.xml</animItem>
+    <animItem id="0xE0119" type="exclusive">exclusive/0xE0119.xml</animItem>
+    <animItem id="0xE011A" type="exclusive">exclusive/0xE011A.xml</animItem>
+    <animItem id="0xE011C" type="exclusive">exclusive/0xE011C.xml</animItem>
+    <animItem id="0xE011D" type="exclusive">exclusive/0xE011D.xml</animItem>
+    <animItem id="0xE011E" type="exclusive">exclusive/0xE011E.xml</animItem>
+    <animItem id="0xE011F" type="exclusive">exclusive/0xE011F.xml</animItem>
+    <animItem id="0xE0120" type="exclusive">exclusive/0xE0120.xml</animItem>
+    <animItem id="0xE0121" type="exclusive">exclusive/0xE0121.xml</animItem>
+    <animItem id="0xE0122" type="exclusive">exclusive/0xE0122.xml</animItem>
+    <animItem id="0xE0123" type="exclusive">exclusive/0xE0123.xml</animItem>
+    <animItem id="0xE0124" type="exclusive">exclusive/0xE0124.xml</animItem>
+    <animItem id="0xE0125" type="exclusive">exclusive/0xE0125.xml</animItem>
+    <animItem id="0xE0126" type="exclusive">exclusive/0xE0126.xml</animItem>
+    <animItem id="0xE0127" type="exclusive">exclusive/0xE0127.xml</animItem>
+    <animItem id="0xE0128" type="exclusive">exclusive/0xE0128.xml</animItem>
+    <animItem id="0xE0129" type="exclusive">exclusive/0xE0129.xml</animItem>
+    <animItem id="0xE012A" type="exclusive">exclusive/0xE012A.xml</animItem>
+    <animItem id="0xE012B" type="exclusive">exclusive/0xE012B.xml</animItem>
+    <animItem id="0xE012C" type="exclusive">exclusive/0xE012C.xml</animItem>
+    <animItem id="0xE012D" type="exclusive">exclusive/0xE012D.xml</animItem>
+    <animItem id="0xE012E" type="exclusive">exclusive/0xE012E.xml</animItem>
+    <animItem id="0xE012F" type="exclusive">exclusive/0xE012F.xml</animItem>
+    <animItem id="0xE0130" type="exclusive">exclusive/0xE0130.xml</animItem>
+    <animItem id="0xE0131" type="exclusive">exclusive/0xE0131.xml</animItem>
+    <animItem id="0xE0132" type="exclusive">exclusive/0xE0132.xml</animItem>
+    <animItem id="0xE0202" type="exclusive">exclusive/0xE0202.xml</animItem>
+    <animItem id="0xE0133" type="exclusive">exclusive/0xE0133.xml</animItem>
+    <animItem id="0xE0134" type="exclusive">exclusive/0xE0134.xml</animItem>
+    <animItem id="0xE0135" type="exclusive">exclusive/0xE0135.xml</animItem>
+    <animItem id="0xE0136" type="exclusive">exclusive/0xE0136.xml</animItem>
+    <animItem id="0xE0137" type="exclusive">exclusive/0xE0137.xml</animItem>
+    <animItem id="0xE0138" type="exclusive">exclusive/0xE0138.xml</animItem>
+    <animItem id="0xE0139" type="exclusive">exclusive/0xE0139.xml</animItem>
+    <animItem id="0xE013A" type="exclusive">exclusive/0xE013A.xml</animItem>
+    <animItem id="0xE013B" type="exclusive">exclusive/0xE013B.xml</animItem>
+    <animItem id="0xE010D" type="exclusive">exclusive/0xE010D.xml</animItem>
+    <!--    相机 END -->
+
+    <!--    相册 BEGIN -->
+    <animItem id="0xE013C" type="exclusive">exclusive/0xE013C.xml</animItem>
+    <animItem id="0xE013D" type="exclusive">exclusive/0xE013D.xml</animItem>
+    <animItem id="0xE013E" type="exclusive">exclusive/0xE013E.xml</animItem>
+    <animItem id="0xE013F" type="exclusive">exclusive/0xE013F.xml</animItem>
+    <animItem id="0xE0140" type="exclusive">exclusive/0xE0140.xml</animItem>
+    <animItem id="0xE0141" type="exclusive">exclusive/0xE0141.xml</animItem>
+    <animItem id="0xE0162" type="exclusive">exclusive/0xE0162.xml</animItem>
+    <!--    相册 END -->
+
+    <!--    修改码位 -->
+    <animItem id="0xE0000" type="exclusive">exclusive/0xE0000.xml</animItem>
+    <animItem id="0xE0001" type="exclusive">exclusive/0xE0001.xml</animItem>
+    <animItem id="0xE0002" type="exclusive">exclusive/0xE0002.xml</animItem>
+    <animItem id="0xE0003" type="exclusive">exclusive/0xE0003.xml</animItem>
+    <animItem id="0xE0004" type="exclusive">exclusive/0xE0004.xml</animItem>
+    <animItem id="0xE0005" type="exclusive">exclusive/0xE0005.xml</animItem>
+    <animItem id="0xE0006" type="exclusive">exclusive/0xE0006.xml</animItem>
+    <animItem id="0xE0007" type="exclusive">exclusive/0xE0007.xml</animItem>
+    <animItem id="0xE0008" type="exclusive">exclusive/0xE0008.xml</animItem>
+    <animItem id="0xE0009" type="exclusive">exclusive/0xE0009.xml</animItem>
+    <animItem id="0xE000A" type="exclusive">exclusive/0xE000A.xml</animItem>
+    <animItem id="0xE000B" type="exclusive">exclusive/0xE000B.xml</animItem>
+    <animItem id="0xE000C" type="exclusive">exclusive/0xE000C.xml</animItem>
+    <animItem id="0xE000D" type="exclusive">exclusive/0xE000D.xml</animItem>
+    <animItem id="0xE000E" type="exclusive">exclusive/0xE000E.xml</animItem>
+    <animItem id="0xE0010" type="exclusive">exclusive/0xE0010.xml</animItem>
+    <animItem id="0xE000F" type="exclusive">exclusive/0xE000F.xml</animItem>
+    <animItem id="0xE0011" type="exclusive">exclusive/0xE0011.xml</animItem>
+    <animItem id="0xE0012" type="exclusive">exclusive/0xE0012.xml</animItem>
+    <animItem id="0xE0013" type="exclusive">exclusive/0xE0013.xml</animItem>
+    <animItem id="0xE0014" type="exclusive">exclusive/0xE0014.xml</animItem>
+    <animItem id="0xE0015" type="exclusive">exclusive/0xE0015.xml</animItem>
+    <animItem id="0xE0016" type="exclusive">exclusive/0xE0016.xml</animItem>
+    <animItem id="0xE0017" type="exclusive">exclusive/0xE0017.xml</animItem>
+    <animItem id="0xE0018" type="exclusive">exclusive/0xE0018.xml</animItem>
+    <animItem id="0xE0019" type="exclusive">exclusive/0xE0019.xml</animItem>
+    <animItem id="0xE006B" type="exclusive">exclusive/0xE006B.xml</animItem>
+    <animItem id="0xE001A" type="exclusive">exclusive/0xE001A.xml</animItem>
+    <animItem id="0xE001B" type="exclusive">exclusive/0xE001B.xml</animItem>
+    <animItem id="0xE001C" type="exclusive">exclusive/0xE001C.xml</animItem>
+    <animItem id="0xE001D" type="exclusive">exclusive/0xE001D.xml</animItem>
+    <animItem id="0xE001E" type="exclusive">exclusive/0xE001E.xml</animItem>
+    <animItem id="0xE001F" type="exclusive">exclusive/0xE001F.xml</animItem>
+    <animItem id="0xE0020" type="exclusive">exclusive/0xE0020.xml</animItem>
+    <animItem id="0xE0021" type="exclusive">exclusive/0xE0021.xml</animItem>
+    <animItem id="0xE0022" type="exclusive">exclusive/0xE0022.xml</animItem>
+    <animItem id="0xE0023" type="exclusive">exclusive/0xE0023.xml</animItem>
+    <animItem id="0xE0025" type="exclusive">exclusive/0xE0025.xml</animItem>
+    <animItem id="0xE0026" type="exclusive">exclusive/0xE0026.xml</animItem>
+    <animItem id="0xE0027" type="exclusive">exclusive/0xE0027.xml</animItem>
+    <animItem id="0xE0028" type="exclusive">exclusive/0xE0028.xml</animItem>
+    <animItem id="0xE0029" type="exclusive">exclusive/0xE0029.xml</animItem>
+    <animItem id="0xE002A" type="exclusive">exclusive/0xE002A.xml</animItem>
+    <animItem id="0xE002B" type="exclusive">exclusive/0xE002B.xml</animItem>
+    <animItem id="0xE002C" type="exclusive">exclusive/0xE002C.xml</animItem>
+    <animItem id="0xE002D" type="exclusive">exclusive/0xE002D.xml</animItem>
+    <animItem id="0xE002E" type="exclusive">exclusive/0xE002E.xml</animItem>
+    <animItem id="0xE002F" type="exclusive">exclusive/0xE002F.xml</animItem>
+    <animItem id="0xE0030" type="exclusive">exclusive/0xE0030.xml</animItem>
+    <animItem id="0xE0031" type="exclusive">exclusive/0xE0031.xml</animItem>
+    <animItem id="0xE0032" type="exclusive">exclusive/0xE0032.xml</animItem>
+    <animItem id="0xE0033" type="exclusive">exclusive/0xE0033.xml</animItem>
+    <animItem id="0xE0034" type="exclusive">exclusive/0xE0034.xml</animItem>
+    <animItem id="0xE0035" type="exclusive">exclusive/0xE0035.xml</animItem>
+    <animItem id="0xE0036" type="exclusive">exclusive/0xE0036.xml</animItem>
+    <animItem id="0xE0037" type="exclusive">exclusive/0xE0037.xml</animItem>
+    <animItem id="0xE0038" type="exclusive">exclusive/0xE0038.xml</animItem>
+    <animItem id="0xE0039" type="exclusive">exclusive/0xE0039.xml</animItem>
+    <animItem id="0xE003A" type="exclusive">exclusive/0xE003A.xml</animItem>
+    <!--    修改码位 -->
+
+    <!--    第四批-->
+    <animItem id="0x100C51" type="exclusive">exclusive/0x100C51.xml</animItem>
+    <animItem id="0x100C52" type="exclusive">exclusive/0x100C52.xml</animItem>
+    <animItem id="0x100C55" type="exclusive">exclusive/0x100C55.xml</animItem>
+    <animItem id="0x100C54" type="exclusive">exclusive/0x100C54.xml</animItem>
+    <animItem id="0x1002D2" type="exclusive">exclusive/0x1002D2.xml</animItem>
+    <animItem id="0x100C5C" type="exclusive">exclusive/0x100C5C.xml</animItem>
+    <animItem id="0x1002D5" type="exclusive">exclusive/0x1002D5.xml</animItem>
+    <animItem id="0x100005" type="exclusive">exclusive/0x100005.xml</animItem>
+    <animItem id="0x100C5F" type="exclusive">exclusive/0x100C5F.xml</animItem>
+    <animItem id="0x100C5E" type="exclusive">exclusive/0x100C5E.xml</animItem>
+    <animItem id="0x100C53" type="exclusive">exclusive/0x100C53.xml</animItem>
+    <animItem id="0x1009C4" type="exclusive">exclusive/0x1009C4.xml</animItem>
+    <animItem id="0x100C5D" type="exclusive">exclusive/0x100C5D.xml</animItem>
+    <animItem id="0x100C5B" type="exclusive">exclusive/0x100C5B.xml</animItem>
+    <animItem id="0x100C5A" type="exclusive">exclusive/0x100C5A.xml</animItem>
+    <animItem id="0x100C49" type="exclusive">exclusive/0x100C49.xml</animItem>
+    <animItem id="0x100C48" type="exclusive">exclusive/0x100C48.xml</animItem>
+    <animItem id="0x100C46" type="exclusive">exclusive/0x100C46.xml</animItem>
+    <animItem id="0x100C45" type="exclusive">exclusive/0x100C45.xml</animItem>
+    <animItem id="0x100374" type="exclusive">exclusive/0x100374.xml</animItem>
+    <animItem id="0x100372" type="exclusive">exclusive/0x100372.xml</animItem>
+    <!--    第四批end-->
+    <!--    第三批-->
+    <animItem id="0x100C44" type="exclusive">exclusive/0x100C44.xml</animItem>
+    <animItem id="0x1000EB" type="exclusive">exclusive/0x1000EB.xml</animItem>
+    <animItem id="0x1001C3" type="exclusive">exclusive/0x1001C3.xml</animItem>
+    <animItem id="0x100C43" type="exclusive">exclusive/0x100C43.xml</animItem>
+    <animItem id="0x10083E" type="exclusive">exclusive/0x10083E.xml</animItem>
+    <animItem id="0x1001A1" type="exclusive">exclusive/0x1001A1.xml</animItem>
+    <animItem id="0x100C40" type="exclusive">exclusive/0x100C40.xml</animItem>
+    <animItem id="0x100859" type="exclusive">exclusive/0x100859.xml</animItem>
+    <animItem id="0x1002A2" type="exclusive">exclusive/0x1002A2.xml</animItem>
+    <animItem id="0x100C3C" type="exclusive">exclusive/0x100C3C.xml</animItem>
+    <animItem id="0x1000C1" type="exclusive">exclusive/0x1000C1.xml</animItem>
+    <animItem id="0x100C28" type="exclusive">exclusive/0x100C28.xml</animItem>
+    <animItem id="0x100C3B" type="exclusive">exclusive/0x100C3B.xml</animItem>
+    <animItem id="0x100C3D" type="exclusive">exclusive/0x100C3D.xml</animItem>
+    <animItem id="0x10083D" type="exclusive">exclusive/0x10083D.xml</animItem>
+    <animItem id="0x100C27" type="exclusive">exclusive/0x100C27.xml</animItem>
+    <!--    第三批end-->
+    <!--    第二批-->
+    <animItem id="0x100554" type="exclusive">exclusive/0x100554.xml</animItem>
+    <animItem id="0x100877" type="exclusive">exclusive/0x100877.xml</animItem>
+    <animItem id="0x100871" type="exclusive">exclusive/0x100871.xml</animItem>
+    <animItem id="0x100C23" type="exclusive">exclusive/0x100C23.xml</animItem>
+    <animItem id="0x100012" type="exclusive">exclusive/0x100012.xml</animItem>
+    <animItem id="0x100863" type="exclusive">exclusive/0x100863.xml</animItem>
+    <animItem id="0x100C3E" type="exclusive">exclusive/0x100C3E.xml</animItem>
+    <animItem id="0x100222" type="exclusive">exclusive/0x100222.xml</animItem>
+    <animItem id="0x102C29" type="exclusive">exclusive/0x102C29.xml</animItem>
+    <!--    第二批end-->
+
+    <!--第一批-->
+    <animItem id="0x100C1F" type="exclusive">exclusive/0x100C1F.xml</animItem>
+    <animItem id="0x100C3A" type="exclusive">exclusive/0x100C3A.xml</animItem>
+    <animItem id="0x100C20" type="exclusive">exclusive/0x100C20.xml</animItem>
+    <animItem id="0x100C21" type="exclusive">exclusive/0x100C21.xml</animItem>
+    <animItem id="0x100C22" type="exclusive">exclusive/0x100C22.xml</animItem>
+    <animItem id="0x100C26" type="exclusive">exclusive/0x100C26.xml</animItem>
+    <animItem id="0x1000F2" type="exclusive">exclusive/0x1000F2.xml</animItem>
+    <animItem id="0x1002DD" type="exclusive">exclusive/0x1002DD.xml</animItem>
+    <animItem id="0x10022D" type="exclusive">exclusive/0x10022D.xml</animItem>
+    <animItem id="0x100163" type="exclusive">exclusive/0x100163.xml</animItem>
+    <animItem id="0x100224" type="exclusive">exclusive/0x100224.xml</animItem>
+    <!--    第一批end-->
+
+
+    <!--    静态-->
+    <animItem id="null">null.xml</animItem>
+    <animItem id="appear">appear.xml</animItem>
+    <animItem id="disappear">disappear.xml</animItem>
+    <animItem id="scale">scale.xml</animItem>
+    <animItem id="varColor">varColor.xml</animItem>
+    <animItem id="replace">replace.xml</animItem>
+    <animItem id="pulse">pulse.xml</animItem>
+    <animItem id="bounce">bounce.xml</animItem>
+    <animItem id="rotate">rotate.xml</animItem>
+    <animItem id="gradient_linear">gradient_linear.xml</animItem>
+    <animItem id="gradient_radial">gradient_radial.xml</animItem>
+    <animItem id="gradient_sweep">gradient_sweep.xml</animItem>
+    <animItem id="color">color.xml</animItem>
+    <!--    静态end-->
+</animRegistry>

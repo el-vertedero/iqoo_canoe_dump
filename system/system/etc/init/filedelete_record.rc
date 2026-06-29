@@ -1,0 +1,19 @@
+on post-fs-data
+    mkdir /data/vivo-common/fileobs
+
+on property:sys.boot_completed=1
+    copy /data/system/packages.list /data/vivo-common/fileobs/packages.list
+    chmod 0777 /data/vivo-common/fileobs/packages.list
+
+service dr /system/bin/dr
+    class main
+    user root
+    group system package_info readproc
+
+service fs_trace_set /system/bin/fs_trace_set -R /system/etc/fs_trace.config
+    oneshot
+    user root
+    group root
+
+on property:sys.user.0.ce_available=true
+    start fs_trace_set

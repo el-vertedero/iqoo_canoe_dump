@@ -1,0 +1,10 @@
+service hal_nativecamera_default /system/bin/hw/vendor.vivo.hardware.nativecamera.provider@1.0-service
+    class main
+    user root
+    group media_rw sdcard_rw 1001023 1101023 1201023 1301023 everybody
+    disabled
+
+on property:persist.sys.nativecamera=1
+	start hal_nativecamera_default
+on property:persist.sys.nativecamera=0
+	stop hal_nativecamera_default

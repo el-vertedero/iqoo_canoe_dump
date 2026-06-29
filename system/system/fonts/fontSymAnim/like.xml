@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="like" replaceSymPlaybackOrder="parallel"
+
+    />
+
+    <unicodeInfo animUnicode="0x10009D" extraUnicodes="0x10034E" />
+
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus alpha="1" glyphAnimProgress="100" />
+            <serialGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="150" to="200" />
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="100" to="0" />
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="250" />
+                </parallelGroup>
+                <animationItem animationType="delay" duration="650" />
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="100" to="1" />
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="300" />
+                </parallelGroup>
+                <animationItem animationType="glyphAnimProgress" duration="60" to="350" />
+                <!--                <animationItem animationType="glyphAnimProgress" duration="2000" to="350" />-->
+            </serialGroup>
+        </symbolAnimation>
+
+        <symbolAnimation>
+            <originStatus alpha="0" glyphAnimProgress="150" />
+            <serialGroup interpolator="linear">
+                <animationItem animationType="delay" duration="100" />
+                <parallelGroup interpolator="linear">
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="150" />
+                    <animationItem animationType="alpha" duration="100" to="1" />
+                </parallelGroup>
+                <animationItem animationType="glyphAnimProgress" duration="50" to="200" />
+                <animationItem animationType="glyphAnimProgress" duration="100" to="250" />
+                <animationItem animationType="glyphAnimProgress" duration="500" to="350" />
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="100" to="0" />
+                    <animationItem animationType="scale" duration="100" to="1.2" />
+                </parallelGroup>
+                <!--                <animationItem animationType="glyphAnimProgress" duration="2000" to="400" />-->
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+    <dynamicOpts>
+
+    </dynamicOpts>
+
+
+</fontSymbolAnimation>

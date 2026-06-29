@@ -1,0 +1,339 @@
+{
+    "isDeepOpened": 0,
+    "id": "1001",
+    "type": "colorful_photo",
+    "name": "多彩相片",
+    "isHide": false,
+    "editImage": [
+        {
+            "editLayers": [
+                "layer_img1_bg"
+            ],
+            "editImagePick": "res/image_pick.png",
+            "editOptions": {
+                "name": "picture",
+                "select": 0,
+                "options": [
+                    {
+                        "thumbs": [
+                            "style/1/res/frame_icon_1.png",
+                            "style/2/res/frame_icon_2.png",
+                            "style/3/res/frame_icon_3.png"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "editText": {
+        "editLayers": [
+            "layer_frame_text1"
+        ],
+        "maxChars": 14,
+        "text": "LESS IS MORE"
+    },
+    "editIcons": {
+        "name": "icon",
+        "select": 0,
+        "editLayers": [
+              "layer_frame_icon1"
+            ],
+        "options": [
+            {
+                "thumbs": [
+                    "res/icon_1.png",
+                    "res/icon_2.png",
+                    "res/icon_3.png",
+                    "res/icon_4.png",
+                    "res/icon_5.png",
+                    "res/icon_6.png",
+                    "res/icon_7.png",
+                    "res/icon_8.png"
+                ]
+            }
+        ]
+    },
+   "editColor": {
+    "editLayers": [
+        "layer_bg",
+        "layer_frame_bg",
+        "layer_frame_text1",
+        "layer_frame_icon1",
+        "layer_frame_icon2"
+    ],
+    "select": 0,
+    "editOptions": {
+        "name": "color",
+        "select": 0,
+        "optionColor": [
+            {
+                "options": [
+                    {
+                        "suckColor": true,
+                        "suckLayer": ["layer_bg"],
+                        "thumb": "res/suck_color_thumb.png"
+                    },
+                    {
+                        "colors": [
+                            "#FFF88A7D",
+                            "#FFFFF1F0",
+                            "#FF333333",
+                            "#FFF88A7D",
+                            "#FF1A1A1A"
+                        ],
+                        "thumb": "res/color_thumb_1.png"
+                    },
+                    {
+                        "colors": [
+                            "#FFF2BA6E",
+                            "#FFFFF9F0",
+                            "#FF333333",
+                            "#FFF2BA6E",
+                            "#FF1A1A1A"
+                        ],
+                        "thumb": "res/color_thumb_2.png"
+                    },
+                    {
+                        "colors": [
+                            "#FFABD785",
+                            "#FFF7FFF0",
+                            "#FF333333",
+                            "#FFABD785",
+                            "#FF1A1A1A"
+                        ],
+                        "thumb": "res/color_thumb_3.png"
+                    },
+                    {
+                        "colors": [
+                            "#FFAABCA3",
+                            "#FFF4FFF0",
+                            "#FF333333",
+                            "#FFAABCA3",
+                            "#FF1A1A1A"
+                        ],
+                        "thumb": "res/color_thumb_4.png"
+                    },
+                    {
+                        "colors": ["#FF70C3DB", "#FFF0FCFF", "#FF333333", "#FF70C3DB","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_5.png"
+                    },
+                    {
+                        "colors": ["#FF78A5F2", "#FFF0F5FF", "#FF333333", "#FF78A5F2","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_6.png"
+                    },
+                    {
+                        "colors": ["#FFA085E0", "#FFF4F0FF", "#FF333333", "#FFA085E0","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_7.png"
+                    },
+                    {
+                        "colors": ["#FFE6739C", "#FFF0F5FF", "#FF333333", "#FFE6739C","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_8.png"
+                    },
+                    {
+                        "colors": ["#FF973535", "#FFFFF0F0", "#FF333333", "#FF973535","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_9.png"
+                    },
+                    {
+                        "colors": ["#FF564637", "#FFFFF7F0", "#FF333333", "#FF564637","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_10.png"
+                    },
+                    {
+                        "colors": ["#FF154D22", "#FFF0FFF3", "#FF333333", "#FF154D22","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_11.png"
+                    },
+                    {
+                        "colors": ["#FF26524C", "#FFF0FFFD", "#FF333333", "#FF26524C","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_12.png"
+                    },
+                    {
+                        "colors": ["#FF2B528A", "#FFF0F6FF", "#FF333333", "#FF2B528A","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_13.png"
+                    },
+                    {
+                        "colors": ["#FF1A2D66", "#FFF0F4FF", "#FF333333", "#FF1A2D66","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_14.png"
+                    },
+                    {
+                        "colors": ["#FF454696", "#FFF0F0FF", "#FF333333", "#FF454696","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_15.png"
+                    },
+                    {
+                        "colors": ["#FF620E4D", "#FFFFF0FB", "#FF333333", "#FF620E4D","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_16.png"
+                    },
+                    {
+                        "colors": ["#FFF5F5F5", "#FF262626", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_17.png"
+                    },
+                    {
+                        "colors": ["#FF000000", "#FFEBEBEB", "#FF333333", "#FF333333","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_18.png"
+                    }
+                ]
+            },
+            {
+                "options": [
+                    {
+                        "suckColor": true,
+                        "suckLayer": ["layer_bg"],
+                        "thumb": "res/suck_color_thumb.png"
+                    },
+                    {
+                        "colors": ["#FFF88A7D", "#FFE2685A", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_1.png"
+                    },
+                    {
+                        "colors": ["#FFF2BA6E", "#FFD5861B", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_2.png"
+                    },
+                    {
+                        "colors": ["#FFABD785", "#FF84B05E", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_3.png"
+                    },
+                    {
+                        "colors": ["#FFAABCA3", "#FF708966", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_4.png"
+                    },
+                    {
+                        "colors": ["#FF70C3DB", "#FF049AC5", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_5.png"
+                    },
+                    {
+                        "colors": ["#FF78A5F2", "#FF427EE4", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_6.png"
+                    },
+                    {
+                        "colors": ["#FFA085E0", "#FF7E57D5", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_7.png"
+                    },
+                    {
+                        "colors": ["#FFE6739C", "#FFAD1F52", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_8.png"
+                    },
+                    {
+                        "colors": ["#FF973535", "#FF6C1C1C", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_9.png"
+                    },
+                    {
+                        "colors": ["#FF564637", "#FF3C3127", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_10.png"
+                    },
+                    {
+                        "colors": ["#FF154D22", "#FF0F3618", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_11.png"
+                    },
+                    {
+                        "colors": ["#FF26524C", "#FF1B3A35", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_12.png"
+                    },
+                    {
+                        "colors": ["#FF2B528A", "#FF1E3A61", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_13.png"
+                    },
+                    {
+                        "colors": ["#FF1A2D66", "#FF122048", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_14.png"
+                    },
+                    {
+                        "colors": ["#FF454696", "#FF303169", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_15.png"
+                    },
+                    {
+                        "colors": ["#FF620E4D", "#FF450A36", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_16.png"
+                    },
+                    {
+                        "colors": ["#FFF5F5F5", "#FFEBEBEB", "-1", "#FF333333","#FF1A1A1A"],
+                        "thumb": "res/color_thumb_17.png"
+                    },
+                    {
+                        "colors": ["#FF000000", "#FF262626", "-1", "#FFFFFFFF", "#FFFFFFFF"],
+                        "thumb": "res/color_thumb_18.png"
+                    }
+                ]
+            },
+            {
+                "options": [
+                    {
+                        "suckColor": true,
+                        "suckLayer": ["layer_bg"],
+                        "thumb": "res/suck_color_thumb.png"
+                    },
+                    {
+                        "colors": ["#FFF88A7D", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_1.png"
+                    },
+                    {
+                        "colors": ["#FFF2BA6E", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_2.png"
+                    },
+                    {
+                        "colors": ["#FFABD785", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_3.png"
+                    },
+                    {
+                        "colors": ["#FFAABCA3", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_4.png"
+                    },
+                    {
+                        "colors": ["#FF70C3DB", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_5.png"
+                    },
+                    {
+                        "colors": ["#FF78A5F2", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_6.png"
+                    },
+                    {
+                        "colors": ["#FFA085E0", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_7.png"
+                    },
+                    {
+                        "colors": ["#FFE6739C", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_8.png"
+                    },
+                    {
+                        "colors": ["#FF973535", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_9.png"
+                    },
+                    {
+                        "colors": ["#FF564637", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_10.png"
+                    },
+                    {
+                        "colors": ["#FF154D22", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_11.png"
+                    },
+                    {
+                        "colors": ["#FF26524C", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_12.png"
+                    },
+                    {
+                        "colors": ["#FF2B528A", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_13.png"
+                    },
+                    {
+                        "colors": ["#FF1A2D66", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_14.png"
+                    },
+                    {
+                        "colors": ["#FF454696", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_15.png"
+                    },
+                    {
+                        "colors": ["#FF620E4D", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_16.png"
+                    },
+                    {
+                        "colors": ["#FFF5F5F5", "#FF333333", "#FF333333", "#FF333333","-1"],
+                        "thumb": "res/color_thumb_17.png"
+                    },
+                    {
+                        "colors": ["#FF000000", "#FFFFFFFF", "#FFFFFFFF", "#FFFFFFFF","-1"],
+                        "thumb": "res/color_thumb_18.png"
+                    }
+                ]
+            }
+        ]
+    }
+}
+}

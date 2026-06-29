@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig replaceSymPlaybackOrder = "serial"/>
+    <unicodeInfo extraUnicodes="0x100606" animUnicode="0x100605" />
+
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xfe4a4a"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="550" to="600" />
+                <serialGroup>
+                    <animationItem animationType="delay" duration="50" to="1" />
+                    <animationItem animationType="color" duration="100" to="0xffa629" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+        <symbolAnimation>
+            <originStatus alpha="0" glyphAnimProgress="100" color="0xffa629"/>
+            <serialGroup interpolator="linear">
+                <animationItem animationType="alpha" duration="0" to="1" />
+                <animationItem animationType="glyphAnimProgress" duration="600" to="450" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+</fontSymbolAnimation>

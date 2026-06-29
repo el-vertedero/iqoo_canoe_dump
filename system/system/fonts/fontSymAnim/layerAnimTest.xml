@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo extraUnicode="0x10034E" unicode="0x10009D"/>
+    <animationList>
+        <symbolAnimation  layerCnt="3">
+            <originStatus alpha="1" glyphAnimProgress="100" >
+                <layer index="0" alpha="1"/>
+                <layer index="1" alpha="1"/>
+                <layer index="2" alpha="1"/>
+            </originStatus>
+
+            <serialGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="150" to="200" />
+                <parallelGroup>
+                    <animationItem animationType="alpha" layersIndex="0,2" duration="100"/>
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="250" />
+                </parallelGroup>
+                <animationItem animationType="delay" duration="650" />
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="100" to="1" />
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="300" />
+                </parallelGroup>
+                <animationItem animationType="glyphAnimProgress" duration="60" to="350" />
+            </serialGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="3">
+            <originStatus alpha="0" glyphAnimProgress="150" />
+            <serialGroup interpolator="linear">
+                <animationItem animationType="delay" duration="100" />
+                <parallelGroup interpolator="linear">
+                    <animationItem animationType="glyphAnimProgress" duration="100" to="150" />
+                    <animationItem animationType="alpha" duration="100" to="1" />
+                </parallelGroup>
+                <animationItem animationType="glyphAnimProgress" duration="50" to="200" />
+                <animationItem animationType="glyphAnimProgress" duration="100" to="250" />
+                <animationItem animationType="glyphAnimProgress" duration="500" to="350" />
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="100" to="0" />
+                    <animationItem animationType="scale" duration="100" to="1.2" />
+                </parallelGroup>
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

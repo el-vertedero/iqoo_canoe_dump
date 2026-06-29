@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config versionCode="1">
+	<threshold
+		thermal_name="overheat_combined"
+		compose_thermal_name="vir_shell;battery;board"
+		STATUS_EXTREME="52;45;64"
+		STATUS_EMERGENCY="53;48;65" />
+</config>

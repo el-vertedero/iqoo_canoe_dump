@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0184" />
+
+    <animationList>
+        <symbolAnimation layerCnt="4" rotPivotLayerIndex="5" scalePivotLayerIndex="6">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <serialGroup>
+                <animationItem animationType="alpha" duration="500" interpolator="custom(0.33, 0.00, 0.67, 1.00)" to="0.1" />
+                <animationItem animationType="dynamicAlpha" duration="500" interpolator="custom(0.33, 0.00, 0.67, 1.00)" to="1" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0060" />
+
+    <animationList>
+        <symbolAnimation layerCnt="2" scalePivotLayerIndex="2">
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0"  layersIndex="0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="17" />
+                    <animationItem animationType="scale" duration="217" to="1.125" layersIndex="0" interpolator="custom(0.14, 0.00, 0.45, 1.00)"/>
+                    <animationItem animationType="scale" duration="250" to="1.0" layersIndex="0" interpolator="custom(0.11, 0.00, 0.42, 1.00)"/>
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0"  layersIndex="1" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="delay" duration="100" />
+                    <animationItem animationType="scale" duration="150" to="1.22" layersIndex="1" interpolator="custom(0.14, 0.00, 0.45, 1.00)"/>
+                    <animationItem animationType="scale" duration="233" to="1.0" layersIndex="1" interpolator="custom(0.11, 0.00, 0.42, 1.00)"/>
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="17" to="0xF77FF" interpolator="custom(0.17, 0.06, 0.83, 0.94)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicAlpha" duration="17" to="1" interpolator="custom(0.17, 0.06, 0.83, 0.94)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+
+</fontSymbolAnimation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <custlist name="pms_area_region_preinstall_apps">
+        <item name="com.vivo.appstore-enable" value="UZ" />
+        <item name="com.vivo.appstore-default" value="false" />
+        <item name="com.vivo.screenagent-enable" value="UZ"/>
+        <item name="com.vivo.screenagent-default" value="false"/>
+        <item name="com.vivo.screenagent-ota" value="true"/>
+    </custlist>
+</config>

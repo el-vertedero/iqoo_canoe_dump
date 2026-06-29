@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <path name="package_default_path">preferred-apps.xml</path>
+</config>

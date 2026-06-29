@@ -1,0 +1,63 @@
+[
+    {
+        "project":[ "PD2505F_EX" ],
+        "sreConfigStatus": "true",
+		"panel":[
+			{
+			"panel_name":["mdss_dsi_pd2505_cpd2417_144hz_wqhd_plus_dsc_cmd_dvt3 panel", "mdss_dsi_pd2505_cpd2417_144hz_wqhd_plus_dsc_cmd_dvt1 panel"],
+			"Version": 4,
+			"hbmMap": [ 14198, 14199, 14199, 14199, 14199, 14199, 14358, 14458, 14652, 14652, 14652, 14652 ],
+			"hbmUpLuxLevel": [ 20000, 30000, 50000, 70000, 80000, 100000, 120000, 140000, 160000, 180000, 200000 ],
+			"hbmDownLuxLevel": [ 10000, 20000, 30000, 50000, 70000,  80000, 100000, 120000, 140000, 160000, 180000],
+			"transitionPoint": 14198,
+			"upLuxDelay": 2500,
+			"downLuxDelay": 3500,
+			"peakVersion": 2,
+			"peakV2ApDimming": true,
+			"peakV2MaxValue": 255,
+			"peakV2DimmingStep": 4,
+			"peakV2DimmingTimeSpan": 8,
+			"peakV2LuxBound_on": 10000,
+			"peakV2LuxBound_off": 2000,
+			"batteryLimit": {
+			        "batteryPercent": [5,10,15,20],
+			        "batteryLimitBrightness": [13096, 14358, 14750, 15095]
+				},
+			"typeTemperatureLimit": {
+				"hbmLimitTypeTemperature": [ 40, 41, 42, 43 ],
+				"typeTemperatureLimitHbmLevel":[ 15095, 14652, 14247, 14198 ],
+				"hbmRestoreTypeTemperature": [ 37, 38, 39, 40 ],
+				"typeTemperatureRestoreHbmLevel":[ 15438, 15095, 14652, 14247 ]
+				},
+			"packagePolicy":[
+				{
+					"packages":[ "com.vivo.gallery","com.bbk.launcher2","com.android.contacts","com.tencent.mm","com.ss.android.ugc.aweme",
+					"com.tencent.tmgp.sgame","com.tencent.tmgp.dfm","com.smile.gifmaker","com.tencent.tmgp.pubgmhd","com.kuaishou.nebula",
+					"com.xingin.xhs","com.android.permissioncontroller","com.ss.android.ugc.aweme.lite","tv.danmaku.bili","com.taobao.taobao",
+					"com.tencent.jkchess","com.phoenix.read","com.xunmeng.pinduoduo","com.tencent.mobileqq","com.tencent.mf.uam" ],
+					"packageHbmMap":[ 14198, 14199, 14199, 14199, 14199, 14199, 14358, 14458, 14652, 14928, 15095, 15438 ]
+				}
+				]
+			},
+			{
+			"panel_name":["mdss_dsi_pd2408_boe_rm69390_144hz_wqhd_plus_dsc_cmd_dvt3 panel"],
+			"Version": 4,
+			"hbmMap": [ 7032, 7032, 7127, 7201, 7275, 7707 ],
+			"hbmUpLuxLevel": [ 20000, 30000, 50000, 60000, 100000 ],
+			"hbmDownLuxLevel": [ 10000, 20000, 30000, 50000, 60000 ],
+			"hbmLimitTime": 15,
+			"transitionPoint": 7032,
+			"upLuxDelay": 2500,
+			"downLuxDelay": 3500,
+			"batteryLimit": {
+			        "batteryPercent": [1,5,10,15],
+			        "batteryLimitBrightness": [7032, 7275, 7477, 7600]
+				},
+			"pulseLimit": {
+				"pulseLevel": [ 1 ],
+				"pulseLimitBrightness":[ 7706 ]
+				}
+			}
+		]
+	}
+]

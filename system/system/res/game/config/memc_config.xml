@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gameconfig version="1.0">
+    <!-- 原神 -->
+    <pkg name="com.miHoYo.Yuanshen-com.miHoYo.ys.bilibili-com.miHoYo.yuanshencb-com.miHoYo.GenshinImpact" tips="1">
+        <param fps_config="24,1,48,144"/>
+        <param fps_config="30,1,60,120"/>
+        <param fps_config="45,1,90,90"/>
+        <param fps_config="60,1,120,120"/>
+        <param fps_config="72,1,120,120"/>
+        <param fps_config="90,1,120,120"/>
+        <param fps_config="120,1,120,120"/>
+        <param fps_config="60,2,60,120"/>
+        <param fps_config="72,2,72,144"/>
+        <param fps_config="90,2,90,90"/>
+        <param fps_config="120,2,120,120"/>
+        <param fps_config="45,3,60,120"/>
+        <param fps_config="60,3,60,120,0"/>
+        <param fps_config="72,3,60,120"/>
+        <param fps_config="90,3,60,120"/>
+        <param fps_config="120,3,60,120"/>
+        <param fps_config="45,13,90,90,1"/>
+        <param fps_config="60,13,90,90,1"/>
+        <param fps_config="72,13,90,90,1"/>
+        <param fps_config="90,13,90,90,1"/>
+        <param fps_config="120,13,90,90,1"/>
+        <param fps_config="60,23,-1,-1,1"/>
+        <param temp_fps_config="48000,47750,48,144,47700,47250,60,120,47200,46750,72,144,46700,44700,90,90"/>
+        <param temp_fps_config="48000,47750,48,144,47700,47250,60,120,47200,46750,72,144,46000,44000,90,90" model="DPD2437"/>
+        <param temp_fps_config="47700,46750,60,120,46000,44000,90,90" model="PD2502-PD2509"/>
+        <!-- 最高插到144fps -->
+        <param fps_config="60,1,144,144" model="PD2408-PD2426-PD2463-PD2507-PD2520-PD2536-PD2505-PD2546-PD2564-PD2573-PD2606"/>
+        <param fps_config="72,1,144,144" model="PD2408-PD2426-PD2463-PD2507-PD2520-PD2536-PD2505-PD2546-PD2564-PD2573-PD2606"/>
+        <param fps_config="90,1,144,144" model="PD2408-PD2426-PD2463-PD2507-PD2520-PD2536-PD2505-PD2546-PD2564-PD2573-PD2606"/>
+        <param fps_config="120,1,144,144" model="PD2408-PD2426-PD2463-PD2507-PD2520-PD2536-PD2505-PD2546-PD2564-PD2573-PD2606"/>
+        <param temp_fps_config="48000,47750,48,144,47700,47250,60,120,47200,46750,72,144,46700,45200,90,90,45000,42500,120,120" model="PD2408-PD2426-PD2463-PD2507-PD2520-PD2536-PD2505-PD2546-PD2564-PD2573-PD2606"/>
+    </pkg>
+
+    <!-- GPU插帧名单 -->
+    <pkg-list memc_vulkan="1" model="PD2408-PD2425-PD2426-PD2463-PD2507-PD2520-DPD2429-DPD2437-DPD2438-PD2536-PD2505-PD2546-PD2564-DPD2540-PD2573-PD2606">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+    </pkg-list>
+
+    <pkg-list memc_vulkan="1" memc_vsr_mutex ="1" model="PD2502-PD2509-PD2547-PD2548">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+    </pkg-list>
+
+    <!-- ********************Q3 eMEMC插帧******************** -->
+    <!-- hook gles -->
+    <pkg-list ememc_gles="1" model="PD2505-PD2546-PD2564-PD2606">
+        <item name="com.miHoYo.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.cloudgames.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.hkrpg.bilibili"/> <!-- 星穹铁道B服 -->
+        <item name="com.miHoYo.hkrpgcb"/> <!-- 星穹铁道测试服 -->
+        <item name="com.netease.yhtj"/> <!-- 萤火突击 -->
+        <item name="com.netease.yhtj.vivo"/> <!-- 萤火突击 -->
+    </pkg-list>
+    <pkg-list ememc_gles="1" model="PD2505-PD2546-PD2606">
+        <item name="com.kurogame.mingchao"/> <!-- 鸣潮 -->
+        <item name="com.kurogame.mingchao.bilibili"/> <!-- 鸣潮 Bilibili 服 -->
+        <item name="com.kurogame.mingchao.beta"/> <!-- 鸣潮 beta 服-->
+        <item name="com.tencent.tmgp.cod"/> <!-- 使命召唤 -->
+        <item name="com.tencent.tmgp.codty"/> <!-- 使命召唤 体验服 -->
+    </pkg-list>
+    <!-- hook vulkan -->
+    <pkg-list ememc_vulkan="1" model="PD2505-PD2546-PD2564-PD2606">
+        <item name="com.miHoYo.Yuanshen"/> <!-- 原神官服 -->
+        <item name="com.miHoYo.ys.bilibili"/> <!-- 原神B服 -->
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+        <item name="com.miHoYo.yuanshencb"/> <!-- 原神测试服 -->
+        <item name="com.miHoYo.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.cloudgames.hkrpg"/> <!-- 星穹铁道 -->
+        <item name="com.miHoYo.hkrpg.bilibili"/> <!-- 星穹铁道B服 -->
+        <item name="com.miHoYo.hkrpgcb"/> <!-- 星穹铁道测试服 -->
+        <item name="com.miHoYo.Nap"/> <!-- 绝区零 -->
+        <item name="com.miHoYo.Nap.bilibili"/> <!-- 绝区零B服 -->
+        <item name="com.miHoYo.NapPreBeta"/> <!-- 绝区零测试服 -->
+        <item name="com.tencent.tmgp.codev"/> <!-- 无畏契约 -->
+    </pkg-list>
+    <pkg-list ememc_vulkan="1" model="PD2505-PD2546-PD2606">
+        <item name="com.kurogame.mingchao"/> <!-- 鸣潮 -->
+        <item name="com.kurogame.mingchao.bilibili"/> <!-- 鸣潮 Bilibili 服 -->
+        <item name="com.kurogame.mingchao.beta"/> <!-- 鸣潮 beta 服-->
+        <item name="com.tencent.tmgp.cod"/> <!-- 使命召唤 -->
+        <item name="com.tencent.tmgp.codty"/> <!-- 使命召唤 体验服 -->
+    </pkg-list>
+    <pkg-list ememc_vulkan="1" model="PD2505F_EX">
+        <item name="com.miHoYo.GenshinImpact"/> <!-- 原神国际服 -->
+    </pkg-list>
+    <!-- 生态接入 -->
+    <pkg-list ememc_ecosdk="1" model="PD2505-PD2546-PD2606">
+        <item name="com.vivogame.URP_Q3Demo"/> <!-- demo -->
+        <item name="com.vivo.Test425"/> <!-- demo -->
+    </pkg-list>
+    <pkg-list ememc_ecosdk="1" model="PD2564">
+        <item name="com.tencent.tmgp.nz"/> <!-- 逆战正式服 -->
+        <item name="com.tencent.tmgp.nzalpha"/> <!-- 逆战体验服 -->
+        <item name="com.tencent.tmgp.cod"/> <!-- 使命召唤 -->
+        <item name="com.tencent.tmgp.codty"/> <!-- 使命召唤 体验服 -->
+    </pkg-list>
+
+    <!-- 后处理插帧名单 -->
+    <pkg-list memc_post_processing="1" memc_vsr_mutex ="1" model="PD2502-PD2509-PD2415-PD2419-PD2458">
+        <item name="com.miHoYo.Nap"/>
+        <item name="com.papegames.lysk.cn.vivo"/>
+        <item name="com.papegames.lysk.cn"/>
+    </pkg-list>
+
+    <pkg-list memc_post_processing="1" memc_vsr_mutex ="1" model="PD2547-DPD2540-PD2548">
+        <item name="com.miHoYo.Nap"/>
+        <item name="com.netease.mc.vivo"/>
+        <item name="com.netease.x19"/>
+        <item name="com.papegames.lysk.cn.vivo"/>
+        <item name="com.papegames.lysk.cn"/>
+        <item name="com.hermes.h1game"/> <!-- 航海王 -->
+        <item name="com.hermes.h1game.vivo"/> <!-- 航海王 -->
+    </pkg-list>
+
+    <pkg-list memc_post_processing="1" memc_vsr_mutex ="1" model="PD2502-PD2509">
+        <item name="com.tencent.tmgp.sgame"/>
+        <item name="com.tencent.tmgp.sgamece"/>
+        <item name="com.tencent.tmgp.cf"/>
+        <item name="com.tencent.lolm"/>
+        <item name="com.netease.mc.vivo"/>
+        <item name="com.netease.x19"/>
+        <item name="com.netease.nshm.vivo"/>
+        <item name="com.netease.nshm"/>
+    </pkg-list>
+
+    <pkg name="com.miHoYo.Nap"> <!-- 绝区零 -->
+        <param fps_config="60,1,60,120" model="PD2502—PD2509"/>
+    </pkg>
+
+    <pkg name="com.papegames.lysk.cn.vivo"> <!-- 恋与深空 -->
+        <param fps_config="60,1,60,120" model="PD2502—PD2509"/>
+    </pkg>
+
+    <pkg-list memc_post_processing="1" memc_vsr_mutex ="1" model="PD2502F_EX-PD2509F_EX-PD2415F_EX-PD2547F_EX">
+        <item name="com.ngame.allstar.eu"/> <!--Garena AoV -->
+        <item name="com.garena.game.kgid"/> <!-- Garena AoV -->
+        <item name="com.garena.game.kgtw"/> <!-- Garena AoV -->
+        <item name="com.garena.game.kgth"/> <!-- Garena AoV -->
+    </pkg-list>
+
+    <pkg-list memc_post_processing="1" memc_vsr_mutex ="1" model="PD2458F_EX">
+        <item name="com.mobilechess.us"/> <!--magicchess gogo -->
+        <item name="com.mobilechess.gp"/> <!-- magicchess gogo -->
+    </pkg-list>
+
+</gameconfig>

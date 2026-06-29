@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--1、单电池-双电芯-双半压120W-->
+	<boolean name="double_battery">false</boolean>
+	<boolean name="wireless_charge_test_support">true</boolean>
+    <!--2、SIM卡1+SIM卡2堆叠型卡托-->
+	<boolean name="sim_test_support">true</boolean>
+    <!--3、屏下红外，红外遥控，前置屏下二代CCT,后置CCT、、后置flicker、重力1，陀螺仪1，电子罗盘1，-->
+	<boolean name="gyroscope_support">true</boolean>
+	<boolean name="reduce_sar_test">true</boolean>
+	<boolean name="under_infrared_support">true</boolean>
+	<boolean name="flicker_support">true</boolean>
+	<boolean name="light_sensor_angle">true</boolean>
+	<boolean name="long_wave_infrared_support">true</boolean>
+	<boolean name="front_cct_support">true</boolean>
+	<boolean name="cct_support">true</boolean>
+	<boolean name="cct_cal_support">true</boolean>
+	<boolean name="flicker_support">true</boolean>
+	<boolean name="light_sensor_test_support">true</boolean>
+	<boolean name="cct_as_light">true</boolean>
+
+    <!--4、线性马达1-->
+	<boolean name="linear_motor_support">true</boolean>
+
+    <!--5、视频插帧NT72335,POLED(60HZ\90HZ\120HZ\144HZ)-->
+	<boolean name="high_rate_shadow_support">true</boolean>
+	<boolean name="lcm_ltpo_support">true</boolean>
+	<boolean name="bad_screen_support">false</boolean>
+	<boolean name="lcm_1nit_support">true</boolean>
+	<!--usb 3.0 support-->
+	<boolean name="display_port_support">true</boolean>
+	<boolean name="linear_motor_2_support">true</boolean>
+
+    <!--6、双扬声器智能功放，双麦克风，双扬声器、二合一受话器-->
+	<boolean name="double_speaker_support">true</boolean>
+	<boolean name="sub_echo_support">true</boolean>
+	<boolean name="smart_spearker_amplifier_cali_support">true</boolean>
+	<boolean name="sub_smart_spearker_amplifier_cali_support">true</boolean>
+	<boolean name="multi_speaker_receiver_support">true</boolean>
+	<boolean name="speaker_resdetect_support">true</boolean>
+	<boolean name="fm_support">false</boolean>
+	<boolean name="hifi_support">false</boolean>
+
+    <!--7、前主，潜望+广角+后主，双闪光灯 、极点屏（前拍漏光）-->
+	<string  name="camera_type">back[Master,Wide,Periscope]front[Master]</string>
+	<boolean name="camera_ois_test">true</boolean>
+	<boolean name="camera_pdaf">true</boolean>
+	<boolean name="flash_light_cali_support">true</boolean>
+	<boolean name="camera_mipi_crc_test">true</boolean>
+	<boolean name="front_camera_under_screen">true</boolean>
+	<string name="special_vivo_camera_type">"Tele3xLong"</string>
+	<boolean name="rear_main_wide_tele_unsupport">true</boolean>
+	<boolean name="cool_light">true</boolean>
+	<boolean name="single_flash_light">true</boolean>
+	<boolean name="video_record">true</boolean>
+
+
+	<boolean name="dpdt_test">true</boolean>
+	<boolean name="diag_socket">true</boolean>
+	<boolean name="support_5g">true</boolean>
+	<boolean name="nsa_solution">true</boolean>
+	<boolean name="picasso_display_ic_support">true</boolean>
+	<string name="2nit_to_lcm_level">878</string>
+
+</resources>

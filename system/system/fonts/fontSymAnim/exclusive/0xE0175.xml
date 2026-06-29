@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0175" />
+
+    <animationList>
+
+        <symbolAnimation layerCnt="3"  >
+            <drawAnimDataList>
+                <drawAnimData layers="0" endCapType="0">
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="16" contourIndex1="1" pointIndex1="16" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="8" contourIndex1="1" pointIndex1="24" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="24" acrossBasePoint0="1" contourIndex1="1" pointIndex1="8" acrossBasePoint1="1" />
+                    <guidePointPair type="0" contourIndex0="0" pointIndex0="16"   contourIndex1="1" pointIndex1="16"   />
+                </drawAnimData>
+
+            </drawAnimDataList>
+            <originStatus glyphAnimProgress="100" drawHead="0" >
+            </originStatus>
+            <parallelGroup >
+
+                <!-- 第一帧将挡板挪走 -->
+                <animationItem animationType="translateX" duration="0" to="-400" layersIndex="2" />
+
+                <serialGroup>
+                    <animationItem animationType="drawHead" layersIndex="0" duration="0" to="0"/>
+                    <animationItem animationType="drawHead" layersIndex="0" duration="300" to="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0.001" layersIndex="1" />
+                    <animationItem animationType="delay" duration="300" />
+                    <animationItem animationType="alpha" duration="167" to="1"  />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="0" to="1.18" layersIndex="1" />
+                    <animationItem animationType="delay" duration="300" />
+                    <animationItem animationType="scale" duration="700" to="1" interpolator="custom(0.45, 3.01, 0.35, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+    </animationList>
+</fontSymbolAnimation>

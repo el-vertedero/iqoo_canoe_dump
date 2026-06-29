@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0158" />
+
+    <animationList>
+        <symbolAnimation layerCnt="3" scalePivotLayerIndex="3" >
+            <originStatus alpha="1.0" glyphAnimProgress="100" />
+            <parallelGroup >
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="167" to="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="alpha" duration="0" to="1" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="dynamicColor" duration="0" to="0x000000" />
+                </serialGroup>
+
+                <!-- 外框 -->
+                <serialGroup>
+                    <animationItem animationType="scale" duration="167" to="0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="scale" duration="233" to="1.2" interpolator="custom(0.15, 0.16, 0.30, 1.00)" />
+                    <animationItem animationType="scale" duration="233" to="1"  interpolator="custom(0.10, 0.00, 0.30, 1.00)" />
+                </serialGroup>
+
+                <!-- 上方长条 -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="1" />
+                    <animationItem animationType="translateY" duration="0" to="9.27825" layersIndex="1" />
+                    <animationItem animationType="delay" duration="100" />
+                    <animationItem animationType="alpha" duration="0" to="1" layersIndex="1" />
+                    <animationItem animationType="translateY" duration="167" to="0" layersIndex="1" />
+                </serialGroup>
+
+
+                <!--  V -->
+                <serialGroup>
+                    <animationItem animationType="delay" duration="167" />
+                    <animationItem animationType="glyphAnimProgress" duration="0" to="150" />
+                    <animationItem animationType="delay" duration="233" />
+                    <animationItem animationType="glyphAnimProgress" duration="200" to="200" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

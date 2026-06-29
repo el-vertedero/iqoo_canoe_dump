@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0069" />
+    <animationList>
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="4">
+            <originStatus alpha="1" >
+                <layer index="1" rotationZ="0"/>
+            </originStatus>
+            <parallelGroup>
+                <serialGroup>
+                    <animationItem animationType="rotationZ" duration="350" to="180" layersIndex="1" interpolator="custom(0.20, 0.15, 0.00, 1.00)" />
+                    <animationItem animationType="delay" duration="1150" />
+                    <animationItem animationType="rotationZ" duration="500" to="0" layersIndex="1" interpolator="custom(0.20, 0.15, 0.00, 1.00)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

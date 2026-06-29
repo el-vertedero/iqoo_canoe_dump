@@ -1,0 +1,6 @@
+service update_verifier /system/bin/update_verifier
+    user root
+    group cache system
+    priority -20
+    ioprio rt 0
+    task_profiles MaxIoPriority

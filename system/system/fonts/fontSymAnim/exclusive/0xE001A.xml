@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE001A"/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="2" rotPivotLayerIndex="3" scalePivotLayerIndex="3">
+            <originStatus color="0x287CF3">
+            </originStatus>
+            <parallelGroup >
+
+                <!-- 小圈 -->
+                <parallelGroup>
+                    <animationItem animationType="dynamicColor" duration="283" to="0xFFFFFF" layersIndex="0" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <animationItem animationType="dynamicAlpha" duration="283" to="0.9" layersIndex="0" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <serialGroup>
+                        <animationItem animationType="scale" duration="200" to="1.54" layersIndex="0" interpolator="custom(0.33, 0.00, 0.07, 1.00)" />
+                        <animationItem animationType="scale" duration="267" to="1.69" layersIndex="0" interpolator="custom(0.17, 1.44, 0.83, -0.44)" />
+                        <animationItem animationType="scale" duration="200" to="1" layersIndex="0" interpolator="custom(0.33, 0.00, 0.07, 1.00)" />
+                    </serialGroup>
+                    <serialGroup>
+                        <animationItem animationType="delay" duration="200" />
+                        <animationItem animationType="rotationZ" duration="267" to="180" layersIndex="0" interpolator="custom(0.33, 0.00, 0.07, 1.00)" />
+                    </serialGroup>
+                </parallelGroup>
+
+
+                <!-- 大圈 -->
+                <parallelGroup>
+                    <animationItem animationType="alpha" duration="0" to="0.99" layersIndex="1" />
+                    <animationItem animationType="dynamicColor" duration="283" to="0xFFFFFF" layersIndex="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <animationItem animationType="dynamicAlpha" duration="283" to="0.9" layersIndex="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                </parallelGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+</fontSymbolAnimation>

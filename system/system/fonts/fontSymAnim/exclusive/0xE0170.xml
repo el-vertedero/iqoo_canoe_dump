@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0170" />
+    <animationList>
+        <symbolAnimation layerCnt="6" rotPivotLayerIndex="2">
+            <originStatus alpha="1" glyphAnimProgress="100">
+            </originStatus>
+            <parallelGroup>
+
+                <!-- 背景 -->
+                <animationItem animationType="dynamicColor" duration="300" to="0xEF5F59" layersIndex="0,3" interpolator="custom(0.25, 0.11, 0.25, 1.00)"  />
+                <animationItem animationType="dynamicAlpha" duration="300" to="1" layersIndex="0,3"  interpolator="custom(0.25, 0.11, 0.25, 1.00)" />
+
+                <!-- 铃铛 -->
+                <animationItem animationType="dynamicColor" duration="300" to="0xFF4A4A" layersIndex="1,2,4" interpolator="custom(0.25, 0.10, 0.25, 1.00)"  />
+
+
+                <!-- 第一帧移除挡板 -->
+                <animationItem animationType="translateX" layersIndex="5" duration="0" to="-300"/>
+
+                <serialGroup>
+                    <animationItem animationType="glyphAnimProgress" duration="300" to="149" interpolator="custom(0.28, 0.40, 0.20, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="rotationZ" duration="133" to="-13" layersIndex="1,2,3,4" interpolator="custom(0.33, 0.00, 0.31, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="250" to="2" layersIndex="1,2,3,4" interpolator="custom(0.33, 0.00, 0.48, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="333" to="-1" layersIndex="1,2,3,4" interpolator="custom(0.33, 0.00, 0.52, 1.00)" />
+                    <animationItem animationType="rotationZ" duration="283" to="0" layersIndex="1,2,3,4" interpolator="custom(0.33, 0.00, 0.50, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="translateX" duration="133" to="4.585"  layersIndex="1" interpolator="custom(0.33, 0.00, 0.18, 1.00)" />
+                    <animationItem animationType="translateX" duration="250" to="-3.989"  layersIndex="1" interpolator="custom(0.33, 0.00, 0.41, 1.00)" />
+                    <animationItem animationType="translateX" duration="333" to="0"  layersIndex="1" interpolator="custom(0.33, 0.00, 0.47, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

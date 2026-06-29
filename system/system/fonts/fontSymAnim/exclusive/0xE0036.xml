@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0036" extraUnicodes="0xF0043,0xF0044,0xF0045"/>
+
+
+    <animationList>
+
+        <!-- [0] -->
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="0.8" glyphAnimProgress="100" color="0xFFFFFF">
+                <layer index="2" alpha="0"/>
+                <layer index="3" alpha="0"/>
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="345.7142857" to="650" />
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="133" />
+                    <animationItem animationType="dynamicColor" duration="200" to="0x5757CF" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="133" />
+                    <animationItem animationType="dynamicAlpha" duration="200" to="1.0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 先出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="3" />
+                    <animationItem animationType="alpha" duration="92" to="1.0" layersIndex="3"  interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+<!--                    <animationItem animationType="delay" duration="253.7142857" />-->
+                </serialGroup>
+
+                <!-- 后出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="2" />
+<!--                    <animationItem animationType="delay" duration="345.7142857" />-->
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+        <!-- [1] -->
+        <symbolAnimation layerCnt="4">
+            <originStatus glyphAnimProgress="100">
+                <layer index="2" alpha="0"/>
+                <layer index="3" alpha="1"/>
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="345.7142857" to="650" />
+
+                <!-- 先出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="1" layersIndex="3" />
+                    <animationItem animationType="delay" duration="52" />
+                    <animationItem animationType="alpha" duration="153" to="0" layersIndex="3"  interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+                <!-- 后出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="2" />
+                    <animationItem animationType="delay" duration="54.2857143" />
+                    <animationItem animationType="alpha" duration="92" to="1.0" layersIndex="2" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+<!--                    <animationItem animationType="delay" duration="253.7142857" />-->
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+
+        <!-- [2] -->
+        <symbolAnimation layerCnt="4">
+            <originStatus glyphAnimProgress="100">
+                <layer index="2" alpha="1"/>
+                <layer index="3" alpha="0"/>
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="345.7142857" to="650" />
+
+                <!-- 先出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="3" />
+                </serialGroup>
+
+                <!-- 后出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="1" layersIndex="2" />
+                    <animationItem animationType="delay" duration="54.2857143" />
+                    <animationItem animationType="alpha" duration="153" to="0" layersIndex="2" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+
+
+        <!-- [3] -->
+        <symbolAnimation layerCnt="4">
+            <originStatus glyphAnimProgress="100">
+                <layer index="2" alpha="0"/>
+                <layer index="3" alpha="0"/>
+            </originStatus>
+            <parallelGroup >
+                <animationItem animationType="glyphAnimProgress" duration="62.85714286" to="200" />
+
+                <!-- 先出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="3" />
+                </serialGroup>
+
+                <!-- 后出现的Z -->
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="0" to="0" layersIndex="2" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+
+
+    </animationList>
+
+
+</fontSymbolAnimation>

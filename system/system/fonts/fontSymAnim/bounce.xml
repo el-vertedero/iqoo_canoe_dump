@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animationConfig name="bounce"
+        layerInterval="40"
+        playbackMode="$playBackMode" />
+
+    <animationList>
+        <symbolAnimation>
+            <originStatus alpha="1" />
+            <serialGroup delay="0" interpolator="ease">
+                <animationItem animationType="scale" duration="400" to="$midScale" />
+                <animationItem animationType="scale" duration="400" to="$secondBounce" />
+                <animationItem animationType="scale" duration="400" to="1" />
+            </serialGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+    <dynamicOpts>
+        <opt id="director">
+            <case id="up">
+                <value id="$midScale">1.28</value>
+                <value id="$secondBounce">0.85</value>
+            </case>
+            <case id="down">
+                <value id="$midScale">0.72</value>
+                <value id="$secondBounce">1.15</value>
+            </case>
+        </opt>
+        <opt id="playbackMode">
+            <case id="overall">
+                <value id="$playBackMode">overall</value>
+            </case>
+            <case id="byGroup">
+                <value id="$playBackMode">byGroup</value>
+            </case>
+            <case id="byLayer">
+                <value id="$playBackMode">byLayer</value>
+            </case>
+        </opt>
+    </dynamicOpts>
+
+
+</fontSymbolAnimation>

@@ -1,0 +1,17 @@
+/product/app GoogleContacts
+/product/priv-app CrossDeviceServicesStub
+/product/priv-app GoogleDialer
+/product/priv-app GoogleDialerGo
+/product/priv-app SearchSelectorEEA
+/system/app VivoAssistantFunctionSC
+/system/app VivoThemeRes
+/system/priv-app health_connect-stub
+/system/priv-app Mms
+/system/priv-app MmsService
+/system/priv-app RcsSDK
+/system/priv-app TelephonyProvider
+/system/product/app GoogleContacts
+/system/product/priv-app CrossDeviceServicesStub
+/system/product/priv-app GoogleDialer
+/system/product/priv-app GoogleDialerGo
+/system/product/priv-app SearchSelectorEEA

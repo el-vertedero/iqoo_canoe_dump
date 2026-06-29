@@ -1,0 +1,5 @@
+service anywherecontrol /system/bin/anywherecontrol
+    class main
+    user root
+    group root input net_bt_admin uhid
+    disabled

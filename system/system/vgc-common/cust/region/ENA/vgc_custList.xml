@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <custlist name="setupwizard_language_with_iso_map">
+        <item name="AL" value="sq_AL"/>
+        <item name="MK" value="mk_MK"/>
+        <item name="BA" value="bs_Latn_BA"/>
+        <item name="ME" value="sr_Latn_ME"/>
+        <item name="RS" value="sr_Latn_RS"/>
+    </custlist>
+    <custlist name="pms_area_region_preinstall_apps">
+        <item name="com.vivo.screenagent-default" value="false"/>
+        <item name="com.vivo.screenagent-ota" value="true"/>
+    </custlist>
+</config>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0013"/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="3" rotPivotLayerIndex="3">
+            <originStatus color="0xFFFFFF"/>
+            <parallelGroup >
+
+                <animationItem animationType="alpha" duration="0" to="0.9" layersIndex="0,2"/>
+                <animationItem animationType="alpha" duration="0" to="1" layersIndex="1"/>
+
+                <parallelGroup>
+                    <animationItem animationType="dynamicColor" duration="433" to="0x287CF3" layersIndex="0" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <animationItem animationType="alpha" duration="433" to="0.9" layersIndex="0" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <serialGroup>
+                        <animationItem animationType="delay" duration="83" />
+                        <animationItem animationType="rotationZ" duration="433" to="360" layersIndex="0" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    </serialGroup>
+                </parallelGroup>
+
+                <!-- 中圈透明度无变化 -->
+                <parallelGroup>
+                    <animationItem animationType="dynamicColor" duration="433" to="0x287CF3" layersIndex="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <animationItem animationType="alpha" duration="433" to="1.0" layersIndex="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <serialGroup>
+                        <animationItem animationType="delay" duration="50" />
+                        <animationItem animationType="rotationZ" duration="433" to="360" layersIndex="1" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    </serialGroup>
+                </parallelGroup>
+
+
+                <parallelGroup>
+                    <animationItem animationType="dynamicColor" duration="433" to="0x287CF3" layersIndex="2" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                    <animationItem animationType="alpha" duration="433" to="1.0" layersIndex="2" interpolator="custom(0.30, 0.00, 0.50, 1.00)" />
+                </parallelGroup>
+
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+</fontSymbolAnimation>

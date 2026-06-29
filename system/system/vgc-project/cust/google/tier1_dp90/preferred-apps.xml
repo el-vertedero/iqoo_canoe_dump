@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<preferred-activities>
+    <item name="com.android.vending/com.google.android.finsky.activities.MarketDeepLinkHandlerActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="market"/>
+            <auth host="details"/>
+        </filter>
+    </item>
+</preferred-activities>

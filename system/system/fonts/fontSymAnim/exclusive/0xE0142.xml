@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0142" />
+    <animationList>
+        <symbolAnimation layerCnt="2" scalePivotLayerIndex="3" >
+            <originStatus alpha="1" />
+            <parallelGroup>
+                <serialGroup>
+                    <animationItem animationType="scale" duration="100" to="0" interpolator="custom(0.42, 0.00, 1.00, 1.00)" />
+                    <animationItem animationType="scale" duration="250" to="1.2" interpolator="custom(0.15, 0.18, 0.30, 1.00)" />
+                    <animationItem animationType="scale" duration="250" to="1" interpolator="custom(0.10, 0.00, 0.30, 1.00)" />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="150" />
+                    <animationItem animationType="dynamicColor" duration="0" to="0x383838"  />
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="alpha" duration="150" to="0" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                    <animationItem animationType="alpha" duration="150" to="1" interpolator="custom(0.33, 0.00, 0.67, 1.00)" />
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

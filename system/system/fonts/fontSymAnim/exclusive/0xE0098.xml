@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE0098" />
+    <animationList>
+        <symbolAnimation layerCnt="1" scalePivotLayerIndex="1">
+            <originStatus alpha="1" color="0xB8B8B8">
+            </originStatus>
+            <parallelGroup>
+
+                <serialGroup>
+                    <animationItem animationType="scale" duration="83" to="0.8" interpolator="custom(0.17, 0.07, 0.81, 0.90)"/>
+                    <animationItem animationType="scale" duration="183" to="1.3" interpolator="custom(0.17, 0.08, 0.66, 1.00)"/>
+                    <animationItem animationType="scale" duration="183" to="1.0" interpolator="custom(0.28, 0.00, 0.28, 1.00)"/>
+<!--                    <animationItem animationType="delay" duration="383" />-->
+<!--                    <animationItem animationType="scale" duration="83" to="0.8" interpolator="custom(0.17, 0.07, 0.81, 0.90)"/>-->
+<!--                    <animationItem animationType="scale" duration="167" to="1.05" interpolator="custom(0.17, 0.07, 0.81, 0.90)"/>-->
+<!--                    <animationItem animationType="scale" duration="150" to="1" interpolator="custom(0.45, 0.00, 0.28, 1.00)"/>-->
+                </serialGroup>
+
+                <serialGroup>
+                    <animationItem animationType="delay" duration="83" />
+                    <animationItem animationType="dynamicColor" duration="167" to="0xF95954"  interpolator="custom(0.33, 0.00, 0.67, 1.00)"/>
+<!--                    <animationItem animationType="delay" duration="667" />-->
+<!--                    <animationItem animationType="color" duration="167" to="0xB8B8B8"  interpolator="custom(0.33, 0.00, 0.67, 1.00)"/>-->
+                </serialGroup>
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+</fontSymbolAnimation>

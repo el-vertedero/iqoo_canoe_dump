@@ -1,0 +1,15 @@
+service mediametrics /system/bin/mediametrics
+    class main
+    user media
+    #vivo laibinghua modify for VIVO_AUDIO_ANCHOR begin
+    group media system
+    #vivo laibinghua modify for VIVO_AUDIO_ANCHOR end
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    # we may update this from a module
+    updatable
+
+#vivo laibinghua modify for VIVO_AUDIO_ANCHOR begin
+on boot
+    mkdir /data/anchor 0777 system system encryption=Attempt
+#vivo laibinghua modify for VIVO_AUDIO_ANCHOR end

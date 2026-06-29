@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <product model="PD2204F_EX">
+      <item hardware_id="1" rf_bit_index="4" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2241F_EX">
+      <item hardware_id="0" rf_bit_index="8" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2242F_EX">
+      <item hardware_id="0" rf_bit_index="2" network_cc_switch="1" />
+  </product>
+
+  <product model="PD2243F_EX">
+      <item hardware_id="0" rf_bit_index="5" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2251F_EX">
+      <item hardware_id="0" rf_bit_index="5" network_cc_switch="1" />
+  </product>
+
+  <product model="PD2271F_EX">
+      <item hardware_id="0" rf_bit_index="3" network_cc_switch="1" />
+  </product>
+
+  <product model="PD2307F_EX">
+      <item hardware_id="0" rf_bit_index="1" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2309F_EX">
+      <item hardware_id="1" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2323F_EX">
+      <item hardware_id="00" rf_bit_index="8,9" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2324F_EX">
+      <item hardware_id="0" rf_bit_index="3" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2325F_EX">
+      <item hardware_id="0" rf_bit_index="5" network_cc_switch="1" />
+  </product>
+
+  <product model="PD2341F_EX">
+      <item hardware_id="011" rf_bit_index="4,6,7" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2343F_EX">
+      <item hardware_id="00" rf_bit_index="0,1" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2357F_EX">
+      <item hardware_id="101" rf_bit_index="9,10,11" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2363F_EX">
+      <item hardware_id="01" rf_bit_index="13,14" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2418F_EX">
+      <item hardware_id="001" rf_bit_index="4,6,7" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2405F_EX">
+      <item hardware_id="0" rf_bit_index="2" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2415F_EX">
+      <item hardware_id="0" rf_bit_index="2" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2337F_EX">
+      <item hardware_id="1" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2437F_EX">
+      <item hardware_id="**" rf_bit_index="11,12" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2438F_EX">
+      <item hardware_id="0" rf_bit_index="6" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2446F_EX">
+      <item hardware_id="1" rf_bit_index="6" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2443F_EX">
+      <item hardware_id="1" rf_bit_index="6" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2447F_EX">
+      <item hardware_id="**" rf_bit_index="9" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2448F_EX">
+      <item hardware_id="1" rf_bit_index="1" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2444F_EX">
+      <item hardware_id="**" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2453F_EX">
+      <item hardware_id="0" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2465F_EX">
+      <item hardware_id="**" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2436F_EX">
+      <item hardware_id="0" rf_bit_index="2" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2456F_EX">
+      <item hardware_id="0" rf_bit_index="6" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2470F_EX">
+      <item hardware_id="11" rf_bit_index="1,2" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2502F_EX">
+      <item hardware_id="**" rf_bit_index="4" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2503F_EX">
+      <item hardware_id="**" rf_bit_index="11,12" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2505F_EX">
+      <item hardware_id="0" rf_bit_index="1" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2511F_EX">
+      <item hardware_id="**" rf_bit_index="12,13,14" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2509F_EX">
+      <item hardware_id="0" rf_bit_index="3" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2512F_EX">
+      <item hardware_id="1" rf_bit_index="1" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2513F_EX">
+      <item hardware_id="**" rf_bit_index="5" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2527F_EX">
+      <item hardware_id="0" rf_bit_index="3" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2529F_EX">
+      <item hardware_id="**" rf_bit_index="11,12" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2532F_EX">
+      <item hardware_id="**" rf_bit_index="1,2" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2533F_EX">
+      <item hardware_id="**" rf_bit_index="7,8,9" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2536F_EX">
+      <item hardware_id="0" rf_bit_index="5" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2539F_EX">
+      <item hardware_id="**" rf_bit_index="0,1,2" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2542F_EX">
+      <item hardware_id="**" rf_bit_index="9,10,11" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2544F_EX">
+      <item hardware_id="**" rf_bit_index="9,10,11" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2545F_EX">
+      <item hardware_id="**" rf_bit_index="4" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2547F_EX">
+      <item hardware_id="0" rf_bit_index="3" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2553F_EX">
+      <item hardware_id="**" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2571F_EX">
+      <item hardware_id="**" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2575F_EX">
+      <item hardware_id="**" rf_bit_index="5,6" network_cc_switch="0" />
+  </product>
+
+  <product model="PD2602F_EX">
+      <item hardware_id="**" rf_bit_index="0" network_cc_switch="0" />
+  </product>
+</config>

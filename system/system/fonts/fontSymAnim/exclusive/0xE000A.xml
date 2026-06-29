@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fontSymbolAnimation>
+    <animInfo animUnicode="0xE000A" extraUnicodes="0xF001A,0xF001B,0xF001C,0xF001D,0xF001E,0xF001F,0xF0020,0xF0021,0xF0022,0xF0023,0xF0024,0xF0025,0xF0026,0xF0027,0xF0028,0xF0029,0xF002A,0xF002B,0xF002C
+    "/>
+
+
+    <animationList>
+
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="0" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="alpha" duration="167" to="1" />
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+                <animationItem interpolator="custom(0.30, 0.00, 0.50, 1.00)" animationType="dynamicColor" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="183" to="650" />
+            </parallelGroup>
+        </symbolAnimation>
+        <symbolAnimation layerCnt="4">
+            <originStatus alpha="1" glyphAnimProgress="100" color="0xF69E2E"/>
+            <parallelGroup interpolator="linear">
+                <animationItem animationType="glyphAnimProgress" duration="33" to="200" />
+            </parallelGroup>
+        </symbolAnimation>
+    </animationList>
+
+
+</fontSymbolAnimation>

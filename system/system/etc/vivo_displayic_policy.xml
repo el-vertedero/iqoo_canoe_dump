@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display_ic_white_list>
+    <enableAll>true</enableAll>
+    <!--control_by_app：1表示usecase切换又应用控制，框架不会自动切换其usecase-->
+    <!--ui_video_split：ui和video是否能分离-->
+
+    <!--内置相机-->
+    <package name="com.android.camera">
+        <activity name="com.android.camera/com.android.camera.CameraActivity">
+            <item name="control_by_app">1</item>
+            <item name="memc">2</item>
+            <item name="sdr2hdr">0</item>
+            <item name="nr">5</item>
+            <item name="aisr">0</item>
+        </activity>
+    </package>
+
+	<!--Socket 自动化测试-->
+	<package name="com.vivo.socketboardtest">
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.VideoActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.PictureActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.CameraActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.MainAppActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+	</package>
+
+    <!--相机-->
+    <package name="com.vivo.engineercamera">
+        <activity name="com.vivo.engineercamera/com.android.camera.CameraActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+    <package name="com.vivo.alphacamera">
+        <activity name="com.vivo.alphacamera/com.android.camera.CameraActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+    <package name="com.demo.vcameraengine">
+        <activity name="com.demo.vcameraengine/com.demo.vcameraengine.MainActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+    <!--腾讯视频-->
+    <package name="com.tencent.qqlive">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--爱奇艺-->
+    <package name="com.qiyi.video">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--优酷-->
+    <package name="com.youku.phone">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--哔哩哔哩-->
+    <package name="tv.danmaku.bili">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--youtube-->
+    <package name="com.google.android.youtube">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--Mola TV-->
+    <package name="tv.mola.app">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--Mx Player-->
+    <package name="com.mxtech.videoplayer.ad">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--netflix-->
+    <package name="com.netflix.mediaclient">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--amazon-->
+    <package name="com.amazon.avod.thirdpartyclient">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--disneyplus-->
+    <package name="com.disney.disneyplus">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--tiktok-->
+    <package name="com.zhiliaoapp.musically">
+        <item name="memc">2</item>
+        <item name="aisr">1</item>
+    </package>
+
+    <!--工模-->
+    <package name="com.iqoo.engineermode">
+        <activity name="com.iqoo.engineermode/com.iqoo.engineermode.VideoPlayerAcitivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+    <package name="com.example.nova_ic_test">
+    </package>
+
+    <!--BspTest-->
+    <package name="com.vivo.bsptest">
+        <activity name="com.vivo.bsptest/com.vivo.bsptest.test.video.VideoActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+
+    <!-- 视频编辑-->
+    <package name="com.vivo.videoeditor">
+        <activity name="com.vivo.videoeditor/com.vivo.videoeditor.bokeh.activity.BokehMainActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+    <package name="com.vivo.videoeditordemo">
+        <activity name="com.vivo.videoeditordemo/com.vivo.videoeditordemo.MovieEditActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+</display_ic_white_list>
