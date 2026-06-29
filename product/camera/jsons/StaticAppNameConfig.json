@@ -1,0 +1,102 @@
+{
+    "version": "1",
+    "defaultSuperApps": [
+        "androidx.camera.integration.extensions",
+        "com.android.example.camera2.extensions",
+        "com.example.android.cameraxextensions",
+        "com.snapchat.android",
+        "com.tencent.mm"
+    ],
+    "SceneRecognize": [
+        "com.vivo.services.scenerecognize",
+        0
+    ],
+    "PROXY_NAME": [
+        "com.android.cameraextensions",
+        "com.android.cameraextensions.CameraExtensionsProxyService"
+    ],
+    "SUPPORT_EXTENSION": [
+        "com.extension.camera.isSupport"
+    ],
+    "mDefaultCameraWhitePackages": [
+        "com.android.camera",
+        "com.vivo.bsptest",
+        "com.iqoo.engineermode",
+        "com.vivo.alphacamera",
+        "com.huaqin.factory",
+        "com.vivo.vtouch",
+        "com.vivo.videoeditor",
+        "com.vivo.gallery",
+        "com.vivo.vivo3rdalgoservice"
+    ],
+    "mConstrainPackages": [
+        "com.tencent.mm|com.gorgeous.lite|com.tencent.mobileqq|com.instagram.android|com.ss.android.ugc.aweme|com.campmobile.snowcamera|best.camera|hd.best.camera|com.lemon.faceu|beauty.hd.camera|com.mt.mtxx.mtxx|com.facebook.orca|com.meitu.meiyancamera|com.tencent.weishi|com.facebook.katana|com.shizhuang.duapp|org.telegram.messenger|com.photo.android.camera|com.risingcabbage.hd.camera|com.camerafilter.coffeecamera.procamera"
+    ],
+    "mOEMPackages": [
+        "com.android.camera|com.vivo.alphacamera"
+    ],
+    "mProtakePackages": [
+        "com.blink.academy.protake|com.blink.academy.camerainfo"
+    ],
+    "ActivityThreadCurrentProcessName": [
+        "com.vivo.biometrics",
+        1
+    ],
+    "ForBlockBroadcast": [
+        "com.vivo.biometrics"
+    ],
+    "ComponentNameFromJson": [
+        "com.vivo.video.floating",
+        "com.vivo.video.floating.receiver.ActivationReceiver"
+    ],
+    "ActivityThreadCameraConfig": [
+        "com.twitter.android",
+        1
+    ],
+    "SortSizeConfig": [
+        "com.twitter.android"
+    ],
+    "VivoCameraConfig": [
+        "com.android.camera"
+    ],
+    "CAMERA_MANAGER": [
+        "android.hardware.vivocamera.VivoCameraManager"
+    ],
+    "DB_NAME_FromJson": [
+        "VivoCamera.db"
+    ],
+    "vivoAppListConfig": [
+        "com.android.camera|com.vivo.alphacamera",
+        1
+    ],
+    "appNameDummyDevice": [
+        "com.vivo.videoeditor",
+        "com.vivo.gallery",
+        "com.vivo.vivo3rdalgoservice"
+    ],
+    "TrackEventPackages":[
+        "com.tencent.mm|com.ss.android.ugc.aweme|com.eg.android.AlipayGphone"
+    ],
+    "is3rdVideoCall":[
+        "com.tencent.mm"
+    ],
+    "vivoWhiteAppList": [
+        "com.android.camera",
+        "com.vivo.alphacamera",
+        "com.vivo.bsptest",
+        "com.iqoo.engineermode",
+        "com.android.nfc",
+        "com.vivo.videoeditor",
+        "com.vivo.gallery",
+        "com.vivo.vivo3rdalgoservice"
+    ],
+    "mFilterHDR10CapsPackages": [
+        "com.instagram.android"
+    ],
+    "SecurityPackages": [
+        "android.security.cts.camera.open"
+    ],
+    "startupDistinguishPackages":[
+        "com.android.camera"
+    ]
+}

@@ -1,0 +1,11 @@
+<!--
+    Input:
+        vendor/qcom/opensource/crosvm-gunyah/qvirtservice/vendor.qti.qvirt-service.xml
+-->
+<manifest version="9.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.qti.qvirt</name>
+        <version>2</version>
+        <fqname>IVirtualizationService/default</fqname>
+    </hal>
+</manifest>

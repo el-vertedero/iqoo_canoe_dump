@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
+</config>
